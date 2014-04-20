@@ -1,0 +1,2500 @@
+KAL50FB10R0 Datasheet
+	KAL50FB10R0 - Stackpole Electronics Inc	KAL50FB10R0-ND 	KAL50FB10R0	Stackpole Electronics Inc	RES CHAS MNT 10 OHM 1% 50W	983 - Immediate
+	3.64000 	1 	Bulk  	KAL	10	±1%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.642" (16.30mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL50FB1R50 Datasheet
+	KAL50FB1R50 - Stackpole Electronics Inc	KAL50FB1R50-ND 	KAL50FB1R50	Stackpole Electronics Inc	RES CHAS MNT 1.5 OHM 1% 50W	774 - Immediate
+	3.64000 	1 	Bulk  	KAL	1.5	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.642" (16.30mm)	Solder Lugs	Axial, Box	
+-
+	
+4-1625984-1 Datasheet
+	4-1625984-1 - TE Connectivity	A102163-ND 	4-1625984-1	TE Connectivity	RES CHAS MNT 2.2K OHM 5% 50W	202 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	2.2k	±5%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+L100J100E Datasheet
+	L100J100E - Ohmite	L100J100E-ND 	L100J100E	Ohmite	RES CHAS MNT 100 OHM 5% 100W	375 - Immediate
+	10.38000 	1 	Bulk  	270	100	±5%	100W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.752" Dia x 6.500" L (19.10mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+TGHGCR0100FE Datasheet
+	TGHGCR0100FE - Ohmite	TGHGCR0100FE-ND 	TGHGCR0100FE	Ohmite	RES CHAS MNT 0.01 OHM 1% 100W	860 - Immediate
+	27.21000 	1 	Bulk  	TGHG	0.01	±1%	100W	Thick Film	±60ppm/°C	Current Sense, Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.483" (12.26mm)	M4 Threaded	SOT-227-4	
+-
+	
+TGHGCR0050FE Datasheet
+	TGHGCR0050FE - Ohmite	TGHGCR0050FE-ND 	TGHGCR0050FE	Ohmite	RES CHAS MNT 0.005 OHM 1% 100W	379 - Immediate
+	27.21000 	1 	Bulk  	TGHG	0.005	±1%	100W	Thick Film	±60ppm/°C	Current Sense, Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.483" (12.26mm)	M4 Threaded	SOT-227-4	
+-
+	
+TGHGCR0010FE Datasheet
+	TGHGCR0010FE - Ohmite	TGHGCR0010FE-ND 	TGHGCR0010FE	Ohmite	RES CHAS MNT 0.001 OHM 1% 100W	307 - Immediate
+	27.21000 	1 	Bulk  	TGHG	0.001	±1%	100W	Thick Film	±60ppm/°C	Current Sense, Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.483" (12.26mm)	M4 Threaded	SOT-227-4	
+-
+	
+1-1630019-0 Datasheet
+	1-1630019-0 - TE Connectivity	A102378-ND 	1-1630019-0	TE Connectivity	RES CHAS MNT 1 OHM 5% 200W	103 - Immediate
+	33.37000 	1 	Bulk  	HS, CGS	1	±5%	200W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	3.543" L x 2.874" W (90.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+TGHGCR0500FE Datasheet
+	TGHGCR0500FE - Ohmite	TGHGCR0500FE-ND 	TGHGCR0500FE	Ohmite	RES CHAS MNT 0.05 OHM 1% 100W	607 - Immediate
+	36.90000 	1 	Bulk  	TGHG	0.05	±1%	100W	Thick Film	±60ppm/°C	Current Sense, Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.483" (12.26mm)	M4 Threaded	SOT-227-4	
+-
+	
+2-1879456-5 Datasheet
+	2-1879456-5 - TE Connectivity	A105554-ND 	2-1879456-5	TE Connectivity	RES CHAS MNT 100 OHM 5% 2000W	143 - Immediate
+	81.44000 	1 	Bulk  	TE, CGS	100	±5%	2000W	Wirewound	±440ppm/°C	Flame Proof	Silicon Coated	Brackets	2.362" Dia x 20.079" L (60.00mm x 510.00mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+TAP600K10RE Datasheet
+	TAP600K10RE - Ohmite	TAP600K10RE-ND 	TAP600K10RE	Ohmite	RES CHAS MNT 10 OHM 10% 600W	99 - Immediate
+	125.29000 	1 	Bulk  	TAP600	10	±10%	600W	Thick Film	±150ppm/°C	-	Epoxy Coated	Flanges	2.559" L x 2.362" W (65.00mm x 60.00mm)	0.945" (24.00mm)	M5 Threaded	Box	
+-
+	
+TAP600K100E Datasheet
+	TAP600K100E - Ohmite	TAP600K100E-ND 	TAP600K100E	Ohmite	RES CHAS MNT 100 OHM 10% 600W	77 - Immediate
+	125.29000 	1 	Bulk  	TAP600	100	±10%	600W	Thick Film	±150ppm/°C	-	Epoxy Coated	Flanges	2.559" L x 2.362" W (65.00mm x 60.00mm)	0.945" (24.00mm)	M5 Threaded	Box	
+-
+	
+TAP600K30RE Datasheet
+	TAP600K30RE - Ohmite	TAP600K30RE-ND 	TAP600K30RE	Ohmite	RES CHAS MNT 30 OHM 10% 600W	69 - Immediate
+	125.29000 	1 	Bulk  	TAP600	30	±10%	600W	Thick Film	±150ppm/°C	-	Epoxy Coated	Flanges	2.559" L x 2.362" W (65.00mm x 60.00mm)	0.945" (24.00mm)	M5 Threaded	Box	
+-
+	
+TAP600K50RE Datasheet
+	TAP600K50RE - Ohmite	TAP600K50RE-ND 	TAP600K50RE	Ohmite	RES CHAS MNT 50 OHM 10% 600W	57 - Immediate
+	125.29000 	1 	Bulk  	TAP600	50	±10%	600W	Thick Film	±150ppm/°C	-	Epoxy Coated	Flanges	2.559" L x 2.362" W (65.00mm x 60.00mm)	0.945" (24.00mm)	M5 Threaded	Box	
+-
+	
+TAP600K3R0E Datasheet
+	TAP600K3R0E - Ohmite	TAP600K3R0E-ND 	TAP600K3R0E	Ohmite	RES CHAS MNT 3 OHM 10% 600W	42 - Immediate
+	125.29000 	1 	Bulk  	TAP600	3	±10%	600W	Thick Film	±150ppm/°C	-	Epoxy Coated	Flanges	2.559" L x 2.362" W (65.00mm x 60.00mm)	0.945" (24.00mm)	M5 Threaded	Box	
+-
+	
+TAP800K100E Datasheet
+	TAP800K100E - Ohmite	TAP800K100E-ND 	TAP800K100E	Ohmite	RES CHAS MNT 100 OHM 10% 800W	132 - Immediate
+	130.83000 	1 	Bulk  	TAP800	100	±10%	800W	Thick Film	±150ppm/°C	-	Epoxy Coated	Flanges	2.559" L x 2.362" W (65.00mm x 60.00mm)	0.906" (23.00mm)	M5 Threaded	Box	
+-
+	
+TAP800K220E Datasheet
+	TAP800K220E - Ohmite	TAP800K220E-ND 	TAP800K220E	Ohmite	RES CHAS MNT 220 OHM 10% 800W	35 - Immediate
+	130.83000 	1 	Bulk  	TAP800	220	±10%	800W	Thick Film	±150ppm/°C	-	Epoxy Coated	Flanges	2.559" L x 2.362" W (65.00mm x 60.00mm)	0.906" (23.00mm)	M5 Threaded	Box	
+-
+	
+TA2K0PH25R0KE Datasheet
+	TA2K0PH25R0KE - Ohmite	TA2K0PH25R0KE-ND 	TA2K0PH25R0KE	Ohmite	RES CHAS MNT 25 OHM 10% 2000W	36 - Immediate
+	231.30000 	1 	Bulk  	TAP2000	25	±10%	2000W	Thick Film	±250ppm/°C	-	Epoxy Coated	Flanges	3.000" L x 3.000" W (76.20mm x 76.20mm)	1.248" (31.69mm)	#10-32 Threaded	Box	
+-
+	
+TA2K0PH50R0KE Datasheet
+	TA2K0PH50R0KE - Ohmite	TA2K0PH50R0KE-ND 	TA2K0PH50R0KE	Ohmite	RES CHAS MNT 50 OHM 10% 2000W	31 - Immediate
+	231.30000 	1 	Bulk  	TAP2000	50	±10%	2000W	Thick Film	±250ppm/°C	-	Epoxy Coated	Flanges	3.000" L x 3.000" W (76.20mm x 76.20mm)	1.248" (31.69mm)	#10-32 Threaded	Box	
+-
+	
+TA2K0PH100RKE Datasheet
+	TA2K0PH100RKE - Ohmite	TA2K0PH100RKE-ND 	TA2K0PH100RKE	Ohmite	RES CHAS MNT 100 OHM 10% 2000W	29 - Immediate
+	231.30000 	1 	Bulk  	TAP2000	100	±10%	2000W	Thick Film	±250ppm/°C	-	Epoxy Coated	Flanges	3.000" L x 3.000" W (76.20mm x 76.20mm)	1.248" (31.69mm)	#10-32 Threaded	Box	
+-
+	
+KAL25FB10R0 Datasheet
+	KAL25FB10R0 - Stackpole Electronics Inc	KAL25FB10R0-ND 	KAL25FB10R0	Stackpole Electronics Inc	RES CHAS MNT 10 OHM 1% 25W	586 - Immediate
+	3.08000 	1 	Bulk  	KAL	10	±1%	25W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	1.063" L x 1.079" W (27.00mm x 27.40mm)	0.579" (14.70mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL25FB20R0 Datasheet
+	KAL25FB20R0 - Stackpole Electronics Inc	KAL25FB20R0-ND 	KAL25FB20R0	Stackpole Electronics Inc	RES CHAS MNT 20 OHM 1% 25W	574 - Immediate
+	3.08000 	1 	Bulk  	KAL	20	±1%	25W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	1.063" L x 1.079" W (27.00mm x 27.40mm)	0.579" (14.70mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL25FB2R00 Datasheet
+	KAL25FB2R00 - Stackpole Electronics Inc	KAL25FB2R00-ND 	KAL25FB2R00	Stackpole Electronics Inc	RES CHAS MNT 2 OHM 1% 25W	355 - Immediate
+	3.08000 	1 	Bulk  	KAL	2	±1%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.063" L x 1.079" W (27.00mm x 27.40mm)	0.579" (14.70mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL25FB1R00 Datasheet
+	KAL25FB1R00 - Stackpole Electronics Inc	KAL25FB1R00-ND 	KAL25FB1R00	Stackpole Electronics Inc	RES CHAS MNT 1 OHM 1% 25W	298 - Immediate
+	3.08000 	1 	Bulk  	KAL	1	±1%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.063" L x 1.079" W (27.00mm x 27.40mm)	0.579" (14.70mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL25FB75R0 Datasheet
+	KAL25FB75R0 - Stackpole Electronics Inc	KAL25FB75R0-ND 	KAL25FB75R0	Stackpole Electronics Inc	RES CHAS MNT 75 OHM 1% 25W	298 - Immediate
+	3.08000 	1 	Bulk  	KAL	75	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.063" L x 1.079" W (27.00mm x 27.40mm)	0.579" (14.70mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL25FB250R Datasheet
+	KAL25FB250R - Stackpole Electronics Inc	KAL25FB250R-ND 	KAL25FB250R	Stackpole Electronics Inc	RES CHAS MNT 250 OHM 1% 25W	294 - Immediate
+	3.08000 	1 	Bulk  	KAL	250	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.063" L x 1.079" W (27.00mm x 27.40mm)	0.579" (14.70mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL25FB1K00 Datasheet
+	KAL25FB1K00 - Stackpole Electronics Inc	KAL25FB1K00-ND 	KAL25FB1K00	Stackpole Electronics Inc	RES CHAS MNT 1K OHM 1% 25W	288 - Immediate
+	3.08000 	1 	Bulk  	KAL	1k	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.063" L x 1.079" W (27.00mm x 27.40mm)	0.579" (14.70mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL25FB25R0 Datasheet
+	KAL25FB25R0 - Stackpole Electronics Inc	KAL25FB25R0-ND 	KAL25FB25R0	Stackpole Electronics Inc	RES CHAS MNT 25 OHM 1% 25W	280 - Immediate
+	3.08000 	1 	Bulk  	KAL	25	±1%	25W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	1.063" L x 1.079" W (27.00mm x 27.40mm)	0.579" (14.70mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL25FB50R0 Datasheet
+	KAL25FB50R0 - Stackpole Electronics Inc	KAL25FB50R0-ND 	KAL25FB50R0	Stackpole Electronics Inc	RES CHAS MNT 50 OHM 1% 25W	255 - Immediate
+	3.08000 	1 	Bulk  	KAL	50	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.063" L x 1.079" W (27.00mm x 27.40mm)	0.579" (14.70mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL25FB1K50 Datasheet
+	KAL25FB1K50 - Stackpole Electronics Inc	KAL25FB1K50-ND 	KAL25FB1K50	Stackpole Electronics Inc	RES CHAS MNT 1.5K OHM 1% 25W	164 - Immediate
+	3.08000 	1 	Bulk  	KAL	1.5k	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.063" L x 1.079" W (27.00mm x 27.40mm)	0.579" (14.70mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL25FB10K0 Datasheet
+	KAL25FB10K0 - Stackpole Electronics Inc	KAL25FB10K0-ND 	KAL25FB10K0	Stackpole Electronics Inc	RES CHAS MNT 10K OHM 1% 25W	256 - Immediate
+	3.36000 	1 	Bulk  	KAL	10k	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.063" L x 1.079" W (27.00mm x 27.40mm)	0.579" (14.70mm)	Solder Lugs	Axial, Box	
+-
+	
+8-1625971-6 Datasheet
+	8-1625971-6 - TE Connectivity	A102430-ND 	8-1625971-6	TE Connectivity	RES CHAS MNT 0.68 OHM 5% 25W	1,965 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	0.68	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1625971-5 Datasheet
+	1625971-5 - TE Connectivity	A102130-ND 	1625971-5	TE Connectivity	RES CHAS MNT 10 OHM 5% 25W	413 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	10	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1676625-6 Datasheet
+	1676625-6 - TE Connectivity	A102429-ND 	1676625-6	TE Connectivity	RES CHAS MNT 0.5 OHM 5% 25W	322 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	0.5	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+3-1625971-3 Datasheet
+	3-1625971-3 - TE Connectivity	A102138-ND 	3-1625971-3	TE Connectivity	RES CHAS MNT 2.2 OHM 5% 25W	319 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	2.2	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+4-1625971-3 Datasheet
+	4-1625971-3 - TE Connectivity	A102140-ND 	4-1625971-3	TE Connectivity	RES CHAS MNT 39 OHM 5% 25W	311 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	39	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+3-1625971-5 Datasheet
+	3-1625971-5 - TE Connectivity	A102422-ND 	3-1625971-5	TE Connectivity	RES CHAS MNT 2.7 OHM 5% 25W	291 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	2.7	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1625971-9 Datasheet
+	1625971-9 - TE Connectivity	A102417-ND 	1625971-9	TE Connectivity	RES CHAS MNT 15 OHM 5% 25W	286 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	15	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1-1625971-8 Datasheet
+	1-1625971-8 - TE Connectivity	A102133-ND 	1-1625971-8	TE Connectivity	RES CHAS MNT 1 OHM 5% 25W	270 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	1	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+7-1625971-0 Datasheet
+	7-1625971-0 - TE Connectivity	A102149-ND 	7-1625971-0	TE Connectivity	RES CHAS MNT 8.2 OHM 5% 25W	261 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	8.2	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+6-1625971-8 Datasheet
+	6-1625971-8 - TE Connectivity	A102148-ND 	6-1625971-8	TE Connectivity	RES CHAS MNT 82 OHM 5% 25W	254 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	82	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+4-1625971-0 Datasheet
+	4-1625971-0 - TE Connectivity	A102139-ND 	4-1625971-0	TE Connectivity	RES CHAS MNT 33 OHM 5% 25W	193 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	33	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+5-1625971-1 Datasheet
+	5-1625971-1 - TE Connectivity	A102143-ND 	5-1625971-1	TE Connectivity	RES CHAS MNT 47 OHM 5% 25W	191 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	47	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1625971-3 Datasheet
+	1625971-3 - TE Connectivity	A102129-ND 	1625971-3	TE Connectivity	RES CHAS MNT 10K OHM 5% 25W	180 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	10k	±5%	25W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+5-1625971-4 Datasheet
+	5-1625971-4 - TE Connectivity	A102145-ND 	5-1625971-4	TE Connectivity	RES CHAS MNT 4.7 OHM 5% 25W	177 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	4.7	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+5-1625971-7 Datasheet
+	5-1625971-7 - TE Connectivity	A102424-ND 	5-1625971-7	TE Connectivity	RES CHAS MNT 560 OHM 5% 25W	176 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	560	±5%	25W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+8-1625971-7 Datasheet
+	8-1625971-7 - TE Connectivity	A102152-ND 	8-1625971-7	TE Connectivity	RES CHAS MNT 0.82 OHM 5% 25W	168 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	0.82	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1676625-7 Datasheet
+	1676625-7 - TE Connectivity	A102147-ND 	1676625-7	TE Connectivity	RES CHAS MNT 5 OHM 5% 25W	159 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	5	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+2-1625971-4 Datasheet
+	2-1625971-4 - TE Connectivity	A102135-ND 	2-1625971-4	TE Connectivity	RES CHAS MNT 220 OHM 5% 25W	144 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	220	±5%	25W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+7-1625971-5 Datasheet
+	7-1625971-5 - TE Connectivity	A102427-ND 	7-1625971-5	TE Connectivity	RES CHAS MNT 0.01 OHM 5% 25W	134 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	0.01	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+3-1625971-1 Datasheet
+	3-1625971-1 - TE Connectivity	A102421-ND 	3-1625971-1	TE Connectivity	RES CHAS MNT 27 OHM 5% 25W	139 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	27	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+6-1625971-2 Datasheet
+	6-1625971-2 - TE Connectivity	A102426-ND 	6-1625971-2	TE Connectivity	RES CHAS MNT 68 OHM 5% 25W	137 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	68	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1-1625971-4 Datasheet
+	1-1625971-4 - TE Connectivity	A102132-ND 	1-1625971-4	TE Connectivity	RES CHAS MNT 1K OHM 5% 25W	119 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	1k	±5%	25W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+2-1625971-2 Datasheet
+	2-1625971-2 - TE Connectivity	A102134-ND 	2-1625971-2	TE Connectivity	RES CHAS MNT 1.5 OHM 5% 25W	109 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	1.5	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL50FB300R Datasheet
+	KAL50FB300R - Stackpole Electronics Inc	KAL50FB300R-ND 	KAL50FB300R	Stackpole Electronics Inc	RES CHAS MNT 300 OHM 1% 50W	3,531 - Immediate
+	3.64000 	1 	Bulk  	KAL	300	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.642" (16.30mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL50FB30R0 Datasheet
+	KAL50FB30R0 - Stackpole Electronics Inc	KAL50FB30R0-ND 	KAL50FB30R0	Stackpole Electronics Inc	RES CHAS MNT 30 OHM 1% 50W	1,930 - Immediate
+	3.64000 	1 	Bulk  	KAL	30	±1%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.642" (16.30mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL50FB3R00 Datasheet
+	KAL50FB3R00 - Stackpole Electronics Inc	KAL50FB3R00-ND 	KAL50FB3R00	Stackpole Electronics Inc	RES CHAS MNT 3 OHM 1% 50W	592 - Immediate
+	3.64000 	1 	Bulk  	KAL	3	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.642" (16.30mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL50FB20R0 Datasheet
+	KAL50FB20R0 - Stackpole Electronics Inc	KAL50FB20R0-ND 	KAL50FB20R0	Stackpole Electronics Inc	RES CHAS MNT 20 OHM 1% 50W	578 - Immediate
+	3.64000 	1 	Bulk  	KAL	20	±1%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.642" (16.30mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL50FB50R0 Datasheet
+	KAL50FB50R0 - Stackpole Electronics Inc	KAL50FB50R0-ND 	KAL50FB50R0	Stackpole Electronics Inc	RES CHAS MNT 50 OHM 1% 50W	424 - Immediate
+	3.64000 	1 	Bulk  	KAL	50	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.642" (16.30mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL50FB6R00 Datasheet
+	KAL50FB6R00 - Stackpole Electronics Inc	KAL50FB6R00-ND 	KAL50FB6R00	Stackpole Electronics Inc	RES CHAS MNT 6 OHM 1% 50W	396 - Immediate
+	3.64000 	1 	Bulk  	KAL	6	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.642" (16.30mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL50FB1K00 Datasheet
+	KAL50FB1K00 - Stackpole Electronics Inc	KAL50FB1K00-ND 	KAL50FB1K00	Stackpole Electronics Inc	RES CHAS MNT 1K OHM 1% 50W	246 - Immediate
+	3.64000 	1 	Bulk  	KAL	1k	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.642" (16.30mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL50FB25R0 Datasheet
+	KAL50FB25R0 - Stackpole Electronics Inc	KAL50FB25R0-ND 	KAL50FB25R0	Stackpole Electronics Inc	RES CHAS MNT 25 OHM 1% 50W	239 - Immediate
+	3.64000 	1 	Bulk  	KAL	25	±1%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.642" (16.30mm)	Solder Lugs	Axial, Box	
+-
+	
+805F7R5E Datasheet
+	805F7R5E - Ohmite	805F7R5E-ND 	805F7R5E	Ohmite	RES CHAS MNT 7.5 OHM 1% 5W	418 - Immediate
+	4.13000 	1 	Bulk  	Metal-Mite®89	7.5	±1%	5W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	0.600" L x 0.646" W (15.24mm x 16.41mm)	0.351" (8.92mm)	Solder Lugs	Axial, Box	
+-
+	
+805F15RE Datasheet
+	805F15RE - Ohmite	805F15RE-ND 	805F15RE	Ohmite	RES CHAS MNT 15 OHM 1% 5W	102 - Immediate
+	4.13000 	1 	Bulk  	Metal-Mite®89	15	±1%	5W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	0.600" L x 0.646" W (15.24mm x 16.41mm)	0.351" (8.92mm)	Solder Lugs	Axial, Box	
+-
+	
+2-1879071-3 Datasheet
+	2-1879071-3 - TE Connectivity	A105543-ND 	2-1879071-3	TE Connectivity	RES CHAS MNT 6.8 OHM 5% 50W	1,106 - Immediate
+	4.14000 	1 	Bulk  	THS, CGS	6.8	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+810F250E Datasheet
+	810F250E - Ohmite	810F250E-ND 	810F250E	Ohmite	RES CHAS MNT 250 OHM 1% 10W	1,035 - Immediate
+	4.34000 	1 	Bulk  	Metal-Mite®89	250	±1%	10W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	0.750" L x 0.812" W (19.05mm x 20.63mm)	0.437" (11.10mm)	Solder Lugs	Axial, Box	
+-
+	
+810F20RE Datasheet
+	810F20RE - Ohmite	810F20RE-ND 	810F20RE	Ohmite	RES CHAS MNT 20 OHM 1% 10W	475 - Immediate
+	4.34000 	1 	Bulk  	Metal-Mite®89	20	±1%	10W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	0.750" L x 0.812" W (19.05mm x 20.63mm)	0.437" (11.10mm)	Solder Lugs	Axial, Box	
+-
+	
+805F50RE Datasheet
+	805F50RE - Ohmite	805F50RE-ND 	805F50RE	Ohmite	RES CHAS MNT 50 OHM 1% 5W	106 - Immediate
+	4.53000 	1 	Bulk  	Metal-Mite®89	50	±1%	5W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	0.600" L x 0.646" W (15.24mm x 16.41mm)	0.351" (8.92mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC02515R00FE02 Datasheet
+	TMC02515R00FE02 - Vishay Dale	TMC25-15-ND 	TMC02515R00FE02	Vishay Dale	RES CHAS MNT 15 OHM 1% 25W	625 - Immediate
+	4.60000 	1 	Bulk  	TMC	15	±1%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.062" L x 1.080" W (26.97mm x 27.43mm)	0.561" (14.25mm)	Solder Lugs	Axial, Box	
+-
+	
+1630186-2 Datasheet
+	1630186-2 - TE Connectivity	A102449-ND 	1630186-2	TE Connectivity	RES CHAS MNT 0.68 OHM 5% 50W	554 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	0.68	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+5-1625984-6 Datasheet
+	5-1625984-6 - TE Connectivity	A102167-ND 	5-1625984-6	TE Connectivity	RES CHAS MNT 3.3 OHM 5% 50W	441 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	3.3	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+2-1625984-2 Datasheet
+	2-1625984-2 - TE Connectivity	A102158-ND 	2-1625984-2	TE Connectivity	RES CHAS MNT 1 OHM 5% 50W	417 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	1	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1625984-5 Datasheet
+	1625984-5 - TE Connectivity	A102155-ND 	1625984-5	TE Connectivity	RES CHAS MNT 10 OHM 5% 50W	365 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	10	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+2-1625984-5 Datasheet
+	2-1625984-5 - TE Connectivity	A102159-ND 	2-1625984-5	TE Connectivity	RES CHAS MNT 1.2 OHM 5% 50W	349 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	1.2	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+2-1625984-7 Datasheet
+	2-1625984-7 - TE Connectivity	A102436-ND 	2-1625984-7	TE Connectivity	RES CHAS MNT 1.8 OHM 5% 50W	335 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	1.8	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1625984-3 Datasheet
+	1625984-3 - TE Connectivity	A102154-ND 	1625984-3	TE Connectivity	RES CHAS MNT 10K OHM 5% 50W	276 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	10k	±5%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+7-1625984-6 Datasheet
+	7-1625984-6 - TE Connectivity	A102177-ND 	7-1625984-6	TE Connectivity	RES CHAS MNT 68 OHM 5% 50W	274 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	68	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1625984-7 Datasheet
+	1625984-7 - TE Connectivity	A102348-ND 	1625984-7	TE Connectivity	RES CHAS MNT 12 OHM 5% 50W	254 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	12	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+8-1625984-7 Datasheet
+	8-1625984-7 - TE Connectivity	A103859-ND 	8-1625984-7	TE Connectivity	RES CHAS MNT 0.01 OHM 5% 50W	244 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	0.01	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+4-1625984-3 Datasheet
+	4-1625984-3 - TE Connectivity	A102164-ND 	4-1625984-3	TE Connectivity	RES CHAS MNT 2.2 OHM 5% 50W	241 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	2.2	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+8-1625984-6 Datasheet
+	8-1625984-6 - TE Connectivity	A102444-ND 	8-1625984-6	TE Connectivity	RES CHAS MNT 8.2 OHM 5% 50W	241 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	8.2	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+9-1625984-3 Datasheet
+	9-1625984-3 - TE Connectivity	A102446-ND 	9-1625984-3	TE Connectivity	RES CHAS MNT 0.15 OHM 5% 50W	240 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	0.15	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+7-1625984-1 Datasheet
+	7-1625984-1 - TE Connectivity	A102173-ND 	7-1625984-1	TE Connectivity	RES CHAS MNT 56 OHM 5% 50W	235 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	56	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+3-1625984-9 Datasheet
+	3-1625984-9 - TE Connectivity	A102162-ND 	3-1625984-9	TE Connectivity	RES CHAS MNT 27 OHM 5% 50W	234 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	27	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+8-1625984-4 Datasheet
+	8-1625984-4 - TE Connectivity	A102443-ND 	8-1625984-4	TE Connectivity	RES CHAS MNT 82 OHM 5% 50W	199 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	82	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+8-1625984-1 Datasheet
+	8-1625984-1 - TE Connectivity	A103858-ND 	8-1625984-1	TE Connectivity	RES CHAS MNT 75 OHM 5% 50W	195 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	75	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+4-1625984-7 Datasheet
+	4-1625984-7 - TE Connectivity	A102438-ND 	4-1625984-7	TE Connectivity	RES CHAS MNT 2.7 OHM 5% 50W	194 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	2.7	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1-1625984-7 Datasheet
+	1-1625984-7 - TE Connectivity	A102186-ND 	1-1625984-7	TE Connectivity	RES CHAS MNT 1K OHM 5% 50W	184 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	1k	±5%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+5-1625984-0 Datasheet
+	5-1625984-0 - TE Connectivity	A102165-ND 	5-1625984-0	TE Connectivity	RES CHAS MNT 33 OHM 5% 50W	184 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	33	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+4-1625984-2 Datasheet
+	4-1625984-2 - TE Connectivity	A102437-ND 	4-1625984-2	TE Connectivity	RES CHAS MNT 2 OHM 5% 50W	178 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	2	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+6-1625984-4 Datasheet
+	6-1625984-4 - TE Connectivity	A102171-ND 	6-1625984-4	TE Connectivity	RES CHAS MNT 4.7 OHM 5% 50W	168 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	4.7	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+2-1630186-2 Datasheet
+	2-1630186-2 - TE Connectivity	A103857-ND 	2-1630186-2	TE Connectivity	RES CHAS MNT 5 OHM 5% 50W	166 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	5	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+5-1625984-2 Datasheet
+	5-1625984-2 - TE Connectivity	A102166-ND 	5-1625984-2	TE Connectivity	RES CHAS MNT 390 OHM 5% 50W	162 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	390	±5%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+9-1625984-2 Datasheet
+	9-1625984-2 - TE Connectivity	A102179-ND 	9-1625984-2	TE Connectivity	RES CHAS MNT 0.1 OHM 5% 50W	150 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	0.1	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1625984-1 Datasheet
+	1625984-1 - TE Connectivity	A102153-ND 	1625984-1	TE Connectivity	RES CHAS MNT 100 OHM 5% 50W	146 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	100	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+2-1625984-6 Datasheet
+	2-1625984-6 - TE Connectivity	A102435-ND 	2-1625984-6	TE Connectivity	RES CHAS MNT 1.5 OHM 5% 50W	136 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	1.5	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+2-1630186-3 Datasheet
+	2-1630186-3 - TE Connectivity	A102441-ND 	2-1630186-3	TE Connectivity	RES CHAS MNT 50 OHM 5% 50W	135 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	50	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+9-1625984-7 Datasheet
+	9-1625984-7 - TE Connectivity	A102447-ND 	9-1625984-7	TE Connectivity	RES CHAS MNT 0.33 OHM 5% 50W	134 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	0.33	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+7-1625984-5 Datasheet
+	7-1625984-5 - TE Connectivity	A102176-ND 	7-1625984-5	TE Connectivity	RES CHAS MNT 680 OHM 5% 50W	128 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	680	±5%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1625984-6 Datasheet
+	1625984-6 - TE Connectivity	A102156-ND 	1625984-6	TE Connectivity	RES CHAS MNT 120 OHM 5% 50W	125 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	120	±5%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+3-1625984-3 Datasheet
+	3-1625984-3 - TE Connectivity	A102161-ND 	3-1625984-3	TE Connectivity	RES CHAS MNT 22 OHM 5% 50W	123 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	22	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+8-1625984-3 Datasheet
+	8-1625984-3 - TE Connectivity	A102442-ND 	8-1625984-3	TE Connectivity	RES CHAS MNT 820 OHM 5% 50W	118 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	820	±5%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1-1625984-0 Datasheet
+	1-1625984-0 - TE Connectivity	A102431-ND 	1-1625984-0	TE Connectivity	RES CHAS MNT 150 OHM 5% 50W	117 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	150	±5%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+5-1625984-9 Datasheet
+	5-1625984-9 - TE Connectivity	A102168-ND 	5-1625984-9	TE Connectivity	RES CHAS MNT 470 OHM 5% 50W	108 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	470	±5%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC050100R0FE02 Datasheet
+	TMC050100R0FE02 - Vishay Dale	TMC50-100-ND 	TMC050100R0FE02	Vishay Dale	RES CHAS MNT 100 OHM 1% 50W	2,176 - Immediate
+	4.76000 	1 	Bulk  	TMC	100	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC0506R000FE02 Datasheet
+	TMC0506R000FE02 - Vishay Dale	TMC50-6.0-ND 	TMC0506R000FE02	Vishay Dale	RES CHAS MNT 6 OHM 1% 50W	1,639 - Immediate
+	4.76000 	1 	Bulk  	TMC	6	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC05010R00FE02 Datasheet
+	TMC05010R00FE02 - Vishay Dale	TMC50-10-ND 	TMC05010R00FE02	Vishay Dale	RES CHAS MNT 10 OHM 1% 50W	1,452 - Immediate
+	4.76000 	1 	Bulk  	TMC	10	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC05020R00FE02 Datasheet
+	TMC05020R00FE02 - Vishay Dale	TMC50-20-ND 	TMC05020R00FE02	Vishay Dale	RES CHAS MNT 20 OHM 1% 50W	1,267 - Immediate
+	4.76000 	1 	Bulk  	TMC	20	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC05012R00FE02 Datasheet
+	TMC05012R00FE02 - Vishay Dale	TMC50-12-ND 	TMC05012R00FE02	Vishay Dale	RES CHAS MNT 12 OHM 1% 50W	1,223 - Immediate
+	4.76000 	1 	Bulk  	TMC	12	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC0508R000FE02 Datasheet
+	TMC0508R000FE02 - Vishay Dale	TMC50-8.0-ND 	TMC0508R000FE02	Vishay Dale	RES CHAS MNT 8 OHM 1% 50W	1,046 - Immediate
+	4.76000 	1 	Bulk  	TMC	8	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC05050R00FE02 Datasheet
+	TMC05050R00FE02 - Vishay Dale	TMC50-50-ND 	TMC05050R00FE02	Vishay Dale	RES CHAS MNT 50 OHM 1% 50W	300 - Immediate
+	4.76000 	1 	Bulk  	TMC	50	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC0505R000FE02 Datasheet
+	TMC0505R000FE02 - Vishay Dale	TMC50-5.0-ND 	TMC0505R000FE02	Vishay Dale	RES CHAS MNT 5 OHM 1% 50W	207 - Immediate
+	4.76000 	1 	Bulk  	TMC	5	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC05030R00FE02 Datasheet
+	TMC05030R00FE02 - Vishay Dale	TMC50-30-ND 	TMC05030R00FE02	Vishay Dale	RES CHAS MNT 30 OHM 1% 50W	162 - Immediate
+	4.76000 	1 	Bulk  	TMC	30	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+L25J25RE Datasheet
+	L25J25RE - Ohmite	L25J25RE-ND 	L25J25RE	Ohmite	RES CHAS MNT 25 OHM 5% 25W	216 - Immediate
+	5.39000 	1 	Bulk  	270	25	±5%	25W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 2.000" L (14.30mm x 50.80mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+TMC050R5000FE02 Datasheet
+	TMC050R5000FE02 - Vishay Dale	TMC50-.50-ND 	TMC050R5000FE02	Vishay Dale	RES CHAS MNT 0.5 OHM 1% 50W	653 - Immediate
+	5.56000 	1 	Bulk  	TMC	0.5	±1%	50W	Wirewound	-	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC050R2000FE02 Datasheet
+	TMC050R2000FE02 - Vishay Dale	TMC50-.20-ND 	TMC050R2000FE02	Vishay Dale	RES CHAS MNT 0.2 OHM 1% 50W	140 - Immediate
+	5.56000 	1 	Bulk  	TMC	0.2	±1%	50W	Wirewound	-	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+825F100E Datasheet
+	825F100E - Ohmite	825F100E-ND 	825F100E	Ohmite	RES CHAS MNT 100 OHM 1% 25W	194 - Immediate
+	5.75000 	1 	Bulk  	Metal-Mite®89	100	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.062" L x 1.094" W (26.98mm x 27.79mm)	0.593" (15.07mm)	Solder Lugs	Axial, Box	
+-
+	
+825FR10E Datasheet
+	825FR10E - Ohmite	825FR10E-ND 	825FR10E	Ohmite	RES CHAS MNT 0.1 OHM 1% 25W	369 - Immediate
+	6.16000 	1 	Bulk  	Metal-Mite®89	0.1	±1%	25W	Wirewound	±90ppm/°C	-	Aluminum	Flanges	1.062" L x 1.094" W (26.98mm x 27.79mm)	0.593" (15.07mm)	Solder Lugs	Axial, Box	
+-
+	
+850F25RE Datasheet
+	850F25RE - Ohmite	850F25RE-ND 	850F25RE	Ohmite	RES CHAS MNT 25 OHM 1% 50W	970 - Immediate
+	6.44000 	1 	Bulk  	Metal-Mite®89	25	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.938" L x 1.156" W (49.23mm x 29.36mm)	0.656" (16.67mm)	Solder Lugs	Axial, Box	
+-
+	
+850F100E Datasheet
+	850F100E - Ohmite	850F100E-ND 	850F100E	Ohmite	RES CHAS MNT 100 OHM 1% 50W	424 - Immediate
+	6.44000 	1 	Bulk  	Metal-Mite®89	100	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.938" L x 1.156" W (49.23mm x 29.36mm)	0.656" (16.67mm)	Solder Lugs	Axial, Box	
+-
+	
+850F5R0E Datasheet
+	850F5R0E - Ohmite	850F5R0E-ND 	850F5R0E	Ohmite	RES CHAS MNT 5 OHM 1% 50W	188 - Immediate
+	6.44000 	1 	Bulk  	Metal-Mite®89	5	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.938" L x 1.156" W (49.23mm x 29.36mm)	0.656" (16.67mm)	Solder Lugs	Axial, Box	
+-
+	
+850F750E Datasheet
+	850F750E - Ohmite	850F750E-ND 	850F750E	Ohmite	RES CHAS MNT 750 OHM 1% 50W	130 - Immediate
+	6.44000 	1 	Bulk  	Metal-Mite®89	750	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.938" L x 1.156" W (49.23mm x 29.36mm)	0.656" (16.67mm)	Solder Lugs	Axial, Box	
+-
+	
+850F5K0E Datasheet
+	850F5K0E - Ohmite	850F5K0E-ND 	850F5K0E	Ohmite	RES CHAS MNT 5K OHM 1% 50W	210 - Immediate
+	7.28000 	1 	Bulk  	Metal-Mite®89	5k	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.938" L x 1.156" W (49.23mm x 29.36mm)	0.656" (16.67mm)	Solder Lugs	Axial, Box	
+-
+	
+L25J50KE Datasheet
+	L25J50KE - Ohmite	L25J50KE-ND 	L25J50KE	Ohmite	RES CHAS MNT 50K OHM 5% 25W	244 - Immediate
+	7.34000 	1 	Bulk  	270	50k	±5%	25W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 2.000" L (14.30mm x 50.80mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+L50J25RE Datasheet
+	L50J25RE - Ohmite	L50J25RE-ND 	L50J25RE	Ohmite	RES CHAS MNT 25 OHM 5% 50W	1,317 - Immediate
+	7.78000 	1 	Bulk  	270	25	±5%	50W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.30mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+L50J500E Datasheet
+	L50J500E - Ohmite	L50J500E-ND 	L50J500E	Ohmite	RES CHAS MNT 500 OHM 5% 50W	277 - Immediate
+	7.78000 	1 	Bulk  	270	500	±5%	50W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.30mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+L50J50RE Datasheet
+	L50J50RE - Ohmite	L50J50RE-ND 	L50J50RE	Ohmite	RES CHAS MNT 50 OHM 5% 50W	184 - Immediate
+	7.78000 	1 	Bulk  	270	50	±5%	50W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.30mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+F30J1R0E Datasheet
+	F30J1R0E - Ohmite	F30J1R0E-ND 	F30J1R0E	Ohmite	RES CHAS MNT 1 OHM 5% 30W	229 - Immediate
+	9.69000 	1 	Bulk  	Stackohm® 250	1	±5%	30W	Wirewound	±400ppm/°C	-	Vitreous Enamel Coated	Flange Braces, Right Angle	1.250" L x 1.000" W (31.75mm x 25.40mm)	0.563" (14.29mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+F30J100E Datasheet
+	F30J100E - Ohmite	F30J100E-ND 	F30J100E	Ohmite	RES CHAS MNT 100 OHM 5% 30W	110 - Immediate
+	9.83000 	1 	Bulk  	Stackohm® 250	100	±5%	30W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Flange Braces, Right Angle	1.250" L x 1.000" W (31.75mm x 25.40mm)	0.563" (14.29mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+1625999-6 Datasheet
+	1625999-6 - TE Connectivity	A102357-ND 	1625999-6	TE Connectivity	RES CHAS MNT 15 OHM 5% 100W	155 - Immediate
+	11.74000 	1 	Bulk  	HS, CGS	15	±5%	100W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.579" L x 1.870" W (65.50mm x 47.50mm)	1.024" (26.00mm)	Solder Lugs	Axial, Box	
+-
+	
+850F100KE Datasheet
+	850F100KE - Ohmite	850F100KE-ND 	850F100KE	Ohmite	RES CHAS MNT 100K OHM 1% 50W	129 - Immediate
+	11.74000 	1 	Bulk  	Metal-Mite®89	100k	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.938" L x 1.156" W (49.23mm x 29.36mm)	0.656" (16.67mm)	Solder Lugs	Axial, Box	
+-
+	
+L50J250KE Datasheet
+	L50J250KE - Ohmite	L50J250KE-ND 	L50J250KE	Ohmite	RES CHAS MNT 250K OHM 5% 50W	108 - Immediate
+	13.42000 	1 	Bulk  	270	250k	±5%	50W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.30mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+2-1630012-8 Datasheet
+	2-1630012-8 - TE Connectivity	A103833-ND 	2-1630012-8	TE Connectivity	RES CHAS MNT 22 OHM 5% 150W	301 - Immediate
+	16.34000 	1 	Bulk  	HS, CGS	22	±5%	150W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	3.858" L x 1.870" W (98.00mm x 47.50mm)	1.024" (26.00mm)	Solder Lugs	Axial, Box	
+-
+	
+CHF9838CNF500L Datasheet
+	CHF9838CNF500L - Bourns Inc.	CHF9838CNF500L-ND 	CHF9838CNF500L	Bourns Inc.	RES CHAS MNT 50 OHM 5% 250W	180 - Immediate
+	19.00000 	1 	Tray  	CHF - RF Power	50	±5%	250W	Thick Film	-	RF, High Frequency	Aluminum Oxide	Flanges	0.975" L x 0.375" W (24.77mm x 9.53mm)	0.149" (3.79mm)	Tab	Flat Box, Terminator	
+-
+	
+FSE100002E10R0KE Datasheet
+	FSE100002E10R0KE - Vishay Huntington Electric Inc.	FSE1000-10-ND 	FSE100002E10R0KE	Vishay Huntington Electric Inc.	RES CHAS MNT 10 OHM 10% 1000W	144 - Immediate
+	47.32000 	1 	Bulk  	FSE	10	±10%	1000W	Wirewound	±260ppm/°C	-	Silicon Coated	Brackets (not included)	2.500" Dia x 15.000" L (63.50mm x 381.00mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+WFH330L1R0KE Datasheet
+	WFH330L1R0KE - Ohmite	WFH330L1R0KE-ND 	WFH330L1R0KE	Ohmite	RES CHAS MNT 1 OHM 10% 330W	152 - Immediate
+	50.23000 	1 	Bulk  	WFH	1	±10%	330W	Wirewound	-	-	Aluminum	Flanges	11.024" L x 2.008" W (280.00mm x 51.00mm)	0.496" (12.60mm)	Solder Lugs	Radial, Rectangular Case	
+-
+	
+LPS0800H1R00JB Datasheet
+	LPS0800H1R00JB - Vishay Sfernice	LPS-1.0C-ND 	LPS0800H1R00JB	Vishay Sfernice	RES CHAS MNT 1 OHM 5% 800W	216 - Immediate
+	94.88000 	1 	Bulk  	LPS 800	1	±5%	800W	Thick Film	±500ppm/°C	Non-Inductive	-	Flanges	2.362" L x 2.244" W (60.00mm x 57.00mm)	1.000" (25.40mm)	M4 Threaded	Box	
+-
+	
+TAP600K22RE Datasheet
+	TAP600K22RE - Ohmite	TAP600K22RE-ND 	TAP600K22RE	Ohmite	RES CHAS MNT 22 OHM 10% 600W	77 - Immediate
+	125.29000 	1 	Bulk  	TAP600	22	±10%	600W	Thick Film	±150ppm/°C	-	Epoxy Coated	Flanges	2.559" L x 2.362" W (65.00mm x 60.00mm)	0.945" (24.00mm)	M5 Threaded	Box	
+-
+	
+TAP600K5R0E Datasheet
+	TAP600K5R0E - Ohmite	TAP600K5R0E-ND 	TAP600K5R0E	Ohmite	RES CHAS MNT 5 OHM 10% 600W	53 - Immediate
+	125.29000 	1 	Bulk  	TAP600	5	±10%	600W	Thick Film	±150ppm/°C	-	Epoxy Coated	Flanges	2.559" L x 2.362" W (65.00mm x 60.00mm)	0.945" (24.00mm)	M5 Threaded	Box	
+-
+	
+TAP600K1R0E Datasheet
+	TAP600K1R0E - Ohmite	TAP600K1R0E-ND 	TAP600K1R0E	Ohmite	RES CHAS MNT 1 OHM 10% 600W	32 - Immediate
+	125.29000 	1 	Bulk  	TAP600	1	±10%	600W	Thick Film	±150ppm/°C	-	Epoxy Coated	Flanges	2.559" L x 2.362" W (65.00mm x 60.00mm)	0.945" (24.00mm)	M5 Threaded	Box	
+-
+	
+TA1K0PH25R0KE Datasheet
+	TA1K0PH25R0KE - Ohmite	TA1K0PH25R0KE-ND 	TA1K0PH25R0KE	Ohmite	RES CHAS MNT 25 OHM 10% 1000W	57 - Immediate
+	181.52000 	1 	Bulk  	TAP1000	25	±10%	1000W	Thick Film	±250ppm/°C	-	Epoxy Coated	Flanges	3.000" L x 3.000" W (76.20mm x 76.20mm)	1.248" (31.69mm)	#10-32 Threaded	Box	
+-
+	
+FVT02506E10R00JE Datasheet
+	FVT02506E10R00JE - Vishay Huntington Electric Inc.	FVT25-10-ND 	FVT02506E10R00JE	Vishay Huntington Electric Inc.	RES CHAS MNT 10 OHM 5% 25W	310 - Immediate
+	3.33000 	1 	Bulk  	FVT	10	±5%	25W	Wirewound	±400ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 2.000" L (14.30mm x 50.80mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+-
+	1879009-1 - TE Connectivity	A103820-ND 	1879009-1	TE Connectivity	RES CHAS MNT 4.7 OHM 5% 30W	982 - Immediate
+	3.46000 	1 	Bulk  	SQ, CGS	4.7	±5%	30W	Wirewound	±300ppm/°C	Flame Proof	Ceramic	Brackets	2.953" L x 0.748" W (75.00mm x 19.00mm)	0.787" (20.00mm)	Quick Connects, 0.250" (6.35mm)	Radial, Rectangular Case	
+-
+	
+2-1879075-3 Datasheet
+	2-1879075-3 - TE Connectivity	A105544-ND 	2-1879075-3	TE Connectivity	RES CHAS MNT 8.2 OHM 5% 25W	188 - Immediate
+	3.53000 	1 	Bulk  	THS, CGS	8.2	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+8-1625971-4 Datasheet
+	8-1625971-4 - TE Connectivity	A102151-ND 	8-1625971-4	TE Connectivity	RES CHAS MNT 0.47 OHM 5% 25W	216 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	0.47	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1676625-4 Datasheet
+	1676625-4 - TE Connectivity	A103854-ND 	1676625-4	TE Connectivity	RES CHAS MNT 0.02 OHM 5% 25W	187 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	0.02	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+4-1625971-4 Datasheet
+	4-1625971-4 - TE Connectivity	A102141-ND 	4-1625971-4	TE Connectivity	RES CHAS MNT 3.3K OHM 5% 25W	187 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	3.3k	±5%	25W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1676625-9 Datasheet
+	1676625-9 - TE Connectivity	A102146-ND 	1676625-9	TE Connectivity	RES CHAS MNT 5.6K OHM 5% 25W	170 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	5.6k	±5%	25W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+8-1625971-2 Datasheet
+	8-1625971-2 - TE Connectivity	A102150-ND 	8-1625971-2	TE Connectivity	RES CHAS MNT 0.22 OHM 5% 25W	120 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	0.22	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1676625-3 Datasheet
+	1676625-3 - TE Connectivity	A102420-ND 	1676625-3	TE Connectivity	RES CHAS MNT 270 OHM 5% 25W	109 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	270	±5%	25W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+RH01025R00FE02 Datasheet
+	RH01025R00FE02 - Vishay Dale	RHRB-25-ND 	RH01025R00FE02	Vishay Dale	RES CHAS MNT 25 OHM 1% 10W	1,350 - Immediate
+	3.78000 	1 	Bulk  	RH	25	±1%	10W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	0.750" L x 0.800" W (19.05mm x 20.32mm)	0.405" (10.29mm)	Solder Lugs	Axial, Box	
+-
+	
+UAL50-12RF8 Datasheet
+	UAL50-12RF8 - Riedon	696-1461-ND 	UAL50-12RF8	Riedon	RES CHAS MNT 12 OHM 1% 50W	50 - Immediate
+	3.78000 	1 	Bulk  	UAL	12	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.630" (16.00mm)	Solder Lugs	Axial, Box	
+-
+	
+UAL50-200RF8 Datasheet
+	UAL50-200RF8 - Riedon	696-1295-ND 	UAL50-200RF8	Riedon	RES CHAS MNT 200 OHM 1% 50W	138 - Immediate
+	3.78000 	1 	Bulk  	UAL	200	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.630" (16.00mm)	Solder Lugs	Axial, Box	
+-
+	
+UAL50-6RF8 Datasheet
+	UAL50-6RF8 - Riedon	696-1516-ND 	UAL50-6RF8	Riedon	RES CHAS MNT 6 OHM 1% 50W	136 - Immediate
+	3.78000 	1 	Bulk  	UAL	6	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.630" (16.00mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC01075R00FE02 Datasheet
+	TMC01075R00FE02 - Vishay Dale	TMC10-75-ND 	TMC01075R00FE02	Vishay Dale	RES CHAS MNT 75 OHM 1% 12.5W	1,510 - Immediate
+	4.03000 	1 	Bulk  	TMC	75	±1%	12.5W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	0.750" L x 0.800" W (19.05mm x 20.32mm)	0.405" (10.29mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC01025R00FE02 Datasheet
+	TMC01025R00FE02 - Vishay Dale	TMC10-25-ND 	TMC01025R00FE02	Vishay Dale	RES CHAS MNT 25 OHM 1% 12.5W	1,085 - Immediate
+	4.03000 	1 	Bulk  	TMC	25	±1%	12.5W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	0.750" L x 0.800" W (19.05mm x 20.32mm)	0.405" (10.29mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC00510R00FE02 Datasheet
+	TMC00510R00FE02 - Vishay Dale	TMC5-10-ND 	TMC00510R00FE02	Vishay Dale	RES CHAS MNT 10 OHM 1% 7.5W	279 - Immediate
+	4.03000 	1 	Bulk  	TMC	10	±1%	7.5W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	0.600" L x 0.646" W (15.24mm x 16.41mm)	0.335" (8.51mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC0102R500FE02 Datasheet
+	TMC0102R500FE02 - Vishay Dale	TMC10-2.5-ND 	TMC0102R500FE02	Vishay Dale	RES CHAS MNT 2.5 OHM 1% 12.5W	246 - Immediate
+	4.03000 	1 	Bulk  	TMC	2.5	±1%	12.5W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	0.750" L x 0.800" W (19.05mm x 20.32mm)	0.405" (10.29mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC01050R00FE02 Datasheet
+	TMC01050R00FE02 - Vishay Dale	TMC10-50-ND 	TMC01050R00FE02	Vishay Dale	RES CHAS MNT 50 OHM 1% 12.5W	167 - Immediate
+	4.03000 	1 	Bulk  	TMC	50	±1%	12.5W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	0.750" L x 0.800" W (19.05mm x 20.32mm)	0.405" (10.29mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC0051R000FE02 Datasheet
+	TMC0051R000FE02 - Vishay Dale	TMC5-1.0-ND 	TMC0051R000FE02	Vishay Dale	RES CHAS MNT 1 OHM 1% 7.5W	164 - Immediate
+	4.03000 	1 	Bulk  	TMC	1	±1%	7.5W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	0.600" L x 0.646" W (15.24mm x 16.41mm)	0.335" (8.51mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC01033R00FE02 Datasheet
+	TMC01033R00FE02 - Vishay Dale	TMC10-33-ND 	TMC01033R00FE02	Vishay Dale	RES CHAS MNT 33 OHM 1% 12.5W	164 - Immediate
+	4.03000 	1 	Bulk  	TMC	33	±1%	12.5W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	0.750" L x 0.800" W (19.05mm x 20.32mm)	0.405" (10.29mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC01010R00FE02 Datasheet
+	TMC01010R00FE02 - Vishay Dale	TMC10-10-ND 	TMC01010R00FE02	Vishay Dale	RES CHAS MNT 10 OHM 1% 12.5W	127 - Immediate
+	4.03000 	1 	Bulk  	TMC	10	±1%	12.5W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	0.750" L x 0.800" W (19.05mm x 20.32mm)	0.405" (10.29mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC0101R000FE02 Datasheet
+	TMC0101R000FE02 - Vishay Dale	TMC10-1.0-ND 	TMC0101R000FE02	Vishay Dale	RES CHAS MNT 1 OHM 1% 12.5W	107 - Immediate
+	4.03000 	1 	Bulk  	TMC	1	±1%	12.5W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	0.750" L x 0.800" W (19.05mm x 20.32mm)	0.405" (10.29mm)	Solder Lugs	Axial, Box	
+-
+	
+1-1879071-7 Datasheet
+	1-1879071-7 - TE Connectivity	A106187-ND 	1-1879071-7	TE Connectivity	RES CHAS MNT 2.7 OHM 5% 50W	399 - Immediate
+	4.14000 	1 	Tray  	THS, CGS	2.7	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+FVT05006E50R00JE Datasheet
+	FVT05006E50R00JE - Vishay Huntington Electric Inc.	FVT50-50-ND 	FVT05006E50R00JE	Vishay Huntington Electric Inc.	RES CHAS MNT 50 OHM 5% 50W	792 - Immediate
+	4.50000 	1 	Bulk  	FVT	50	±5%	50W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.30mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FVT05006E25R00JE Datasheet
+	FVT05006E25R00JE - Vishay Huntington Electric Inc.	FVT50-25-ND 	FVT05006E25R00JE	Vishay Huntington Electric Inc.	RES CHAS MNT 25 OHM 5% 50W	590 - Immediate
+	4.50000 	1 	Bulk  	FVT	25	±5%	50W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.30mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FVT05006E1K000JE Datasheet
+	FVT05006E1K000JE - Vishay Huntington Electric Inc.	FVT50-1.0K-ND 	FVT05006E1K000JE	Vishay Huntington Electric Inc.	RES CHAS MNT 1K OHM 5% 50W	402 - Immediate
+	4.50000 	1 	Bulk  	FVT	1k	±5%	50W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.30mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+TMC0252K000FE02 Datasheet
+	TMC0252K000FE02 - Vishay Dale	TMC25-2.0K-ND 	TMC0252K000FE02	Vishay Dale	RES CHAS MNT 2K OHM 1% 25W	968 - Immediate
+	4.60000 	1 	Bulk  	TMC	2k	±1%	25W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	1.062" L x 1.080" W (26.97mm x 27.43mm)	0.561" (14.25mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC02520R00FE02 Datasheet
+	TMC02520R00FE02 - Vishay Dale	TMC25-20-ND 	TMC02520R00FE02	Vishay Dale	RES CHAS MNT 20 OHM 1% 25W	666 - Immediate
+	4.60000 	1 	Bulk  	TMC	20	±1%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.062" L x 1.080" W (26.97mm x 27.43mm)	0.561" (14.25mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC025100R0FE02 Datasheet
+	TMC025100R0FE02 - Vishay Dale	TMC25-100-ND 	TMC025100R0FE02	Vishay Dale	RES CHAS MNT 100 OHM 1% 25W	599 - Immediate
+	4.60000 	1 	Bulk  	TMC	100	±1%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.062" L x 1.080" W (26.97mm x 27.43mm)	0.561" (14.25mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC02525R00FE02 Datasheet
+	TMC02525R00FE02 - Vishay Dale	TMC25-25-ND 	TMC02525R00FE02	Vishay Dale	RES CHAS MNT 25 OHM 1% 25W	537 - Immediate
+	4.60000 	1 	Bulk  	TMC	25	±1%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.062" L x 1.080" W (26.97mm x 27.43mm)	0.561" (14.25mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC0252R000FE02 Datasheet
+	TMC0252R000FE02 - Vishay Dale	TMC25-2.0-ND 	TMC0252R000FE02	Vishay Dale	RES CHAS MNT 2 OHM 1% 25W	440 - Immediate
+	4.60000 	1 	Bulk  	TMC	2	±1%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.062" L x 1.080" W (26.97mm x 27.43mm)	0.561" (14.25mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC0251K000FE02 Datasheet
+	TMC0251K000FE02 - Vishay Dale	TMC25-1.0K-ND 	TMC0251K000FE02	Vishay Dale	RES CHAS MNT 1K OHM 1% 25W	368 - Immediate
+	4.60000 	1 	Bulk  	TMC	1k	±1%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.062" L x 1.080" W (26.97mm x 27.43mm)	0.561" (14.25mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC025200R0FE02 Datasheet
+	TMC025200R0FE02 - Vishay Dale	TMC25-200-ND 	TMC025200R0FE02	Vishay Dale	RES CHAS MNT 200 OHM 1% 25W	350 - Immediate
+	4.60000 	1 	Bulk  	TMC	200	±1%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.062" L x 1.080" W (26.97mm x 27.43mm)	0.561" (14.25mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC02540R00FE02 Datasheet
+	TMC02540R00FE02 - Vishay Dale	TMC25-40-ND 	TMC02540R00FE02	Vishay Dale	RES CHAS MNT 40 OHM 1% 25W	211 - Immediate
+	4.60000 	1 	Bulk  	TMC	40	±1%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.062" L x 1.080" W (26.97mm x 27.43mm)	0.561" (14.25mm)	Solder Lugs	Axial, Box	
+-
+	
+4-1625984-8 Datasheet
+	4-1625984-8 - TE Connectivity	A102439-ND 	4-1625984-8	TE Connectivity	RES CHAS MNT 330 OHM 5% 50W	291 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	330	±5%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+7-1625984-2 Datasheet
+	7-1625984-2 - TE Connectivity	A102174-ND 	7-1625984-2	TE Connectivity	RES CHAS MNT 5.6K OHM 5% 50W	199 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	5.6k	±5%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+9-1625984-8 Datasheet
+	9-1625984-8 - TE Connectivity	A102181-ND 	9-1625984-8	TE Connectivity	RES CHAS MNT 0.47 OHM 5% 50W	173 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	0.47	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+6-1625984-9 Datasheet
+	6-1625984-9 - TE Connectivity	A102172-ND 	6-1625984-9	TE Connectivity	RES CHAS MNT 560 OHM 5% 50W	164 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	560	±5%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+3-1625984-2 Datasheet
+	3-1625984-2 - TE Connectivity	A102187-ND 	3-1625984-2	TE Connectivity	RES CHAS MNT 22K OHM 5% 50W	160 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	22k	±5%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+3-1625984-0 Datasheet
+	3-1625984-0 - TE Connectivity	A102160-ND 	3-1625984-0	TE Connectivity	RES CHAS MNT 220 OHM 5% 50W	155 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	220	±5%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+8-1625984-9 Datasheet
+	8-1625984-9 - TE Connectivity	A103860-ND 	8-1625984-9	TE Connectivity	RES CHAS MNT 0.02 OHM 5% 50W	119 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	0.02	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC0502K500FE02 Datasheet
+	TMC0502K500FE02 - Vishay Dale	TMC50-2.5K-ND 	TMC0502K500FE02	Vishay Dale	RES CHAS MNT 2.5K OHM 1% 50W	597 - Immediate
+	4.76000 	1 	Bulk  	TMC	2.5k	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC0501K500FE02 Datasheet
+	TMC0501K500FE02 - Vishay Dale	TMC50-1.5K-ND 	TMC0501K500FE02	Vishay Dale	RES CHAS MNT 1.5K OHM 1% 50W	478 - Immediate
+	4.76000 	1 	Bulk  	TMC	1.5k	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC0501R500FE02 Datasheet
+	TMC0501R500FE02 - Vishay Dale	TMC50-1.5-ND 	TMC0501R500FE02	Vishay Dale	RES CHAS MNT 1.5 OHM 1% 50W	443 - Immediate
+	4.76000 	1 	Bulk  	TMC	1.5	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC050250R0FE02 Datasheet
+	TMC050250R0FE02 - Vishay Dale	TMC50-250-ND 	TMC050250R0FE02	Vishay Dale	RES CHAS MNT 250 OHM 1% 50W	426 - Immediate
+	4.76000 	1 	Bulk  	TMC	250	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC0501R000FE02 Datasheet
+	TMC0501R000FE02 - Vishay Dale	TMC50-1.0-ND 	TMC0501R000FE02	Vishay Dale	RES CHAS MNT 1 OHM 1% 50W	408 - Immediate
+	4.76000 	1 	Bulk  	TMC	1	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC05016R00FE02 Datasheet
+	TMC05016R00FE02 - Vishay Dale	TMC50-16-ND 	TMC05016R00FE02	Vishay Dale	RES CHAS MNT 16 OHM 1% 50W	367 - Immediate
+	4.76000 	1 	Bulk  	TMC	16	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC0502R500FE02 Datasheet
+	TMC0502R500FE02 - Vishay Dale	TMC50-2.5-ND 	TMC0502R500FE02	Vishay Dale	RES CHAS MNT 2.5 OHM 1% 50W	222 - Immediate
+	4.76000 	1 	Bulk  	TMC	2.5	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC05075R00FE02 Datasheet
+	TMC05075R00FE02 - Vishay Dale	TMC50-75-ND 	TMC05075R00FE02	Vishay Dale	RES CHAS MNT 75 OHM 1% 50W	218 - Immediate
+	4.76000 	1 	Bulk  	TMC	75	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC0502R000FE02 Datasheet
+	TMC0502R000FE02 - Vishay Dale	TMC50-2.0-ND 	TMC0502R000FE02	Vishay Dale	RES CHAS MNT 2 OHM 1% 50W	205 - Immediate
+	4.76000 	1 	Bulk  	TMC	2	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC0503R300FE02 Datasheet
+	TMC0503R300FE02 - Vishay Dale	TMC50-3.3-ND 	TMC0503R300FE02	Vishay Dale	RES CHAS MNT 3.3 OHM 1% 50W	191 - Immediate
+	4.76000 	1 	Bulk  	TMC	3.3	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+-
+	1879068-1 - TE Connectivity	A103821-ND 	1879068-1	TE Connectivity	RES CHAS MNT 10 OHM 5% 40W	123 - Immediate
+	4.87000 	1 	Bulk  	SQ, CGS	10	±5%	40W	Wirewound	±300ppm/°C	Flame Proof	Ceramic	Brackets	3.543" L x 0.748" W (90.00mm x 19.00mm)	0.787" (20.00mm)	Quick Connects, 0.250" (6.35mm)	Radial, Rectangular Case	
+-
+	
+RH005100R0FE02 Datasheet
+	RH005100R0FE02 - Vishay Dale	RHRA-100-ND 	RH005100R0FE02	Vishay Dale	RES CHAS MNT 100 OHM 1% 5W	165 - Immediate
+	5.07000 	1 	Bulk  	RH	100	±1%	5W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	0.600" L x 0.646" W (15.24mm x 16.41mm)	0.335" (8.51mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC025R1000FE02 Datasheet
+	TMC025R1000FE02 - Vishay Dale	TMC25-.10-ND 	TMC025R1000FE02	Vishay Dale	RES CHAS MNT 0.1 OHM 1% 25W	198 - Immediate
+	5.20000 	1 	Bulk  	TMC	0.1	±1%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.062" L x 1.080" W (26.97mm x 27.43mm)	0.561" (14.25mm)	Solder Lugs	Axial, Box	
+-
+	
+RH005R1000FE02 Datasheet
+	RH005R1000FE02 - Vishay Dale	RHRA-.10-ND 	RH005R1000FE02	Vishay Dale	RES CHAS MNT 0.1 OHM 1% 5W	368 - Immediate
+	5.33000 	1 	Bulk  	RH	0.1	±1%	5W	Wirewound	±100ppm/°C	-	Aluminum	Flanges	0.600" L x 0.646" W (15.24mm x 16.41mm)	0.335" (8.51mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC050R3000FE02 Datasheet
+	TMC050R3000FE02 - Vishay Dale	TMC50-.30-ND 	TMC050R3000FE02	Vishay Dale	RES CHAS MNT 0.3 OHM 1% 50W	637 - Immediate
+	5.56000 	1 	Bulk  	TMC	0.3	±1%	50W	Wirewound	-	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC050R1500FE02 Datasheet
+	TMC050R1500FE02 - Vishay Dale	TMC50-.15-ND 	TMC050R1500FE02	Vishay Dale	RES CHAS MNT 0.15 OHM 1% 50W	464 - Immediate
+	5.56000 	1 	Bulk  	TMC	0.15	±1%	50W	Wirewound	-	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC050R2500FE02 Datasheet
+	TMC050R2500FE02 - Vishay Dale	TMC50-.25-ND 	TMC050R2500FE02	Vishay Dale	RES CHAS MNT 0.25 OHM 1% 50W	437 - Immediate
+	5.56000 	1 	Bulk  	TMC	0.25	±1%	50W	Wirewound	-	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC050R1000FE02 Datasheet
+	TMC050R1000FE02 - Vishay Dale	TMC5-.10-ND 	TMC050R1000FE02	Vishay Dale	RES CHAS MNT 0.1 OHM 1% 50W	140 - Immediate
+	5.56000 	1 	Bulk  	TMC	0.1	±1%	50W	Wirewound	-	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+L25J2K5E Datasheet
+	L25J2K5E - Ohmite	L25J2K5E-ND 	L25J2K5E	Ohmite	RES CHAS MNT 2.5K OHM 5% 25W	196 - Immediate
+	5.65000 	1 	Bulk  	270	2.5k	±5%	25W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 2.000" L (14.30mm x 50.80mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+L25J4K0E Datasheet
+	L25J4K0E - Ohmite	L25J4K0E-ND 	L25J4K0E	Ohmite	RES CHAS MNT 4K OHM 5% 25W	2,668 - Immediate
+	5.71000 	1 	Bulk  	270	4k	±5%	25W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 2.000" L (14.30mm x 50.80mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+L25J5K0E Datasheet
+	L25J5K0E - Ohmite	L25J5K0E-ND 	L25J5K0E	Ohmite	RES CHAS MNT 5K OHM 5% 25W	305 - Immediate
+	5.71000 	1 	Bulk  	270	5k	±5%	25W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 2.000" L (14.30mm x 50.80mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+825F250E Datasheet
+	825F250E - Ohmite	825F250E-ND 	825F250E	Ohmite	RES CHAS MNT 250 OHM 1% 25W	263 - Immediate
+	5.75000 	1 	Bulk  	Metal-Mite®89	250	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.062" L x 1.094" W (26.98mm x 27.79mm)	0.593" (15.07mm)	Solder Lugs	Axial, Box	
+-
+	
+825F150E Datasheet
+	825F150E - Ohmite	825F150E-ND 	825F150E	Ohmite	RES CHAS MNT 150 OHM 1% 25W	171 - Immediate
+	5.75000 	1 	Bulk  	Metal-Mite®89	150	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.062" L x 1.094" W (26.98mm x 27.79mm)	0.593" (15.07mm)	Solder Lugs	Axial, Box	
+-
+	
+RH025200R0FE02 Datasheet
+	RH025200R0FE02 - Vishay Dale	RHRC-200-ND 	RH025200R0FE02	Vishay Dale	RES CHAS MNT 200 OHM 1% 25W	553 - Immediate
+	5.82000 	1 	Bulk  	RH	200	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.062" L x 1.080" W (26.97mm x 27.43mm)	0.561" (14.25mm)	Solder Lugs	Axial, Box	
+-
+	
+RH02512R00FE02 Datasheet
+	RH02512R00FE02 - Vishay Dale	RHRC-12-ND 	RH02512R00FE02	Vishay Dale	RES CHAS MNT 12 OHM 1% 25W	550 - Immediate
+	5.82000 	1 	Bulk  	RH	12	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.062" L x 1.080" W (26.97mm x 27.43mm)	0.561" (14.25mm)	Solder Lugs	Axial, Box	
+-
+	
+RH025100R0FE02 Datasheet
+	RH025100R0FE02 - Vishay Dale	RHRC-100-ND 	RH025100R0FE02	Vishay Dale	RES CHAS MNT 100 OHM 1% 25W	400 - Immediate
+	5.82000 	1 	Bulk  	RH	100	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.062" L x 1.080" W (26.97mm x 27.43mm)	0.561" (14.25mm)	Solder Lugs	Axial, Box	
+-
+	
+RH02540R00FE02 Datasheet
+	RH02540R00FE02 - Vishay Dale	RHRC-40-ND 	RH02540R00FE02	Vishay Dale	RES CHAS MNT 40 OHM 1% 25W	250 - Immediate
+	5.82000 	1 	Bulk  	RH	40	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.062" L x 1.080" W (26.97mm x 27.43mm)	0.561" (14.25mm)	Solder Lugs	Axial, Box	
+-
+	
+RH0251R000FE02 Datasheet
+	RH0251R000FE02 - Vishay Dale	RHRC-1.0-ND 	RH0251R000FE02	Vishay Dale	RES CHAS MNT 1 OHM 1% 25W	236 - Immediate
+	5.82000 	1 	Bulk  	RH	1	±1%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.062" L x 1.080" W (26.97mm x 27.43mm)	0.561" (14.25mm)	Solder Lugs	Axial, Box	
+-
+	
+850F500E Datasheet
+	850F500E - Ohmite	850F500E-ND 	850F500E	Ohmite	RES CHAS MNT 500 OHM 1% 50W	117 - Immediate
+	6.44000 	1 	Bulk  	Metal-Mite®89	500	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.938" L x 1.156" W (49.23mm x 29.36mm)	0.656" (16.67mm)	Solder Lugs	Axial, Box	
+-
+	
+RH0508R000FE02 Datasheet
+	RH0508R000FE02 - Vishay Dale	RHRD-8.0-ND 	RH0508R000FE02	Vishay Dale	RES CHAS MNT 8 OHM 1% 50W	2,232 - Immediate
+	6.60000 	1 	Bulk  	RH	8	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+RH05010R00FE02 Datasheet
+	RH05010R00FE02 - Vishay Dale	RHRD-10-ND 	RH05010R00FE02	Vishay Dale	RES CHAS MNT 10 OHM 1% 50W	514 - Immediate
+	6.60000 	1 	Bulk  	RH	10	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+RH050100R0FE02 Datasheet
+	RH050100R0FE02 - Vishay Dale	RHRD-100-ND 	RH050100R0FE02	Vishay Dale	RES CHAS MNT 100 OHM 1% 50W	487 - Immediate
+	6.60000 	1 	Bulk  	RH	100	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+RH0506R000FE02 Datasheet
+	RH0506R000FE02 - Vishay Dale	RHRD-6.0-ND 	RH0506R000FE02	Vishay Dale	RES CHAS MNT 6 OHM 1% 50W	373 - Immediate
+	6.60000 	1 	Bulk  	RH	6	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+RH050500R0FE02 Datasheet
+	RH050500R0FE02 - Vishay Dale	RHRD-500-ND 	RH050500R0FE02	Vishay Dale	RES CHAS MNT 500 OHM 1% 50W	281 - Immediate
+	6.60000 	1 	Bulk  	RH	500	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+RH0502R500FE02 Datasheet
+	RH0502R500FE02 - Vishay Dale	RHRD-2.5-ND 	RH0502R500FE02	Vishay Dale	RES CHAS MNT 2.5 OHM 1% 50W	247 - Immediate
+	6.60000 	1 	Bulk  	RH	2.5	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+RH0503R300FE02 Datasheet
+	RH0503R300FE02 - Vishay Dale	RHRD-3.3-ND 	RH0503R300FE02	Vishay Dale	RES CHAS MNT 3.3 OHM 1% 50W	236 - Immediate
+	6.60000 	1 	Bulk  	RH	3.3	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+RH05030R00FE02 Datasheet
+	RH05030R00FE02 - Vishay Dale	RHRD-30-ND 	RH05030R00FE02	Vishay Dale	RES CHAS MNT 30 OHM 1% 50W	172 - Immediate
+	6.60000 	1 	Bulk  	RH	30	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+RH05020R00FE02 Datasheet
+	RH05020R00FE02 - Vishay Dale	RHRD-20-ND 	RH05020R00FE02	Vishay Dale	RES CHAS MNT 20 OHM 1% 50W	114 - Immediate
+	6.60000 	1 	Bulk  	RH	20	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+FVT10006E1R000JE Datasheet
+	FVT10006E1R000JE - Vishay Huntington Electric Inc.	FVT100-1.0-ND 	FVT10006E1R000JE	Vishay Huntington Electric Inc.	RES CHAS MNT 1 OHM 5% 100W	358 - Immediate
+	7.13000 	1 	Bulk  	FVT	1	±5%	100W	Wirewound	±400ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.750" Dia x 6.500" L (19.05mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FVT10006E5R000JE Datasheet
+	FVT10006E5R000JE - Vishay Huntington Electric Inc.	FVT100-5.0-ND 	FVT10006E5R000JE	Vishay Huntington Electric Inc.	RES CHAS MNT 5 OHM 5% 100W	225 - Immediate
+	7.13000 	1 	Bulk  	FVT	5	±5%	100W	Wirewound	±400ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.750" Dia x 6.500" L (19.05mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FVT10006E100R0JE Datasheet
+	FVT10006E100R0JE - Vishay Huntington Electric Inc.	FVT100-100-ND 	FVT10006E100R0JE	Vishay Huntington Electric Inc.	RES CHAS MNT 100 OHM 5% 100W	203 - Immediate
+	7.13000 	1 	Bulk  	FVT	100	±5%	100W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.750" Dia x 6.500" L (19.05mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FVT10006E50R00JE Datasheet
+	FVT10006E50R00JE - Vishay Huntington Electric Inc.	FVT100-50-ND 	FVT10006E50R00JE	Vishay Huntington Electric Inc.	RES CHAS MNT 50 OHM 5% 100W	199 - Immediate
+	7.13000 	1 	Bulk  	FVT	50	±5%	100W	Wirewound	±50ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.750" Dia x 6.500" L (19.05mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FVT10006E10R00JE Datasheet
+	FVT10006E10R00JE - Vishay Huntington Electric Inc.	FVT100-10-ND 	FVT10006E10R00JE	Vishay Huntington Electric Inc.	RES CHAS MNT 10 OHM 5% 100W	151 - Immediate
+	7.13000 	1 	Bulk  	FVT	10	±5%	100W	Wirewound	±400ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.750" Dia x 6.500" L (19.05mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FVT10006E1K000JE Datasheet
+	FVT10006E1K000JE - Vishay Huntington Electric Inc.	FVT100-1.0K-ND 	FVT10006E1K000JE	Vishay Huntington Electric Inc.	RES CHAS MNT 1K OHM 5% 100W	121 - Immediate
+	7.13000 	1 	Bulk  	FVT	1k	±5%	100W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.750" Dia x 6.500" L (19.05mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FVT10006E2R000JE Datasheet
+	FVT10006E2R000JE - Vishay Huntington Electric Inc.	FVT100-2.0-ND 	FVT10006E2R000JE	Vishay Huntington Electric Inc.	RES CHAS MNT 2 OHM 5% 100W	101 - Immediate
+	7.13000 	1 	Bulk  	FVT	2	±5%	100W	Wirewound	±400ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.750" Dia x 6.500" L (19.05mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+RH0501R000FC02 Datasheet
+	RH0501R000FC02 - Vishay Dale	RHD-1.0-ND This part is RoHS non-compliant.	RH0501R000FC02	Vishay Dale	RES CHAS MNT 1 OHM 1% 50W	280 - Immediate
+	7.27000 	1 	Bulk  	RH	1	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+L50J10RE Datasheet
+	L50J10RE - Ohmite	L50J10RE-ND 	L50J10RE	Ohmite	RES CHAS MNT 10 OHM 5% 50W	328 - Immediate
+	7.78000 	1 	Bulk  	270	10	±5%	50W	Wirewound	±400ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.30mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+L50J1K5 Datasheet
+	L50J1K5 - Ohmite	L50J1K5-NDThis part is RoHS non-compliant.	L50J1K5	Ohmite	RES CHAS MNT 1.5K OHM 5% 50W	134 - Immediate
+	8.41000 	1 	Bulk  	270	1.5k	±5%	50W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.30mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+F30J25RE Datasheet
+	F30J25RE - Ohmite	F30J25RE-ND 	F30J25RE	Ohmite	RES CHAS MNT 25 OHM 5% 30W	115 - Immediate
+	9.69000 	1 	Bulk  	Stackohm® 250	25	±5%	30W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Flange Braces, Right Angle	1.250" L x 1.000" W (31.75mm x 25.40mm)	0.563" (14.29mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+F40J500E Datasheet
+	F40J500E - Ohmite	F40J500E-ND 	F40J500E	Ohmite	RES CHAS MNT 500 OHM 5% 40W	300 - Immediate
+	9.95000 	1 	Bulk  	Stackohm® 250	500	±5%	40W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Flange Braces, Right Angle	2.000" L x 1.000" W (50.80mm x 25.40mm)	0.563" (14.29mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+L100J5K0E Datasheet
+	L100J5K0E - Ohmite	L100J5K0E-ND 	L100J5K0E	Ohmite	RES CHAS MNT 5K OHM 5% 100W	121 - Immediate
+	9.97000 	1 	Bulk  	270	5k	±5%	100W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.752" Dia x 6.500" L (19.10mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+850F40RE Datasheet
+	850F40RE - Ohmite	850F40RE-ND 	850F40RE	Ohmite	RES CHAS MNT 40 OHM 1% 50W	169 - Immediate
+	10.42000 	1 	Bulk  	Metal-Mite®89	40	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.938" L x 1.156" W (49.23mm x 29.36mm)	0.656" (16.67mm)	Solder Lugs	Axial, Box	
+-
+	
+F55J500E Datasheet
+	F55J500E - Ohmite	F55J500E-ND 	F55J500E	Ohmite	RES CHAS MNT 500 OHM 5% 55W	845 - Immediate
+	11.66000 	1 	Bulk  	Stackohm® 250	500	±5%	55W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Flange Braces, Right Angle	3.500" L x 1.000" W (88.90mm x 25.40mm)	0.563" (14.29mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+F55J100E Datasheet
+	F55J100E - Ohmite	F55J100E-ND 	F55J100E	Ohmite	RES CHAS MNT 100 OHM 5% 55W	459 - Immediate
+	11.66000 	1 	Bulk  	Stackohm® 250	100	±5%	55W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Flange Braces, Right Angle	3.500" L x 1.000" W (88.90mm x 25.40mm)	0.563" (14.29mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+F55J1K0E Datasheet
+	F55J1K0E - Ohmite	F55J1K0E-ND 	F55J1K0E	Ohmite	RES CHAS MNT 1K OHM 5% 55W	204 - Immediate
+	11.66000 	1 	Bulk  	Stackohm® 250	1k	±5%	55W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Flange Braces, Right Angle	3.500" L x 1.000" W (88.90mm x 25.40mm)	0.563" (14.29mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+FVT20020E10R00JE Datasheet
+	FVT20020E10R00JE - Vishay Huntington Electric Inc.	FVT200-10-ND 	FVT20020E10R00JE	Vishay Huntington Electric Inc.	RES CHAS MNT 10 OHM 5% 225W	146 - Immediate
+	11.90000 	1 	Bulk  	FVT	10	±5%	225W	Wirewound	±400ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	1.125" Dia x 10.500" L (28.58mm x 266.70mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FVT20020E1R000JE Datasheet
+	FVT20020E1R000JE - Vishay Huntington Electric Inc.	FVT200-1.0-ND 	FVT20020E1R000JE	Vishay Huntington Electric Inc.	RES CHAS MNT 1 OHM 5% 225W	159 - Immediate
+	14.28000 	1 	Bulk  	FVT	1	±5%	225W	Wirewound	±400ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	1.125" Dia x 10.500" L (28.58mm x 266.70mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FVE030020E20R0KE Datasheet
+	FVE030020E20R0KE - Vishay Huntington Electric Inc.	FVE300-20-ND 	FVE030020E20R0KE	Vishay Huntington Electric Inc.	RES CHAS MNT 20 OHM 10% 300W	256 - Immediate
+	15.29000 	1 	Bulk  	FVE	20	±10%	300W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	1.125" Dia x 8.500" L (28.58mm x 215.90mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FVE030020E5R00KE Datasheet
+	FVE030020E5R00KE - Vishay Huntington Electric Inc.	FVE300-5.0-ND 	FVE030020E5R00KE	Vishay Huntington Electric Inc.	RES CHAS MNT 5 OHM 10% 300W	167 - Immediate
+	15.29000 	1 	Bulk  	FVE	5	±10%	300W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	1.125" Dia x 8.500" L (28.58mm x 215.90mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FVE030020E16R0KE Datasheet
+	FVE030020E16R0KE - Vishay Huntington Electric Inc.	FVE300-16-ND 	FVE030020E16R0KE	Vishay Huntington Electric Inc.	RES CHAS MNT 16 OHM 10% 300W	134 - Immediate
+	15.29000 	1 	Bulk  	FVE	16	±10%	300W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	1.125" Dia x 8.500" L (28.58mm x 215.90mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FVE030020E12R0KE Datasheet
+	FVE030020E12R0KE - Vishay Huntington Electric Inc.	FVE300-12-ND 	FVE030020E12R0KE	Vishay Huntington Electric Inc.	RES CHAS MNT 12 OHM 10% 300W	97 - Immediate
+	15.29000 	1 	Bulk  	FVE	12	±10%	300W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	1.125" Dia x 8.500" L (28.58mm x 215.90mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+WFH160L100JE Datasheet
+	WFH160L100JE - Ohmite	WFH160L100JE-ND 	WFH160L100JE	Ohmite	RES CHAS MNT 100 OHM 5% 160W	171 - Immediate
+	31.04000 	1 	Bulk  	WFH	100	±5%	160W	Wirewound	-	-	Aluminum	Flanges	5.512" L x 2.008" W (140.00mm x 51.00mm)	0.496" (12.60mm)	Solder Lugs	Radial, Rectangular Case	
+-
+	
+TAP600K1K0E Datasheet
+	TAP600K1K0E - Ohmite	TAP600K1K0E-ND 	TAP600K1K0E	Ohmite	RES CHAS MNT 1K OHM 10% 600W	58 - Immediate
+	125.29000 	1 	Bulk  	TAP600	1k	±10%	600W	Thick Film	±150ppm/°C	-	Epoxy Coated	Flanges	2.559" L x 2.362" W (65.00mm x 60.00mm)	0.945" (24.00mm)	M5 Threaded	Box	
+-
+	
+TAP800KR33E Datasheet
+	TAP800KR33E - Ohmite	TAP800KR33E-ND 	TAP800KR33E	Ohmite	RES CHAS MNT 0.33 OHM 10% 800W	48 - Immediate
+	176.62000 	1 	Bulk  	TAP800	0.33	±10%	800W	Thick Film	±150ppm/°C	-	Epoxy Coated	Flanges	2.527" L x 2.331" W (64.19mm x 59.21mm)	0.906" (23.00mm)	M5 Threaded	Box	
+-
+	
+TA1K0PH3R00KE Datasheet
+	TA1K0PH3R00KE - Ohmite	TA1K0PH3R00KE-ND 	TA1K0PH3R00KE	Ohmite	RES CHAS MNT 3 OHM 10% 1000W	37 - Immediate
+	181.52000 	1 	Bulk  	TAP1000	3	±10%	1000W	Thick Film	±250ppm/°C	-	Epoxy Coated	Flanges	3.000" L x 3.000" W (76.20mm x 76.20mm)	1.248" (31.69mm)	#10-32 Threaded	Box	
+-
+	
+TA2K0PH7R50KE Datasheet
+	TA2K0PH7R50KE - Ohmite	TA2K0PH7R50KE-ND 	TA2K0PH7R50KE	Ohmite	RES CHAS MNT 7.5 OHM 10% 2000W	26 - Immediate
+	231.30000 	1 	Bulk  	TAP2000	7.5	±10%	2000W	Thick Film	±250ppm/°C	-	Epoxy Coated	Flanges	3.000" L x 3.000" W (76.20mm x 76.20mm)	1.248" (31.69mm)	#10-32 Threaded	Box	
+-
+	
+FVTS05R2E35R00JE Datasheet
+	FVTS05R2E35R00JE - Vishay Huntington Electric Inc.	FVTS5-35-ND 	FVTS05R2E35R00JE	Vishay Huntington Electric Inc.	RES CHAS MNT 35 OHM 5% 5W	1,958 - Immediate
+	2.80000 	1 	Bulk  	FVTS	35	±5%	5W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.313" Dia x 1.000" L (7.94mm x 25.40mm)	-	Combo Leads	Radial, Tubular	
+-
+	
+FVT02506E2R000JE Datasheet
+	FVT02506E2R000JE - Vishay Huntington Electric Inc.	FVT25-2.0-ND 	FVT02506E2R000JE	Vishay Huntington Electric Inc.	RES CHAS MNT 2 OHM 5% 25W	329 - Immediate
+	3.33000 	1 	Bulk  	FVT	2	±5%	25W	Wirewound	±400ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 2.000" L (14.30mm x 50.80mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FVT02506E3R000JE Datasheet
+	FVT02506E3R000JE - Vishay Huntington Electric Inc.	FVT25-3.0-ND 	FVT02506E3R000JE	Vishay Huntington Electric Inc.	RES CHAS MNT 3 OHM 5% 25W	234 - Immediate
+	3.33000 	1 	Bulk  	FVT	3	±5%	25W	Wirewound	±400ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 2.000" L (14.30mm x 50.80mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FVT02506E25R00JE Datasheet
+	FVT02506E25R00JE - Vishay Huntington Electric Inc.	FVT25-25-ND 	FVT02506E25R00JE	Vishay Huntington Electric Inc.	RES CHAS MNT 25 OHM 5% 25W	126 - Immediate
+	3.33000 	1 	Bulk  	FVT	25	±5%	25W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 2.000" L (14.30mm x 50.80mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FVTS10R1E7R500JE Datasheet
+	FVTS10R1E7R500JE - Vishay Huntington Electric Inc.	FVTS10-7.5-ND 	FVTS10R1E7R500JE	Vishay Huntington Electric Inc.	RES CHAS MNT 7.5 OHM 5% 12W	723 - Immediate
+	3.47000 	1 	Bulk  	FVTS	7.5	±5%	12W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.313" Dia x 1.750" L (7.94mm x 44.45mm)	-	Combo Leads	Radial, Tubular	
+-
+	
+FVTS10R1E20R00JE Datasheet
+	FVTS10R1E20R00JE - Vishay Huntington Electric Inc.	FVTS10-20-ND 	FVTS10R1E20R00JE	Vishay Huntington Electric Inc.	RES CHAS MNT 20 OHM 5% 12W	287 - Immediate
+	3.47000 	1 	Bulk  	FVTS	20	±5%	12W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.313" Dia x 1.750" L (7.94mm x 44.45mm)	-	Combo Leads	Radial, Tubular	
+-
+	
+FVTS10R1E150R0JE Datasheet
+	FVTS10R1E150R0JE - Vishay Huntington Electric Inc.	FVTS10-150-ND 	FVTS10R1E150R0JE	Vishay Huntington Electric Inc.	RES CHAS MNT 150 OHM 5% 12W	198 - Immediate
+	3.47000 	1 	Bulk  	FVTS	150	±5%	12W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.313" Dia x 1.750" L (7.94mm x 44.45mm)	-	Combo Leads	Radial, Tubular	
+-
+	
+FVTS10R1E10R00JE Datasheet
+	FVTS10R1E10R00JE - Vishay Huntington Electric Inc.	FVTS10-10-ND 	FVTS10R1E10R00JE	Vishay Huntington Electric Inc.	RES CHAS MNT 10 OHM 5% 12W	183 - Immediate
+	3.47000 	1 	Bulk  	FVTS	10	±5%	12W	Wirewound	±400ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.313" Dia x 1.750" L (7.94mm x 44.45mm)	-	Combo Leads	Radial, Tubular	
+-
+	
+1-1625971-6 Datasheet
+	1-1625971-6 - TE Connectivity	A102419-ND 	1-1625971-6	TE Connectivity	RES CHAS MNT 1.5K OHM 5% 25W	166 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	1.5k	±5%	25W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+FVT02506E5K000JE Datasheet
+	FVT02506E5K000JE - Vishay Huntington Electric Inc.	FVT25-5.0K-ND 	FVT02506E5K000JE	Vishay Huntington Electric Inc.	RES CHAS MNT 5K OHM 5% 25W	233 - Immediate
+	3.58000 	1 	Bulk  	FVT	5k	±5%	25W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 2.000" L (14.30mm x 50.80mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FVTS10R1E10K00JE Datasheet
+	FVTS10R1E10K00JE - Vishay Huntington Electric Inc.	FVTS10-10.0K-ND 	FVTS10R1E10K00JE	Vishay Huntington Electric Inc.	RES CHAS MNT 10K OHM 5% 12W	139 - Immediate
+	3.75000 	1 	Bulk  	FVTS	10k	±5%	12W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.313" Dia x 1.750" L (7.94mm x 44.45mm)	-	Combo Leads	Radial, Tubular	
+-
+	
+TMC005100R0FE02 Datasheet
+	TMC005100R0FE02 - Vishay Dale	TMC5-100-ND 	TMC005100R0FE02	Vishay Dale	RES CHAS MNT 100 OHM 1% 7.5W	185 - Immediate
+	4.03000 	1 	Bulk  	TMC	100	±1%	7.5W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	0.600" L x 0.646" W (15.24mm x 16.41mm)	0.335" (8.51mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC00512R00FE02 Datasheet
+	TMC00512R00FE02 - Vishay Dale	TMC5-12-ND 	TMC00512R00FE02	Vishay Dale	RES CHAS MNT 12 OHM 1% 7.5W	169 - Immediate
+	4.03000 	1 	Bulk  	TMC	12	±1%	7.5W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	0.600" L x 0.646" W (15.24mm x 16.41mm)	0.335" (8.51mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC0055R000FE02 Datasheet
+	TMC0055R000FE02 - Vishay Dale	TMC5-5.0-ND 	TMC0055R000FE02	Vishay Dale	RES CHAS MNT 5 OHM 1% 7.5W	106 - Immediate
+	4.03000 	1 	Bulk  	TMC	5	±1%	7.5W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	0.600" L x 0.646" W (15.24mm x 16.41mm)	0.335" (8.51mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC005R5000FE02 Datasheet
+	TMC005R5000FE02 - Vishay Dale	TMC5-.50-ND 	TMC005R5000FE02	Vishay Dale	RES CHAS MNT 0.5 OHM 1% 7.5W	165 - Immediate
+	4.45000 	1 	Bulk  	TMC	0.5	±1%	7.5W	Wirewound	-	-	Aluminum	Flanges	0.600" L x 0.646" W (15.24mm x 16.41mm)	0.335" (8.51mm)	Solder Lugs	Axial, Box	
+-
+	
+FVT05006E2R000JE Datasheet
+	FVT05006E2R000JE - Vishay Huntington Electric Inc.	FVT50-2.0-ND 	FVT05006E2R000JE	Vishay Huntington Electric Inc.	RES CHAS MNT 2 OHM 5% 50W	789 - Immediate
+	4.50000 	1 	Bulk  	FVT	2	±5%	50W	Wirewound	±400ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.30mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FVT05006E1R000JE Datasheet
+	FVT05006E1R000JE - Vishay Huntington Electric Inc.	FVT50-1.0-ND 	FVT05006E1R000JE	Vishay Huntington Electric Inc.	RES CHAS MNT 1 OHM 5% 50W	131 - Immediate
+	4.50000 	1 	Bulk  	FVT	1	±5%	50W	Wirewound	±400ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.30mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FVT05006E3R000JE Datasheet
+	FVT05006E3R000JE - Vishay Huntington Electric Inc.	FVT50-3.0-ND 	FVT05006E3R000JE	Vishay Huntington Electric Inc.	RES CHAS MNT 3 OHM 5% 50W	100 - Immediate
+	4.50000 	1 	Bulk  	FVT	3	±5%	50W	Wirewound	±400ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.30mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+TMC0253K000FE02 Datasheet
+	TMC0253K000FE02 - Vishay Dale	TMC25-3.0K-ND 	TMC0253K000FE02	Vishay Dale	RES CHAS MNT 3K OHM 1% 25W	343 - Immediate
+	4.60000 	1 	Bulk  	TMC	3k	±1%	25W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	1.062" L x 1.080" W (26.97mm x 27.43mm)	0.561" (14.25mm)	Solder Lugs	Axial, Box	
+-
+	
+TMC025500R0FE02 Datasheet
+	TMC025500R0FE02 - Vishay Dale	TMC25-500-ND 	TMC025500R0FE02	Vishay Dale	RES CHAS MNT 500 OHM 1% 25W	129 - Immediate
+	4.60000 	1 	Bulk  	TMC	500	±1%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.062" L x 1.080" W (26.97mm x 27.43mm)	0.561" (14.25mm)	Solder Lugs	Axial, Box	
+-
+	
+RH00512R00FE02 Datasheet
+	RH00512R00FE02 - Vishay Dale	RHRA-12-ND 	RH00512R00FE02	Vishay Dale	RES CHAS MNT 12 OHM 1% 5W	213 - Immediate
+	5.07000 	1 	Bulk  	RH	12	±1%	5W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	0.600" L x 0.646" W (15.24mm x 16.41mm)	0.335" (8.51mm)	Solder Lugs	Axial, Box	
+-
+	
+RH02525R00FE02 Datasheet
+	RH02525R00FE02 - Vishay Dale	RHRC-25-ND 	RH02525R00FE02	Vishay Dale	RES CHAS MNT 25 OHM 1% 25W	194 - Immediate
+	5.82000 	1 	Bulk  	RH	25	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.062" L x 1.080" W (26.97mm x 27.43mm)	0.561" (14.25mm)	Solder Lugs	Axial, Box	
+-
+	
+RH025300R0FE02 Datasheet
+	RH025300R0FE02 - Vishay Dale	RHRC-300-ND 	RH025300R0FE02	Vishay Dale	RES CHAS MNT 300 OHM 1% 25W	136 - Immediate
+	5.82000 	1 	Bulk  	RH	300	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.062" L x 1.080" W (26.97mm x 27.43mm)	0.561" (14.25mm)	Solder Lugs	Axial, Box	
+-
+	
+RH05040R00FE02 Datasheet
+	RH05040R00FE02 - Vishay Dale	RHRD-40-ND 	RH05040R00FE02	Vishay Dale	RES CHAS MNT 40 OHM 1% 50W	201 - Immediate
+	6.60000 	1 	Bulk  	RH	40	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.968" L x 1.140" W (49.99mm x 28.96mm)	0.625" (15.87mm)	Solder Lugs	Axial, Box	
+-
+	
+FVT10006E250R0JE Datasheet
+	FVT10006E250R0JE - Vishay Huntington Electric Inc.	FVT100-250-ND 	FVT10006E250R0JE	Vishay Huntington Electric Inc.	RES CHAS MNT 250 OHM 5% 100W	130 - Immediate
+	7.13000 	1 	Bulk  	FVT	250	±5%	100W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.750" Dia x 6.500" L (19.05mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FSOT3009E1R000KE Datasheet
+	FSOT3009E1R000KE - Vishay Huntington Electric Inc.	FSOT30-1-ND 	FSOT3009E1R000KE	Vishay Huntington Electric Inc.	RES CHAS MNT 1 OHM 10% 30W	407 - Immediate
+	7.56000 	1 	Bulk  	FSOT	1	±10%	30W	Wirewound	±400ppm/°C	-	Silicon Coated	Flange Braces, Right Angle	1.252" L x 1.000" W (31.80mm x 25.40mm)	0.594" (15.08mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+FSOT3009E25R00KE Datasheet
+	FSOT3009E25R00KE - Vishay Huntington Electric Inc.	FSOT30-25-ND 	FSOT3009E25R00KE	Vishay Huntington Electric Inc.	RES CHAS MNT 25 OHM 10% 30W	109 - Immediate
+	7.56000 	1 	Bulk  	FSOT	25	±10%	30W	Wirewound	±260ppm/°C	-	Silicon Coated	Flange Braces, Right Angle	1.252" L x 1.000" W (31.80mm x 25.40mm)	0.594" (15.08mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+L50J1K5E Datasheet
+	L50J1K5E - Ohmite	L50J1K5E-ND 	L50J1K5E	Ohmite	RES CHAS MNT 1.5K OHM 5% 50W	116 - Immediate
+	7.72000 	1 	Bulk  	270	1.5k	±5%	50W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.30mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+FSOT4009E50R00KE Datasheet
+	FSOT4009E50R00KE - Vishay Huntington Electric Inc.	FSOT40-50-ND 	FSOT4009E50R00KE	Vishay Huntington Electric Inc.	RES CHAS MNT 50 OHM 10% 40W	320 - Immediate
+	8.18000 	1 	Bulk  	FSOT	50	±10%	40W	Wirewound	±260ppm/°C	-	Silicon Coated	Flange Braces, Right Angle	2.000" L x 1.187" W (50.80mm x 30.16mm)	0.594" (15.08mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+FSOT4009E250R0KE Datasheet
+	FSOT4009E250R0KE - Vishay Huntington Electric Inc.	FSOT40-250-ND 	FSOT4009E250R0KE	Vishay Huntington Electric Inc.	RES CHAS MNT 250 OHM 10% 40W	201 - Immediate
+	8.18000 	1 	Bulk  	FSOT	250	±10%	40W	Wirewound	±260ppm/°C	-	Silicon Coated	Flange Braces, Right Angle	2.000" L x 1.187" W (50.80mm x 30.16mm)	0.594" (15.08mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+FSOT4009E25R00KE Datasheet
+	FSOT4009E25R00KE - Vishay Huntington Electric Inc.	FSOT40-25-ND 	FSOT4009E25R00KE	Vishay Huntington Electric Inc.	RES CHAS MNT 25 OHM 10% 40W	155 - Immediate
+	8.18000 	1 	Bulk  	FSOT	25	±10%	40W	Wirewound	±260ppm/°C	-	Silicon Coated	Flange Braces, Right Angle	2.000" L x 1.187" W (50.80mm x 30.16mm)	0.594" (15.08mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+FSOT4009E10R00KE Datasheet
+	FSOT4009E10R00KE - Vishay Huntington Electric Inc.	FSOT40-10-ND 	FSOT4009E10R00KE	Vishay Huntington Electric Inc.	RES CHAS MNT 10 OHM 10% 40W	151 - Immediate
+	8.18000 	1 	Bulk  	FSOT	10	±10%	40W	Wirewound	±400ppm/°C	-	Silicon Coated	Flange Braces, Right Angle	2.000" L x 1.187" W (50.80mm x 30.16mm)	0.594" (15.08mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+FSOT4009ER5000KE Datasheet
+	FSOT4009ER5000KE - Vishay Huntington Electric Inc.	FSOT40-.5-ND 	FSOT4009ER5000KE	Vishay Huntington Electric Inc.	RES CHAS MNT 0.5 OHM 10% 40W	126 - Immediate
+	8.18000 	1 	Bulk  	FSOT	0.5	±10%	40W	Wirewound	±400ppm/°C	-	Silicon Coated	Flange Braces, Right Angle	2.000" L x 1.187" W (50.80mm x 30.16mm)	0.594" (15.08mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+FSOT4009E500R0KE Datasheet
+	FSOT4009E500R0KE - Vishay Huntington Electric Inc.	FSOT40-500-ND 	FSOT4009E500R0KE	Vishay Huntington Electric Inc.	RES CHAS MNT 500 OHM 10% 40W	113 - Immediate
+	8.18000 	1 	Bulk  	FSOT	500	±10%	40W	Wirewound	±260ppm/°C	-	Silicon Coated	Flange Braces, Right Angle	2.000" L x 1.187" W (50.80mm x 30.16mm)	0.594" (15.08mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+FSOT5509E10R00KE Datasheet
+	FSOT5509E10R00KE - Vishay Huntington Electric Inc.	FSOT55-10-ND 	FSOT5509E10R00KE	Vishay Huntington Electric Inc.	RES CHAS MNT 10 OHM 10% 55W	252 - Immediate
+	8.83000 	1 	Bulk  	FSOT	10	±10%	55W	Wirewound	±400ppm/°C	-	Silicon Coated	Flange Braces, Right Angle	3.500" L x 1.187" W (88.90mm x 30.16mm)	0.594" (15.08mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+HL02506Z5R000JJ Datasheet
+	HL02506Z5R000JJ - Vishay Dale	HLA-5.0-NDThis part is RoHS non-compliant.	HL02506Z5R000JJ	Vishay Dale	RES CHAS MNT 5 OHM 5% 25W	1,392 - Immediate
+	9.17000 	1 	Bulk  	HL	5	±5%	25W	Wirewound	±50ppm/°C	-	Silicon Coated	Brackets (not included)	0.563" Dia x 2.000" L (14.29mm x 50.80mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+RP60975R0100JNBK Datasheet
+	RP60975R0100JNBK - AVX Corporation	478-7038-ND 	RP60975R0100JNBK	AVX Corporation	RES CHAS MNT 100 OHM 5% 250W	115 - Immediate
+	11.00000 	1 	Bulk  	RP6	100	±5%	250W	Thin Film	150ppm/°C	-	Aluminum Oxide	Flanges	0.975" L x 0.385" W (24.77mm x 9.78mm)	0.225" (5.72mm)	Tab	Axial	
+-
+	
+RCH50S10001JS06 Datasheet
+	RCH50S10001JS06 - Vishay Sfernice	RCHB-10K-ND 	RCH50S10001JS06	Vishay Sfernice	RES CHAS MNT 10K OHM 5% 50W	495 - Immediate
+	11.34000 	1 	Bulk  	RCH	10k	±5%	50W	Thick Film	±150ppm/°C	Non-Inductive	Aluminum Oxide	Flanges	1.882" L x 1.157" W (47.80mm x 29.40mm)	0.366" (9.30mm)	Solder Lugs	Radial, Rectangular Case	
+-
+	
+RCH50S22R00JS06 Datasheet
+	RCH50S22R00JS06 - Vishay Sfernice	RCHB-22-ND 	RCH50S22R00JS06	Vishay Sfernice	RES CHAS MNT 22 OHM 5% 50W	123 - Immediate
+	11.34000 	1 	Bulk  	RCH	22	±5%	50W	Thick Film	±150ppm/°C	Non-Inductive	Aluminum Oxide	Flanges	1.882" L x 1.157" W (47.80mm x 29.40mm)	0.366" (9.30mm)	Solder Lugs	Radial, Rectangular Case	
+-
+	
+FVT20020E250R0JE Datasheet
+	FVT20020E250R0JE - Vishay Huntington Electric Inc.	FVT200-250-ND 	FVT20020E250R0JE	Vishay Huntington Electric Inc.	RES CHAS MNT 250 OHM 5% 225W	360 - Immediate
+	11.90000 	1 	Bulk  	FVT	250	±5%	225W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	1.125" Dia x 10.500" L (28.58mm x 266.70mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+HL05006Z100R0JJ Datasheet
+	HL05006Z100R0JJ - Vishay Dale	HLB-100-NDThis part is RoHS non-compliant.	HL05006Z100R0JJ	Vishay Dale	RES CHAS MNT 100 OHM 5% 50W	395 - Immediate
+	13.02000 	1 	Bulk  	HL	100	±5%	50W	Wirewound	±30ppm/°C	-	Silicon Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.29mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+HL05006Z1K000JJ Datasheet
+	HL05006Z1K000JJ - Vishay Dale	HLB-1.0K-NDThis part is RoHS non-compliant.	HL05006Z1K000JJ	Vishay Dale	RES CHAS MNT 1K OHM 5% 50W	348 - Immediate
+	13.02000 	1 	Bulk  	HL	1k	±5%	50W	Wirewound	±30ppm/°C	-	Silicon Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.29mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+HL05006Z10R00JJ Datasheet
+	HL05006Z10R00JJ - Vishay Dale	HLB-10-NDThis part is RoHS non-compliant.	HL05006Z10R00JJ	Vishay Dale	RES CHAS MNT 10 OHM 5% 50W	256 - Immediate
+	13.02000 	1 	Bulk  	HL	10	±5%	50W	Wirewound	±30ppm/°C	-	Silicon Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.29mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+HL05006Z2K500JJ Datasheet
+	HL05006Z2K500JJ - Vishay Dale	HLB-2.5K-NDThis part is RoHS non-compliant.	HL05006Z2K500JJ	Vishay Dale	RES CHAS MNT 2.5K OHM 5% 50W	184 - Immediate
+	13.24000 	1 	Bulk  	HL	2.5k	±5%	50W	Wirewound	±30ppm/°C	-	Silicon Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.29mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+HL10006Z10R00JJ Datasheet
+	HL10006Z10R00JJ - Vishay Dale	HLC-10-NDThis part is RoHS non-compliant.	HL10006Z10R00JJ	Vishay Dale	RES CHAS MNT 10 OHM 5% 100W	286 - Immediate
+	22.08000 	1 	Bulk  	HL	10	±5%	100W	Wirewound	±30ppm/°C	-	Silicon Coated	Brackets (not included)	0.750" Dia x 6.500" L (19.05mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+HL10006Z2R000JJ Datasheet
+	HL10006Z2R000JJ - Vishay Dale	HLC-2.0-NDThis part is RoHS non-compliant.	HL10006Z2R000JJ	Vishay Dale	RES CHAS MNT 2 OHM 5% 100W	236 - Immediate
+	22.08000 	1 	Bulk  	HL	2	±5%	100W	Wirewound	±50ppm/°C	-	Silicon Coated	Brackets (not included)	0.750" Dia x 6.500" L (19.05mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+HL10006Z1K000JJ Datasheet
+	HL10006Z1K000JJ - Vishay Dale	HLC-1.0K-NDThis part is RoHS non-compliant.	HL10006Z1K000JJ	Vishay Dale	RES CHAS MNT 1K OHM 5% 100W	228 - Immediate
+	22.08000 	1 	Bulk  	HL	1k	±5%	100W	Wirewound	±30ppm/°C	-	Silicon Coated	Brackets (not included)	0.750" Dia x 6.500" L (19.05mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+HL10006Z5R000JJ Datasheet
+	HL10006Z5R000JJ - Vishay Dale	HLC-5.0-NDThis part is RoHS non-compliant.	HL10006Z5R000JJ	Vishay Dale	RES CHAS MNT 5 OHM 5% 100W	204 - Immediate
+	22.08000 	1 	Bulk  	HL	5	±5%	100W	Wirewound	±50ppm/°C	-	Silicon Coated	Brackets (not included)	0.750" Dia x 6.500" L (19.05mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+HL10006Z25R00JJ Datasheet
+	HL10006Z25R00JJ - Vishay Dale	HLC-25-NDThis part is RoHS non-compliant.	HL10006Z25R00JJ	Vishay Dale	RES CHAS MNT 25 OHM 5% 100W	169 - Immediate
+	22.08000 	1 	Bulk  	HL	25	±5%	100W	Wirewound	±30ppm/°C	-	Silicon Coated	Brackets (not included)	0.750" Dia x 6.500" L (19.05mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+HL10006Z50R00JJ Datasheet
+	HL10006Z50R00JJ - Vishay Dale	HLC-50-NDThis part is RoHS non-compliant.	HL10006Z50R00JJ	Vishay Dale	RES CHAS MNT 50 OHM 5% 100W	142 - Immediate
+	22.08000 	1 	Bulk  	HL	50	±5%	100W	Wirewound	±30ppm/°C	-	Silicon Coated	Brackets (not included)	0.750" Dia x 6.500" L (19.05mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+HL10006Z3R000JJ Datasheet
+	HL10006Z3R000JJ - Vishay Dale	HLC-3.0-NDThis part is RoHS non-compliant.	HL10006Z3R000JJ	Vishay Dale	RES CHAS MNT 3 OHM 5% 100W	139 - Immediate
+	22.08000 	1 	Bulk  	HL	3	±5%	100W	Wirewound	±50ppm/°C	-	Silicon Coated	Brackets (not included)	0.750" Dia x 6.500" L (19.05mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+HL10006Z1R000JJ Datasheet
+	HL10006Z1R000JJ - Vishay Dale	HLC-1.0-NDThis part is RoHS non-compliant.	HL10006Z1R000JJ	Vishay Dale	RES CHAS MNT 1 OHM 5% 100W	128 - Immediate
+	22.08000 	1 	Bulk  	HL	1	±5%	100W	Wirewound	±50ppm/°C	-	Silicon Coated	Brackets (not included)	0.750" Dia x 6.500" L (19.05mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+HL10006Z500R0JJ Datasheet
+	HL10006Z500R0JJ - Vishay Dale	HLC-500-NDThis part is RoHS non-compliant.	HL10006Z500R0JJ	Vishay Dale	RES CHAS MNT 500 OHM 5% 100W	105 - Immediate
+	22.08000 	1 	Bulk  	HL	500	±5%	100W	Wirewound	±30ppm/°C	-	Silicon Coated	Brackets (not included)	0.750" Dia x 6.500" L (19.05mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+HL10006Z2K500JJ Datasheet
+	HL10006Z2K500JJ - Vishay Dale	HLC-2.5K-NDThis part is RoHS non-compliant.	HL10006Z2K500JJ	Vishay Dale	RES CHAS MNT 2.5K OHM 5% 100W	224 - Immediate
+	23.09000 	1 	Bulk  	HL	2.5k	±5%	100W	Wirewound	±30ppm/°C	-	Silicon Coated	Brackets (not included)	0.750" Dia x 6.500" L (19.05mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+HL22507Z1R000JJ Datasheet
+	HL22507Z1R000JJ - Vishay Dale	HLD-1.0-NDThis part is RoHS non-compliant.	HL22507Z1R000JJ	Vishay Dale	RES CHAS MNT 1 OHM 5% 225W	163 - Immediate
+	35.64000 	1 	Bulk  	HL	1	±5%	225W	Wirewound	±50ppm/°C	-	Silicon Coated	Brackets (not included)	1.125" Dia x 10.500" L (28.58mm x 266.70mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+HLT22507Z1K000KJ Datasheet
+	HLT22507Z1K000KJ - Vishay Dale	HLTA-1.0K-NDThis part is RoHS non-compliant.	HLT22507Z1K000KJ	Vishay Dale	RES CHAS MNT 1K OHM 10% 225W	103 - Immediate
+	43.18000 	1 	Bulk  	HLT	1k	±10%	225W	Wirewound	±30ppm/°C	-	Silicon Coated	Brackets (not included)	1.125" Dia x 10.500" L (28.58mm x 266.70mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+HLZ30007Z1R000KJ Datasheet
+	HLZ30007Z1R000KJ - Vishay Dale	HLZA-1.0-NDThis part is RoHS non-compliant.	HLZ30007Z1R000KJ	Vishay Dale	RES CHAS MNT 1 OHM 10% 300W	176 - Immediate
+	49.81000 	1 	Bulk  	HLZ	1	±10%	300W	Wirewound	±50ppm/°C	-	Silicon Coated	Brackets (not included)	1.125" Dia x 8.500" L (28.58mm x 215.90mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+RPS0500DH1001JB Datasheet
+	RPS0500DH1001JB - Vishay Sfernice	RPSDH-1.0KA-ND 	RPS0500DH1001JB	Vishay Sfernice	RES CHAS MNT 1K OHM 5% 500W	36 - Immediate
+	115.02000 	1 	Bulk  	RPS 500	1k	±5%	500W	Thick Film	±150ppm/°C	-	Aluminum Oxide	Flanges	2.874" L x 2.362" W (73.00mm x 60.00mm)	1.063" (27.00mm)	M4 Threaded	Box	
+-
+	
+RPS0500DH47R0JB Datasheet
+	RPS0500DH47R0JB - Vishay Sfernice	RPSDH-47A-ND 	RPS0500DH47R0JB	Vishay Sfernice	RES CHAS MNT 47 OHM 5% 500W	35 - Immediate
+	115.02000 	1 	Bulk  	RPS 500	47	±5%	500W	Thick Film	±150ppm/°C	-	Aluminum Oxide	Flanges	2.874" L x 2.362" W (73.00mm x 60.00mm)	1.063" (27.00mm)	M4 Threaded	Box	
+-
+	
+FVTS05R2E3K000JE Datasheet
+	FVTS05R2E3K000JE - Vishay Huntington Electric Inc.	FVTS5-3.0K-ND 	FVTS05R2E3K000JE	Vishay Huntington Electric Inc.	RES CHAS MNT 3K OHM 5% 5W	222 - Immediate
+	2.80000 	1 	Bulk  	FVTS	3k	±5%	5W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.313" Dia x 1.000" L (7.94mm x 25.40mm)	-	Combo Leads	Radial, Tubular	
+-
+	
+FVTS10R1E15R00JE Datasheet
+	FVTS10R1E15R00JE - Vishay Huntington Electric Inc.	FVTS10-15-ND 	FVTS10R1E15R00JE	Vishay Huntington Electric Inc.	RES CHAS MNT 15 OHM 5% 12W	344 - Immediate
+	3.47000 	1 	Bulk  	FVTS	15	±5%	12W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.313" Dia x 1.750" L (7.94mm x 44.45mm)	-	Combo Leads	Radial, Tubular	
+-
+	
+FVTS10R1E75R00JE Datasheet
+	FVTS10R1E75R00JE - Vishay Huntington Electric Inc.	FVTS10-75-ND 	FVTS10R1E75R00JE	Vishay Huntington Electric Inc.	RES CHAS MNT 75 OHM 5% 12W	176 - Immediate
+	3.47000 	1 	Bulk  	FVTS	75	±5%	12W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.313" Dia x 1.750" L (7.94mm x 44.45mm)	-	Combo Leads	Radial, Tubular	
+-
+	
+FVTS10R1E25R00JE Datasheet
+	FVTS10R1E25R00JE - Vishay Huntington Electric Inc.	FVTS10-25-ND 	FVTS10R1E25R00JE	Vishay Huntington Electric Inc.	RES CHAS MNT 25 OHM 5% 12W	123 - Immediate
+	3.47000 	1 	Bulk  	FVTS	25	±5%	12W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.313" Dia x 1.750" L (7.94mm x 44.45mm)	-	Combo Leads	Radial, Tubular	
+-
+	
+FVTS10R1E300R0JE Datasheet
+	FVTS10R1E300R0JE - Vishay Huntington Electric Inc.	FVTS10-300-ND 	FVTS10R1E300R0JE	Vishay Huntington Electric Inc.	RES CHAS MNT 300 OHM 5% 12W	120 - Immediate
+	3.47000 	1 	Bulk  	FVTS	300	±5%	12W	Wirewound	±260ppm/°C	-	Vitreous Enamel Coated	Brackets (not included)	0.313" Dia x 1.750" L (7.94mm x 44.45mm)	-	Combo Leads	Radial, Tubular	
+-
+	
+TMC0052K000FE02 Datasheet
+	TMC0052K000FE02 - Vishay Dale	TMC5-2.0K-ND 	TMC0052K000FE02	Vishay Dale	RES CHAS MNT 2K OHM 1% 7.5W	140 - Immediate
+	4.03000 	1 	Bulk  	TMC	2k	±1%	7.5W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	0.600" L x 0.646" W (15.24mm x 16.41mm)	0.335" (8.51mm)	Solder Lugs	Axial, Box	
+-
+	
+FSOT1011ER2500KE Datasheet
+	FSOT1011ER2500KE - Vishay Huntington Electric Inc.	FSOT10-.25-ND 	FSOT1011ER2500KE	Vishay Huntington Electric Inc.	RES CHAS MNT 0.25 OHM 10% 10W	126 - Immediate
+	4.11000 	1 	Bulk  	FSOT	0.25	±10%	10W	Wirewound	±400ppm/°C	-	Silicon Coated	Flange Braces, Right Angle	0.750" L x 0.375" W (19.05mm x 9.52mm)	0.343" (8.71mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+AHA25AFB-10R Datasheet
+	AHA25AFB-10R - Yageo	YAG1013-ND 	AHA25AFB-10R	Yageo	RES CHAS MNT 10 OHM 1% 25W	108 - Immediate
+	4.54000 	1 	Bulk  	AHA	10	±1%	25W	Wirewound	±200ppm/°C	-	Aluminum	Flanges	1.063" L x 1.063" W (27.00mm x 27.00mm)	0.650" (16.50mm)	Solder Lugs	Axial, Box	
+-
+	
+AHA50AFB-40R Datasheet
+	AHA50AFB-40R - Yageo	YAG1040-ND 	AHA50AFB-40R	Yageo	RES CHAS MNT 40 OHM 1% 50W	110 - Immediate
+	5.21000 	1 	Bulk  	AHA	40	±1%	50W	Wirewound	±200ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.650" (16.50mm)	Solder Lugs	Axial, Box	
+-
+	
+AHA50AFB-1R5 Datasheet
+	AHA50AFB-1R5 - Yageo	YAG1041-ND 	AHA50AFB-1R5	Yageo	RES CHAS MNT 1.5 OHM 1% 50W	102 - Immediate
+	5.21000 	1 	Bulk  	AHA	1.5	±1%	50W	Wirewound	±200ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.650" (16.50mm)	Solder Lugs	Axial, Box	
+-
+	
+FSOT2011ER2500KE Datasheet
+	FSOT2011ER2500KE - Vishay Huntington Electric Inc.	FSOT20-.25-ND 	FSOT2011ER2500KE	Vishay Huntington Electric Inc.	RES CHAS MNT 0.25 OHM 10% 20W	200 - Immediate
+	5.46000 	1 	Bulk  	FSOT	0.25	±10%	20W	Wirewound	±400ppm/°C	-	Silicon Coated	Flange Braces, Right Angle	2.000" L x 0.375" W (50.80mm x 9.52mm)	0.343" (8.71mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+FSOT2011E2K500KE Datasheet
+	FSOT2011E2K500KE - Vishay Huntington Electric Inc.	FSOT20-2.5K-ND 	FSOT2011E2K500KE	Vishay Huntington Electric Inc.	RES CHAS MNT 2.5K OHM 10% 20W	108 - Immediate
+	5.46000 	1 	Bulk  	FSOT	2.5k	±10%	20W	Wirewound	±260ppm/°C	-	Silicon Coated	Flange Braces, Right Angle	2.000" L x 0.375" W (50.80mm x 9.52mm)	0.343" (8.71mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+FSOT4009E2K500KE Datasheet
+	FSOT4009E2K500KE - Vishay Huntington Electric Inc.	FSOT40-2.5K-ND 	FSOT4009E2K500KE	Vishay Huntington Electric Inc.	RES CHAS MNT 2.5K OHM 10% 40W	199 - Immediate
+	8.18000 	1 	Bulk  	FSOT	2.5k	±10%	40W	Wirewound	±260ppm/°C	-	Silicon Coated	Flange Braces, Right Angle	2.000" L x 1.187" W (50.80mm x 30.16mm)	0.594" (15.08mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+FSOT5509E50R00KE Datasheet
+	FSOT5509E50R00KE - Vishay Huntington Electric Inc.	FSOT55-50-ND 	FSOT5509E50R00KE	Vishay Huntington Electric Inc.	RES CHAS MNT 50 OHM 10% 55W	154 - Immediate
+	8.83000 	1 	Bulk  	FSOT	50	±10%	55W	Wirewound	±260ppm/°C	-	Silicon Coated	Flange Braces, Right Angle	3.500" L x 1.187" W (88.90mm x 30.16mm)	0.594" (15.08mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+FSOT5509E5K000KE Datasheet
+	FSOT5509E5K000KE - Vishay Huntington Electric Inc.	FSOT55-5K-ND 	FSOT5509E5K000KE	Vishay Huntington Electric Inc.	RES CHAS MNT 5K OHM 10% 55W	109 - Immediate
+	8.83000 	1 	Bulk  	FSOT	5k	±10%	55W	Wirewound	±260ppm/°C	-	Silicon Coated	Flange Braces, Right Angle	3.500" L x 1.187" W (88.90mm x 30.16mm)	0.594" (15.08mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+RPS0500DH4700JB Datasheet
+	RPS0500DH4700JB - Vishay Sfernice	RPSDH-470A-ND 	RPS0500DH4700JB	Vishay Sfernice	RES CHAS MNT 470 OHM 5% 500W	37 - Immediate
+	115.02000 	1 	Bulk  	RPS 500	470	±5%	500W	Thick Film	±150ppm/°C	-	Aluminum Oxide	Flanges	2.874" L x 2.362" W (73.00mm x 60.00mm)	1.063" (27.00mm)	M4 Threaded	Box	
+-
+	
+RPS0500DH1000JB Datasheet
+	RPS0500DH1000JB - Vishay Sfernice	RPSDH-100A-ND 	RPS0500DH1000JB	Vishay Sfernice	RES CHAS MNT 100 OHM 5% 500W	26 - Immediate
+	115.02000 	1 	Bulk  	RPS 500	100	±5%	500W	Thick Film	±150ppm/°C	-	Aluminum Oxide	Flanges	2.874" L x 2.362" W (73.00mm x 60.00mm)	1.063" (27.00mm)	M4 Threaded	Box	
+-
+	
+KAL25JB20R0 Datasheet
+	KAL25JB20R0 - Stackpole Electronics Inc	KAL25JB20R0-ND 	KAL25JB20R0	Stackpole Electronics Inc	RES CHAS MNT 20 OHM 5% 25W	250 - Immediate
+	1.64320 	250
+Non-Stock
+   	Bulk  	KAL	20	±5%	25W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	1.063" L x 1.079" W (27.00mm x 27.40mm)	0.579" (14.70mm)	Solder Lugs	Axial, Box	
+-
+	
+UAL25-5KF8 Datasheet
+	UAL25-5KF8 - Riedon	696-1454-ND 	UAL25-5KF8	Riedon	RES CHAS MNT 5K OHM 1% 25W	114 - Immediate
+	3.29000 	1 	Bulk  	UAL	5k	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.063" L x 1.079" W (27.00mm x 27.40mm)	0.575" (14.60mm)	Solder Lugs	Axial, Box	
+-
+	
+UAL25-40RF8 Datasheet
+	UAL25-40RF8 - Riedon	696-1501-ND 	UAL25-40RF8	Riedon	RES CHAS MNT 40 OHM 1% 25W	101 - Immediate
+	3.29000 	1 	Bulk  	UAL	40	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.063" L x 1.079" W (27.00mm x 27.40mm)	0.575" (14.60mm)	Solder Lugs	Axial, Box	
+-
+	
+UAL5-390RF8 Datasheet
+	UAL5-390RF8 - Riedon	696-1522-ND 	UAL5-390RF8	Riedon	RES CHAS MNT 390 OHM 1% 7.5W	144 - Immediate
+	3.46000 	1 	Bulk  	UAL	390	±1%	7.5W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	0.598" L x 0.646" W (15.20mm x 16.40mm)	0.335" (8.50mm)	Solder Lugs	Axial, Box	
+-
+	
+UAL50-5RF8 Datasheet
+	UAL50-5RF8 - Riedon	696-1515-ND 	UAL50-5RF8	Riedon	RES CHAS MNT 5 OHM 1% 50W	150 - Immediate
+	3.78000 	1 	Bulk  	UAL	5	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.630" (16.00mm)	Solder Lugs	Axial, Box	
+-
+	
+UAL50-3R3F8 Datasheet
+	UAL50-3R3F8 - Riedon	696-1512-ND 	UAL50-3R3F8	Riedon	RES CHAS MNT 3.3 OHM 1% 50W	126 - Immediate
+	3.78000 	1 	Bulk  	UAL	3.3	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.630" (16.00mm)	Solder Lugs	Axial, Box	
+-
+	
+UAL50-10RF8 Datasheet
+	UAL50-10RF8 - Riedon	696-1506-ND 	UAL50-10RF8	Riedon	RES CHAS MNT 10 OHM 1% 50W	111 - Immediate
+	3.78000 	1 	Bulk  	UAL	10	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.630" (16.00mm)	Solder Lugs	Axial, Box	
+-
+	
+UAL5-0R5F8 Datasheet
+	UAL5-0R5F8 - Riedon	696-1518-ND 	UAL5-0R5F8	Riedon	RES CHAS MNT 0.5 OHM 1% 7.5W	174 - Immediate
+	4.18000 	1 	Bulk  	UAL	0.5	±1%	7.5W	Wirewound	-	-	Aluminum	Flanges	0.598" L x 0.646" W (15.20mm x 16.40mm)	0.335" (8.50mm)	Solder Lugs	Axial, Box	
+-
+	
+WPRT50AB-33RJB168 Datasheet
+	WPRT50AB-33RJB168 - TT Electronics/Welwyn	985-1586-ND 	WPRT50AB-33RJB168	TT Electronics/Welwyn	RES CHAS MNT 33 OHM 5% 50W	504 - Immediate
+	4.85000 	1 	Bulk  	WPRT	33	±5%	50W	Wirewound	±350ppm/°C	Automotive AEC-Q200 Qualified, Flame Proof	Ceramic	Brackets	3.543" L x 0.748" W (90.00mm x 19.00mm)	0.787" (20.00mm)	Quick Connects, 0.250" (6.35mm)	Radial, Rectangular Case	
+-
+	
+WPRT50AB-220RJB168 Datasheet
+	WPRT50AB-220RJB168 - TT Electronics/Welwyn	985-1591-ND 	WPRT50AB-220RJB168	TT Electronics/Welwyn	RES CHAS MNT 220 OHM 5% 50W	503 - Immediate
+	4.85000 	1 	Bulk  	WPRT	220	±5%	50W	Wirewound	±350ppm/°C	Automotive AEC-Q200 Qualified, Flame Proof	Ceramic	Brackets	3.543" L x 0.748" W (90.00mm x 19.00mm)	0.787" (20.00mm)	Quick Connects, 0.250" (6.35mm)	Radial, Rectangular Case	
+-
+	
+WPRT50AB-68RJB168 Datasheet
+	WPRT50AB-68RJB168 - TT Electronics/Welwyn	985-1588-ND 	WPRT50AB-68RJB168	TT Electronics/Welwyn	RES CHAS MNT 68 OHM 5% 50W	503 - Immediate
+	4.85000 	1 	Bulk  	WPRT	68	±5%	50W	Wirewound	±350ppm/°C	Automotive AEC-Q200 Qualified, Flame Proof	Ceramic	Brackets	3.543" L x 0.748" W (90.00mm x 19.00mm)	0.787" (20.00mm)	Quick Connects, 0.250" (6.35mm)	Radial, Rectangular Case	
+-
+	
+WPRT50AB-15RJB168 Datasheet
+	WPRT50AB-15RJB168 - TT Electronics/Welwyn	985-1584-ND 	WPRT50AB-15RJB168	TT Electronics/Welwyn	RES CHAS MNT 15 OHM 5% 50W	502 - Immediate
+	4.85000 	1 	Bulk  	WPRT	15	±5%	50W	Wirewound	±400ppm/°C	Automotive AEC-Q200 Qualified, Flame Proof	Ceramic	Brackets	3.543" L x 0.748" W (90.00mm x 19.00mm)	0.787" (20.00mm)	Quick Connects, 0.250" (6.35mm)	Radial, Rectangular Case	
+-
+	
+WPRT50AB-10RJB168 Datasheet
+	WPRT50AB-10RJB168 - TT Electronics/Welwyn	985-1583-ND 	WPRT50AB-10RJB168	TT Electronics/Welwyn	RES CHAS MNT 10 OHM 5% 50W	501 - Immediate
+	4.85000 	1 	Bulk  	WPRT	10	±5%	50W	Wirewound	±400ppm/°C	Automotive AEC-Q200 Qualified, Flame Proof	Ceramic	Brackets	3.543" L x 0.748" W (90.00mm x 19.00mm)	0.787" (20.00mm)	Quick Connects, 0.250" (6.35mm)	Radial, Rectangular Case	
+-
+	
+WPRT50AB-22RJB168 Datasheet
+	WPRT50AB-22RJB168 - TT Electronics/Welwyn	985-1585-ND 	WPRT50AB-22RJB168	TT Electronics/Welwyn	RES CHAS MNT 22 OHM 5% 50W	501 - Immediate
+	4.85000 	1 	Bulk  	WPRT	22	±5%	50W	Wirewound	±350ppm/°C	Automotive AEC-Q200 Qualified, Flame Proof	Ceramic	Brackets	3.543" L x 0.748" W (90.00mm x 19.00mm)	0.787" (20.00mm)	Quick Connects, 0.250" (6.35mm)	Radial, Rectangular Case	
+-
+	
+WPRT50AB-150RJB168 Datasheet
+	WPRT50AB-150RJB168 - TT Electronics/Welwyn	985-1590-ND 	WPRT50AB-150RJB168	TT Electronics/Welwyn	RES CHAS MNT 150 OHM 5% 50W	500 - Immediate
+	4.85000 	1 	Bulk  	WPRT	150	±5%	50W	Wirewound	±350ppm/°C	Automotive AEC-Q200 Qualified, Flame Proof	Ceramic	Brackets	3.543" L x 0.748" W (90.00mm x 19.00mm)	0.787" (20.00mm)	Quick Connects, 0.250" (6.35mm)	Radial, Rectangular Case	
+-
+	
+WPRT50AB-6R8JB168 Datasheet
+	WPRT50AB-6R8JB168 - TT Electronics/Welwyn	985-1582-ND 	WPRT50AB-6R8JB168	TT Electronics/Welwyn	RES CHAS MNT 6.8 OHM 5% 50W	499 - Immediate
+	4.85000 	1 	Bulk  	WPRT	6.8	±5%	50W	Wirewound	±400ppm/°C	Automotive AEC-Q200 Qualified, Flame Proof	Ceramic	Brackets	3.543" L x 0.748" W (90.00mm x 19.00mm)	0.787" (20.00mm)	Quick Connects, 0.250" (6.35mm)	Radial, Rectangular Case	
+-
+	
+WPRT50AB-100RJB168 Datasheet
+	WPRT50AB-100RJB168 - TT Electronics/Welwyn	985-1589-ND 	WPRT50AB-100RJB168	TT Electronics/Welwyn	RES CHAS MNT 100 OHM 5% 50W	498 - Immediate
+	4.85000 	1 	Bulk  	WPRT	100	±5%	50W	Wirewound	±350ppm/°C	Automotive AEC-Q200 Qualified, Flame Proof	Ceramic	Brackets	3.543" L x 0.748" W (90.00mm x 19.00mm)	0.787" (20.00mm)	Quick Connects, 0.250" (6.35mm)	Radial, Rectangular Case	
+-
+	
+WPRT50AB-470RJB168 Datasheet
+	WPRT50AB-470RJB168 - TT Electronics/Welwyn	985-1593-ND 	WPRT50AB-470RJB168	TT Electronics/Welwyn	RES CHAS MNT 470 OHM 5% 50W	498 - Immediate
+	4.85000 	1 	Bulk  	WPRT	470	±5%	50W	Wirewound	±350ppm/°C	Automotive AEC-Q200 Qualified, Flame Proof	Ceramic	Brackets	3.543" L x 0.748" W (90.00mm x 19.00mm)	0.787" (20.00mm)	Quick Connects, 0.250" (6.35mm)	Radial, Rectangular Case	
+-
+	
+WPRT50AB-680RJB168 Datasheet
+	WPRT50AB-680RJB168 - TT Electronics/Welwyn	985-1594-ND 	WPRT50AB-680RJB168	TT Electronics/Welwyn	RES CHAS MNT 680 OHM 5% 50W	498 - Immediate
+	4.85000 	1 	Bulk  	WPRT	680	±5%	50W	Wirewound	±350ppm/°C	Automotive AEC-Q200 Qualified, Flame Proof	Ceramic	Brackets	3.543" L x 0.748" W (90.00mm x 19.00mm)	0.787" (20.00mm)	Quick Connects, 0.250" (6.35mm)	Radial, Rectangular Case	
+-
+	
+WPRT50AB-47RJB168 Datasheet
+	WPRT50AB-47RJB168 - TT Electronics/Welwyn	985-1587-ND 	WPRT50AB-47RJB168	TT Electronics/Welwyn	RES CHAS MNT 47 OHM 5% 50W	494 - Immediate
+	4.85000 	1 	Bulk  	WPRT	47	±5%	50W	Wirewound	±350ppm/°C	Automotive AEC-Q200 Qualified, Flame Proof	Ceramic	Brackets	3.543" L x 0.748" W (90.00mm x 19.00mm)	0.787" (20.00mm)	Quick Connects, 0.250" (6.35mm)	Radial, Rectangular Case	
+-
+	
+WPRT50AB-1K5JB168 Datasheet
+	WPRT50AB-1K5JB168 - TT Electronics/Welwyn	985-1567-ND 	WPRT50AB-1K5JB168	TT Electronics/Welwyn	RES CHAS MNT 1.5K OHM 5% 50W	492 - Immediate
+	4.85000 	1 	Bulk  	WPRT	1.5k	±5%	50W	Wirewound	±350ppm/°C	Automotive AEC-Q200 Qualified, Flame Proof	Ceramic	Brackets	3.543" L x 0.748" W (90.00mm x 19.00mm)	0.787" (20.00mm)	Quick Connects, 0.250" (6.35mm)	Radial, Rectangular Case	
+-
+	
+WPRT50AB-330RJB168 Datasheet
+	WPRT50AB-330RJB168 - TT Electronics/Welwyn	985-1592-ND 	WPRT50AB-330RJB168	TT Electronics/Welwyn	RES CHAS MNT 330 OHM 5% 50W	488 - Immediate
+	4.85000 	1 	Bulk  	WPRT	330	±5%	50W	Wirewound	±350ppm/°C	Automotive AEC-Q200 Qualified, Flame Proof	Ceramic	Brackets	3.543" L x 0.748" W (90.00mm x 19.00mm)	0.787" (20.00mm)	Quick Connects, 0.250" (6.35mm)	Radial, Rectangular Case	
+-
+	
+EWT25JB3R00 Datasheet
+	EWT25JB3R00 - Stackpole Electronics Inc	EWT25JB3R00-ND 	EWT25JB3R00	Stackpole Electronics Inc	RES CHAS MNT 3 OHM 5% 25W	490 - Immediate
+	6.00000 	1 	Bulk  	EWT	3	±5%	25W	Wirewound	-	Flame Proof	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 2.008" L (14.30mm x 51.00mm)	-	Tab	Radial, Tubular	
+-
+	
+EWT25JB5R00 Datasheet
+	EWT25JB5R00 - Stackpole Electronics Inc	EWT25JB5R00-ND 	EWT25JB5R00	Stackpole Electronics Inc	RES CHAS MNT 5 OHM 5% 25W	196 - Immediate
+	6.00000 	1 	Bulk  	EWT	5	±5%	25W	Wirewound	-	Flame Proof	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 2.008" L (14.30mm x 51.00mm)	-	Tab	Radial, Tubular	
+-
+	
+EWT100JB50K0 Datasheet
+	EWT100JB50K0 - Stackpole Electronics Inc	EWT100JB50K0-ND 	EWT100JB50K0	Stackpole Electronics Inc	RES CHAS MNT 50K OHM 5% 100W	193 - Immediate
+	12.65000 	1 	Bulk  	EWT	50k	±5%	100W	Wirewound	-	Flame Proof	Vitreous Enamel Coated	Brackets (not included)	0.752" Dia x 6.496" L (19.10mm x 165.00mm)	-	Tab	Radial, Tubular	
+-
+	
+EWT100JB2K00 Datasheet
+	EWT100JB2K00 - Stackpole Electronics Inc	EWT100JB2K00-ND 	EWT100JB2K00	Stackpole Electronics Inc	RES CHAS MNT 2K OHM 5% 100W	165 - Immediate
+	12.65000 	1 	Bulk  	EWT	2k	±5%	100W	Wirewound	-	Flame Proof	Vitreous Enamel Coated	Brackets (not included)	0.752" Dia x 6.496" L (19.10mm x 165.00mm)	-	Tab	Radial, Tubular	
+-
+	
+EWT100JB250R Datasheet
+	EWT100JB250R - Stackpole Electronics Inc	EWT100JB250R-ND 	EWT100JB250R	Stackpole Electronics Inc	RES CHAS MNT 250 OHM 5% 100W	141 - Immediate
+	12.65000 	1 	Bulk  	EWT	250	±5%	100W	Wirewound	-	Flame Proof	Vitreous Enamel Coated	Brackets (not included)	0.752" Dia x 6.496" L (19.10mm x 165.00mm)	-	Tab	Radial, Tubular	
+-
+	
+EWT100JB10K0 Datasheet
+	EWT100JB10K0 - Stackpole Electronics Inc	EWT100JB10K0-ND 	EWT100JB10K0	Stackpole Electronics Inc	RES CHAS MNT 10K OHM 5% 100W	121 - Immediate
+	12.65000 	1 	Bulk  	EWT	10k	±5%	100W	Wirewound	-	Flame Proof	Vitreous Enamel Coated	Brackets (not included)	0.752" Dia x 6.496" L (19.10mm x 165.00mm)	-	Tab	Radial, Tubular	
+-
+	
+RER60F2000RC02 Datasheet
+	RER60F2000RC02 - Vishay Dale [MIL]	1135-1247-MILThis part is RoHS non-compliant.	RER60F2000RC02	Vishay Dale [MIL]	RES CHAS MNT 200 OHM 1% 5W	140 - Immediate
+	16.28000 	10 	Bulk  	Military, MIL-PRF-39009, RER60	200	±1%	5W	Wirewound	±20ppm/°C	Military	Aluminum	Flanges	0.600" L x 0.646" W (15.24mm x 16.41mm)	0.335" (8.51mm)	Solder Lugs	Axial, Box	R (0.01%)
+	
+PF2272-0R2J1 Datasheet
+	PF2272-0R2J1 - Riedon	696-1357-ND 	PF2272-0R2J1	Riedon	RES CHAS MNT 0.2 OHM 5% 200W	179 - Immediate
+	20.55000 	1 	Tube  	PF2270	0.2	±5%	200W	Thick Film	±100ppm/°C	-	Aluminum Oxide	Flanges	1.496" L x 0.984" W (38.00mm x 25.00mm)	0.484" (12.30mm)	M4 Threaded	SOT-227-4	
+-
+	
+PF2272-100RJ1 Datasheet
+	PF2272-100RJ1 - Riedon	696-1359-ND 	PF2272-100RJ1	Riedon	RES CHAS MNT 100 OHM 5% 200W	115 - Immediate
+	20.55000 	1 	Tube  	PF2270	100	±5%	200W	Thick Film	±100ppm/°C	-	Aluminum Oxide	Flanges	1.496" L x 0.984" W (38.00mm x 25.00mm)	0.484" (12.30mm)	M4 Threaded	SOT-227-4	
+-
+	
+LPS1100H4R70JB Datasheet
+	LPS1100H4R70JB - Vishay Sfernice	LPS-4.70D-ND 	LPS1100H4R70JB	Vishay Sfernice	RES CHAS MNT 4.7 OHM 5% 1100W	27 - Immediate
+	198.32000 	1 	Bulk  	LPS 1100	4.7	±5%	1100W	Thick Film	±150ppm/°C	Non-Inductive	-	Flanges	2.362" L x 2.244" W (60.00mm x 57.00mm)	1.000" (25.40mm)	M4 Threaded	Box	
+-
+	
+RP60300R0100JNBK Datasheet
+	RP60300R0100JNBK - AVX Corporation	478-7034-ND 	RP60300R0100JNBK	AVX Corporation	RES CHAS MNT 100 OHM 5% 20W	764 - Immediate
+	6.60000 	1 	Bulk  	RP6	100	±5%	20W	Thin Film	150ppm/°C	-	Aluminum Oxide	Flanges	0.300" L x 0.200" W (7.62mm x 5.08mm)	0.150" (3.81mm)	Tab	Axial	
+-
+	
+RPA0300T0050JNBK Datasheet
+	RPA0300T0050JNBK - AVX Corporation	478-7039-ND 	RPA0300T0050JNBK	AVX Corporation	RES CHAS MNT 50 OHM 5% 20W	908 - Immediate
+	7.20000 	1 	Bulk  	RPA	50	±5%	20W	Thin Film	150ppm/°C	RF, High Frequency	Aluminum Oxide	Flanges	0.300" L x 0.200" W (7.62mm x 5.08mm)	0.150" (3.81mm)	Tab	Flat Box, Terminator	
+-
+	
+RP60515R0100JNBK Datasheet
+	RP60515R0100JNBK - AVX Corporation	478-7035-ND 	RP60515R0100JNBK	AVX Corporation	RES CHAS MNT 100 OHM 5% 60W	837 - Immediate
+	8.76000 	1 	Bulk  	RP6	100	±5%	60W	Thin Film	150ppm/°C	-	Aluminum Oxide	Flanges	0.516" L x 0.250" W (13.10mm x 6.35mm)	0.150" (3.81mm)	Tab	Axial	
+-
+	
+RP60800R0100JNBK Datasheet
+	RP60800R0100JNBK - AVX Corporation	478-7036-ND 	RP60800R0100JNBK	AVX Corporation	RES CHAS MNT 100 OHM 5% 100W	937 - Immediate
+	11.40000 	1 	Bulk  	RP6	100	±5%	100W	Thin Film	150ppm/°C	-	Aluminum Oxide	Flanges	0.800" L x 0.230" W (20.30mm x 5.84mm)	0.150" (3.81mm)	Tab	Axial	
+-
+	
+RP60870R0100JNBK Datasheet
+	RP60870R0100JNBK - AVX Corporation	478-7037-ND 	RP60870R0100JNBK	AVX Corporation	RES CHAS MNT 100 OHM 5% 150W	964 - Immediate
+	11.64000 	1 	Bulk  	RP6	100	±5%	150W	Thin Film	150ppm/°C	-	Aluminum Oxide	Flanges	0.870" L x 0.375" W (22.10mm x 9.53mm)	0.150" (3.81mm)	Tab	Axial	
+-
+	
+F55J10RE Datasheet
+	F55J10RE - Ohmite	F55J10RE-ND 	F55J10RE	Ohmite	RES CHAS MNT 10 OHM 5% 55W	90 - Immediate
+	11.40000 	1 	Bulk  	Stackohm® 250	10	±5%	55W	Wirewound	±400ppm/°C	-	Vitreous Enamel Coated	Flange Braces, Right Angle	3.500" L x 1.000" W (88.90mm x 25.40mm)	0.563" (14.29mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+TGHGCR1000FE Datasheet
+	TGHGCR1000FE - Ohmite	TGHGCR1000FE-ND 	TGHGCR1000FE	Ohmite	RES CHAS MNT 0.1 OHM 1% 100W	73 - Immediate
+	36.90000 	1 	Bulk  	TGHG	0.1	±1%	100W	Thick Film	±60ppm/°C	Current Sense, Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.483" (12.26mm)	M4 Threaded	SOT-227-4	
+-
+	
+TGHHV50R0JE Datasheet
+	TGHHV50R0JE - Ohmite	TGHHV50R0JE-ND 	TGHHV50R0JE	Ohmite	RES CHAS MNT 50 OHM 5% 120W	18 - Immediate
+	37.78000 	1 	Bulk  	TGH	50	±5%	120W	Thick Film	±250ppm/°C	Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.358" (9.10mm)	M4 Threaded	SOT-227-2	
+-
+	
+TGHHV5R00JE Datasheet
+	TGHHV5R00JE - Ohmite	TGHHV5R00JE-ND 	TGHHV5R00JE	Ohmite	RES CHAS MNT 5 OHM 5% 120W	45 - Immediate
+	38.88000 	1 	Bulk  	TGH	5	±5%	120W	Thick Film	±250ppm/°C	Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.358" (9.10mm)	M4 Threaded	SOT-227-2	
+-
+	
+1630027-6 Datasheet
+	1630027-6 - TE Connectivity	A102394-ND 	1630027-6	TE Connectivity	RES CHAS MNT 1 OHM 5% 300W	30 - Immediate
+	44.39000 	1 	Bulk  	HS, CGS	1	±5%	300W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	5.039" L x 2.874" W (128.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+1-1879453-3 Datasheet
+	1-1879453-3 - TE Connectivity	A105661-ND 	1-1879453-3	TE Connectivity	RES CHAS MNT 10 OHM 5% 1000W	59 - Immediate
+	46.37000 	1 	Bulk  	TE, CGS	10	±5%	1000W	Wirewound	±440ppm/°C	Flame Proof	Silicon Coated	Brackets	2.362" Dia x 11.811" L (60.00mm x 300.00mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+TGHLV100RJE Datasheet
+	TGHLV100RJE - Ohmite	TGHLV100RJE-ND 	TGHLV100RJE	Ohmite	RES CHAS MNT 100 OHM 5% 200W	70 - Immediate
+	46.58000 	1 	Bulk  	TGH	100	±5%	200W	Thick Film	±250ppm/°C	Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.358" (9.10mm)	M4 Threaded	SOT-227-2	
+-
+	
+TGHLV500RJE Datasheet
+	TGHLV500RJE - Ohmite	TGHLV500RJE-ND 	TGHLV500RJE	Ohmite	RES CHAS MNT 500 OHM 5% 200W	61 - Immediate
+	46.58000 	1 	Bulk  	TGH	500	±5%	200W	Thick Film	±250ppm/°C	Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.358" (9.10mm)	M4 Threaded	SOT-227-2	
+-
+	
+TGHLV10R0JE Datasheet
+	TGHLV10R0JE - Ohmite	TGHLV10R0JE-ND 	TGHLV10R0JE	Ohmite	RES CHAS MNT 10 OHM 5% 200W	42 - Immediate
+	46.58000 	1 	Bulk  	TGH	10	±5%	200W	Thick Film	±250ppm/°C	Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.358" (9.10mm)	M4 Threaded	SOT-227-2	
+-
+	
+TGHLV1K00JE Datasheet
+	TGHLV1K00JE - Ohmite	TGHLV1K00JE-ND 	TGHLV1K00JE	Ohmite	RES CHAS MNT 1K OHM 5% 200W	36 - Immediate
+	46.58000 	1 	Bulk  	TGH	1k	±5%	200W	Thick Film	±250ppm/°C	Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.358" (9.10mm)	M4 Threaded	SOT-227-2	
+-
+	
+TGHLV33R0JE Datasheet
+	TGHLV33R0JE - Ohmite	TGHLV33R0JE-ND 	TGHLV33R0JE	Ohmite	RES CHAS MNT 33 OHM 5% 200W	32 - Immediate
+	46.58000 	1 	Bulk  	TGH	33	±5%	200W	Thick Film	±250ppm/°C	Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.358" (9.10mm)	M4 Threaded	SOT-227-2	
+-
+	
+CHF190104CBF500L Datasheet
+	CHF190104CBF500L - Bourns Inc.	CHF190104CBF500L-ND 	CHF190104CBF500L	Bourns Inc.	RES CHAS MNT 50 OHM 5% 800W	100 - Immediate
+	49.63000 	1 	Tray  	CHF - RF Power	50	±5%	800W	Thick Film	-	RF, High Frequency	Aluminum Oxide	Flanges	1.898" L x 1.039" W (48.20mm x 26.40mm)	0.346" (8.80mm)	Tab	Flat Box, Terminator	
+-
+	
+CHF190104CBF101R Datasheet
+	CHF190104CBF101R - Bourns Inc.	CHF190104CBF101R-ND 	CHF190104CBF101R	Bourns Inc.	RES CHAS MNT 100 OHM 5% 800W	9 - Immediate
+	49.63000 	1 	Tray  	CHF - RF Power	100	±5%	800W	Thick Film	-	RF, High Frequency	Aluminum Oxide	Flanges	1.898" L x 1.039" W (48.20mm x 26.40mm)	0.346" (8.80mm)	Tab	Flat Box, Terminator	
+-
+	
+TGHLVR100JE Datasheet
+	TGHLVR100JE - Ohmite	TGHLVR100JE-ND 	TGHLVR100JE	Ohmite	RES CHAS MNT 0.1 OHM 5% 200W	40 - Immediate
+	53.51000 	1 	Bulk  	TGH	0.1	±5%	200W	Thick Film	±250ppm/°C	Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.358" (9.10mm)	M4 Threaded	SOT-227-2	
+-
+	
+TGHLVR500JE Datasheet
+	TGHLVR500JE - Ohmite	TGHLVR500JE-ND 	TGHLVR500JE	Ohmite	RES CHAS MNT 0.5 OHM 5% 200W	22 - Immediate
+	53.51000 	1 	Bulk  	TGH	0.5	±5%	200W	Thick Film	±250ppm/°C	Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.358" (9.10mm)	M4 Threaded	SOT-227-2	
+-
+	
+CHF190104KBF500L Datasheet
+	CHF190104KBF500L - Bourns Inc.	CHF190104KBF500L-ND 	CHF190104KBF500L	Bourns Inc.	RES CHAS MNT 50 OHM 5% 1000W	67 - Immediate
+	63.00000 	1 	Tray  	CHF - RF Power	50	±5%	1000W	Thick Film	-	RF, High Frequency	Aluminum Oxide	Flanges	1.898" L x 1.039" W (48.20mm x 26.40mm)	0.358" (9.10mm)	Tab	Flat Box, Terminator	
+-
+	
+1-1879456-3 Datasheet
+	1-1879456-3 - TE Connectivity	A105663-ND 	1-1879456-3	TE Connectivity	RES CHAS MNT 10 OHM 5% 2000W	45 - Immediate
+	81.44000 	1 	Bulk  	TE, CGS	10	±5%	2000W	Wirewound	±440ppm/°C	Flame Proof	Silicon Coated	Brackets	2.362" Dia x 20.079" L (60.00mm x 510.00mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+1879457-1 Datasheet
+	1879457-1 - TE Connectivity	A105580-ND 	1879457-1	TE Connectivity	RES CHAS MNT 1 OHM 5% 2500W	25 - Immediate
+	96.21000 	1 	Bulk  	TE, CGS	1	±5%	2500W	Wirewound	±440ppm/°C	Flame Proof	Silicon Coated	Brackets	2.362" Dia x 23.622" L (60.00mm x 600.00mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+1-1879457-7 Datasheet
+	1-1879457-7 - TE Connectivity	A105664-ND 	1-1879457-7	TE Connectivity	RES CHAS MNT 22 OHM 5% 2500W	10 - Immediate
+	96.21000 	1 	Bulk  	TE, CGS	22	±5%	2500W	Wirewound	±440ppm/°C	Flame Proof	Silicon Coated	Brackets	2.362" Dia x 23.622" L (60.00mm x 600.00mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+TAP600K4R0E Datasheet
+	TAP600K4R0E - Ohmite	TAP600K4R0E-ND 	TAP600K4R0E	Ohmite	RES CHAS MNT 4 OHM 10% 600W	20 - Immediate
+	125.29000 	1 	Bulk  	TAP600	4	±10%	600W	Thick Film	±150ppm/°C	-	Epoxy Coated	Flanges	2.559" L x 2.362" W (65.00mm x 60.00mm)	0.945" (24.00mm)	M5 Threaded	Box	
+-
+	
+TAP600K2R0E Datasheet
+	TAP600K2R0E - Ohmite	TAP600K2R0E-ND 	TAP600K2R0E	Ohmite	RES CHAS MNT 2 OHM 10% 600W	10 - Immediate
+	125.29000 	1 	Bulk  	TAP600	2	±10%	600W	Thick Film	±150ppm/°C	-	Epoxy Coated	Flanges	2.559" L x 2.362" W (65.00mm x 60.00mm)	0.945" (24.00mm)	M5 Threaded	Box	
+-
+	
+TAP800KR25E Datasheet
+	TAP800KR25E - Ohmite	TAP800KR25E-ND 	TAP800KR25E	Ohmite	RES CHAS MNT 0.25 OHM 10% 800W	16 - Immediate
+	176.62000 	1 	Bulk  	TAP800	0.25	±10%	800W	Thick Film	±150ppm/°C	-	Epoxy Coated	Flanges	2.527" L x 2.331" W (64.19mm x 59.21mm)	0.906" (23.00mm)	M5 Threaded	Box	
+-
+	
+TA1K0PH15R0KE Datasheet
+	TA1K0PH15R0KE - Ohmite	TA1K0PH15R0KE-ND 	TA1K0PH15R0KE	Ohmite	RES CHAS MNT 15 OHM 10% 1000W	25 - Immediate
+	181.52000 	1 	Bulk  	TAP1000	15	±10%	1000W	Thick Film	±250ppm/°C	-	Epoxy Coated	Flanges	3.000" L x 3.000" W (76.20mm x 76.20mm)	1.248" (31.69mm)	#10-32 Threaded	Box	
+-
+	
+TA1K0PH30R0KE Datasheet
+	TA1K0PH30R0KE - Ohmite	TA1K0PH30R0KE-ND 	TA1K0PH30R0KE	Ohmite	RES CHAS MNT 30 OHM 10% 1000W	19 - Immediate
+	181.52000 	1 	Bulk  	TAP1000	30	±10%	1000W	Thick Film	±250ppm/°C	-	Epoxy Coated	Flanges	3.000" L x 3.000" W (76.20mm x 76.20mm)	1.248" (31.69mm)	#10-32 Threaded	Box	
+-
+	
+TA2K0PH10R0KE Datasheet
+	TA2K0PH10R0KE - Ohmite	TA2K0PH10R0KE-ND 	TA2K0PH10R0KE	Ohmite	RES CHAS MNT 10 OHM 10% 2000W	25 - Immediate
+	231.30000 	1 	Bulk  	TAP2000	10	±10%	2000W	Thick Film	±250ppm/°C	-	Epoxy Coated	Flanges	3.000" L x 3.000" W (76.20mm x 76.20mm)	1.248" (31.69mm)	#10-32 Threaded	Box	
+-
+	
+TA2K0PH250RKE Datasheet
+	TA2K0PH250RKE - Ohmite	TA2K0PH250RKE-ND 	TA2K0PH250RKE	Ohmite	RES CHAS MNT 250 OHM 10% 2000W	19 - Immediate
+	231.30000 	1 	Bulk  	TAP2000	250	±10%	2000W	Thick Film	±250ppm/°C	-	Epoxy Coated	Flanges	3.000" L x 3.000" W (76.20mm x 76.20mm)	1.248" (31.69mm)	#10-32 Threaded	Box	
+-
+	
+TA2K0PH1R00KE Datasheet
+	TA2K0PH1R00KE - Ohmite	TA2K0PH1R00KE-ND 	TA2K0PH1R00KE	Ohmite	RES CHAS MNT 1 OHM 10% 2000W	12 - Immediate
+	231.30000 	1 	Bulk  	TAP2000	1	±10%	2000W	Thick Film	±250ppm/°C	-	Epoxy Coated	Flanges	3.000" L x 3.000" W (76.20mm x 76.20mm)	1.248" (31.69mm)	#10-32 Threaded	Box	
+-
+	
+TA2K0PH2R50KE Datasheet
+	TA2K0PH2R50KE - Ohmite	TA2K0PH2R50KE-ND 	TA2K0PH2R50KE	Ohmite	RES CHAS MNT 2.5 OHM 10% 2000W	12 - Immediate
+	231.30000 	1 	Bulk  	TAP2000	2.5	±10%	2000W	Thick Film	±250ppm/°C	-	Epoxy Coated	Flanges	3.000" L x 3.000" W (76.20mm x 76.20mm)	1.248" (31.69mm)	#10-32 Threaded	Box	
+-
+	
+TA2K0PH500RKE Datasheet
+	TA2K0PH500RKE - Ohmite	TA2K0PH500RKE-ND 	TA2K0PH500RKE	Ohmite	RES CHAS MNT 500 OHM 10% 2000W	12 - Immediate
+	231.30000 	1 	Bulk  	TAP2000	500	±10%	2000W	Thick Film	±250ppm/°C	-	Epoxy Coated	Flanges	3.000" L x 3.000" W (76.20mm x 76.20mm)	1.248" (31.69mm)	#10-32 Threaded	Box	
+-
+	
+TA2K0PHR500KE Datasheet
+	TA2K0PHR500KE - Ohmite	TA2K0PHR500KE-ND 	TA2K0PHR500KE	Ohmite	RES CHAS MNT 0.5 OHM 10% 2000W	0
+	231.30000 	1 	Bulk  	TAP2000	0.5	±10%	2000W	Thick Film	±250ppm/°C	-	Epoxy Coated	Flanges	3.000" L x 3.000" W (76.20mm x 76.20mm)	1.248" (31.69mm)	#10-32 Threaded	Box	
+-
+	
+TA2K0PH15R0KE Datasheet
+	TA2K0PH15R0KE - Ohmite	TA2K0PH15R0KE-ND 	TA2K0PH15R0KE	Ohmite	RES CHAS MNT 15 OHM 10% 2000W	6 - Immediate
+	231.30000 	1 	Bulk  	TAP2000	15	±10%	2000W	Thick Film	±250ppm/°C	-	Epoxy Coated	Flanges	3.000" L x 3.000" W (76.20mm x 76.20mm)	1.248" (31.69mm)	#10-32 Threaded	Box	
+-
+	
+1623779-5 Datasheet
+	1623779-5 - TE Connectivity	A102450-ND 	1623779-5	TE Connectivity	RES CHAS MNT 10 OHM 5% 20W	592 - Immediate
+	1.84000 	1 	Bulk  	SQ, CGS	10	±5%	20W	Wirewound	±300ppm/°C	Flame Proof	Ceramic	Brackets	2.362" L x 0.571" W (60.00mm x 14.50mm)	0.571" (14.50mm)	Quick Connects, 0.250" (6.35mm)	Radial, Rectangular Case	
+-
+	
+KAL10FB5R00 Datasheet
+	KAL10FB5R00 - Stackpole Electronics Inc	KAL10FB5R00-ND 	KAL10FB5R00	Stackpole Electronics Inc	RES CHAS MNT 5 OHM 1% 12.5W	293 - Immediate
+	2.48000 	1 	Bulk  	KAL	5	±1%	12.5W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	0.748" L x 0.799" W (19.00mm x 20.30mm)	0.421" (10.70mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL10FB1R00 Datasheet
+	KAL10FB1R00 - Stackpole Electronics Inc	KAL10FB1R00-ND 	KAL10FB1R00	Stackpole Electronics Inc	RES CHAS MNT 1 OHM 1% 12.5W	231 - Immediate
+	2.48000 	1 	Bulk  	KAL	1	±1%	12.5W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	0.748" L x 0.799" W (19.00mm x 20.30mm)	0.421" (10.70mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL10FB10R0 Datasheet
+	KAL10FB10R0 - Stackpole Electronics Inc	KAL10FB10R0-ND 	KAL10FB10R0	Stackpole Electronics Inc	RES CHAS MNT 10 OHM 1% 12.5W	124 - Immediate
+	2.48000 	1 	Bulk  	KAL	10	±1%	12.5W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	0.748" L x 0.799" W (19.00mm x 20.30mm)	0.421" (10.70mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL10FB5K00 Datasheet
+	KAL10FB5K00 - Stackpole Electronics Inc	KAL10FB5K00-ND 	KAL10FB5K00	Stackpole Electronics Inc	RES CHAS MNT 5K OHM 1% 12.5W	305 - Immediate
+	2.64000 	1 	Bulk  	KAL	5k	±1%	12.5W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	0.748" L x 0.799" W (19.00mm x 20.30mm)	0.421" (10.70mm)	Solder Lugs	Axial, Box	
+-
+	
+1-1625963-5 Datasheet
+	1-1625963-5 - TE Connectivity	A102112-ND 	1-1625963-5	TE Connectivity	RES CHAS MNT 1 OHM 5% 10W	236 - Immediate
+	2.85000 	1 	Bulk  	HS, CGS	1	±5%	10W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	0.669" L x 0.669" W (17.00mm x 17.00mm)	0.354" (9.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1-1625963-2 Datasheet
+	1-1625963-2 - TE Connectivity	A102402-ND 	1-1625963-2	TE Connectivity	RES CHAS MNT 1.5K OHM 5% 10W	60 - Immediate
+	2.85000 	1 	Bulk  	HS, CGS	1.5k	±5%	10W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	0.669" L x 0.669" W (17.00mm x 17.00mm)	0.354" (9.00mm)	Solder Lugs	Axial, Box	
+-
+	
+7-1625966-3 Datasheet
+	7-1625966-3 - TE Connectivity	A102413-ND 	7-1625966-3	TE Connectivity	RES CHAS MNT 56 OHM 5% 16W	356 - Immediate
+	3.06000 	1 	Bulk  	HS, CGS	56	±5%	16W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	0.827" L x 0.827" W (21.00mm x 21.00mm)	0.433" (11.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1-1625966-0 Datasheet
+	1-1625966-0 - TE Connectivity	A102409-ND 	1-1625966-0	TE Connectivity	RES CHAS MNT 15 OHM 5% 16W	201 - Immediate
+	3.06000 	1 	Bulk  	HS, CGS	15	±5%	16W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	0.827" L x 0.827" W (21.00mm x 21.00mm)	0.433" (11.00mm)	Solder Lugs	Axial, Box	
+-
+	
+8-1625966-3 Datasheet
+	8-1625966-3 - TE Connectivity	A102117-ND 	8-1625966-3	TE Connectivity	RES CHAS MNT 220 OHM 5% 16W	196 - Immediate
+	3.06000 	1 	Bulk  	HS, CGS	220	±5%	16W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	0.827" L x 0.827" W (21.00mm x 21.00mm)	0.433" (11.00mm)	Solder Lugs	Axial, Box	
+-
+	
+5-1625966-2 Datasheet
+	5-1625966-2 - TE Connectivity	A102125-ND 	5-1625966-2	TE Connectivity	RES CHAS MNT 0.1 OHM 5% 16W	182 - Immediate
+	3.06000 	1 	Bulk  	HS, CGS	0.1	±5%	16W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	0.827" L x 0.827" W (21.00mm x 21.00mm)	0.433" (11.00mm)	Solder Lugs	Axial, Box	
+-
+	
+2-1625966-4 Datasheet
+	2-1625966-4 - TE Connectivity	A102120-ND 	2-1625966-4	TE Connectivity	RES CHAS MNT 2.2 OHM 5% 16W	111 - Immediate
+	3.06000 	1 	Bulk  	HS, CGS	2.2	±5%	16W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	0.827" L x 0.827" W (21.00mm x 21.00mm)	0.433" (11.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1625966-4 Datasheet
+	1625966-4 - TE Connectivity	A102114-ND 	1625966-4	TE Connectivity	RES CHAS MNT 10 OHM 5% 16W	103 - Immediate
+	3.06000 	1 	Bulk  	HS, CGS	10	±5%	16W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	0.827" L x 0.827" W (21.00mm x 21.00mm)	0.433" (11.00mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL25FB100R Datasheet
+	KAL25FB100R - Stackpole Electronics Inc	KAL25FB100R-ND 	KAL25FB100R	Stackpole Electronics Inc	RES CHAS MNT 100 OHM 1% 25W	78 - Immediate
+	3.08000 	1 	Bulk  	KAL	100	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.063" L x 1.079" W (27.00mm x 27.40mm)	0.579" (14.70mm)	Solder Lugs	Axial, Box	
+-
+	
+5-1625971-6 Datasheet
+	5-1625971-6 - TE Connectivity	A103853-ND 	5-1625971-6	TE Connectivity	RES CHAS MNT 50 OHM 5% 25W	96 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	50	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1676625-5 Datasheet
+	1676625-5 - TE Connectivity	A102428-ND 	1676625-5	TE Connectivity	RES CHAS MNT 0.05 OHM 5% 25W	84 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	0.05	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1676625-2 Datasheet
+	1676625-2 - TE Connectivity	A102131-ND 	1676625-2	TE Connectivity	RES CHAS MNT 150 OHM 5% 25W	74 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	150	±5%	25W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1625971-2 Datasheet
+	1625971-2 - TE Connectivity	A102128-ND 	1625971-2	TE Connectivity	RES CHAS MNT 100 OHM 5% 25W	73 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	100	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+4-1625971-7 Datasheet
+	4-1625971-7 - TE Connectivity	A102423-ND 	4-1625971-7	TE Connectivity	RES CHAS MNT 3.3 OHM 5% 25W	71 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	3.3	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+2-1625971-7 Datasheet
+	2-1625971-7 - TE Connectivity	A102136-ND 	2-1625971-7	TE Connectivity	RES CHAS MNT 22 OHM 5% 25W	39 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	22	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+9-1625971-6 Datasheet
+	9-1625971-6 - TE Connectivity	A102425-ND 	9-1625971-6	TE Connectivity	RES CHAS MNT 5.6 OHM 5% 25W	31 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	5.6	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+6-1625971-4 Datasheet
+	6-1625971-4 - TE Connectivity	A105665-ND 	6-1625971-4	TE Connectivity	RES CHAS MNT 6.8 OHM 5% 25W	26 - Immediate
+	3.56000 	1 	Bulk  	HS, CGS	6.8	±5%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.142" L x 1.102" W (29.00mm x 28.00mm)	0.591" (15.00mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL50FB1R00 Datasheet
+	KAL50FB1R00 - Stackpole Electronics Inc	KAL50FB1R00-ND 	KAL50FB1R00	Stackpole Electronics Inc	RES CHAS MNT 1 OHM 1% 50W	100 - Immediate
+	3.64000 	1 	Bulk  	KAL	1	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.642" (16.30mm)	Solder Lugs	Axial, Box	
+-
+	
+KAL50FB100R Datasheet
+	KAL50FB100R - Stackpole Electronics Inc	KAL50FB100R-ND 	KAL50FB100R	Stackpole Electronics Inc	RES CHAS MNT 100 OHM 1% 50W	97 - Immediate
+	3.64000 	1 	Bulk  	KAL	100	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.969" L x 1.142" W (50.00mm x 29.00mm)	0.642" (16.30mm)	Solder Lugs	Axial, Box	
+-
+	
+805F2R0E Datasheet
+	805F2R0E - Ohmite	805F2R0E-ND 	805F2R0E	Ohmite	RES CHAS MNT 2 OHM 1% 5W	63 - Immediate
+	4.13000 	1 	Bulk  	Metal-Mite®89	2	±1%	5W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	0.600" L x 0.646" W (15.24mm x 16.41mm)	0.351" (8.92mm)	Solder Lugs	Axial, Box	
+-
+	
+805F5R0E Datasheet
+	805F5R0E - Ohmite	805F5R0E-ND 	805F5R0E	Ohmite	RES CHAS MNT 5 OHM 1% 5W	69 - Immediate
+	4.13000 	1 	Bulk  	Metal-Mite®89	5	±1%	5W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	0.600" L x 0.646" W (15.24mm x 16.41mm)	0.351" (8.92mm)	Solder Lugs	Axial, Box	
+-
+	
+810F15RE Datasheet
+	810F15RE - Ohmite	810F15RE-ND 	810F15RE	Ohmite	RES CHAS MNT 15 OHM 1% 10W	88 - Immediate
+	4.34000 	1 	Bulk  	Metal-Mite®89	15	±1%	10W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	0.750" L x 0.812" W (19.05mm x 20.63mm)	0.437" (11.10mm)	Solder Lugs	Axial, Box	
+-
+	
+810F5R0E Datasheet
+	810F5R0E - Ohmite	810F5R0E-ND 	810F5R0E	Ohmite	RES CHAS MNT 5 OHM 1% 10W	62 - Immediate
+	4.34000 	1 	Bulk  	Metal-Mite®89	5	±1%	10W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	0.750" L x 0.812" W (19.05mm x 20.63mm)	0.437" (11.10mm)	Solder Lugs	Axial, Box	
+-
+	
+805F40RE Datasheet
+	805F40RE - Ohmite	805F40RE-ND 	805F40RE	Ohmite	RES CHAS MNT 40 OHM 1% 5W	67 - Immediate
+	4.53000 	1 	Bulk  	Metal-Mite®89	40	±1%	5W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	0.600" L x 0.646" W (15.24mm x 16.41mm)	0.351" (8.92mm)	Solder Lugs	Axial, Box	
+-
+	
+8-1625984-0 Datasheet
+	8-1625984-0 - TE Connectivity	A102178-ND 	8-1625984-0	TE Connectivity	RES CHAS MNT 6.8 OHM 5% 50W	98 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	6.8	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1-1630186-3 Datasheet
+	1-1630186-3 - TE Connectivity	A102448-ND 	1-1630186-3	TE Connectivity	RES CHAS MNT 0.5 OHM 5% 50W	97 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	0.5	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+2-1630186-1 Datasheet
+	2-1630186-1 - TE Connectivity	A102180-ND 	2-1630186-1	TE Connectivity	RES CHAS MNT 0.22 OHM 5% 50W	95 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	0.22	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+9-1625984-0 Datasheet
+	9-1625984-0 - TE Connectivity	A102445-ND 	9-1625984-0	TE Connectivity	RES CHAS MNT 0.05 OHM 5% 50W	84 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	0.05	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+6-1625984-1 Datasheet
+	6-1625984-1 - TE Connectivity	A102169-ND 	6-1625984-1	TE Connectivity	RES CHAS MNT 47 OHM 5% 50W	75 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	47	±5%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+6-1625984-5 Datasheet
+	6-1625984-5 - TE Connectivity	A103856-ND 	6-1625984-5	TE Connectivity	RES CHAS MNT 50K OHM 5% 50W	73 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	50k	±5%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1-1625984-9 Datasheet
+	1-1625984-9 - TE Connectivity	A102157-ND 	1-1625984-9	TE Connectivity	RES CHAS MNT 1.5K OHM 5% 50W	65 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	1.5k	±5%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1-1625984-3 Datasheet
+	1-1625984-3 - TE Connectivity	A102433-ND 	1-1625984-3	TE Connectivity	RES CHAS MNT 180 OHM 5% 50W	32 - Immediate
+	4.61000 	1 	Bulk  	HS, CGS	180	±5%	50W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	2.008" L x 1.181" W (51.00mm x 30.00mm)	0.669" (17.00mm)	Solder Lugs	Axial, Box	
+-
+	
+825F50RE Datasheet
+	825F50RE - Ohmite	825F50RE-ND 	825F50RE	Ohmite	RES CHAS MNT 50 OHM 1% 25W	98 - Immediate
+	5.58000 	1 	Bulk  	Metal-Mite®89	50	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.062" L x 1.094" W (26.98mm x 27.79mm)	0.593" (15.07mm)	Solder Lugs	Axial, Box	
+-
+	
+825F25RE Datasheet
+	825F25RE - Ohmite	825F25RE-ND 	825F25RE	Ohmite	RES CHAS MNT 25 OHM 1% 25W	90 - Immediate
+	5.58000 	1 	Bulk  	Metal-Mite®89	25	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.062" L x 1.094" W (26.98mm x 27.79mm)	0.593" (15.07mm)	Solder Lugs	Axial, Box	
+-
+	
+825F10RE Datasheet
+	825F10RE - Ohmite	825F10RE-ND 	825F10RE	Ohmite	RES CHAS MNT 10 OHM 1% 25W	80 - Immediate
+	5.58000 	1 	Bulk  	Metal-Mite®89	10	±1%	25W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.062" L x 1.094" W (26.98mm x 27.79mm)	0.593" (15.07mm)	Solder Lugs	Axial, Box	
+-
+	
+825F2R0E Datasheet
+	825F2R0E - Ohmite	825F2R0E-ND 	825F2R0E	Ohmite	RES CHAS MNT 2 OHM 1% 25W	45 - Immediate
+	5.58000 	1 	Bulk  	Metal-Mite®89	2	±1%	25W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.062" L x 1.094" W (26.98mm x 27.79mm)	0.593" (15.07mm)	Solder Lugs	Axial, Box	
+-
+	
+L25J4R0E Datasheet
+	L25J4R0E - Ohmite	L25J4R0E-ND 	L25J4R0E	Ohmite	RES CHAS MNT 4 OHM 5% 25W	48 - Immediate
+	5.66000 	1 	Bulk  	270	4	±5%	25W	Wirewound	±400ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 2.000" L (14.30mm x 50.80mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+850F10RE Datasheet
+	850F10RE - Ohmite	850F10RE-ND 	850F10RE	Ohmite	RES CHAS MNT 10 OHM 1% 50W	85 - Immediate
+	6.44000 	1 	Bulk  	Metal-Mite®89	10	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.938" L x 1.156" W (49.23mm x 29.36mm)	0.656" (16.67mm)	Solder Lugs	Axial, Box	
+-
+	
+850F50RE Datasheet
+	850F50RE - Ohmite	850F50RE-ND 	850F50RE	Ohmite	RES CHAS MNT 50 OHM 1% 50W	85 - Immediate
+	6.44000 	1 	Bulk  	Metal-Mite®89	50	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.938" L x 1.156" W (49.23mm x 29.36mm)	0.656" (16.67mm)	Solder Lugs	Axial, Box	
+-
+	
+850F1R0E Datasheet
+	850F1R0E - Ohmite	850F1R0E-ND 	850F1R0E	Ohmite	RES CHAS MNT 1 OHM 1% 50W	58 - Immediate
+	6.44000 	1 	Bulk  	Metal-Mite®89	1	±1%	50W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	1.938" L x 1.156" W (49.23mm x 29.36mm)	0.656" (16.67mm)	Solder Lugs	Axial, Box	
+-
+	
+850F1K0E Datasheet
+	850F1K0E - Ohmite	850F1K0E-ND 	850F1K0E	Ohmite	RES CHAS MNT 1K OHM 1% 50W	51 - Immediate
+	7.28000 	1 	Bulk  	Metal-Mite®89	1k	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.938" L x 1.156" W (49.23mm x 29.36mm)	0.656" (16.67mm)	Solder Lugs	Axial, Box	
+-
+	
+850F10KE Datasheet
+	850F10KE - Ohmite	850F10KE-ND 	850F10KE	Ohmite	RES CHAS MNT 10K OHM 1% 50W	83 - Immediate
+	7.68000 	1 	Bulk  	Metal-Mite®89	10k	±1%	50W	Wirewound	±20ppm/°C	-	Aluminum	Flanges	1.938" L x 1.156" W (49.23mm x 29.36mm)	0.656" (16.67mm)	Solder Lugs	Axial, Box	
+-
+	
+L50J1K0E Datasheet
+	L50J1K0E - Ohmite	L50J1K0E-ND 	L50J1K0E	Ohmite	RES CHAS MNT 1K OHM 5% 50W	90 - Immediate
+	7.72000 	1 	Bulk  	270	1k	±5%	50W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.30mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+850FR10E Datasheet
+	850FR10E - Ohmite	850FR10E-ND 	850FR10E	Ohmite	RES CHAS MNT 0.1 OHM 1% 50W	42 - Immediate
+	7.84000 	1 	Bulk  	Metal-Mite®89	0.1	±1%	50W	Wirewound	±90ppm/°C	-	Aluminum	Flanges	1.938" L x 1.156" W (49.23mm x 29.36mm)	0.656" (16.67mm)	Solder Lugs	Axial, Box	
+-
+	
+L50J5R0E Datasheet
+	L50J5R0E - Ohmite	L50J5R0E-ND 	L50J5R0E	Ohmite	RES CHAS MNT 5 OHM 5% 50W	64 - Immediate
+	7.95000 	1 	Bulk  	270	5	±5%	50W	Wirewound	±400ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.30mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+L50J4R0 Datasheet
+	L50J4R0 - Ohmite	L50J4R0-NDThis part is RoHS non-compliant.	L50J4R0	Ohmite	RES CHAS MNT 4 OHM 5% 50W	35 - Immediate
+	8.67000 	1 	Bulk  	270	4	±5%	50W	Wirewound	±400ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.563" Dia x 4.000" L (14.30mm x 101.60mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+F30J5R0E Datasheet
+	F30J5R0E - Ohmite	F30J5R0E-ND 	F30J5R0E	Ohmite	RES CHAS MNT 5 OHM 5% 30W	87 - Immediate
+	9.69000 	1 	Bulk  	Stackohm® 250	5	±5%	30W	Wirewound	±400ppm/°C	-	Vitreous Enamel Coated	Flange Braces, Right Angle	1.250" L x 1.000" W (31.75mm x 25.40mm)	0.563" (14.29mm)	Solder Lugs	Radial, Flat Oval	
+-
+	
+L100J5R0E Datasheet
+	L100J5R0E - Ohmite	L100J5R0E-ND 	L100J5R0E	Ohmite	RES CHAS MNT 5 OHM 5% 100W	42 - Immediate
+	11.21000 	1 	Bulk  	270	5	±5%	100W	Wirewound	±400ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.752" Dia x 6.500" L (19.10mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+L100J1R0E Datasheet
+	L100J1R0E - Ohmite	L100J1R0E-ND 	L100J1R0E	Ohmite	RES CHAS MNT 1 OHM 5% 100W	26 - Immediate
+	11.65000 	1 	Bulk  	270	1	±5%	100W	Wirewound	±400ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	0.752" Dia x 6.500" L (19.10mm x 165.10mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+3-1625999-4 Datasheet
+	3-1625999-4 - TE Connectivity	A102363-ND 	3-1625999-4	TE Connectivity	RES CHAS MNT 470 OHM 5% 100W	80 - Immediate
+	11.74000 	1 	Bulk  	HS, CGS	470	±5%	100W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	2.579" L x 1.870" W (65.50mm x 47.50mm)	1.024" (26.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1625999-3 Datasheet
+	1625999-3 - TE Connectivity	A102356-ND 	1625999-3	TE Connectivity	RES CHAS MNT 10 OHM 5% 100W	77 - Immediate
+	11.74000 	1 	Bulk  	HS, CGS	10	±5%	100W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.579" L x 1.870" W (65.50mm x 47.50mm)	1.024" (26.00mm)	Solder Lugs	Axial, Box	
+-
+	
+4-1625999-0 Datasheet
+	4-1625999-0 - TE Connectivity	A102108-ND 	4-1625999-0	TE Connectivity	RES CHAS MNT 4.7 OHM 5% 100W	55 - Immediate
+	11.74000 	1 	Bulk  	HS, CGS	4.7	±5%	100W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.579" L x 1.870" W (65.50mm x 47.50mm)	1.024" (26.00mm)	Solder Lugs	Axial, Box	
+-
+	
+3-1625999-3 Datasheet
+	3-1625999-3 - TE Connectivity	A102362-ND 	3-1625999-3	TE Connectivity	RES CHAS MNT 3.3 OHM 5% 100W	39 - Immediate
+	11.74000 	1 	Bulk  	HS, CGS	3.3	±5%	100W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.579" L x 1.870" W (65.50mm x 47.50mm)	1.024" (26.00mm)	Solder Lugs	Axial, Box	
+-
+	
+3-1625999-6 Datasheet
+	3-1625999-6 - TE Connectivity	A102364-ND 	3-1625999-6	TE Connectivity	RES CHAS MNT 47 OHM 5% 100W	46 - Immediate
+	11.74000 	1 	Bulk  	HS, CGS	47	±5%	100W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.579" L x 1.870" W (65.50mm x 47.50mm)	1.024" (26.00mm)	Solder Lugs	Axial, Box	
+-
+	
+5-1625999-0 Datasheet
+	5-1625999-0 - TE Connectivity	A102367-ND 	5-1625999-0	TE Connectivity	RES CHAS MNT 0.1 OHM 5% 100W	37 - Immediate
+	11.74000 	1 	Bulk  	HS, CGS	0.1	±5%	100W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.579" L x 1.870" W (65.50mm x 47.50mm)	1.024" (26.00mm)	Solder Lugs	Axial, Box	
+-
+	
+5-1625999-2 Datasheet
+	5-1625999-2 - TE Connectivity	A102368-ND 	5-1625999-2	TE Connectivity	RES CHAS MNT 0.22 OHM 5% 100W	36 - Immediate
+	11.74000 	1 	Bulk  	HS, CGS	0.22	±5%	100W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.579" L x 1.870" W (65.50mm x 47.50mm)	1.024" (26.00mm)	Solder Lugs	Axial, Box	
+-
+	
+3-1625999-2 Datasheet
+	3-1625999-2 - TE Connectivity	A103830-ND 	3-1625999-2	TE Connectivity	RES CHAS MNT 3 OHM 5% 100W	31 - Immediate
+	11.74000 	1 	Bulk  	HS, CGS	3	±5%	100W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	2.579" L x 1.870" W (65.50mm x 47.50mm)	1.024" (26.00mm)	Solder Lugs	Axial, Box	
+-
+	
+SHD1-100C075DE Datasheet
+	SHD1-100C075DE - Ohmite	SHD1-100C075DE-ND 	SHD1-100C075DE	Ohmite	RES CHAS MNT 0.00075 OHM 0.5%	35 - Immediate
+	15.12000 	1 	Bulk  	S	0.00075	±0.5% 	7.5W	Metal Element	-	Current Sense	-	Flanges	4.094" L x 0.866" W (104.00mm x 22.00mm)	0.433" (11.00mm)	4-Terminal	Rectangular Case - Open	
+-
+	
+L225J250E Datasheet
+	L225J250E - Ohmite	L225J250E-ND 	L225J250E	Ohmite	RES CHAS MNT 250 OHM 5% 225W	55 - Immediate
+	15.86000 	1 	Bulk  	270	250	±5%	225W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	1.126" Dia x 10.500" L (28.60mm x 266.70mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+L225J150E Datasheet
+	L225J150E - Ohmite	L225J150E-ND 	L225J150E	Ohmite	RES CHAS MNT 150 OHM 5% 225W	43 - Immediate
+	15.86000 	1 	Bulk  	270	150	±5%	225W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	1.126" Dia x 10.500" L (28.60mm x 266.70mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+L225J10KE Datasheet
+	L225J10KE - Ohmite	L225J10KE-ND 	L225J10KE	Ohmite	RES CHAS MNT 10K OHM 5% 225W	20 - Immediate
+	15.92000 	1 	Bulk  	270	10k	±5%	225W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	1.126" Dia x 10.500" L (28.60mm x 266.70mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+1-1630012-9 Datasheet
+	1-1630012-9 - TE Connectivity	A102371-ND 	1-1630012-9	TE Connectivity	RES CHAS MNT 2.2 OHM 5% 150W	68 - Immediate
+	16.34000 	1 	Bulk  	HS, CGS	2.2	±5%	150W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	3.858" L x 1.870" W (98.00mm x 47.50mm)	1.024" (26.00mm)	Solder Lugs	Axial, Box	
+-
+	
+2-1630012-7 Datasheet
+	2-1630012-7 - TE Connectivity	A103838-ND 	2-1630012-7	TE Connectivity	RES CHAS MNT 4.7 OHM 5% 150W	55 - Immediate
+	16.34000 	1 	Bulk  	HS, CGS	4.7	±5%	150W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	3.858" L x 1.870" W (98.00mm x 47.50mm)	1.024" (26.00mm)	Solder Lugs	Axial, Box	
+-
+	
+1-1630012-3 Datasheet
+	1-1630012-3 - TE Connectivity	A102373-ND 	1-1630012-3	TE Connectivity	RES CHAS MNT 6.8 OHM 5% 150W	29 - Immediate
+	16.34000 	1 	Bulk  	HS, CGS	6.8	±5%	150W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	3.858" L x 1.870" W (98.00mm x 47.50mm)	1.024" (26.00mm)	Solder Lugs	Axial, Box	
+-
+	
+L225J75RE Datasheet
+	L225J75RE - Ohmite	L225J75RE-ND 	L225J75RE	Ohmite	RES CHAS MNT 75 OHM 5% 225W	39 - Immediate
+	16.63000 	1 	Bulk  	270	75	±5%	225W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	1.126" Dia x 10.500" L (28.60mm x 266.70mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+L225J10RE Datasheet
+	L225J10RE - Ohmite	L225J10RE-ND 	L225J10RE	Ohmite	RES CHAS MNT 10 OHM 5% 225W	33 - Immediate
+	16.63000 	1 	Bulk  	270	10	±5%	225W	Wirewound	±400ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	1.126" Dia x 10.500" L (28.60mm x 266.70mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+L225J100E Datasheet
+	L225J100E - Ohmite	L225J100E-ND 	L225J100E	Ohmite	RES CHAS MNT 100 OHM 5% 225W	32 - Immediate
+	16.63000 	1 	Bulk  	270	100	±5%	225W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	1.126" Dia x 10.500" L (28.60mm x 266.70mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+L225J50RE Datasheet
+	L225J50RE - Ohmite	L225J50RE-ND 	L225J50RE	Ohmite	RES CHAS MNT 50 OHM 5% 225W	20 - Immediate
+	16.63000 	1 	Bulk  	270	50	±5%	225W	Wirewound	±260ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	1.126" Dia x 10.500" L (28.60mm x 266.70mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+L225J4R0E Datasheet
+	L225J4R0E - Ohmite	L225J4R0E-ND 	L225J4R0E	Ohmite	RES CHAS MNT 4 OHM 5% 225W	31 - Immediate
+	19.16000 	1 	Bulk  	270	4	±5%	225W	Wirewound	±400ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	1.126" Dia x 10.500" L (28.60mm x 266.70mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+SHT1-500C075DE Datasheet
+	SHT1-500C075DE - Ohmite	SHT1-500C075DE-ND 	SHT1-500C075DE	Ohmite	RES CHAS MNT 0.00015 OHM 0.5%	13 - Immediate
+	27.09000 	1 	Bulk  	S	0.00015	±0.5% 	37.5W	Metal Element	-	Current Sense	-	Flanges	4.961" L x 1.811" W (126.00mm x 46.00mm)	0.906" (23.00mm)	4-Terminal	Rectangular Case - Open	
+-
+	
+TGHGCR0020FE Datasheet
+	TGHGCR0020FE - Ohmite	TGHGCR0020FE-ND 	TGHGCR0020FE	Ohmite	RES CHAS MNT 0.002 OHM 1% 100W	87 - Immediate
+	27.21000 	1 	Bulk  	TGHG	0.002	±1%	100W	Thick Film	±60ppm/°C	Current Sense, Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.483" (12.26mm)	M4 Threaded	SOT-227-4	
+-
+	
+TGHGCR0200FE Datasheet
+	TGHGCR0200FE - Ohmite	TGHGCR0200FE-ND 	TGHGCR0200FE	Ohmite	RES CHAS MNT 0.02 OHM 1% 100W	19 - Immediate
+	27.21000 	1 	Bulk  	TGHG	0.02	±1%	100W	Thick Film	±60ppm/°C	Current Sense, Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.483" (12.26mm)	M4 Threaded	SOT-227-4	
+-
+	
+1-1630019-6 Datasheet
+	1-1630019-6 - TE Connectivity	A102383-ND 	1-1630019-6	TE Connectivity	RES CHAS MNT 2.2 OHM 5% 200W	56 - Immediate
+	33.37000 	1 	Bulk  	HS, CGS	2.2	±5%	200W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	3.543" L x 2.874" W (90.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+1630019-2 Datasheet
+	1630019-2 - TE Connectivity	A102375-ND 	1630019-2	TE Connectivity	RES CHAS MNT 10 OHM 5% 200W	43 - Immediate
+	33.37000 	1 	Bulk  	HS, CGS	10	±5%	200W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	3.543" L x 2.874" W (90.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+2-1630019-7 Datasheet
+	2-1630019-7 - TE Connectivity	A102386-ND 	2-1630019-7	TE Connectivity	RES CHAS MNT 0.1 OHM 5% 200W	33 - Immediate
+	33.37000 	1 	Bulk  	HS, CGS	0.1	±5%	200W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	3.543" L x 2.874" W (90.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+2-1630019-8 Datasheet
+	2-1630019-8 - TE Connectivity	A102387-ND 	2-1630019-8	TE Connectivity	RES CHAS MNT 0.47 OHM 5% 200W	32 - Immediate
+	33.37000 	1 	Bulk  	HS, CGS	0.47	±5%	200W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	3.543" L x 2.874" W (90.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+2-1630019-6 Datasheet
+	2-1630019-6 - TE Connectivity	A102385-ND 	2-1630019-6	TE Connectivity	RES CHAS MNT 6.8 OHM 5% 200W	30 - Immediate
+	33.37000 	1 	Bulk  	HS, CGS	6.8	±5%	200W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	3.543" L x 2.874" W (90.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+4-1630019-7 Datasheet
+	4-1630019-7 - TE Connectivity	A102379-ND 	4-1630019-7	TE Connectivity	RES CHAS MNT 20 OHM 5% 200W	29 - Immediate
+	33.37000 	1 	Bulk  	HS, CGS	20	±5%	200W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	3.543" L x 2.874" W (90.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+1-1630019-2 Datasheet
+	1-1630019-2 - TE Connectivity	A102380-ND 	1-1630019-2	TE Connectivity	RES CHAS MNT 220 OHM 5% 200W	28 - Immediate
+	33.37000 	1 	Bulk  	HS, CGS	220	±5%	200W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	3.543" L x 2.874" W (90.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+2-1630019-2 Datasheet
+	2-1630019-2 - TE Connectivity	A102111-ND 	2-1630019-2	TE Connectivity	RES CHAS MNT 47 OHM 5% 200W	13 - Immediate
+	33.37000 	1 	Bulk  	HS, CGS	47	±5%	200W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	3.543" L x 2.874" W (90.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+1630019-1 Datasheet
+	1630019-1 - TE Connectivity	A102374-ND 	1630019-1	TE Connectivity	RES CHAS MNT 100 OHM 5% 200W	6 - Immediate
+	33.37000 	1 	Bulk  	HS, CGS	100	±5%	200W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	3.543" L x 2.874" W (90.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+1-1879450-3 Datasheet
+	1-1879450-3 - TE Connectivity	A105659-ND 	1-1879450-3	TE Connectivity	RES CHAS MNT 10 OHM 5% 500W	28 - Immediate
+	35.03000 	1 	Bulk  	TE, CGS	10	±5%	500W	Wirewound	±440ppm/°C	Flame Proof	Silicon Coated	Brackets	1.969" Dia x 12.441" L (50.00mm x 316.00mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+TGHGCR0750FE Datasheet
+	TGHGCR0750FE - Ohmite	TGHGCR0750FE-ND 	TGHGCR0750FE	Ohmite	RES CHAS MNT 0.075 OHM 1% 100W	62 - Immediate
+	36.90000 	1 	Bulk  	TGHG	0.075	±1%	100W	Thick Film	±60ppm/°C	Current Sense, Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.483" (12.26mm)	M4 Threaded	SOT-227-4	
+-
+	
+TGHGCR0250FE Datasheet
+	TGHGCR0250FE - Ohmite	TGHGCR0250FE-ND 	TGHGCR0250FE	Ohmite	RES CHAS MNT 0.025 OHM 1% 100W	31 - Immediate
+	36.90000 	1 	Bulk  	TGHG	0.025	±1%	100W	Thick Film	±60ppm/°C	Current Sense, Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.483" (12.26mm)	M4 Threaded	SOT-227-4	
+-
+	
+TGHHV1K00JE Datasheet
+	TGHHV1K00JE - Ohmite	TGHHV1K00JE-ND 	TGHHV1K00JE	Ohmite	RES CHAS MNT 1K OHM 5% 120W	62 - Immediate
+	37.78000 	1 	Bulk  	TGH	1k	±5%	120W	Thick Film	±250ppm/°C	Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.358" (9.10mm)	M4 Threaded	SOT-227-2	
+-
+	
+TGHHV10K0JE Datasheet
+	TGHHV10K0JE - Ohmite	TGHHV10K0JE-ND 	TGHHV10K0JE	Ohmite	RES CHAS MNT 10K OHM 5% 120W	50 - Immediate
+	37.78000 	1 	Bulk  	TGH	10k	±5%	120W	Thick Film	±250ppm/°C	Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.358" (9.10mm)	M4 Threaded	SOT-227-2	
+-
+	
+TGHHV5K00JE Datasheet
+	TGHHV5K00JE - Ohmite	TGHHV5K00JE-ND 	TGHHV5K00JE	Ohmite	RES CHAS MNT 5K OHM 5% 120W	18 - Immediate
+	37.78000 	1 	Bulk  	TGH	5k	±5%	120W	Thick Film	±250ppm/°C	Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.358" (9.10mm)	M4 Threaded	SOT-227-2	
+-
+	
+TGHHV33R0JE Datasheet
+	TGHHV33R0JE - Ohmite	TGHHV33R0JE-ND 	TGHHV33R0JE	Ohmite	RES CHAS MNT 33 OHM 5% 120W	16 - Immediate
+	37.78000 	1 	Bulk  	TGH	33	±5%	120W	Thick Film	±250ppm/°C	Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.358" (9.10mm)	M4 Threaded	SOT-227-2	
+-
+	
+TGHHV150RJE Datasheet
+	TGHHV150RJE - Ohmite	TGHHV150RJE-ND 	TGHHV150RJE	Ohmite	RES CHAS MNT 150 OHM 5% 120W	11 - Immediate
+	37.78000 	1 	Bulk  	TGH	150	±5%	120W	Thick Film	±250ppm/°C	Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.358" (9.10mm)	M4 Threaded	SOT-227-2	
+-
+	
+TGHHV10R0JE Datasheet
+	TGHHV10R0JE - Ohmite	TGHHV10R0JE-ND 	TGHHV10R0JE	Ohmite	RES CHAS MNT 10 OHM 5% 120W	7 - Immediate
+	37.78000 	1 	Bulk  	TGH	10	±5%	120W	Thick Film	±250ppm/°C	Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.358" (9.10mm)	M4 Threaded	SOT-227-2	
+-
+	
+EVRT252EPR22KE Datasheet
+	EVRT252EPR22KE - Ohmite	EVRT252EPR22KE-ND 	EVRT252EPR22KE	Ohmite	RES CHAS MNT 0.22 OHM 10% 350W	11 - Immediate
+	40.86000 	1 	Bulk  	Euro-Power	0.22	±10%	350W	Wirewound	±400ppm/°C	Flame Retardant Coating	Vitreous Enamel Coated	Brackets (not included)	1.193" Dia x 9.921" L (30.60mm x 252.00mm)	-	Solder Lugs	Radial, Tubular	
+-
+	
+TGHHVR100JE Datasheet
+	TGHHVR100JE - Ohmite	TGHHVR100JE-ND 	TGHHVR100JE	Ohmite	RES CHAS MNT 0.1 OHM 5% 120W	25 - Immediate
+	43.09000 	1 	Bulk  	TGH	0.1	±5%	120W	Thick Film	±250ppm/°C	Non-Inductive	Epoxy Coated	Flanges	1.500" L x 0.980" W (38.10mm x 24.90mm)	0.358" (9.10mm)	M4 Threaded	SOT-227-2	
+-
+	
+1-1630027-5 Datasheet
+	1-1630027-5 - TE Connectivity	A102398-ND 	1-1630027-5	TE Connectivity	RES CHAS MNT 47 OHM 5% 300W	46 - Immediate
+	44.39000 	1 	Bulk  	HS, CGS	47	±5%	300W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	5.039" L x 2.874" W (128.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+2-1630027-0 Datasheet
+	2-1630027-0 - TE Connectivity	A102400-ND 	2-1630027-0	TE Connectivity	RES CHAS MNT 6.8 OHM 5% 300W	45 - Immediate
+	44.39000 	1 	Bulk  	HS, CGS	6.8	±5%	300W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	5.039" L x 2.874" W (128.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+1-1630027-1 Datasheet
+	1-1630027-1 - TE Connectivity	A102397-ND 	1-1630027-1	TE Connectivity	RES CHAS MNT 330 OHM 5% 300W	43 - Immediate
+	44.39000 	1 	Bulk  	HS, CGS	330	±5%	300W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	5.039" L x 2.874" W (128.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+1630027-5 Datasheet
+	1630027-5 - TE Connectivity	A102393-ND 	1630027-5	TE Connectivity	RES CHAS MNT 1K OHM 5% 300W	34 - Immediate
+	44.39000 	1 	Bulk  	HS, CGS	1k	±5%	300W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	5.039" L x 2.874" W (128.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+2-1630027-9 Datasheet
+	2-1630027-9 - TE Connectivity	A102392-ND 	2-1630027-9	TE Connectivity	RES CHAS MNT 15 OHM 5% 300W	32 - Immediate
+	44.39000 	1 	Bulk  	HS, CGS	15	±5%	300W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	5.039" L x 2.874" W (128.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+2-1630027-8 Datasheet
+	2-1630027-8 - TE Connectivity	A102396-ND 	2-1630027-8	TE Connectivity	RES CHAS MNT 25 OHM 5% 300W	30 - Immediate
+	44.39000 	1 	Bulk  	HS, CGS	25	±5%	300W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	5.039" L x 2.874" W (128.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+1630027-3 Datasheet
+	1630027-3 - TE Connectivity	A102391-ND 	1630027-3	TE Connectivity	RES CHAS MNT 10 OHM 5% 300W	22 - Immediate
+	44.39000 	1 	Bulk  	HS, CGS	10	±5%	300W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	5.039" L x 2.874" W (128.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+1630027-1 Datasheet
+	1630027-1 - TE Connectivity	A102390-ND 	1630027-1	TE Connectivity	RES CHAS MNT 100 OHM 5% 300W	20 - Immediate
+	44.39000 	1 	Bulk  	HS, CGS	100	±5%	300W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	5.039" L x 2.874" W (128.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+-
+	2-1630024-9 - TE Connectivity	A103843-ND 	2-1630024-9	TE Connectivity	RES CHAS MNT 150 OHM 5% 250W	59 - Immediate
+	45.46000 	1 	Bulk  	HS, CGS	150	±5%	250W	Wirewound	±30ppm/°C	-	Aluminum	Flanges	4.291" L x 2.874" W (109.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+-
+	2-1630024-3 - TE Connectivity	A103848-ND 	2-1630024-3	TE Connectivity	RES CHAS MNT 3.3 OHM 5% 250W	19 - Immediate
+	45.46000 	1 	Bulk  	HS, CGS	3.3	±5%	250W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	4.291" L x 2.874" W (109.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+-
+	
+1630024-1 Datasheet
+	1630024-1 - TE Connectivity	A102388-ND 	1630024-1	TE Connectivity	RES CHAS MNT 100 OHM 5% 250W	21 - Immediate
+	45.46000 	1 	Bulk  	HS, CGS	100	±5%	250W	Wirewound	±50ppm/°C	-	Aluminum	Flanges	4.291" L x 2.874" W (109.00mm x 73.00mm)	1.650" (42.00mm)	Terminal Screw Type	Axial, Box	
+	
