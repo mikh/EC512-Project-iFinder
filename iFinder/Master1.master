@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master1.master.cs" Inherits="Master1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color: #F0EADB; font-family: Arial, Helvetica, sans-serif;">
+    <form id="form1" runat="server">
+    <div style="margin: auto; width: 1000px; height: 1000px; background-color: #FFFFFF">
+        <header style="text-align: center; width: 100%; font-size: 20px; font-weight: bold; background-color: #F0EADB;">Product Finder</header>
+        <div style="margin: auto; width: 500px">
+        <asp:TextBox ID="searchBar" runat="server" Width="400px"></asp:TextBox>
+        <asp:Button ID="searchButton" runat="server" Text="Search" />
+        </div>
+        <div style="border-width: thin; border-color: #808080; padding: 10px; margin: auto; float: left; width: 20%; background-color: #FFFFFF; height: 500px; border-right-style: solid; border-bottom-style: solid; font-size: 12px;">
+            <header style="font-size: 100%; font-weight: bold; color: #FF9900">Header Example</header>
+            <ul style="margin: 0px 0px 6px 0px; padding: 0px 0px 6px 20px; list-style-type: none; list-style-position: outside; font-size: 100%;">
+                <li>Example Item 1</li>
+                <li>Example Item 2</li>
+                <li>Example Item 3</li>
+                <li>Example Item 4</li>
+            </ul>
+            <asp:Label ID="headerList1" runat="server" Text="ASP Header Example" style="font-size: 100%; font-weight: bold; color: #FF9900"></asp:Label>
+            <asp:BulletedList ID="filterList1" runat="server" style="margin: 0px 0px 6px 0px; padding: 0px 0px 6px 20px; list-style-type: none; list-style-position: outside; font-size: 100%;"></asp:BulletedList>
+        </div>
+        <section style="float: right; width: 75%">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </section>
+    </div>
+    </form>
+</body>
+</html>
