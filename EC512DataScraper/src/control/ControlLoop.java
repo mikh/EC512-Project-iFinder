@@ -6,8 +6,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import parsers.Digikey_Resistor_Parser;
 import util.Param;
-import web.Client;
 
 public class ControlLoop {
 	public static void main(String[] args){
@@ -30,10 +30,14 @@ public class ControlLoop {
 					item = new ArrayList<String>();
 				}
 			}
+			br.close();
 			System.out.println("\tDone.");
 	
 			System.out.print("Parse Items...");
-			
+			Digikey_Resistor_Parser p = new Digikey_Resistor_Parser();
+			p.load(raw_text);
+			p.parse();
+			p.printXML("data.xml");
 			System.out.println("\tDone.");
 			
 			System.out.println("Operations Complete.");
