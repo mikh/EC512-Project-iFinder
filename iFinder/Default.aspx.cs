@@ -72,20 +72,67 @@ public partial class _Default : System.Web.UI.Page
 
 
         /*** Insert Data Values ***/
+        
         foreach (DataRow row in ds.Tables[2].Rows)
         {
             StringBuilder insert_query = new StringBuilder();
-            insert_query.Append("INSERT INTO ");
-            insert_query.Append(table_name);
-            insert_query.Append(" (");
-            foreach (String str in cols)
+          //  insert_query.Append("INSERT INTO ");
+          //  insert_query.Append(table_name);
+          //  insert_query.Append(" (ID) VALUES (HEllo);");
+          //  insert_query.Append("'(");
+          //  insert_query.Append("ID) VALUES (HEllo);");
+         /*   foreach (String str in cols)
             {
                 insert_query.Append(str);
                 insert_query.Append(", ");
             }
             insert_query.Length -= 2;
             insert_query.Append(") VALUES (");
-            foreach (String str in row.ItemArray) { }
+            foreach (String str in cols)
+            {
+              //  insert_query.Append("@");
+              //  insert_query.Append(str);
+               // insert_query.Append(", ");
+                insert_query.Append(row[str].ToString());
+                insert_query.Append(", ");
+            } 
+
+            insert_query.Length -= 2; 
+            insert_query.Append(")"); */
+          //  sqlConn.Open();
+          //  sqlQuery = new SqlCommand(insert_query.ToString(), sqlConn); 
+          /*  foreach (String str in cols)
+            {
+                StringBuilder parameter_name = new StringBuilder();
+                parameter_name.Append("@");
+                parameter_name.Append(str);
+                
+            }*/
+         //   sqlQuery.ExecuteNonQuery();
+           // reader = sqlQuery.ExecuteReader();
+        //    sqlConn.Close();
+            insert_query.Append("INSERT INTO ");
+            insert_query.Append(table_name);
+            insert_query.Append(" VALUES (");
+            foreach (String str in cols)
+            {
+                insert_query.Append("@");
+                insert_query.Append(str);
+                insert_query.Append(", ");
+            }
+            insert_query.Length -= 2;
+            insert_query.Append(");");
+            sqlConn.Open();
+            sqlQuery = new SqlCommand(insert_query.ToString(), sqlConn);
+            foreach (String str in cols)
+            {
+                StringBuilder parameter_name = new StringBuilder();
+                parameter_name.Append("@");
+                parameter_name.Append(str);
+                sqlQuery.Parameters.AddWithValue(parameter_name.ToString(), row[str].ToString());
+            }
+            sqlQuery.ExecuteNonQuery();
+            sqlConn.Close();
         }
         /*** Done Inserting ***/
 
