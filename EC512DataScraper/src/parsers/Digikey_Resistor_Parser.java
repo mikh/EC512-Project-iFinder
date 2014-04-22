@@ -206,6 +206,154 @@ public class Digikey_Resistor_Parser {
 		}
 	}
 	
+	public void printFilterXML(String file){
+		try{
+			BufferedWriter bw = new BufferedWriter(new FileWriter(file, false));
+			bw.write("<filters>\n");
+			bw.write("\t<electronics>\n");
+			bw.write("\t\t<resistors>\n");
+			
+			//manufacturers
+			ArrayList<String> fields = new ArrayList<String>();
+			for(int ii = 0; ii < items.size(); ii++){
+				String mm = items.get(ii).manufacturer;
+				if(!fields.contains(mm))
+					fields.add(mm);
+			}
+			bw.write("\t\t\t<manufacturer>\n");
+			for(int ii = 0; ii < fields.size(); ii++){
+				bw.write(String.format("\t\t\t\t<item>\n\t\t\t\t\t%s\n\t\t\t\t</item>\n", fields.get(ii)));
+			}
+			bw.write("\t\t\t</manufacturer>\n");
+			
+			//quantity
+			int high = 0;
+			int low = 99999999;
+			for(int ii = 0; ii < items.size(); ii++){
+				int val = items.get(ii).quantity;
+				if(val > high) high = val;
+				if(val < low) low = val;
+			}
+			bw.write("\t\t\t<quantity>\n");
+			bw.write(String.format("\t\t\t\t<high>\n\t\t\t\t\t%d\n\t\t\t\t</high>\n", high));
+			bw.write(String.format("\t\t\t\t<low>\n\t\t\t\t\t%d\n\t\t\t\t</low>\n", low));
+			bw.write("\t\t\t</quantity>\n");
+			
+			//availablity
+			fields = new ArrayList<String>();
+			for(int ii = 0; ii < items.size(); ii++){
+				String mm = items.get(ii).availability;
+				if(!fields.contains(mm))
+					fields.add(mm);
+			}
+			bw.write("\t\t\t<availability>\n");
+			for(int ii = 0; ii < fields.size(); ii++){
+				bw.write(String.format("\t\t\t\t<item>\n\t\t\t\t\t%s\n\t\t\t\t</item>\n", fields.get(ii)));
+			}
+			bw.write("\t\t\t</availability>\n");
+			
+			//price
+			double high_f = 0;
+			double low_f = 99999999;
+			for(int ii = 0; ii < items.size(); ii++){
+				double val = items.get(ii).price;
+				if(val > high_f) high_f = val;
+				if(val < low_f) low_f = val;
+			}
+			bw.write("\t\t\t<price>\n");
+			bw.write(String.format("\t\t\t\t<high>\n\t\t\t\t\t%f\n\t\t\t\t</high>\n", high_f));
+			bw.write(String.format("\t\t\t\t<low>\n\t\t\t\t\t%f\n\t\t\t\t</low>\n", low_f));
+			bw.write("\t\t\t</price>\n");
+			
+			//minimum_quantity
+			high = 0;
+			low = 99999999;
+			for(int ii = 0; ii < items.size(); ii++){
+				int val = items.get(ii).minimum_quantity;
+				if(val > high) high = val;
+				if(val < low) low = val;
+			}
+			bw.write("\t\t\t<minimum_quantity>\n");
+			bw.write(String.format("\t\t\t\t<high>\n\t\t\t\t\t%d\n\t\t\t\t</high>\n", high));
+			bw.write(String.format("\t\t\t\t<low>\n\t\t\t\t\t%d\n\t\t\t\t</low>\n", low));
+			bw.write("\t\t\t</minimum_quantity>\n");
+			
+			//packaging
+			fields = new ArrayList<String>();
+			for(int ii = 0; ii < items.size(); ii++){
+				String mm = items.get(ii).packaging;
+				if(!fields.contains(mm))
+					fields.add(mm);
+			}
+			bw.write("\t\t\t<packaging>\n");
+			for(int ii = 0; ii < fields.size(); ii++){
+				bw.write(String.format("\t\t\t\t<item>\n\t\t\t\t\t%s\n\t\t\t\t</item>\n", fields.get(ii)));
+			}
+			bw.write("\t\t\t</packaging>\n");
+			
+			//series
+			fields = new ArrayList<String>();
+			for(int ii = 0; ii < items.size(); ii++){
+				String mm = items.get(ii).series;
+				if(!fields.contains(mm))
+					fields.add(mm);
+			}
+			bw.write("\t\t\t<series>\n");
+			for(int ii = 0; ii < fields.size(); ii++){
+				bw.write(String.format("\t\t\t\t<item>\n\t\t\t\t\t%s\n\t\t\t\t</item>\n", fields.get(ii)));
+			}
+			bw.write("\t\t\t</series>\n");
+			
+			//resistance
+			high_f = 0;
+			low_f = 99999999;
+			for(int ii = 0; ii < items.size(); ii++){
+				double val = items.get(ii).resistance_ohms;
+				if(val > high_f) high_f = val;
+				if(val < low_f) low_f = val;
+			}
+			bw.write("\t\t\t<resistance_ohms>\n");
+			bw.write(String.format("\t\t\t\t<high>\n\t\t\t\t\t%f\n\t\t\t\t</high>\n", high_f));
+			bw.write(String.format("\t\t\t\t<low>\n\t\t\t\t\t%f\n\t\t\t\t</low>\n", low_f));
+			bw.write("\t\t\t</resistance_ohms>\n");
+			
+			//tolerance
+			high = 0;
+			low = 99999999;
+			for(int ii = 0; ii < items.size(); ii++){
+				int val = items.get(ii).tolerance;
+				if(val > high) high = val;
+				if(val < low) low = val;
+			}
+			bw.write("\t\t\t<tolerance>\n");
+			bw.write(String.format("\t\t\t\t<high>\n\t\t\t\t\t%d\n\t\t\t\t</high>\n", high));
+			bw.write(String.format("\t\t\t\t<low>\n\t\t\t\t\t%d\n\t\t\t\t</low>\n", low));
+			bw.write("\t\t\t</tolerance>\n");
+			
+			//power
+			high_f = 0;
+			low_f = 99999999;
+			for(int ii = 0; ii < items.size(); ii++){
+				double val = items.get(ii).power_watts;
+				if(val > high_f) high_f = val;
+				if(val < low_f) low_f = val;
+			}
+			bw.write("\t\t\t<power_watts>\n");
+			bw.write(String.format("\t\t\t\t<high>\n\t\t\t\t\t%f\n\t\t\t\t</high>\n", high_f));
+			bw.write(String.format("\t\t\t\t<low>\n\t\t\t\t\t%f\n\t\t\t\t</low>\n", low_f));
+			bw.write("\t\t\t</power_watts>\n");
+			
+			
+			bw.write("\t\t</resistors>\n");
+			bw.write("\t</electronics>\n");
+			bw.write("</filters>\n");
+			bw.close();
+		} catch(IOException e){
+			System.out.println(String.format("Digikey_Resistor_Parser::printFilterXML - IOException when trying to write to file %s.", file));
+			System.exit(-1);
+		}
+	}
+	
 	public void printRaw(){
 		for(int ii = 0; ii < raw_data.size(); ii++){
 			for(int jj = 0; jj < raw_data.get(ii).size(); jj++)

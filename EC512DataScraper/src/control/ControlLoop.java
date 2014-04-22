@@ -38,6 +38,7 @@ public class ControlLoop {
 			p.load(raw_text);
 			p.parse();
 			p.printXML("data.xml");
+			p.printFilterXML("filters.xml");
 			System.out.println("\tDone.");
 			
 			System.out.println("Operations Complete.");
