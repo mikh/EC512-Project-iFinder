@@ -192,8 +192,12 @@ public class Digikey_Resistor_Parser {
 		try{
 			BufferedWriter bw = new BufferedWriter(new FileWriter(file, false));
 			bw.write("<data>\n");
+			bw.write("\t<ProductType>electronics</ProductType>\n");
+			bw.write("\t<ProductName>resistor</ProductName>\n");
+			bw.write("\t<items>\n");
 			for(int ii = 0; ii < items.size(); ii++)
 				bw.write(items.get(ii).printXML());
+			bw.write("\t</items>\n");
 			bw.write("</data>\n");
 			bw.close();
 		} catch(IOException e){
