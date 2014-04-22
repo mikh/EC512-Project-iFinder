@@ -12,10 +12,13 @@ public partial class _Default : System.Web.UI.Page
 {
 
     private String connectionString = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=|DataDirectory|\\Database2.mdf;Integrated Security=True";
+    private String connectionString_filters = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=|DataDirectory|\\Database.mdf;Integrated Security=True";
     private bool sql_defined = false;
     private bool rewrite_table = true;
     private String tableName;
     private String data_xml_path = "data.xml";
+    private String usable_filter_xml_path = "usable_features.xml";
+    private String filter_xml_path = "filters.xml";
 
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -41,9 +44,39 @@ public partial class _Default : System.Web.UI.Page
 
                 tableName = table_name.ToString();
 
-                deleteTable(tableName);
-                List<String> cols = createTable(tableName, ds);
-                insertDataIntoTable(tableName, ds, cols);
+                deleteTable(tableName, connectionString);
+                List<String> cols = createTable(tableName, ds, connectionString);
+                insertDataIntoTable(tableName, ds, cols, connectionString);
+
+
+                /*** usable filters ***/
+                ds = new DataSet();
+                ds.ReadXml(Server.MapPath(usable_filter_xml_path));
+                table_name = new StringBuilder();
+  
+                DataColumn col = ds.Tables[0].Columns[0];
+                table_name.Append(col.ColumnName);
+                table_name.Length -= 2;
+                col = ds.Tables[1].Columns[0];
+                table_name.Append(col.ColumnName);
+                table_name.Length -= 2;
+                table_name.Append("_filter_table");
+
+                col = ds.Tables[2].Columns[0];
+                String feature_name = col.ColumnName;
+                List<String> usable_filters = new List<String>();
+
+                foreach (DataRow row in ds.Tables[2].Rows)
+                {
+                    usable_filters.Add(row[feature_name].ToString());
+                }
+
+                /*** filters ***/
+                ds = new DataSet();
+                ds.ReadXml(Server.MapPath(filter_xml_path));
+                foreach (DataColumn ss in ds.Tables[4].Columns)
+                    list_debug.Items.Add(ss.ColumnName);
+
                 sql_defined = true;
             }
             catch (Exception ex)
@@ -53,9 +86,9 @@ public partial class _Default : System.Web.UI.Page
         }   
     }
 
-    private void deleteTable(String tableName)
+    private void deleteTable(String tableName, String conn_string)
     {
-        SqlConnection sqlConn = new SqlConnection(connectionString);
+        SqlConnection sqlConn = new SqlConnection(conn_string);
         StringBuilder delete_table_query = new StringBuilder();
         sqlConn.Open();
         delete_table_query.Append("IF OBJECT_ID ( '");
@@ -67,9 +100,9 @@ public partial class _Default : System.Web.UI.Page
         sqlConn.Close();
     }
 
-    private List<String> createTable(String tableName, DataSet data)
+    private List<String> createTable(String tableName, DataSet data, String conn_string)
     {
-        SqlConnection sqlConn = new SqlConnection(connectionString);
+        SqlConnection sqlConn = new SqlConnection(conn_string);
         StringBuilder query = new StringBuilder();
         query.Append("CREATE TABLE ");
         query.Append(tableName);
@@ -94,11 +127,11 @@ public partial class _Default : System.Web.UI.Page
         return cols;
     }
 
-    private void insertDataIntoTable(String tableName, DataSet data, List<String> cols)
+    private void insertDataIntoTable(String tableName, DataSet data, List<String> cols, String conn_string)
     {
         foreach (DataRow row in data.Tables[2].Rows)
         {
-            SqlConnection sqlConn = new SqlConnection(connectionString);
+            SqlConnection sqlConn = new SqlConnection(conn_string);
             StringBuilder insert_query = new StringBuilder();
             insert_query.Append("INSERT INTO ");
             insert_query.Append(tableName);

@@ -7,7 +7,7 @@
 
     <asp:Label ID="debug" runat="server" Text="Label"></asp:Label>
 
-    <asp:ListBox ID="list_debug" runat="server"></asp:ListBox>
+    <asp:ListBox ID="list_debug" runat="server" Height="390px" Width="302px"></asp:ListBox>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [electronics_resistor_table]"></asp:SqlDataSource>
 </asp:Content>
 
