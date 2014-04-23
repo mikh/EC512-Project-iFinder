@@ -37,6 +37,7 @@ public partial class Login : System.Web.UI.Page
         catch
         {
             //Not authenticated
+            status.Text = "Error with authentication.";
         }
         status.Text = "Login failed.";
     }

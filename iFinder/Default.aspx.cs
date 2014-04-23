@@ -218,13 +218,27 @@ public partial class _Default : System.Web.UI.Page
             }
         }
         if (User.Identity.IsAuthenticated)
-        {
-            debug.Text = User.Identity.Name + "is currently logged in. Refresh to log out";
-            FormsAuthentication.SignOut();
+        {         
+            logged_in.Text = User.Identity.Name;
+            user_label.Visible = false;
+            userName.Visible = false;
+            passWord.Visible = false;
+            password_label.Visible = false;
+            Login.Visible = false;
+            Register.Visible = false;
+            message_label.Text = "Welcome";
+            logged_in.Visible = true;
         }
         else
         {
-            debug.Text = "No user here";
+            user_label.Visible = true;
+            userName.Visible = true;
+            passWord.Visible = true;
+            password_label.Visible = true;
+            Login.Visible = true;
+            Register.Visible = true;
+            message_label.Text = "Please Enter a Username and a Password";
+            logged_in.Visible = false;
         }
         try
         {
@@ -254,7 +268,7 @@ public partial class _Default : System.Web.UI.Page
         }
         catch (Exception ex)
         {
-            debug.Text = "Error with cookies";
+            message_label.Text = "Error with cookies";
         }
 
     }
@@ -566,13 +580,38 @@ public partial class _Default : System.Web.UI.Page
 
     protected void Login_Click(object sender, EventArgs e)
     {
-        if (userName.Text == "" || passWord.Text == "")
+        try  //catches blank User name
         {
-            message_label.Text = "Please Enter a Username and a Password";
-        }
-        else
-        {
+            DataView dv = (DataView)SqlDataSource1.Select(DataSourceSelectArguments.Empty);
+            if (dv.Table.Rows.Count == 0)
+            {
+                //status
+            }
+            string hashpass = FormsAuthentication.HashPasswordForStoringInConfigFile(passWord.Text, "SHA1");
+            DataRow row = dv.Table.Rows[0];
+            string temppass = (string)row["Password"];
+            if (temppass == hashpass)
+            {
+                //authenticated
+                FormsAuthentication.RedirectFromLoginPage(userName.Text, false);
+                message_label.Text = "Login OK.";
+                return;
+            }
 
         }
+        catch
+        {
+            //Not authenticated
+            message_label.Text = "Error with authentication.";
+        }
+        message_label.Text = "Login failed.";
+    }
+    protected void Register_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Register.aspx");
+    }
+    protected void bLogout_Click(object sender, EventArgs e)
+    {
+        FormsAuthentication.SignOut();
     }
 }
