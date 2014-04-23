@@ -37,11 +37,22 @@ div#login {
     margin:auto;
 }
 
+div#search_bar{
+    background-color:white;
+    width:1500px;
+    height:50px;
+    margin:auto;
+    align-items:center;
+    text-align:center;
+}
+
 div#page {
     margin: auto;
     width: 1500px; 
     height: 100%; 
     background-color: #ffffff;
+    text-align:center;
+    align-items:center;
     /*opacity: 0.6;
     filter: alpha(opacity=60);*/
 }

@@ -13,3 +13,38 @@
     <asp:Button ID="Login" runat="server" Text="Login" OnClick="Login_Click" />&nbsp;&nbsp;&nbsp;
     <asp:Button ID="Register" runat="server" Text="Register" />&nbsp;&nbsp;&nbsp;
 </asp:Content>
+
+<asp:Content ID="Content_search" ContentPlaceHolderID="search_asp" runat="server">
+    Product Search: &nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="search_bar" runat="server" Width="446px"></asp:TextBox>&nbsp;&nbsp;&nbsp;
+    <asp:Button ID="SearchBtn" runat="server" Text="Search" OnClick="SearchBtn_Click" />
+</asp:Content>
+
+<asp:Content ID="Content_results" ContentPlaceHolderID="items" runat="server">
+    <asp:Label ID="results_label" runat="server" Text=""></asp:Label><br /><br /><br />
+    <asp:Repeater ID="results_repeater" runat="server">
+        <ItemTemplate>
+            <tr>
+                <td>
+                    <%# ((List<String>)Container.DataItem)[0] %>
+                </td>
+                <td>
+                    <%# ((List<String>)Container.DataItem)[1] %>
+                </td>
+                <td>
+                    <%# ((List<String>)Container.DataItem)[2] %>
+                </td>
+                <td>
+                    <%# ((List<String>)Container.DataItem)[3] %>
+                </td>
+            </tr>
+            <br />
+            <br />
+        </ItemTemplate>
+        <FooterTemplate>
+            </table><br />
+        </FooterTemplate>
+    </asp:Repeater>
+
+
+</asp:Content>
