@@ -1,15 +1,15 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master1.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/SuperMaster.master" CodeFile="~/Default.aspx.cs" Inherits="_Default" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    This is coming from a content page (page 1)
-
-    <asp:Label ID="debug" runat="server" Text="Label"></asp:Label>
-
-    <asp:ListBox ID="list_debug" runat="server" Height="390px" Width="302px"></asp:ListBox>
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [electronics_resistor_table]"></asp:SqlDataSource>
+<asp:Content ID="Content" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 
-
-
+<asp:Content ID="Content_login" ContentPlaceHolderID="login_asp" runat="server">
+    <asp:Label ID="message_label" runat="server" Text=""></asp:Label>&nbsp;&nbsp;&nbsp;
+    <asp:Label ID="user_label" runat="server" Text="UserName:   "></asp:Label>&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="userName" runat="server"></asp:TextBox>&nbsp;&nbsp;&nbsp;
+    <asp:Label ID="password_label" runat="server" Text="    Password:   "></asp:Label>&nbsp;&nbsp;&nbsp;
+    <asp:TextBox ID="passWord" runat="server"></asp:TextBox>&nbsp;&nbsp;&nbsp;
+    <asp:Label ID="logged_in" runat="server" Text=""></asp:Label>&nbsp;&nbsp;&nbsp;
+    <asp:Button ID="Login" runat="server" Text="Login" OnClick="Login_Click" />&nbsp;&nbsp;&nbsp;
+    <asp:Button ID="Register" runat="server" Text="Register" />&nbsp;&nbsp;&nbsp;
+</asp:Content>

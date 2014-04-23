@@ -12,11 +12,18 @@
 <body id="backgnd">
     <form id="form1" runat="server">
     <div id="headline">
-        <header id="title">iFinder</header>
+        <!--<header id="title">iFinder</header>-->
+        <img src="logo.gif" />
     </div>
+    <div id="login"><asp:ContentPlaceHolder ID="login_asp" runat="server"></asp:ContentPlaceHolder></div>
     <div id="page">
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
+            <br />
+            <br />
+            <br />
+            <br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br />
         </asp:ContentPlaceHolder>
     </div>
     </form>

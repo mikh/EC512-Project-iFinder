@@ -209,11 +209,11 @@ public partial class _Default : System.Web.UI.Page
                 filter_test[0][0] = true;
                 filter_test[0][1] = true;
                 searchQuery("resistor", filter_test, connectionString);
-                debug.Text = search_results.Count.ToString();
+               // debug.Text = search_results.Count.ToString();
             }
             catch (Exception ex)
             {
-                debug.Text = "Error in loading database";
+                //debug.Text = "Error in loading database";
             }
         }   
     }
@@ -522,5 +522,16 @@ public partial class _Default : System.Web.UI.Page
         }
         return noDupes;
     }
-    
+
+    protected void Login_Click(object sender, EventArgs e)
+    {
+        if (userName.Text == "" || passWord.Text == "")
+        {
+            message_label.Text = "Please Enter a Username and a Password";
+        }
+        else
+        {
+
+        }
+    }
 }
