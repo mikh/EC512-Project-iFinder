@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
 using System.Text;
+using System.Web.Security;
 
 public partial class _Default : System.Web.UI.Page
 {
@@ -215,7 +216,47 @@ public partial class _Default : System.Web.UI.Page
             {
                 //debug.Text = "Error in loading database";
             }
-        }   
+        }
+        if (User.Identity.IsAuthenticated)
+        {
+            debug.Text = User.Identity.Name + "is currently logged in. Refresh to log out";
+            FormsAuthentication.SignOut();
+        }
+        else
+        {
+            debug.Text = "No user here";
+        }
+        try
+        {
+            //Check for Cookies
+            HttpCookie userInfoCookies = Request.Cookies["UserName"];
+            string userName;
+
+            if (userInfoCookies != null)
+            {
+                userName = userInfoCookies["UserName"];
+                //check if userName is currently logged.
+
+            }
+            else
+            {
+                //Setting values inside it
+                userInfoCookies = new HttpCookie("UserName");
+                userInfoCookies["UserName"] = "Guest";
+                userInfoCookies["Expire"] = "5 Days";
+
+                //Adding Expire Time of cookies
+                userInfoCookies.Expires = DateTime.Now.AddDays(5);
+
+                //Adding cookies to current web response
+                Response.Cookies.Add(userInfoCookies);
+            }
+        }
+        catch (Exception ex)
+        {
+            debug.Text = "Error with cookies";
+        }
+
     }
 
     private void deleteTable(String tableName, String conn_string)
