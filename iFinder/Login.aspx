@@ -18,7 +18,7 @@
         <br />
         <br />
         <asp:Label ID="status" runat="server"></asp:Label>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [Users] WHERE ([UserName] = @UserName)">
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT * FROM [Users] WHERE ([UserName] = @UserName)">
             <SelectParameters>
                 <asp:ControlParameter ControlID="UserName" Name="UserName" PropertyName="Text" Type="String" />
             </SelectParameters>

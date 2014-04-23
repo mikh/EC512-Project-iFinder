@@ -28,7 +28,7 @@
             <asp:HiddenField ID="hashpass" runat="server" />
             <br />
         </p>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [Users] WHERE ([UserName] = @UserName)" InsertCommand="INSERT INTO Users(UserName, Password) VALUES ( @user , @pass)">
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT * FROM [Users] WHERE ([UserName] = @UserName)" InsertCommand="INSERT INTO Users(UserName, Password) VALUES ( @user , @pass)">
             <SelectParameters>
                 <asp:ControlParameter ControlID="UserName" Name="UserName" PropertyName="Text" Type="String" />
             </SelectParameters>
