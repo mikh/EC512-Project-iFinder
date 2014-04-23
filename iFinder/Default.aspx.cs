@@ -23,6 +23,12 @@ public partial class _Default : System.Web.UI.Page
     private List<List<String>> filters;     //filters
     private List<String> usable_filters;    //filter categories
     private List<String> type_filters;      //filter types - Number or Text
+    private List<String> categories = new List<String>();
+    private List<List<String>> types = new List<List<String>>();
+    private List<String> notation = new List<String>();
+
+    private List<String> search_results_notation = new List<String>();
+    private List<List<String>> search_results = new List<List<String>>();
 
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -39,6 +45,9 @@ public partial class _Default : System.Web.UI.Page
                     type = row["ProductType"].ToString();
                     name = row["ProductName"].ToString();
                 }
+                categories.Add(type);
+                types.Add(new List<String>());
+                types[types.Count - 1].Add(name);
 
                 StringBuilder table_name = new StringBuilder();
                 table_name.Append(type);
@@ -91,14 +100,6 @@ public partial class _Default : System.Web.UI.Page
 
                 for (int ii = 0; ii < ds.Tables.Count; ii++)
                 {
-                    list_debug.Items.Add(ii.ToString());
-                    list_debug.Items.Add(ds.Tables[ii].TableName);
-                    foreach (DataColumn cc in ds.Tables[ii].Columns)
-                    {
-                        list_debug.Items.Add(cc.ColumnName);
-                    }
-                    list_debug.Items.Add("------------------");
-
                     tables.Add(ds.Tables[ii].TableName);
                 }
 
@@ -196,6 +197,19 @@ public partial class _Default : System.Web.UI.Page
                     }
                 }
                 sql_defined = true;
+                List<List<bool>> filter_test = new List<List<bool>>();
+                for (int ii = 0; ii < filters.Count; ii++)
+                {
+                    filter_test.Add(new List<bool>());
+                    for (int jj = 0; jj < filters[ii].Count; jj++)
+                    {
+                        filter_test[ii].Add(false);
+                    }
+                }
+                filter_test[0][0] = true;
+                filter_test[0][1] = true;
+                searchQuery("resistor", filter_test, connectionString);
+                debug.Text = search_results.Count.ToString();
             }
             catch (Exception ex)
             {
@@ -230,6 +244,7 @@ public partial class _Default : System.Web.UI.Page
 
         foreach (DataColumn col in data.Tables[2].Columns)
         {
+            notation.Add(col.ColumnName);
             query.Append(col.ColumnName);
             cols.Add(col.ColumnName);
             query.Append(" nvarchar(max), ");
@@ -276,8 +291,236 @@ public partial class _Default : System.Web.UI.Page
         }
     }
 
-    private void searchQuery()
-    {
+    private bool searchQuery(String search, List<List<bool>> filter_data, String conn_string){
+        //first see if you can classify the search
+        //so break the search up
+        List<String> search_words = new List<String>();
+        StringBuilder word = new StringBuilder();
+        for (int ii = 0; ii < search.Length; ii++)
+        {
+            if (search[ii] == ' ' || search[ii] == '\t')
+            {
+                if (word.Length != 0)
+                {
+                    search_words.Add(word.ToString());
+                    word = new StringBuilder();
+                }
+            }
+            else
+            {
+                word.Append(search[ii]);
+            }
+        }
+        if (word.Length != 0)
+            search_words.Add(word.ToString());
 
+        //try to match words to categories
+        List<bool> categories_matched = new List<bool>();
+        for(int jj = 0; jj < search_words.Count; jj++)
+        {
+            for (int ii = 0; ii < categories.Count; ii++)
+            {
+                if (categories[ii].Equals(search_words[jj]))
+                    categories_matched.Add(true);
+                else
+                    categories_matched.Add(false);
+            }
+        }
+
+        //try to match words to type
+        List<List<bool>> types_matched = new List<List<bool>>();
+        for (int ii = 0; ii < search_words.Count; ii++)
+        {
+            for (int jj = 0; jj < types.Count; jj++)
+            {
+                types_matched.Add(new List<bool>());
+                for (int kk = 0; kk < types[jj].Count; kk++)
+                {
+                    if (types[jj][kk].Equals(search_words[ii]))
+                        types_matched[jj].Add(true);
+                    else
+                        types_matched[jj].Add(false);
+                }
+            }
+        }
+
+        //count up tables to search
+        List<String> tables_to_search = new List<String>();
+        for (int ii = 0; ii < categories_matched.Count; ii++)
+        {
+            if (categories_matched[ii] == true)
+            {
+                StringBuilder cat = new StringBuilder();
+                cat.Append(categories[ii]);
+                cat.Append("_");
+                for (int jj = 0; jj < types[ii].Count; jj++)
+                {
+                    StringBuilder typ = new StringBuilder();
+                    typ.Append(cat.ToString());
+                    typ.Append(types[ii][jj]);
+                    typ.Append("_table");
+                    tables_to_search.Add(typ.ToString());
+                }
+            }
+        }
+
+        for (int ii = 0; ii < types_matched.Count; ii++)
+        {
+            for (int jj = 0; jj < types_matched[ii].Count; jj++)
+            {
+                if (types_matched[ii][jj] == true)
+                {
+                    StringBuilder tab = new StringBuilder();
+                    tab.Append(categories[ii]);
+                    tab.Append("_");
+                    tab.Append(types[ii][jj]);
+                    tab.Append("_table");
+                    tables_to_search.Add(tab.ToString());
+                }
+            }
+        }
+
+        //remove duplicates
+        tables_to_search = removeDuplicates(tables_to_search);
+
+        //check if any tables to search
+        if (tables_to_search.Count == 0)
+            return false;
+
+        //construct search query
+        for (int ii = 0; ii < tables_to_search.Count; ii++)
+        {
+            StringBuilder query = new StringBuilder();
+            query.Append("SELECT * FROM ");
+            query.Append(tables_to_search[ii]);
+            SqlConnection sqlConn = new SqlConnection(conn_string);
+            sqlConn.Open();
+            SqlCommand sqlQuery = new SqlCommand(query.ToString(), sqlConn);
+            SqlDataReader reader = sqlQuery.ExecuteReader();
+            if (reader.HasRows)
+            {
+                while (reader.Read())
+                {
+                    Object[] values = new Object[reader.FieldCount];
+                    int fieldCount = reader.GetValues(values);
+                    List<String> results = new List<String>();
+                    for (int jj = 0; jj < reader.FieldCount; jj++)
+                    {
+                        results.Add(values[jj].ToString());
+                    }
+                    search_results.Add(results);
+                }
+                
+                search_results_notation = notation;
+                filterSearchResults(filter_data);
+            }
+            sqlConn.Close();
+        }
+
+        return true;
     }
+
+    private void filterSearchResults(List<List<bool>> filter_data)
+    {
+        //do it 1 filter at a time
+        for (int ii = 0; ii < filter_data.Count; ii++)
+        {
+            bool need_filter = false;
+            for(int jj = 0; jj < filter_data[ii].Count; jj++){
+                if(filter_data[ii][jj] == true){
+                    need_filter = true;
+                    break;
+                }
+            }
+
+
+            if(need_filter){
+                List<bool> to_filter = filter_data[ii];
+                List<List<String>> new_results = new List<List<string>>();
+                List<String> filter = filters[ii];
+                String type = type_filters[ii];
+                String filter_category = usable_filters[ii];
+                int index = -1;
+                for (int kk = 0; kk < search_results_notation.Count; kk++)
+                {
+                    if(search_results_notation[kk].Equals(filter_category)){
+                        index = kk;
+                        break;
+                    }
+                }
+
+                if(index != -1){
+                    for(int kk = 0; kk < search_results.Count; kk++){
+                        bool pass = false;
+                        for (int jj = 0; jj < to_filter.Count; jj++)
+                        {
+                            if (to_filter[jj] == true && type.Equals("Text"))
+                            {
+                                String sear_resul_str = search_results[kk][index].ToString().Trim();
+                                String filter_str = filter[jj].ToString().Trim();
+                                if (sear_resul_str.Equals(filter_str))
+                                {
+                                    pass = true;
+                                    break;
+                                }
+                            }
+                            else if (to_filter[jj] == true)
+                            {
+                                List<String> ranges = new List<String>();
+                                StringBuilder word = new StringBuilder();
+                                for (int qq = 0; qq < filter[jj].Length; qq++)
+                                {
+                                    if (filter[jj][qq] == ' ' || filter[jj][qq] == '\t')
+                                    {
+                                        if (word.Length != 0)
+                                        {
+                                            ranges.Add(word.ToString());
+                                            word = new StringBuilder();
+                                        }
+                                    }
+                                    else
+                                    {
+                                        word.Append(filter[jj][qq]);
+                                    }
+                                }
+                                if (word.Length != 0)
+                                    ranges.Add(word.ToString());
+                                double low = Convert.ToDouble(ranges[0]);
+                                double high = Convert.ToDouble(ranges[2]);
+                                double ss = Convert.ToDouble(search_results[kk][index]);
+                                if (ss >= low && ss <= high)
+                                {
+                                    pass = true;
+                                    break;
+                                }
+                            }
+                        }
+                        if (pass)
+                        {
+                            new_results.Add(search_results[kk]);
+                        }
+                    }
+                }
+                search_results = new_results;
+            }
+        }
+    }
+
+    private List<String> removeDuplicates(List<String> list)
+    {
+        List<String> noDupes = new List<String>();
+        while (list.Count > 0)
+        {
+            String word = list[list.Count-1];
+            list.RemoveAt(list.Count - 1);
+            noDupes.Add(word);
+            for (int ii = list.Count - 1; ii >= 0; ii--)
+            {
+                if (list[ii].Equals(word))
+                    list.RemoveAt(ii);
+            }
+        }
+        return noDupes;
+    }
+    
 }
