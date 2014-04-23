@@ -1,0 +1,27 @@
+﻿body#backgnd {                                  /* This is where we can change the background if we want it to be a picture or some shit*/
+    background-color: #F0EADB; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*div#background { /* This is where we can change the background if we want it to be a picture or some shit
+    margin: auto; 
+    width: auto; 
+    height: auto; 
+    background-color: #ff6a00; /*#F0EADB;*/
+}
+
+div#headline {
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+div#page {
+    margin: auto;
+    width: 1000px; 
+    height: 1000px; 
+    background-color: #ffffff;
+    /*opacity: 0.6;
+    filter: alpha(opacity=60);*/
+}
