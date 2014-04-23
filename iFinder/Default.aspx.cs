@@ -19,6 +19,10 @@ public partial class _Default : System.Web.UI.Page
     private String data_xml_path = "data.xml";
     private String usable_filter_xml_path = "usable_features.xml";
     private String filter_xml_path = "filters.xml";
+    private String feature_type_dataset_xml_path = "feature_type.xml";
+    private List<List<String>> filters;     //filters
+    private List<String> usable_filters;    //filter categories
+    private List<String> type_filters;      //filter types - Number or Text
 
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -51,6 +55,8 @@ public partial class _Default : System.Web.UI.Page
 
                 /*** usable filters ***/
                 ds = new DataSet();
+                DataSet feature_type_dataset = new DataSet();
+                feature_type_dataset.ReadXml(Server.MapPath(feature_type_dataset_xml_path));
                 ds.ReadXml(Server.MapPath(usable_filter_xml_path));
                 table_name = new StringBuilder();
   
@@ -64,19 +70,131 @@ public partial class _Default : System.Web.UI.Page
 
                 col = ds.Tables[2].Columns[0];
                 String feature_name = col.ColumnName;
-                List<String> usable_filters = new List<String>();
+                usable_filters = new List<String>();
+                type_filters = new List<String>();
+                filters = new List<List<String>>();
 
                 foreach (DataRow row in ds.Tables[2].Rows)
                 {
-                    usable_filters.Add(row[feature_name].ToString());
+                    usable_filters.Add(row[feature_name].ToString().Trim());
+                    filters.Add(new List<String>());
+                    DataRow rr = feature_type_dataset.Tables[1].Rows[0];
+                    String str = row[feature_name].ToString();
+                    str = str.Trim();
+                    type_filters.Add(rr[str].ToString().Trim());
                 }
 
                 /*** filters ***/
                 ds = new DataSet();
                 ds.ReadXml(Server.MapPath(filter_xml_path));
-                foreach (DataColumn ss in ds.Tables[4].Columns)
-                    list_debug.Items.Add(ss.ColumnName);
+                List<String> tables = new List<String>();
 
+                for (int ii = 0; ii < ds.Tables.Count; ii++)
+                {
+                    list_debug.Items.Add(ii.ToString());
+                    list_debug.Items.Add(ds.Tables[ii].TableName);
+                    foreach (DataColumn cc in ds.Tables[ii].Columns)
+                    {
+                        list_debug.Items.Add(cc.ColumnName);
+                    }
+                    list_debug.Items.Add("------------------");
+
+                    tables.Add(ds.Tables[ii].TableName);
+                }
+
+                for (int ii = 0; ii < usable_filters.Count; ii++)
+                {
+                    if (type_filters[ii].Equals("Number"))
+                    {
+                        int index = -1;
+                        for (int jj = 0; jj < tables.Count; jj++)
+                        {
+                            if (tables[jj].Equals(usable_filters[ii]))
+                            {
+                                index = jj;
+                                break;
+                            }
+                        }
+                        if(index != -1){
+                            StringBuilder qq = new StringBuilder();
+                            String high, low;
+                            qq.Append("high_");
+                            qq.Append(usable_filters[ii]);
+                            DataRow row = ds.Tables[index].Rows[0];
+                            high = row[qq.ToString()].ToString().Trim();
+                            qq = new StringBuilder();
+                            qq.Append("low_");
+                            qq.Append(usable_filters[ii]);
+                            low = row[qq.ToString()].ToString().Trim();
+                            double low_i, high_i, range, next;
+                            low_i = Convert.ToDouble(low);
+                            next = low_i;
+                            high_i = Convert.ToDouble(high);
+                            range = (high_i - low_i) / 5;
+                            next += range;
+                            if (low_i == high_i)
+                            {
+                                filters[ii].Add(low);
+                            }
+                            else
+                            {
+                                while (next < high_i)
+                                {
+                                    StringBuilder range_str = new StringBuilder();
+                                    range_str.Append(low_i.ToString());
+                                    range_str.Append(" - ");
+                                    range_str.Append(next.ToString());
+                                    filters[ii].Add(range_str.ToString());
+                                    low_i += range;
+                                    next += range;
+                                }
+                                StringBuilder final_range_str = new StringBuilder();
+                                final_range_str.Append(low_i.ToString());
+                                final_range_str.Append(" - ");
+                                final_range_str.Append(high_i.ToString());
+                                filters[ii].Add(final_range_str.ToString());
+                            }
+                        }
+                    }
+                    else
+                    {
+                        int index = -1;
+                        StringBuilder search_str = new StringBuilder();
+                        search_str.Append("item_");
+                        search_str.Append(usable_filters[ii]);
+                        for (int jj = 0; jj < tables.Count; jj++)
+                        {
+                            if (tables[jj].Equals(search_str.ToString()))
+                            {
+                                index = jj;
+                                search_str.Append("_Text");
+                                break;
+                            }
+                        }
+
+                        if (index == -1)
+                        {
+                            for (int jj = 0; jj < tables.Count; jj++)
+                            {
+                                if (tables[jj].Equals(usable_filters[ii]))
+                                {
+                                    index = jj;
+                                    break;
+                                }
+                            }
+                        }
+
+                        if (index != -1)
+                        {
+                            foreach (DataRow row in ds.Tables[index].Rows)
+                            {
+                                filters[ii].Add(row[search_str.ToString()].ToString().Trim());
+                            }
+                        }
+
+
+                    }
+                }
                 sql_defined = true;
             }
             catch (Exception ex)

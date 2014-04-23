@@ -222,7 +222,7 @@ public class Digikey_Resistor_Parser {
 			}
 			bw.write("\t\t\t<manufacturer>\n");
 			for(int ii = 0; ii < fields.size(); ii++){
-				bw.write(String.format("\t\t\t\t<item>\n\t\t\t\t\t%s\n\t\t\t\t</item>\n", fields.get(ii)));
+				bw.write(String.format("\t\t\t\t<item_manufacturer>\n\t\t\t\t\t%s\n\t\t\t\t</item_manufacturer>\n", fields.get(ii)));
 			}
 			bw.write("\t\t\t</manufacturer>\n");
 			
@@ -235,8 +235,8 @@ public class Digikey_Resistor_Parser {
 				if(val < low) low = val;
 			}
 			bw.write("\t\t\t<quantity>\n");
-			bw.write(String.format("\t\t\t\t<high>\n\t\t\t\t\t%d\n\t\t\t\t</high>\n", high));
-			bw.write(String.format("\t\t\t\t<low>\n\t\t\t\t\t%d\n\t\t\t\t</low>\n", low));
+			bw.write(String.format("\t\t\t\t<high_quantity>\n\t\t\t\t\t%d\n\t\t\t\t</high_quantity>\n", high));
+			bw.write(String.format("\t\t\t\t<low_quantity>\n\t\t\t\t\t%d\n\t\t\t\t</low_quantity>\n", low));
 			bw.write("\t\t\t</quantity>\n");
 			
 			//availablity
@@ -248,7 +248,7 @@ public class Digikey_Resistor_Parser {
 			}
 			bw.write("\t\t\t<availability>\n");
 			for(int ii = 0; ii < fields.size(); ii++){
-				bw.write(String.format("\t\t\t\t<item>\n\t\t\t\t\t%s\n\t\t\t\t</item>\n", fields.get(ii)));
+				bw.write(String.format("\t\t\t\t<item_availablity>\n\t\t\t\t\t%s\n\t\t\t\t</item_availablity>\n", fields.get(ii)));
 			}
 			bw.write("\t\t\t</availability>\n");
 			
@@ -261,8 +261,8 @@ public class Digikey_Resistor_Parser {
 				if(val < low_f) low_f = val;
 			}
 			bw.write("\t\t\t<price>\n");
-			bw.write(String.format("\t\t\t\t<high>\n\t\t\t\t\t%f\n\t\t\t\t</high>\n", high_f));
-			bw.write(String.format("\t\t\t\t<low>\n\t\t\t\t\t%f\n\t\t\t\t</low>\n", low_f));
+			bw.write(String.format("\t\t\t\t<high_price>\n\t\t\t\t\t%f\n\t\t\t\t</high_price>\n", high_f));
+			bw.write(String.format("\t\t\t\t<low_price>\n\t\t\t\t\t%f\n\t\t\t\t</low_price>\n", low_f));
 			bw.write("\t\t\t</price>\n");
 			
 			//minimum_quantity
@@ -274,8 +274,8 @@ public class Digikey_Resistor_Parser {
 				if(val < low) low = val;
 			}
 			bw.write("\t\t\t<minimum_quantity>\n");
-			bw.write(String.format("\t\t\t\t<high>\n\t\t\t\t\t%d\n\t\t\t\t</high>\n", high));
-			bw.write(String.format("\t\t\t\t<low>\n\t\t\t\t\t%d\n\t\t\t\t</low>\n", low));
+			bw.write(String.format("\t\t\t\t<high_minimum_quantity>\n\t\t\t\t\t%d\n\t\t\t\t</high_minimum_quantity>\n", high));
+			bw.write(String.format("\t\t\t\t<low_minimum_quantity>\n\t\t\t\t\t%d\n\t\t\t\t</low_minimum_quantity>\n", low));
 			bw.write("\t\t\t</minimum_quantity>\n");
 			
 			//packaging
@@ -287,7 +287,7 @@ public class Digikey_Resistor_Parser {
 			}
 			bw.write("\t\t\t<packaging>\n");
 			for(int ii = 0; ii < fields.size(); ii++){
-				bw.write(String.format("\t\t\t\t<item>\n\t\t\t\t\t%s\n\t\t\t\t</item>\n", fields.get(ii)));
+				bw.write(String.format("\t\t\t\t<item_packaging>\n\t\t\t\t\t%s\n\t\t\t\t</item_packaging>\n", fields.get(ii)));
 			}
 			bw.write("\t\t\t</packaging>\n");
 			
@@ -300,7 +300,7 @@ public class Digikey_Resistor_Parser {
 			}
 			bw.write("\t\t\t<series>\n");
 			for(int ii = 0; ii < fields.size(); ii++){
-				bw.write(String.format("\t\t\t\t<item>\n\t\t\t\t\t%s\n\t\t\t\t</item>\n", fields.get(ii)));
+				bw.write(String.format("\t\t\t\t<item_series>\n\t\t\t\t\t%s\n\t\t\t\t</item_series>\n", fields.get(ii)));
 			}
 			bw.write("\t\t\t</series>\n");
 			
@@ -313,8 +313,8 @@ public class Digikey_Resistor_Parser {
 				if(val < low_f) low_f = val;
 			}
 			bw.write("\t\t\t<resistance_ohms>\n");
-			bw.write(String.format("\t\t\t\t<high>\n\t\t\t\t\t%f\n\t\t\t\t</high>\n", high_f));
-			bw.write(String.format("\t\t\t\t<low>\n\t\t\t\t\t%f\n\t\t\t\t</low>\n", low_f));
+			bw.write(String.format("\t\t\t\t<high_resistance_ohms>\n\t\t\t\t\t%f\n\t\t\t\t</high_resistance_ohms>\n", high_f));
+			bw.write(String.format("\t\t\t\t<low_resistance_ohms>\n\t\t\t\t\t%f\n\t\t\t\t</low_resistance_ohms>\n", low_f));
 			bw.write("\t\t\t</resistance_ohms>\n");
 			
 			//tolerance
@@ -326,8 +326,8 @@ public class Digikey_Resistor_Parser {
 				if(val < low) low = val;
 			}
 			bw.write("\t\t\t<tolerance>\n");
-			bw.write(String.format("\t\t\t\t<high>\n\t\t\t\t\t%d\n\t\t\t\t</high>\n", high));
-			bw.write(String.format("\t\t\t\t<low>\n\t\t\t\t\t%d\n\t\t\t\t</low>\n", low));
+			bw.write(String.format("\t\t\t\t<high_tolerance>\n\t\t\t\t\t%d\n\t\t\t\t</high_tolerance>\n", high));
+			bw.write(String.format("\t\t\t\t<low_tolerance>\n\t\t\t\t\t%d\n\t\t\t\t</low_tolerance>\n", low));
 			bw.write("\t\t\t</tolerance>\n");
 			
 			//power
@@ -339,8 +339,8 @@ public class Digikey_Resistor_Parser {
 				if(val < low_f) low_f = val;
 			}
 			bw.write("\t\t\t<power_watts>\n");
-			bw.write(String.format("\t\t\t\t<high>\n\t\t\t\t\t%f\n\t\t\t\t</high>\n", high_f));
-			bw.write(String.format("\t\t\t\t<low>\n\t\t\t\t\t%f\n\t\t\t\t</low>\n", low_f));
+			bw.write(String.format("\t\t\t\t<high_power_watts>\n\t\t\t\t\t%f\n\t\t\t\t</high_power_watts>\n", high_f));
+			bw.write(String.format("\t\t\t\t<low_power_watts>\n\t\t\t\t\t%f\n\t\t\t\t</low_power_watts>\n", low_f));
 			bw.write("\t\t\t</power_watts>\n");
 			
 			
