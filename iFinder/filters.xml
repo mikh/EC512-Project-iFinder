@@ -2,216 +2,216 @@
 	<electronics>
 		<resistors>
 			<manufacturer>
-				<item>
+				<item_manufacturer>
 					Stackpole Electronics Inc 
-				</item>
-				<item>
+				</item_manufacturer>
+				<item_manufacturer>
 					TE Connectivity 
-				</item>
-				<item>
+				</item_manufacturer>
+				<item_manufacturer>
 					Ohmite 
-				</item>
-				<item>
+				</item_manufacturer>
+				<item_manufacturer>
 					Vishay Dale 
-				</item>
-				<item>
+				</item_manufacturer>
+				<item_manufacturer>
 					Bourns Inc. 
-				</item>
-				<item>
+				</item_manufacturer>
+				<item_manufacturer>
 					Vishay Huntington Electric Inc. 
-				</item>
-				<item>
+				</item_manufacturer>
+				<item_manufacturer>
 					Vishay Sfernice 
-				</item>
-				<item>
+				</item_manufacturer>
+				<item_manufacturer>
 					Riedon 
-				</item>
-				<item>
+				</item_manufacturer>
+				<item_manufacturer>
 					AVX Corporation 
-				</item>
-				<item>
+				</item_manufacturer>
+				<item_manufacturer>
 					Yageo 
-				</item>
-				<item>
+				</item_manufacturer>
+				<item_manufacturer>
 					TT Electronics/Welwyn 
-				</item>
+				</item_manufacturer>
 			</manufacturer>
 			<quantity>
-				<high>
+				<high_quantity>
 					3531
-				</high>
-				<low>
+				</high_quantity>
+				<low_quantity>
 					6
-				</low>
+				</low_quantity>
 			</quantity>
 			<availability>
-				<item>
+				<item_availability>
 					Immediate
-				</item>
+				</item_availability>
 			</availability>
 			<price>
-				<high>
+				<high_price>
 					231.300000
-				</high>
-				<low>
+				</high_price>
+				<low_price>
 					1.840000
-				</low>
+				</low_price>
 			</price>
 			<minimum_quantity>
-				<high>
+				<high_minimum_quantity>
 					1
-				</high>
-				<low>
+				</high_minimum_quantity>
+				<low_minimum_quantity>
 					1
-				</low>
+				</low_minimum_quantity>
 			</minimum_quantity>
 			<packaging>
-				<item>
+				<item_packaging>
 					Bulk
-				</item>
-				<item>
+				</item_packaging>
+				<item_packaging>
 					Tray
-				</item>
-				<item>
+				</item_packaging>
+				<item_packaging>
 					Tube
-				</item>
+				</item_packaging>
 			</packaging>
 			<series>
-				<item>
+				<item_series>
 					KAL
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					HS,
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					270
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					TGHG
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					TE,
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					TAP600
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					TAP800
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					TAP2000
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					Metal-Mite®89
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					THS,
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					TMC
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					Stackohm®
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					CHF
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					FSE
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					WFH
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					LPS
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					TAP1000
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					FVT
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					RH
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					UAL
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					FVE
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					FVTS
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					FSOT
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					HL
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					RP6
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					RCH
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					HLT
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					HLZ
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					RPS
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					AHA
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					WPRT
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					EWT
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					PF2270
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					RPA
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					TGH
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					SQ,
-				</item>
-				<item>
+				</item_series>
+				<item_series>
 					Euro-Power
-				</item>
+				</item_series>
 			</series>
 			<resistance_ohms>
-				<high>
+				<high_resistance_ohms>
 					250000.000000
-				</high>
-				<low>
+				</high_resistance_ohms>
+				<low_resistance_ohms>
 					0.001000
-				</low>
+				</low_resistance_ohms>
 			</resistance_ohms>
 			<tolerance>
-				<high>
+				<high_tolerance>
 					500
-				</high>
-				<low>
+				</high_tolerance>
+				<low_tolerance>
 					1
-				</low>
+				</low_tolerance>
 			</tolerance>
 			<power_watts>
-				<high>
+				<high_power_watts>
 					2500.000000
-				</high>
-				<low>
+				</high_power_watts>
+				<low_power_watts>
 					5.000000
-				</low>
+				</low_power_watts>
 			</power_watts>
 		</resistors>
 	</electronics>
