@@ -12,31 +12,36 @@ using System.Web.Security;
 public partial class _Default : System.Web.UI.Page
 {
 
-    private String connectionString = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=|DataDirectory|\\Database2.mdf;Integrated Security=True";
-    private String connectionString_filters = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=|DataDirectory|\\Database.mdf;Integrated Security=True";
-    private bool sql_defined = false;
-    private bool rewrite_table = true;
-    private String tableName;
-    private String data_xml_path = "data.xml";
-    private String usable_filter_xml_path = "usable_features.xml";
-    private String filter_xml_path = "filters.xml";
-    private String feature_type_dataset_xml_path = "feature_type.xml";
-    private List<List<String>> filters;     //filters
-    private List<String> usable_filters;    //filter categories
-    private List<String> type_filters;      //filter types - Number or Text
-    private List<String> categories = new List<String>();
-    private List<List<String>> types = new List<List<String>>();
-    private List<String> notation = new List<String>();
+    String connectionString = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=|DataDirectory|\\Database2.mdf;Integrated Security=True";
+    String connectionString_filters = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=|DataDirectory|\\Database.mdf;Integrated Security=True";
+    bool sql_defined;
+    bool rewrite_table = false;
+    String tableName;
+    String data_xml_path = "data.xml";
+    String usable_filter_xml_path = "usable_features.xml";
+    String filter_xml_path = "filters.xml";
+    String feature_type_dataset_xml_path = "feature_type.xml";
+    List<List<String>> filters;     //filters
+    List<String> usable_filters;    //filter categories
+    List<String> type_filters;      //filter types - Number or Text
+    List<String> categories;
+    List<List<String>> types;
+    List<String> notation;
 
-    private List<String> search_results_notation = new List<String>();
-    private List<List<String>> search_results = new List<List<String>>();
+    List<String> search_results_notation;
+    List<List<String>> search_results;
 
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (!sql_defined || rewrite_table)
+        if (filters == null || rewrite_table)
         {
             try
             {
+                categories = new List<String>();
+                types = new List<List<String>>();
+                notation = new List<String>();
+                search_results_notation = new List<String>();
+                search_results = new List<List<String>>();
                 DataSet ds = new DataSet();
 
                 ds.ReadXml(Server.MapPath(data_xml_path));
@@ -207,9 +212,12 @@ public partial class _Default : System.Web.UI.Page
                         filter_test[ii].Add(false);
                     }
                 }
-                filter_test[0][0] = true;
-                filter_test[0][1] = true;
-                searchQuery("resistor", filter_test, connectionString);
+
+                //**************************** FUNCTION TO LOAD IN FILTER STATUS!!!!!!!!! *******************************//
+
+                //filter_test[0][0] = true;
+                //filter_test[0][1] = true;
+                searchQuery(search_bar.Text, filter_test, connectionString);
                // debug.Text = search_results.Count.ToString();
             }
             catch (Exception ex)
@@ -271,6 +279,8 @@ public partial class _Default : System.Web.UI.Page
             message_label.Text = "Error with cookies";
         }
 
+        results_repeater.DataSource = search_results;
+        results_repeater.DataBind();
     }
 
     private void deleteTable(String tableName, String conn_string)
@@ -452,6 +462,7 @@ public partial class _Default : System.Web.UI.Page
             sqlConn.Open();
             SqlCommand sqlQuery = new SqlCommand(query.ToString(), sqlConn);
             SqlDataReader reader = sqlQuery.ExecuteReader();
+            search_results = new List<List<String>>();
             if (reader.HasRows)
             {
                 while (reader.Read())
@@ -468,6 +479,10 @@ public partial class _Default : System.Web.UI.Page
                 
                 search_results_notation = notation;
                 filterSearchResults(filter_data);
+                StringBuilder res = new StringBuilder();
+                res.Append(search_results.Count.ToString());
+                res.Append(" results found.");
+                results_label.Text = res.ToString();
             }
             sqlConn.Close();
         }
@@ -613,5 +628,28 @@ public partial class _Default : System.Web.UI.Page
     protected void bLogout_Click(object sender, EventArgs e)
     {
         FormsAuthentication.SignOut();
+    }
+    protected void SearchBtn_Click(object sender, EventArgs e)
+    {
+        if (search_bar.Text == "")
+        {
+            results_label.Text = "No results found.";
+        }
+        else
+        {
+            List<List<bool>> filter_status = new List<List<bool>>();
+            for (int ii = 0; ii < filters.Count; ii++)
+            {
+                filter_status.Add(new List<bool>());
+                for (int jj = 0; jj < filters[ii].Count; jj++)
+                    filter_status[ii].Add(false);
+            }
+
+            //**************************** FUNCTION TO LOAD IN FILTER STATUS!!!!!!!!! *******************************//
+            
+            
+            
+            searchQuery(search_bar.Text, filter_status, connectionString);
+        }
     }
 }

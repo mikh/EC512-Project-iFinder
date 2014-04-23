@@ -16,15 +16,17 @@
         <img src="logo.gif" />
     </div>
     <div id="login"><asp:ContentPlaceHolder ID="login_asp" runat="server"></asp:ContentPlaceHolder></div>
+    <div id="search_bar"><asp:ContentPlaceHolder ID="search_asp" runat="server"></asp:ContentPlaceHolder></div>
     <div id="page">
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-            <br />
+        <asp:ContentPlaceHolder id="items" runat="server">
+
+        </asp:ContentPlaceHolder>
+                    <br />
             <br />
             <br />
             <br />
             <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
             <br />
-        </asp:ContentPlaceHolder>
     </div>
     </form>
 </body>
