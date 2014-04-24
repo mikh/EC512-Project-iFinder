@@ -1,0 +1,30 @@
+<categories>
+	<electronics>
+		<resistors>
+			<manufacturer>
+				Text
+			</manufacturer>
+			<quantity>
+				Number
+			</quantity>
+			<availability>
+				Text
+			</availability>
+			<price>
+				Number
+			</price>
+			<packaging>
+				Text
+			</packaging>
+			<resistance_ohms>
+				Number
+			</resistance_ohms>
+			<tolerance>
+				Number
+			</tolerance>
+			<power_watts>
+				Number
+			</power_watts>
+		</resistors>
+	</electronics>
+</categories>
