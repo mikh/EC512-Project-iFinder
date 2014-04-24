@@ -12,6 +12,7 @@
     <asp:Label ID="logged_in" runat="server" Text=""></asp:Label>&nbsp;&nbsp;&nbsp;
     <asp:Button ID="Login" runat="server" Text="Login" OnClick="Login_Click" />&nbsp;&nbsp;&nbsp;
     <asp:Button ID="Register" runat="server" Text="Register" OnClick="Register_Click" />&nbsp;&nbsp;&nbsp;<asp:Button ID="bLogout" runat="server" OnClick="bLogout_Click" Text="Logout" />
+    <asp:HyperLink ID="iForgotPass" runat="server" NavigateUrl="~/ForgotPassword.aspx">Forgot Password?</asp:HyperLink>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT * FROM [Users] WHERE ([UserName] = @UserName)">
         <SelectParameters>
             <asp:ControlParameter ControlID="UserName" Name="UserName" PropertyName="Text" Type="String" />
@@ -27,6 +28,9 @@
 </asp:Content>
 
 <asp:Content ID="Content_results" ContentPlaceHolderID="items" runat="server">
+    <div class="child_left" style="border-width: thin; border-color: #808080; padding: 10px; margin: auto; float: left; width: 10%; background-color: #FFFFFF; border-right-style: solid; border-bottom-style: solid; font-size: 12px;">
+        <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+    </div>
     <asp:Label ID="results_label" runat="server" Text=""></asp:Label><br /><br /><br />
     <asp:Repeater ID="results_repeater" runat="server" OnItemCommand="results_repeater_ItemCommand">
         <ItemTemplate>

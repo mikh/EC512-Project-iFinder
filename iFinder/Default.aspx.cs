@@ -30,9 +30,8 @@ public partial class _Default : System.Web.UI.Page
 
     List<String> search_results_notation;
     List<List<String>> search_results;
-    //Check for Cookies
-    HttpCookie userInfoCookies = Request.Cookies["UserName"];
-    string userName;
+    Table tbl_filters = new Table();
+
     protected void Page_Load(object sender, EventArgs e)
     {
         if (filters == null || rewrite_table)
@@ -238,6 +237,8 @@ public partial class _Default : System.Web.UI.Page
             Register.Visible = false;
             message_label.Text = "Welcome";
             logged_in.Visible = true;
+            bLogout.Visible = true;
+            iForgotPass.Visible = false;
         }
         else
         {
@@ -249,12 +250,17 @@ public partial class _Default : System.Web.UI.Page
             Register.Visible = true;
             message_label.Text = "Please Enter a Username and a Password";
             logged_in.Visible = false;
+            bLogout.Visible = false;
+            iForgotPass.Visible = true;
         }
         try
         {
+            //Check for Cookies
+            HttpCookie userInfoCookies = Request.Cookies["UserName"];
+            string userNameCookie;
             if (userInfoCookies != null)
             {
-                userName = userInfoCookies["UserName"];
+                userNameCookie = userInfoCookies["UserName"];
                 //check if userName is currently logged.
 
             }
@@ -279,6 +285,67 @@ public partial class _Default : System.Web.UI.Page
 
         results_repeater.DataSource = search_results;
         results_repeater.DataBind();
+
+        for (int i = 1; i < filters.Count; i++)
+        {
+            Label filterHeader = new Label();
+            filterHeader.Attributes.CssStyle.Add("font-size", "100%");
+            filterHeader.Attributes.CssStyle.Add("font-weight", "bold");
+            filterHeader.Attributes.CssStyle.Add("color", "#FF9900");
+            filterHeader.Text = UppercaseFirst(CorrectString(usable_filters[i]));
+            filterHeader.ID = usable_filters[i];
+            PlaceHolder1.Controls.Add(filterHeader);
+            //PlaceHolder1.Controls.Add(new LiteralControl("<br />"));
+
+            CheckBoxList checkList = new CheckBoxList();
+            checkList.Attributes.CssStyle.Add("margin", "0px 0px 6px 0px");
+            checkList.Attributes.CssStyle.Add("padding", "0px 0px 6px 0px");
+            checkList.Attributes.CssStyle.Add("list-style-type", "none");
+            checkList.Attributes.CssStyle.Add("list-style-position", "outside");
+            checkList.Attributes.CssStyle.Add("font-size", "100%");
+            checkList.ID = "Checklist" + i.ToString();
+            var tableRow = new TableRow();
+            var checkbox_cell = new TableCell();
+            tableRow.Cells.Add(checkbox_cell);
+            for (int j = 1; j < filters[i].Count; j++)
+            {
+                checkList.Items.Add(filters[i][j]);
+                PlaceHolder1.Controls.Add(checkList);
+            }
+            tbl_filters.Rows.Add(tableRow);
+            PlaceHolder1.Controls.Add(new LiteralControl("<br />"));
+        }
+
+    }
+
+    static string UppercaseFirst(string s)
+    {
+        // Check for empty string.
+        if (string.IsNullOrEmpty(s))
+        {
+            return string.Empty;
+        }
+        // Return char and concat substring.
+        return char.ToUpper(s[0]) + s.Substring(1);
+    }
+
+    static string CorrectString(string s)
+    {
+        string newStr;
+        // Check for empty string.
+        if (string.IsNullOrEmpty(s))
+        {
+            return string.Empty;
+        }
+        char[] delimiterChars = { '_' };
+        string[] words = s.Split(delimiterChars);
+        if (words.Length > 1)
+        {
+            newStr = words[0] + ' ' + '(' + words[1] + ')';
+            return newStr;
+        }
+        else
+            return s;
     }
 
     private void deleteTable(String tableName, String conn_string)
@@ -644,7 +711,10 @@ public partial class _Default : System.Web.UI.Page
             }
 
             //**************************** FUNCTION TO LOAD IN FILTER STATUS!!!!!!!!! *******************************//
-            
+            foreach (TableRow row in tbl_filters.Rows)
+            {
+
+            }
             
             
             searchQuery(search_bar.Text, filter_status, connectionString);

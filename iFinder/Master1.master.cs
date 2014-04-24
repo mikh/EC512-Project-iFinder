@@ -29,6 +29,6 @@ public partial class Master1 : System.Web.UI.MasterPage
         checkList.ID = "Checklist" + "1";
         checkList.Items.Add("Hello");
         PlaceHolder1.Controls.Add(checkList);
-        PlaceHolder1.Controls.Add(new LiteralControl("<br />"));
+        PlaceHolder1.Controls.Add(new LiteralControl("<br /><br />"));
     }
 }
