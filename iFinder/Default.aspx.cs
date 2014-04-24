@@ -30,7 +30,9 @@ public partial class _Default : System.Web.UI.Page
 
     List<String> search_results_notation;
     List<List<String>> search_results;
-
+    //Check for Cookies
+    HttpCookie userInfoCookies = Request.Cookies["UserName"];
+    string userName;
     protected void Page_Load(object sender, EventArgs e)
     {
         if (filters == null || rewrite_table)
@@ -250,10 +252,6 @@ public partial class _Default : System.Web.UI.Page
         }
         try
         {
-            //Check for Cookies
-            HttpCookie userInfoCookies = Request.Cookies["UserName"];
-            string userName;
-
             if (userInfoCookies != null)
             {
                 userName = userInfoCookies["UserName"];
@@ -651,5 +649,9 @@ public partial class _Default : System.Web.UI.Page
             
             searchQuery(search_bar.Text, filter_status, connectionString);
         }
+    }
+    protected void results_repeater_ItemCommand(object source, RepeaterCommandEventArgs e)
+    {
+
     }
 }

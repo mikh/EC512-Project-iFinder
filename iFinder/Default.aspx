@@ -28,7 +28,7 @@
 
 <asp:Content ID="Content_results" ContentPlaceHolderID="items" runat="server">
     <asp:Label ID="results_label" runat="server" Text=""></asp:Label><br /><br /><br />
-    <asp:Repeater ID="results_repeater" runat="server">
+    <asp:Repeater ID="results_repeater" runat="server" OnItemCommand="results_repeater_ItemCommand">
         <ItemTemplate>
             <tr>
                 <td>
