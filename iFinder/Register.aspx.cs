@@ -38,6 +38,12 @@ public partial class Register : System.Web.UI.Page
             status.Text = "Enter a password at least six characters.";
             return;
         }
+        
+        if(UserEmail.Text =="")
+        {
+            status.Text = "Please enter a valid email address.";
+            return;
+        }
 
         //Check that the user is not in the database
         DataView dv = (DataView)SqlDataSource1.Select(DataSourceSelectArguments.Empty);

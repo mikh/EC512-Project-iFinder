@@ -1,11 +1,11 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/SuperMaster.Master" AutoEventWireup="true" CodeFile="Login.aspx.cs" Inherits="Login" %>
 
 <asp:Content ID="Content1" runat="server" contentplaceholderid="ContentPlaceHolder1">
-    <div>
+    <div id ="pageOther">
     
         <h1>Login</h1>
     
-    </div>
+ 
         User name:<br />
         <asp:TextBox ID="UserName" runat="server"></asp:TextBox>
         <br />
@@ -15,6 +15,8 @@
         <br />
         <br />
         <asp:Button ID="Button1" runat="server" OnClick="loginButton_Click" Text="Login" />
+        &nbsp;&nbsp;&nbsp;
+        <asp:HyperLink ID="iForgotPassword" runat="server" NavigateUrl="~/ForgotPassword.aspx">Forgot Password?</asp:HyperLink>
         <br />
         <br />
         <asp:Label ID="status" runat="server"></asp:Label>
@@ -28,6 +30,6 @@
     <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Register" />
     <br />
     <br />
-    
+    </div>   
 </asp:Content>
 
