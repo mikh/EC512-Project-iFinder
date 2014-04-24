@@ -27,6 +27,9 @@
 </asp:Content>
 
 <asp:Content ID="Content_results" ContentPlaceHolderID="items" runat="server">
+    <div class="child_left" style="border-width: thin; border-color: #808080; padding: 10px; margin: auto; float: left; width: 10%; background-color: #FFFFFF; border-right-style: solid; border-bottom-style: solid; font-size: 12px;">
+        <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+    </div>
     <asp:Label ID="results_label" runat="server" Text=""></asp:Label><br /><br /><br />
     <asp:Repeater ID="results_repeater" runat="server">
         <ItemTemplate>
