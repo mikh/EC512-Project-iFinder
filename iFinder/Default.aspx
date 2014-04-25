@@ -12,6 +12,7 @@
     <asp:Label ID="logged_in" runat="server" Text=""></asp:Label>&nbsp;&nbsp;&nbsp;
     <asp:Button ID="Login" runat="server" Text="Login" OnClick="Login_Click" />&nbsp;&nbsp;&nbsp;
     <asp:Button ID="Register" runat="server" Text="Register" OnClick="Register_Click" />&nbsp;&nbsp;&nbsp;<asp:Button ID="bLogout" runat="server" OnClick="bLogout_Click" Text="Logout" />
+    &nbsp;&nbsp;&nbsp;
     <asp:HyperLink ID="iForgotPass" runat="server" NavigateUrl="~/ForgotPassword.aspx">Forgot Password?</asp:HyperLink>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT * FROM [Users] WHERE ([UserName] = @UserName)">
         <SelectParameters>
@@ -58,3 +59,10 @@
 
 
 </asp:Content>
+<asp:Content ID="Content1" runat="server" contentplaceholderid="ContentPlaceHolder1">
+    <div style="text-align: justify; text-indent: inherit">
+         <asp:HyperLink ID="lMyCart" runat="server" NavigateUrl="~/MyCart.aspx">My Cart</asp:HyperLink>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+</asp:Content>
+
