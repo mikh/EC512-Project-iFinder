@@ -2,31 +2,74 @@
 
 
 <asp:Content ID="Content1" runat="server" contentplaceholderid="items">
-    <asp:Label ID="results_label" runat="server" Text=""></asp:Label><br /><br /><br />
-    <asp:Repeater ID="results_repeater" runat="server" OnItemCommand="results_repeater_ItemCommand">
-        <ItemTemplate>
-            <tr>
-                <td>
-                    <%# ((List<String>)Container.DataItem)[0] %>
-                </td>
-                <td>
-                    <%# ((List<String>)Container.DataItem)[1] %>
-                </td>
-                <td>
-                    <%# ((List<String>)Container.DataItem)[2] %>
-                </td>
-                <td>
-                    <%# ((List<String>)Container.DataItem)[3] %>
-                </td>
-            </tr>
-            <br />
-            <br />
-        </ItemTemplate>
-        <FooterTemplate>
-            </table><br />
-        </FooterTemplate>
-    </asp:Repeater>
+    <div id="page">
+
+        <body>
+
+                <div class="container">
+                    <h1>Shopping Cart</h1>
+                    <a href="Default.aspx">< Back to Products</a>
+ 
+                    <br /><br />
+                    <asp:GridView runat="server" ID="gvMyCart" AutoGenerateColumns="False" EmptyDataText="There is nothing in your shopping cart." GridLines="None" Width="100%" CellPadding="5" ShowFooter="True"  Height="340px" OnSelectedIndexChanged="gvMyCart_SelectedIndexChanged" DataSourceID="SqlDataSource1">
+                        <HeaderStyle HorizontalAlign="Left" BackColor="#3D7169" ForeColor="#FFFFFF" />
+                        <FooterStyle HorizontalAlign="Right" BackColor="#6C6B66" ForeColor="#FFFFFF" />
+                        <AlternatingRowStyle BackColor="#F8F8F8" />
+                        <Columns>
+ 
+                            <asp:BoundField DataField="ProductName" HeaderText="ProductName" ItemStyle-HorizontalAlign="Left" HeaderStyle-HorizontalAlign="Left" SortExpression="ProductName" >
+<HeaderStyle HorizontalAlign="Left"></HeaderStyle>
+
+<ItemStyle HorizontalAlign="Left"></ItemStyle>
+                            </asp:BoundField>
+                            <asp:BoundField DataField="ProductID" HeaderText="ProductID" SortExpression="ProductID" HeaderStyle-HorizontalAlign="Left" ItemStyle-HorizontalAlign="Left" >
+ 
+<HeaderStyle HorizontalAlign="Left"></HeaderStyle>
+
+<ItemStyle HorizontalAlign="Left"></ItemStyle>
+                            </asp:BoundField>
+ 
+                            <asp:BoundField DataField="Quantity" HeaderText="Quantity" HeaderStyle-HorizontalAlign="Left" SortExpression="Quantity" ItemStyle-HorizontalAlign="Left" >
+<HeaderStyle HorizontalAlign="Left"></HeaderStyle>
+
+<ItemStyle HorizontalAlign="Left"></ItemStyle>
+                            </asp:BoundField>
+                            <asp:BoundField DataField="Price" HeaderText="Price" ItemStyle-HorizontalAlign="Left" HeaderStyle-HorizontalAlign="Left" SortExpression="Price" >
+<HeaderStyle HorizontalAlign="Left"></HeaderStyle>
+
+<ItemStyle HorizontalAlign="Left"></ItemStyle>
+                            </asp:BoundField>
+                            <asp:BoundField HeaderText="Total Price" ReadOnly="True" ItemStyle-HorizontalAlign="Right" HeaderStyle-HorizontalAlign="Right" DataField="Price*Quantity" >
+<HeaderStyle HorizontalAlign="Right"></HeaderStyle>
+
+<ItemStyle HorizontalAlign="Right"></ItemStyle>
+                            </asp:BoundField>
+                        </Columns>
+                    </asp:GridView>
+ 
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT [ProductID], [Quantity], [Price], [ProductName] FROM [MyCart]"></asp:SqlDataSource>
+ 
+                    <br />
+                    <asp:Button runat="server" ID="bUpdateCart" Text="Update Cart" OnClick="bUpdateCart_Click" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="bBuyItems" runat="server" Text="Buy" OnClick="bBuyItems_Click" />
+                </div>
+        </body>
+    </div>
 </asp:Content>
+
+
+
+
+<asp:Content ID="Content2" runat="server" contentplaceholderid="head">
+    <style type="text/css">
+        .container {
+            height: 519px;
+        }
+    </style>
+</asp:Content>
+
+
 
 
 
