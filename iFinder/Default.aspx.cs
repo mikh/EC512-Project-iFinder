@@ -724,4 +724,10 @@ public partial class _Default : System.Web.UI.Page
     {
 
     }
+
+    protected void AddItemToCart(object sender, EventArgs e)
+    {
+
+    }
+
 }

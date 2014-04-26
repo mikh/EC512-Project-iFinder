@@ -13,7 +13,8 @@
             Div on the right<br />
             <br />
             <br />
-            Neeed to figure out content</div>
+            Neeed to figure out content<br />
+        </div>
         <br />
         <br />
         <br />
