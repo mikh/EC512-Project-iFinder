@@ -52,6 +52,9 @@ public partial class _Default : System.Web.UI.Page
                     type = row["ProductType"].ToString();
                     name = row["ProductName"].ToString();
                 }
+
+
+
                 categories.Add(type);
                 types.Add(new List<String>());
                 types[types.Count - 1].Add(name);
@@ -285,6 +288,7 @@ public partial class _Default : System.Web.UI.Page
 
         results_repeater.DataSource = search_results;
         results_repeater.DataBind();
+        
 
         for (int i = 1; i < filters.Count; i++)
         {
@@ -722,7 +726,11 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void results_repeater_ItemCommand(object source, RepeaterCommandEventArgs e)
     {
+        if (e.CommandName == "add2cart")
+        {
 
+
+        }
     }
 
     protected void AddItemToCart(object sender, EventArgs e)

@@ -3,7 +3,7 @@
 <asp:Content ID="Content" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 
-<asp:Content ID="Content_login" ContentPlaceHolderID="login_asp" runat="server">
+  <asp:Content ID="Content_login" ContentPlaceHolderID="login_asp" runat="server">
     <asp:Label ID="message_label" runat="server" Text=""></asp:Label>&nbsp;&nbsp;&nbsp;
     <asp:Label ID="user_label" runat="server" Text="UserName:   "></asp:Label>&nbsp;&nbsp;&nbsp;
     <asp:TextBox ID="userName" runat="server"></asp:TextBox>&nbsp;&nbsp;&nbsp;
@@ -49,10 +49,7 @@
                 <td>
                     <%# ((List<String>)Container.DataItem)[3] %>
                 </td>
-                <td>
-                    <asp:HyperLink ID="iForgotPass" runat="server" NavigateUrl="~/ForgotPassword.aspx">Link to?</asp:HyperLink>         
-                    <asp:Button ID="bAddtoCart" runat="server" Text="Add to Cart" OnClick="AddItemToCart" />
-                </td>
+                <asp:Button ID="add2cart" runat="server" Width="80px" Text="Add to Cart" CommandName="add2cart"/>
             </tr>
             <br />
             <br />
