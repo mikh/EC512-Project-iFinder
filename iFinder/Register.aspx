@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/SuperMaster.Master" AutoEventWireup="true" CodeFile="Register.aspx.cs" Inherits="Register" %>
 
 <asp:Content ID="Content1" runat="server" contentplaceholderid="ContentPlaceHolder1">
-    <div id ="pageOther">
+    <div id ="pageOther" style="align-items:center; text-align:center;">
     
         <h1>Register</h1>
     
@@ -24,7 +24,8 @@
             <asp:TextBox ID="UserEmail" runat="server" TextMode="Password"></asp:TextBox>
             <br />
             <br />
-            <asp:Button ID="RegisterButton" runat="server" OnClick="RegisterButton_Click" Text="Register" />
+            <asp:Button ID="RegisterButton" runat="server" OnClick="RegisterButton_Click" Text="Register" /><br /><br />
+            <asp:Button ID="cancelBtn" runat="server" Text="Cancel" OnClick="cancelBtn_Click" />
             <br />
             <br />
             <asp:Label ID="status" runat="server"></asp:Label>

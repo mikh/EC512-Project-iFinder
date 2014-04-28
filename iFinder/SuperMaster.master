@@ -15,7 +15,11 @@
         <!--<header id="title">iFinder</header>-->
         <img src="logo.gif" />
     </div>
+        <div id="blankspace">
+
+        </div>
     <div id="login"><asp:ContentPlaceHolder ID="login_asp" runat="server"></asp:ContentPlaceHolder></div>
+        <div style="width:1500px; height:20px"></div>
     <div id="search_bar"><asp:ContentPlaceHolder ID="search_asp" runat="server"></asp:ContentPlaceHolder></div>
     <div id ="pageOther">
          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">    </asp:ContentPlaceHolder>   

@@ -1,0 +1,35 @@
+<notation>
+	<feature>
+		ID
+	</feature>
+	<feature>
+		manufacturer
+	</feature>
+	<feature>
+		quantity
+	</feature>
+	<feature>
+		availability
+	</feature>
+	<feature>
+		price
+	</feature>
+	<feature>
+		minimum_quantity
+	</feature>
+	<feature>
+		packaging
+	</feature>
+	<feature>
+		series
+	</feature>
+	<feature>
+		resistance_ohms
+	</feature>
+	<feature>
+		tolerance
+	</feature>
+	<feature>
+		power_watts
+	</feature>
+</notation>

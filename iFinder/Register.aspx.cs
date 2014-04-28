@@ -59,4 +59,9 @@ public partial class Register : System.Web.UI.Page
         status.Text = "User Added";
         FormsAuthentication.RedirectFromLoginPage(UserName.Text, false);
     }
+    protected void cancelBtn_Click(object sender, EventArgs e)
+    {
+        bool postback = (bool)Session["force_postback"];
+        Response.Redirect("Default.aspx");
+    }
 }
