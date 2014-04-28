@@ -12,6 +12,14 @@ public partial class Login : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        if (User.Identity.IsAuthenticated)
+        {
+            status.Text = User.Identity.Name + " is already logged in";
+        }
+        else
+        {
+            status.Text = "No one is logged in";
+        }
     }
     protected void loginButton_Click(object sender, EventArgs e)
     {
