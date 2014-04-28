@@ -752,10 +752,10 @@ public partial class _Default : System.Web.UI.Page
             SqlDataSource1.SelectParameters["username"].DefaultValue = User.Identity.Name;
             SqlDataSource1.SelectParameters["UserName"].DefaultValue = User.Identity.Name;
             DataSourceSelectArguments args = new DataSourceSelectArguments();
-            DataView view = (DataView)SqlDataSource1.Select(new DataSourceSelectArguments());
+            DataView view = (DataView)SqlDS_results.Select(new DataSourceSelectArguments());
             DataTable dt = view.ToTable();
             int ii = 0;
-            /*
+            
             for (ii = 0; ii < dt.Rows.Count; ii++)
             {
                 if (dt.Rows[ii][0].ToString() == "Price")
@@ -763,11 +763,12 @@ public partial class _Default : System.Web.UI.Page
               
                 }
             }
-            */
+            
 
             SqlDS_Cart.InsertParameters["price"].DefaultValue = cartPrice.Value;
             SqlDS_Cart.InsertParameters["quantity"].DefaultValue = cartQuantity.Value;
             SqlDS_Cart.InsertParameters["productname"].DefaultValue = cartPName.Value;
+
             Response.Redirect("MyCart.aspx");
 
 
@@ -776,13 +777,6 @@ public partial class _Default : System.Web.UI.Page
 
     protected void add2cart(object sender, EventArgs e)
     {
-
-  //      ShoppingCart.Instance.AddItem(1);
-        //backup method of adding to cart.
-        //cartPName.Value = 
-        //cartPrice.Value =
-        //cartQuantity.Value =
-        //cartUser.Value = 
         SqlDataSource1.SelectParameters["username"].DefaultValue = User.Identity.Name;
         SqlDataSource1.SelectParameters["UserName"].DefaultValue = User.Identity.Name;
         DataSourceSelectArguments args = new DataSourceSelectArguments();

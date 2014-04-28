@@ -16,7 +16,7 @@
     <asp:HyperLink ID="iForgotPass" runat="server" NavigateUrl="~/ForgotPassword.aspx">Forgot Password?</asp:HyperLink>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT * FROM [Users] WHERE ([UserName] = @UserName)">
         <SelectParameters>
-            <asp:Parameter DefaultValue="Anonymous" Name="UserName" Type="String" />
+            <asp:ControlParameter ControlID="userName" DefaultValue="Anonymous" Name="UserName" PropertyName="Text" Type="String" />
         </SelectParameters>
 
     </asp:SqlDataSource>
@@ -63,7 +63,7 @@
                 <td>
                     <%# ((List<String>)Container.DataItem)[3] %>
                 </td>
-                <asp:Button ID="add2cart" runat="server" Width="80px" Text="Add to Cart" CommandName="add2cart"/>
+                <asp:Button ID="add2cart" runat="server" Width="80px" Text="Add to Cart" CommandName="add2cart"  />
             </tr>
             <br />
             <br />

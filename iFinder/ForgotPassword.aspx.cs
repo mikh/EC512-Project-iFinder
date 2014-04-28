@@ -74,6 +74,6 @@ public partial class ForgotPassword : System.Web.UI.Page
             //Not authenticated
             status.Text = "Error with authentication.";
         }
-        status.Text = "A user name with that email does not exist.";
+        status.Text = "an email will be sent to the above email should it match with an existing account.";
     }
 }

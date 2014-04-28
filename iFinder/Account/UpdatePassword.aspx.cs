@@ -33,7 +33,7 @@ public partial class Account_UpdatePassword : System.Web.UI.Page
             {
                 //authenticated
                 SqlDataSource1.Update();
-                status.Text = "Password OK.";
+                status.Text = "Password Updated."; //not done yet, inc
 
             }
 

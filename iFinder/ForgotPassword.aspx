@@ -8,22 +8,10 @@
     
  
         <br />
-        <asp:Panel ID="Panel2" runat="server" Height="173px" HorizontalAlign="Left" Visible="False" Width="500px">
-            Not used yet, hidden.<br />
-            <asp:RadioButton ID="RadioButton1" runat="server" Text="I forgot my password" Visible="False" />
-            <br />
-            <asp:RadioButton ID="RadioButton2" runat="server" Text="I forgot my UserName" Visible="False" />
-            <br />
-            <asp:RadioButton ID="RadioButton3" runat="server" Text="I forgot both my User name and Password" Visible="False" />
-            <br />
-        </asp:Panel>
-        <br />
         <br />
         <asp:Panel ID="Panel1" runat="server" Height="173px" HorizontalAlign="Left" Width="500px">
-            Please enter User name and email associated with the account<br />
+            Please enter email associated with the account<br />
             <br />
-            User name:<br />
-            <asp:TextBox ID="UserName" runat="server"></asp:TextBox>
             <br />
             Email:<br />
             <asp:TextBox ID="UserEmail" runat="server" TextMode="Email"></asp:TextBox>
@@ -43,6 +31,19 @@
         </asp:SqlDataSource>
     
     <br />
+        <asp:Panel ID="Panel2" runat="server" Height="173px" HorizontalAlign="Left" Visible="False" Width="500px">
+            Not used yet, hidden.<br />
+            <asp:RadioButton ID="RadioButton1" runat="server" Text="I forgot my password" Visible="False" />
+            <br />
+            <asp:RadioButton ID="RadioButton2" runat="server" Text="I forgot my UserName" Visible="False" />
+            <br />
+            <asp:RadioButton ID="RadioButton3" runat="server" Text="I forgot both my User name and Password" Visible="False" />
+            <br />
+            <br />
+            User name:<br />
+            <asp:TextBox ID="UserName" runat="server"></asp:TextBox>
+        </asp:Panel>
+        <br />
     <br />
     </div>   
 </asp:Content>

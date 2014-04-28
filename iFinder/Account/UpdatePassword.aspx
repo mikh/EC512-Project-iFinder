@@ -2,6 +2,8 @@
 
 <asp:Content ID="Content1" runat="server" contentplaceholderid="ContentPlaceHolder1">
     <div>
+         <h1><asp:Label ID="Label1" runat="server" Text="Update Password" /><br /></h1>
+
     <br />
     Old
         Password:<br />
@@ -32,7 +34,7 @@
         </p>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT * FROM [Users] WHERE ([UserName] = @UserName)" InsertCommand="INSERT INTO Users(UserName, Password, UserEmail) VALUES ( @user , @pass, @email)" UpdateCommand="UPDATE Users SET Password = @newPass WHERE (UserName = @UserName)">
             <SelectParameters>
-                <asp:Parameter Name="UserName" Type="String" DefaultValue="Anonymous" />
+                <asp:Parameter Name="UserName" Type="String" DefaultValue="User.Identity.Name" />
             </SelectParameters>
             <InsertParameters>
                 <asp:ControlParameter ControlID="UserName" Name="user" PropertyName="Text" />
