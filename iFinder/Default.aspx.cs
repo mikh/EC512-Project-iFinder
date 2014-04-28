@@ -727,6 +727,8 @@ public partial class _Default : System.Web.UI.Page
 
     protected void AddItemToCart(object sender, EventArgs e)
     {
+        ShoppingCart.Instance.AddItem(1);
+        Response.Redirect("MyCart.aspx");
 
     }
 

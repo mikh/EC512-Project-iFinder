@@ -20,9 +20,9 @@
                         <td class="auto-style2"></td>
                         <td style="vertical-align: top; text-align: left;" class="auto-style2">
                             <b>Description:</b><br />
-                            <%#:Item.Description %>
+                            <%--<%#:Item.Description %>
                             <br />
-                            <span><b>Price:</b>&nbsp;<%#: String.Format("{0:c}", Item.UnitPrice) %></span><br /><span><b>Product Number:</b>&nbsp;<%#:Item.ProductID %></span><br /></td>
+                            <span><b>Price:</b>&nbsp;<%#: String.Format("{0:c}", Item.UnitPrice) %></span><br /><span><b>Product Number:</b>&nbsp;<%#:Item.ProductID %></span><br />--%></td>
                     </tr>
                 </table>
                 <br />
