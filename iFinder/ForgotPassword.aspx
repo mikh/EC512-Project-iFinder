@@ -26,7 +26,8 @@
             <asp:TextBox ID="UserName" runat="server"></asp:TextBox>
             <br />
             Email:<br />
-            <asp:TextBox ID="UserEmail" runat="server"></asp:TextBox>
+            <asp:TextBox ID="UserEmail" runat="server" TextMode="Email"></asp:TextBox>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="UserEmail" Display="None" ErrorMessage="Please enter a valid email address." ValidationExpression="^([0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$" EnableClientScript="False"></asp:RegularExpressionValidator>
         </asp:Panel>
         <br />
         <br />

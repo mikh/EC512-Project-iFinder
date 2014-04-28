@@ -70,6 +70,20 @@
     </asp:Repeater>
 
 
+    <br />
+    <br />
+    <br />
+    <br />
+    <asp:HiddenField ID="cartPrice" runat="server" />
+    <asp:HiddenField ID="cartQuantity" runat="server" />
+    <asp:HiddenField ID="cartPName" runat="server" />
+    <asp:HiddenField ID="cartUser" runat="server" />
+    <br />
+    <br />
+    <br />
+    <br />
+
+
 </asp:Content>
 
 

@@ -34,157 +34,92 @@ public partial class _Default : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (filters == null || rewrite_table)
+        if (!IsPostBack) //check if the webpage is loaded for the first time.
         {
-            try
+            if (filters == null || rewrite_table)
             {
-                categories = new List<String>();
-                types = new List<List<String>>();
-                notation = new List<String>();
-                search_results_notation = new List<String>();
-                search_results = new List<List<String>>();
-                DataSet ds = new DataSet();
-
-                ds.ReadXml(Server.MapPath(data_xml_path));
-                String type = "", name = "";
-                foreach (DataRow row in ds.Tables[0].Rows)
+                try
                 {
-                    type = row["ProductType"].ToString();
-                    name = row["ProductName"].ToString();
-                }
+                    categories = new List<String>();
+                    types = new List<List<String>>();
+                    notation = new List<String>();
+                    search_results_notation = new List<String>();
+                    search_results = new List<List<String>>();
+                    DataSet ds = new DataSet();
 
-
-
-                categories.Add(type);
-                types.Add(new List<String>());
-                types[types.Count - 1].Add(name);
-
-                StringBuilder table_name = new StringBuilder();
-                table_name.Append(type);
-                table_name.Append("_");
-                table_name.Append(name);
-                table_name.Append("_table");
-
-                tableName = table_name.ToString();
-
-                deleteTable(tableName, connectionString);
-                List<String> cols = createTable(tableName, ds, connectionString);
-                insertDataIntoTable(tableName, ds, cols, connectionString);
-
-
-                /*** usable filters ***/
-                ds = new DataSet();
-                DataSet feature_type_dataset = new DataSet();
-                feature_type_dataset.ReadXml(Server.MapPath(feature_type_dataset_xml_path));
-                ds.ReadXml(Server.MapPath(usable_filter_xml_path));
-                table_name = new StringBuilder();
-  
-                DataColumn col = ds.Tables[0].Columns[0];
-                table_name.Append(col.ColumnName);
-                table_name.Length -= 2;
-                col = ds.Tables[1].Columns[0];
-                table_name.Append(col.ColumnName);
-                table_name.Length -= 2;
-                table_name.Append("_filter_table");
-
-                col = ds.Tables[2].Columns[0];
-                String feature_name = col.ColumnName;
-                usable_filters = new List<String>();
-                type_filters = new List<String>();
-                filters = new List<List<String>>();
-
-                foreach (DataRow row in ds.Tables[2].Rows)
-                {
-                    usable_filters.Add(row[feature_name].ToString().Trim());
-                    filters.Add(new List<String>());
-                    DataRow rr = feature_type_dataset.Tables[1].Rows[0];
-                    String str = row[feature_name].ToString();
-                    str = str.Trim();
-                    type_filters.Add(rr[str].ToString().Trim());
-                }
-
-                /*** filters ***/
-                ds = new DataSet();
-                ds.ReadXml(Server.MapPath(filter_xml_path));
-                List<String> tables = new List<String>();
-
-                for (int ii = 0; ii < ds.Tables.Count; ii++)
-                {
-                    tables.Add(ds.Tables[ii].TableName);
-                }
-
-                for (int ii = 0; ii < usable_filters.Count; ii++)
-                {
-                    if (type_filters[ii].Equals("Number"))
+                    ds.ReadXml(Server.MapPath(data_xml_path));
+                    String type = "", name = "";
+                    foreach (DataRow row in ds.Tables[0].Rows)
                     {
-                        int index = -1;
-                        for (int jj = 0; jj < tables.Count; jj++)
-                        {
-                            if (tables[jj].Equals(usable_filters[ii]))
-                            {
-                                index = jj;
-                                break;
-                            }
-                        }
-                        if(index != -1){
-                            StringBuilder qq = new StringBuilder();
-                            String high, low;
-                            qq.Append("high_");
-                            qq.Append(usable_filters[ii]);
-                            DataRow row = ds.Tables[index].Rows[0];
-                            high = row[qq.ToString()].ToString().Trim();
-                            qq = new StringBuilder();
-                            qq.Append("low_");
-                            qq.Append(usable_filters[ii]);
-                            low = row[qq.ToString()].ToString().Trim();
-                            double low_i, high_i, range, next;
-                            low_i = Convert.ToDouble(low);
-                            next = low_i;
-                            high_i = Convert.ToDouble(high);
-                            range = (high_i - low_i) / 5;
-                            next += range;
-                            if (low_i == high_i)
-                            {
-                                filters[ii].Add(low);
-                            }
-                            else
-                            {
-                                while (next < high_i)
-                                {
-                                    StringBuilder range_str = new StringBuilder();
-                                    range_str.Append(low_i.ToString());
-                                    range_str.Append(" - ");
-                                    range_str.Append(next.ToString());
-                                    filters[ii].Add(range_str.ToString());
-                                    low_i += range;
-                                    next += range;
-                                }
-                                StringBuilder final_range_str = new StringBuilder();
-                                final_range_str.Append(low_i.ToString());
-                                final_range_str.Append(" - ");
-                                final_range_str.Append(high_i.ToString());
-                                filters[ii].Add(final_range_str.ToString());
-                            }
-                        }
+                        type = row["ProductType"].ToString();
+                        name = row["ProductName"].ToString();
                     }
-                    else
-                    {
-                        int index = -1;
-                        StringBuilder search_str = new StringBuilder();
-                        search_str.Append("item_");
-                        search_str.Append(usable_filters[ii]);
-                        for (int jj = 0; jj < tables.Count; jj++)
-                        {
-                            if (tables[jj].Equals(search_str.ToString()))
-                            {
-                                index = jj;
-                                search_str.Append("_Text");
-                                break;
-                            }
-                        }
 
-                        if (index == -1)
+
+
+                    categories.Add(type);
+                    types.Add(new List<String>());
+                    types[types.Count - 1].Add(name);
+
+                    StringBuilder table_name = new StringBuilder();
+                    table_name.Append(type);
+                    table_name.Append("_");
+                    table_name.Append(name);
+                    table_name.Append("_table");
+
+                    tableName = table_name.ToString();
+
+                    deleteTable(tableName, connectionString);
+                    List<String> cols = createTable(tableName, ds, connectionString);
+                    insertDataIntoTable(tableName, ds, cols, connectionString);
+
+
+                    /*** usable filters ***/
+                    ds = new DataSet();
+                    DataSet feature_type_dataset = new DataSet();
+                    feature_type_dataset.ReadXml(Server.MapPath(feature_type_dataset_xml_path));
+                    ds.ReadXml(Server.MapPath(usable_filter_xml_path));
+                    table_name = new StringBuilder();
+
+                    DataColumn col = ds.Tables[0].Columns[0];
+                    table_name.Append(col.ColumnName);
+                    table_name.Length -= 2;
+                    col = ds.Tables[1].Columns[0];
+                    table_name.Append(col.ColumnName);
+                    table_name.Length -= 2;
+                    table_name.Append("_filter_table");
+
+                    col = ds.Tables[2].Columns[0];
+                    String feature_name = col.ColumnName;
+                    usable_filters = new List<String>();
+                    type_filters = new List<String>();
+                    filters = new List<List<String>>();
+
+                    foreach (DataRow row in ds.Tables[2].Rows)
+                    {
+                        usable_filters.Add(row[feature_name].ToString().Trim());
+                        filters.Add(new List<String>());
+                        DataRow rr = feature_type_dataset.Tables[1].Rows[0];
+                        String str = row[feature_name].ToString();
+                        str = str.Trim();
+                        type_filters.Add(rr[str].ToString().Trim());
+                    }
+
+                    /*** filters ***/
+                    ds = new DataSet();
+                    ds.ReadXml(Server.MapPath(filter_xml_path));
+                    List<String> tables = new List<String>();
+
+                    for (int ii = 0; ii < ds.Tables.Count; ii++)
+                    {
+                        tables.Add(ds.Tables[ii].TableName);
+                    }
+
+                    for (int ii = 0; ii < usable_filters.Count; ii++)
+                    {
+                        if (type_filters[ii].Equals("Number"))
                         {
+                            int index = -1;
                             for (int jj = 0; jj < tables.Count; jj++)
                             {
                                 if (tables[jj].Equals(usable_filters[ii]))
@@ -193,41 +128,151 @@ public partial class _Default : System.Web.UI.Page
                                     break;
                                 }
                             }
-                        }
-
-                        if (index != -1)
-                        {
-                            foreach (DataRow row in ds.Tables[index].Rows)
+                            if (index != -1)
                             {
-                                filters[ii].Add(row[search_str.ToString()].ToString().Trim());
+                                StringBuilder qq = new StringBuilder();
+                                String high, low;
+                                qq.Append("high_");
+                                qq.Append(usable_filters[ii]);
+                                DataRow row = ds.Tables[index].Rows[0];
+                                high = row[qq.ToString()].ToString().Trim();
+                                qq = new StringBuilder();
+                                qq.Append("low_");
+                                qq.Append(usable_filters[ii]);
+                                low = row[qq.ToString()].ToString().Trim();
+                                double low_i, high_i, range, next;
+                                low_i = Convert.ToDouble(low);
+                                next = low_i;
+                                high_i = Convert.ToDouble(high);
+                                range = (high_i - low_i) / 5;
+                                next += range;
+                                if (low_i == high_i)
+                                {
+                                    filters[ii].Add(low);
+                                }
+                                else
+                                {
+                                    while (next < high_i)
+                                    {
+                                        StringBuilder range_str = new StringBuilder();
+                                        range_str.Append(low_i.ToString());
+                                        range_str.Append(" - ");
+                                        range_str.Append(next.ToString());
+                                        filters[ii].Add(range_str.ToString());
+                                        low_i += range;
+                                        next += range;
+                                    }
+                                    StringBuilder final_range_str = new StringBuilder();
+                                    final_range_str.Append(low_i.ToString());
+                                    final_range_str.Append(" - ");
+                                    final_range_str.Append(high_i.ToString());
+                                    filters[ii].Add(final_range_str.ToString());
+                                }
                             }
                         }
+                        else
+                        {
+                            int index = -1;
+                            StringBuilder search_str = new StringBuilder();
+                            search_str.Append("item_");
+                            search_str.Append(usable_filters[ii]);
+                            for (int jj = 0; jj < tables.Count; jj++)
+                            {
+                                if (tables[jj].Equals(search_str.ToString()))
+                                {
+                                    index = jj;
+                                    search_str.Append("_Text");
+                                    break;
+                                }
+                            }
+
+                            if (index == -1)
+                            {
+                                for (int jj = 0; jj < tables.Count; jj++)
+                                {
+                                    if (tables[jj].Equals(usable_filters[ii]))
+                                    {
+                                        index = jj;
+                                        break;
+                                    }
+                                }
+                            }
+
+                            if (index != -1)
+                            {
+                                foreach (DataRow row in ds.Tables[index].Rows)
+                                {
+                                    filters[ii].Add(row[search_str.ToString()].ToString().Trim());
+                                }
+                            }
 
 
+                        }
                     }
-                }
-                sql_defined = true;
-                List<List<bool>> filter_test = new List<List<bool>>();
-                for (int ii = 0; ii < filters.Count; ii++)
-                {
-                    filter_test.Add(new List<bool>());
-                    for (int jj = 0; jj < filters[ii].Count; jj++)
+                    sql_defined = true;
+                    List<List<bool>> filter_test = new List<List<bool>>();
+                    for (int ii = 0; ii < filters.Count; ii++)
                     {
-                        filter_test[ii].Add(false);
+                        filter_test.Add(new List<bool>());
+                        for (int jj = 0; jj < filters[ii].Count; jj++)
+                        {
+                            filter_test[ii].Add(false);
+                        }
                     }
+
+                    //**************************** FUNCTION TO LOAD IN FILTER STATUS!!!!!!!!! *******************************//
+
+                    //filter_test[0][0] = true;
+                    //filter_test[0][1] = true;
+                    searchQuery(search_bar.Text, filter_test, connectionString);
+                    // debug.Text = search_results.Count.ToString();
                 }
+                catch (Exception ex)
+                {
+                    //debug.Text = "Error in loading database";
+                }
+            }
 
-                //**************************** FUNCTION TO LOAD IN FILTER STATUS!!!!!!!!! *******************************//
+            results_repeater.DataSource = search_results;
+            results_repeater.DataBind();
 
-                //filter_test[0][0] = true;
-                //filter_test[0][1] = true;
-                searchQuery(search_bar.Text, filter_test, connectionString);
-               // debug.Text = search_results.Count.ToString();
+            try
+            {
+                for (int i = 1; i < filters.Count; i++)
+                {
+                    Label filterHeader = new Label();
+                    filterHeader.Attributes.CssStyle.Add("font-size", "100%");
+                    filterHeader.Attributes.CssStyle.Add("font-weight", "bold");
+                    filterHeader.Attributes.CssStyle.Add("color", "#FF9900");
+                    filterHeader.Text = UppercaseFirst(CorrectString(usable_filters[i]));
+                    filterHeader.ID = usable_filters[i];
+                    PlaceHolder1.Controls.Add(filterHeader);
+                    //PlaceHolder1.Controls.Add(new LiteralControl("<br />"));
+
+                    CheckBoxList checkList = new CheckBoxList();
+                    checkList.Attributes.CssStyle.Add("margin", "0px 0px 6px 0px");
+                    checkList.Attributes.CssStyle.Add("padding", "0px 0px 6px 0px");
+                    checkList.Attributes.CssStyle.Add("list-style-type", "none");
+                    checkList.Attributes.CssStyle.Add("list-style-position", "outside");
+                    checkList.Attributes.CssStyle.Add("font-size", "100%");
+                    checkList.ID = "Checklist" + i.ToString();
+                    var tableRow = new TableRow();
+                    var checkbox_cell = new TableCell();
+                    tableRow.Cells.Add(checkbox_cell);
+                    for (int j = 1; j < filters[i].Count; j++)
+                    {
+                        checkList.Items.Add(filters[i][j]);
+                        PlaceHolder1.Controls.Add(checkList);
+                    }
+                    tbl_filters.Rows.Add(tableRow);
+                    PlaceHolder1.Controls.Add(new LiteralControl("<br />"));
+                }
             }
             catch (Exception ex)
             {
-                //debug.Text = "Error in loading database";
+                message_label.Text = "Error at the filter";
             }
+
         }
         if (User.Identity.IsAuthenticated)
         {         
@@ -286,45 +331,6 @@ public partial class _Default : System.Web.UI.Page
             message_label.Text = "Error with cookies";
         }
 
-        results_repeater.DataSource = search_results;
-        results_repeater.DataBind();
-
-        try
-        {
-            for (int i = 1; i < filters.Count; i++)
-            {
-                Label filterHeader = new Label();
-                filterHeader.Attributes.CssStyle.Add("font-size", "100%");
-                filterHeader.Attributes.CssStyle.Add("font-weight", "bold");
-                filterHeader.Attributes.CssStyle.Add("color", "#FF9900");
-                filterHeader.Text = UppercaseFirst(CorrectString(usable_filters[i]));
-                filterHeader.ID = usable_filters[i];
-                PlaceHolder1.Controls.Add(filterHeader);
-                //PlaceHolder1.Controls.Add(new LiteralControl("<br />"));
-
-                CheckBoxList checkList = new CheckBoxList();
-                checkList.Attributes.CssStyle.Add("margin", "0px 0px 6px 0px");
-                checkList.Attributes.CssStyle.Add("padding", "0px 0px 6px 0px");
-                checkList.Attributes.CssStyle.Add("list-style-type", "none");
-                checkList.Attributes.CssStyle.Add("list-style-position", "outside");
-                checkList.Attributes.CssStyle.Add("font-size", "100%");
-                checkList.ID = "Checklist" + i.ToString();
-                var tableRow = new TableRow();
-                var checkbox_cell = new TableCell();
-                tableRow.Cells.Add(checkbox_cell);
-                for (int j = 1; j < filters[i].Count; j++)
-                {
-                    checkList.Items.Add(filters[i][j]);
-                    PlaceHolder1.Controls.Add(checkList);
-                }
-                tbl_filters.Rows.Add(tableRow);
-                PlaceHolder1.Controls.Add(new LiteralControl("<br />"));
-            }
-        }
-        catch (Exception ex)
-        {
-            message_label.Text = "Error at the filter";
-        }
 
 
     }
@@ -707,28 +713,37 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void SearchBtn_Click(object sender, EventArgs e)
     {
-        if (search_bar.Text == "")
+        try
         {
-            results_label.Text = "No results found.";
+
+
+            if (search_bar.Text == "")
+            {
+                results_label.Text = "No results found.";
+            }
+            else
+            {
+                List<List<bool>> filter_status = new List<List<bool>>();
+                for (int ii = 0; ii < filters.Count; ii++)
+                {
+                    filter_status.Add(new List<bool>());
+                    for (int jj = 0; jj < filters[ii].Count; jj++)
+                        filter_status[ii].Add(false);
+                }
+
+                //**************************** FUNCTION TO LOAD IN FILTER STATUS!!!!!!!!! *******************************//
+                foreach (TableRow row in tbl_filters.Rows)
+                {
+
+                }
+
+
+                searchQuery(search_bar.Text, filter_status, connectionString);
+            }
         }
-        else
+        catch (NullReferenceException)
         {
-            List<List<bool>> filter_status = new List<List<bool>>();
-            for (int ii = 0; ii < filters.Count; ii++)
-            {
-                filter_status.Add(new List<bool>());
-                for (int jj = 0; jj < filters[ii].Count; jj++)
-                    filter_status[ii].Add(false);
-            }
-
-            //**************************** FUNCTION TO LOAD IN FILTER STATUS!!!!!!!!! *******************************//
-            foreach (TableRow row in tbl_filters.Rows)
-            {
-
-            }
-            
-            
-            searchQuery(search_bar.Text, filter_status, connectionString);
+            results_label.Text = "ERROR displaying results";
         }
     }
     protected void results_repeater_ItemCommand(object source, RepeaterCommandEventArgs e)
@@ -744,6 +759,13 @@ public partial class _Default : System.Web.UI.Page
     {
 
   //      ShoppingCart.Instance.AddItem(1);
+        //backup method of adding to cart.
+        //cartPName.Value = 
+        //cartPrice.Value =
+        //cartQuantity.Value =
+        //cartUser.Value = 
+
+
         Response.Redirect("MyCart.aspx");
 
     }

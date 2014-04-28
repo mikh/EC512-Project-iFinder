@@ -21,16 +21,19 @@
         <p>
             Email:</p>
         <p>
-            <asp:TextBox ID="UserEmail" runat="server" TextMode="Password"></asp:TextBox>
+            <asp:TextBox ID="UserEmail" runat="server" TextMode="Email"></asp:TextBox>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="UserEmail" Display="None" ErrorMessage="Please enter a valid email address." ValidationExpression="^([0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$" EnableClientScript="False"></asp:RegularExpressionValidator>
             <br />
             <br />
             <asp:Button ID="RegisterButton" runat="server" OnClick="RegisterButton_Click" Text="Register" />
             <br />
             <br />
             <asp:Label ID="status" runat="server"></asp:Label>
+        </p>
+        <p>
+             <br />
             <br />
-            <br />
-            <asp:HiddenField ID="hashpass" runat="server" />
+            <asp:HiddenField ID="hashpass" runat="server" OnValueChanged="hashpass_ValueChanged" />
             <br />
         </p>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT * FROM [Users] WHERE ([UserName] = @UserName)" InsertCommand="INSERT INTO Users(UserName, Password, UserEmail) VALUES ( @user , @pass, @email)">

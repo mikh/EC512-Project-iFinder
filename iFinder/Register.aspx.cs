@@ -59,4 +59,8 @@ public partial class Register : System.Web.UI.Page
         status.Text = "User Added";
         FormsAuthentication.RedirectFromLoginPage(UserName.Text, false);
     }
+    protected void hashpass_ValueChanged(object sender, EventArgs e)
+    {
+
+    }
 }
