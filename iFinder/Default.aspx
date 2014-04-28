@@ -34,6 +34,7 @@
     <div class="child_left" style="padding: 10px; margin: auto; float: left; width: 10%; background-color: #FFFFFF; font-size: 12px; text-align:left;">
                 <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
             </div>
+    <div>
     <asp:Label ID="results_label" runat="server" Text=""></asp:Label><br /><br /><br />
         <asp:SqlDataSource ID="SqlDS_Cart" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" InsertCommand="INSERT INTO MyCart(UserName, Price, ProductName, Quantity, Id) VALUES (@username, @price, @productname, @quantity,@id)" SelectCommand="SELECT Id, UserName, ProductID, Quantity, Price, ProductName FROM MyCart WHERE (UserName = @username)">
             <InsertParameters>
@@ -87,7 +88,7 @@
         </FooterTemplate>
     </asp:Repeater>
     <asp:Image ID="ball_image" runat="server" />
-
+    </div>
     <br />
     <br />
     <br />
