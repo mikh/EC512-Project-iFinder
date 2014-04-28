@@ -52,6 +52,9 @@ public partial class _Default : System.Web.UI.Page
                     type = row["ProductType"].ToString();
                     name = row["ProductName"].ToString();
                 }
+
+
+
                 categories.Add(type);
                 types.Add(new List<String>());
                 types[types.Count - 1].Add(name);
@@ -286,35 +289,43 @@ public partial class _Default : System.Web.UI.Page
         results_repeater.DataSource = search_results;
         results_repeater.DataBind();
 
-        for (int i = 1; i < filters.Count; i++)
+        try
         {
-            Label filterHeader = new Label();
-            filterHeader.Attributes.CssStyle.Add("font-size", "100%");
-            filterHeader.Attributes.CssStyle.Add("font-weight", "bold");
-            filterHeader.Attributes.CssStyle.Add("color", "#FF9900");
-            filterHeader.Text = UppercaseFirst(CorrectString(usable_filters[i]));
-            filterHeader.ID = usable_filters[i];
-            PlaceHolder1.Controls.Add(filterHeader);
-            //PlaceHolder1.Controls.Add(new LiteralControl("<br />"));
-
-            CheckBoxList checkList = new CheckBoxList();
-            checkList.Attributes.CssStyle.Add("margin", "0px 0px 6px 0px");
-            checkList.Attributes.CssStyle.Add("padding", "0px 0px 6px 0px");
-            checkList.Attributes.CssStyle.Add("list-style-type", "none");
-            checkList.Attributes.CssStyle.Add("list-style-position", "outside");
-            checkList.Attributes.CssStyle.Add("font-size", "100%");
-            checkList.ID = "Checklist" + i.ToString();
-            var tableRow = new TableRow();
-            var checkbox_cell = new TableCell();
-            tableRow.Cells.Add(checkbox_cell);
-            for (int j = 1; j < filters[i].Count; j++)
+            for (int i = 1; i < filters.Count; i++)
             {
-                checkList.Items.Add(filters[i][j]);
-                PlaceHolder1.Controls.Add(checkList);
+                Label filterHeader = new Label();
+                filterHeader.Attributes.CssStyle.Add("font-size", "100%");
+                filterHeader.Attributes.CssStyle.Add("font-weight", "bold");
+                filterHeader.Attributes.CssStyle.Add("color", "#FF9900");
+                filterHeader.Text = UppercaseFirst(CorrectString(usable_filters[i]));
+                filterHeader.ID = usable_filters[i];
+                PlaceHolder1.Controls.Add(filterHeader);
+                //PlaceHolder1.Controls.Add(new LiteralControl("<br />"));
+
+                CheckBoxList checkList = new CheckBoxList();
+                checkList.Attributes.CssStyle.Add("margin", "0px 0px 6px 0px");
+                checkList.Attributes.CssStyle.Add("padding", "0px 0px 6px 0px");
+                checkList.Attributes.CssStyle.Add("list-style-type", "none");
+                checkList.Attributes.CssStyle.Add("list-style-position", "outside");
+                checkList.Attributes.CssStyle.Add("font-size", "100%");
+                checkList.ID = "Checklist" + i.ToString();
+                var tableRow = new TableRow();
+                var checkbox_cell = new TableCell();
+                tableRow.Cells.Add(checkbox_cell);
+                for (int j = 1; j < filters[i].Count; j++)
+                {
+                    checkList.Items.Add(filters[i][j]);
+                    PlaceHolder1.Controls.Add(checkList);
+                }
+                tbl_filters.Rows.Add(tableRow);
+                PlaceHolder1.Controls.Add(new LiteralControl("<br />"));
             }
-            tbl_filters.Rows.Add(tableRow);
-            PlaceHolder1.Controls.Add(new LiteralControl("<br />"));
         }
+        catch (Exception ex)
+        {
+            message_label.Text = "Error at the filter";
+        }
+
 
     }
 
@@ -722,12 +733,17 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void results_repeater_ItemCommand(object source, RepeaterCommandEventArgs e)
     {
+        if (e.CommandName == "add2cart")
+        {
 
+
+        }
     }
 
     protected void AddItemToCart(object sender, EventArgs e)
     {
-        ShoppingCart.Instance.AddItem(1);
+
+  //      ShoppingCart.Instance.AddItem(1);
         Response.Redirect("MyCart.aspx");
 
     }

@@ -3,8 +3,8 @@
 <asp:Content ID="Content" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 
-<asp:Content ID="Content_login" ContentPlaceHolderID="login_asp" runat="server">
-    <asp:Label ID="message_label" runat="server" Text=""></asp:Label>&nbsp;&nbsp;&nbsp;
+  <asp:Content ID="Content_login" ContentPlaceHolderID="login_asp" runat="server">
+      <asp:Label ID="message_label" runat="server" Text=""></asp:Label>&nbsp;&nbsp;&nbsp;
     <asp:Label ID="user_label" runat="server" Text="UserName:   "></asp:Label>&nbsp;&nbsp;&nbsp;
     <asp:TextBox ID="userName" runat="server"></asp:TextBox>&nbsp;&nbsp;&nbsp;
     <asp:Label ID="password_label" runat="server" Text="    Password:   "></asp:Label>&nbsp;&nbsp;&nbsp;
@@ -33,7 +33,17 @@
     <div class="child_left" style="border-width: thin; border-color: #808080; padding: 10px; margin: auto; float: left; width: 10%; background-color: #FFFFFF; border-right-style: solid; border-bottom-style: solid; font-size: 12px;">
         <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
     </div>
+
+
     <asp:Label ID="results_label" runat="server" Text=""></asp:Label><br /><br /><br />
+        <asp:SqlDataSource ID="SqlDS_Cart" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" InsertCommand="INSERT INTO MyCart(UserName, Price, ProductName, Quantity) VALUES (,,,)" SelectCommand="SELECT * FROM [MyCart]">
+            <InsertParameters>
+                <asp:Parameter Name="username" />
+                <asp:Parameter Name="price" />
+                <asp:Parameter Name="productname" />
+                <asp:Parameter Name="quantity" />
+            </InsertParameters>
+    </asp:SqlDataSource>
     <asp:Repeater ID="results_repeater" runat="server" OnItemCommand="results_repeater_ItemCommand">
         <ItemTemplate>
             <tr>
@@ -49,10 +59,7 @@
                 <td>
                     <%# ((List<String>)Container.DataItem)[3] %>
                 </td>
-                <td>
-                    <asp:HyperLink ID="iForgotPass" runat="server" NavigateUrl="~/ForgotPassword.aspx">Link to?</asp:HyperLink>         
-                    <asp:Button ID="bAddtoCart" runat="server" Text="Add to Cart" OnClick="AddItemToCart" />
-                </td>
+                <asp:Button ID="add2cart" runat="server" Width="80px" Text="Add to Cart" CommandName="add2cart"/>
             </tr>
             <br />
             <br />

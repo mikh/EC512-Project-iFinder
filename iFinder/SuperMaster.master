@@ -15,7 +15,7 @@
 
     <div id="headline">
         <!--<header id="title">iFinder</header>-->
-        <img src="logo.gif" />
+        <asp:Image  ID="Image1" runat="server" ImageUrl="~/logo.gif" BorderStyle="None" />
     </div>
     <div id="search_bar"><asp:ContentPlaceHolder ID="search_asp" runat="server"></asp:ContentPlaceHolder></div>
     <div id ="pageOther">
