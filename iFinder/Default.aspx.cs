@@ -28,14 +28,13 @@ public partial class _Default : System.Web.UI.Page
     List<List<bool>> active_filters;
 
 
-      
+
     List<String> search_results_notation;
     List<List<String>> search_results;
     Table tbl_filters = new Table();
 
     protected void Page_PreInit(Object sender, EventArgs e)
     {
-
 
         this.EnsureChildControls();
 
@@ -81,7 +80,7 @@ public partial class _Default : System.Web.UI.Page
             active_prod = -1;
             Session["active_cat"] = active_cat;
             Session["active_prod"] = active_prod;
-            
+
             active_filters = null;
             Session["active_filters"] = active_filters;
             Session["search_results"] = search_results;
@@ -163,7 +162,6 @@ public partial class _Default : System.Web.UI.Page
         //****************************************************END USER AUTHENTICATION CODE*************************************//
     }
 
-
     private void dynamicFilters_Init()
     {
         int cat_index = (int)Session["active_cat"];
@@ -214,10 +212,9 @@ public partial class _Default : System.Web.UI.Page
         }
     }
 
-
     private void checkChanged(object sender, EventArgs e)
     {
-        CheckBox c_box = (CheckBox) sender;
+        CheckBox c_box = (CheckBox)sender;
         string name = c_box.ID;
         StringBuilder word = new StringBuilder();
         int index = 0;
@@ -240,8 +237,8 @@ public partial class _Default : System.Web.UI.Page
         active_filters = (List<List<bool>>)Session["active_filters"];
         active_filters[index_ii][index_jj] = c_box.Checked;
         Session["active_filters"] = active_filters;
-       // results_label.Text = "BOXED CHECKED_" + index_ii.ToString() + "_" + index_jj.ToString();
-       // results_label.Text = "BOXED CHECKED";
+        // results_label.Text = "BOXED CHECKED_" + index_ii.ToString() + "_" + index_jj.ToString();
+        // results_label.Text = "BOXED CHECKED";
     }
 
     private void updateActiveFilters()
@@ -383,7 +380,8 @@ public partial class _Default : System.Web.UI.Page
         }
     }
 
-    private bool searchQuery(String search, String conn_string){
+    private bool searchQuery(String search, String conn_string)
+    {
         search_results = new List<List<String>>();
         Session["search_results"] = search_results;
         //first see if you can classify the search
@@ -410,7 +408,7 @@ public partial class _Default : System.Web.UI.Page
 
         //try to match words to categories
         List<bool> categories_matched = new List<bool>();
-        for(int jj = 0; jj < search_words.Count; jj++)
+        for (int jj = 0; jj < search_words.Count; jj++)
         {
             for (int ii = 0; ii < categories.Count; ii++)
             {
@@ -503,7 +501,7 @@ public partial class _Default : System.Web.UI.Page
             sqlConn.Open();
             SqlCommand sqlQuery = new SqlCommand(query.ToString(), sqlConn);
             SqlDataReader reader = sqlQuery.ExecuteReader();
-            
+
             if (reader.HasRows)
             {
                 while (reader.Read())
@@ -538,7 +536,7 @@ public partial class _Default : System.Web.UI.Page
 
                     dynamicFilters_Init();
                 }
-                
+
 
 
                 search_results_notation = notation[cat_index][prod_index];
@@ -567,15 +565,18 @@ public partial class _Default : System.Web.UI.Page
         for (int ii = 0; ii < filter_data.Count; ii++)
         {
             bool need_filter = false;
-            for(int jj = 0; jj < filter_data[ii].Count; jj++){
-                if(filter_data[ii][jj] == true){
+            for (int jj = 0; jj < filter_data[ii].Count; jj++)
+            {
+                if (filter_data[ii][jj] == true)
+                {
                     need_filter = true;
                     break;
                 }
             }
 
 
-            if(need_filter){
+            if (need_filter)
+            {
                 List<bool> to_filter = filter_data[ii];
                 List<List<String>> new_results = new List<List<string>>();
                 List<String> filter = filters[cat_index][prod_index][ii];// filters[ii];                  
@@ -584,14 +585,17 @@ public partial class _Default : System.Web.UI.Page
                 int index = -1;
                 for (int kk = 0; kk < search_results_notation.Count; kk++)
                 {
-                    if(search_results_notation[kk].Equals(filter_category)){
+                    if (search_results_notation[kk].Equals(filter_category))
+                    {
                         index = kk;
                         break;
                     }
                 }
 
-                if(index != -1){
-                    for(int kk = 0; kk < search_results.Count; kk++){
+                if (index != -1)
+                {
+                    for (int kk = 0; kk < search_results.Count; kk++)
+                    {
                         bool pass = false;
                         for (int jj = 0; jj < to_filter.Count; jj++)
                         {
@@ -652,7 +656,7 @@ public partial class _Default : System.Web.UI.Page
         List<String> noDupes = new List<String>();
         while (list.Count > 0)
         {
-            String word = list[list.Count-1];
+            String word = list[list.Count - 1];
             list.RemoveAt(list.Count - 1);
             noDupes.Add(word);
             for (int ii = list.Count - 1; ii >= 0; ii--)
@@ -710,207 +714,11 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void SearchBtn_Click(object sender, EventArgs e)
     {
-        if (filters == null || rewrite_table)
+        if (search_bar.Text == "")
         {
-            try
-            {
-                categories = new List<String>();
-                types = new List<List<String>>();
-                notation = new List<String>();
-                search_results_notation = new List<String>();
-                search_results = new List<List<String>>();
-                DataSet ds = new DataSet();
-
-                ds.ReadXml(Server.MapPath(data_xml_path));
-                String type = "", name = "";
-                foreach (DataRow row in ds.Tables[0].Rows)
-                {
-                    type = row["ProductType"].ToString();
-                    name = row["ProductName"].ToString();
-                }
-
-
-
-                categories.Add(type);
-                types.Add(new List<String>());
-                types[types.Count - 1].Add(name);
-
-                StringBuilder table_name = new StringBuilder();
-                table_name.Append(type);
-                table_name.Append("_");
-                table_name.Append(name);
-                table_name.Append("_table");
-
-                tableName = table_name.ToString();
-
-                deleteTable(tableName, connectionString);
-                List<String> cols = createTable(tableName, ds, connectionString);
-                insertDataIntoTable(tableName, ds, cols, connectionString);
-
-
-                /*** usable filters ***/
-                ds = new DataSet();
-                DataSet feature_type_dataset = new DataSet();
-                feature_type_dataset.ReadXml(Server.MapPath(feature_type_dataset_xml_path));
-                ds.ReadXml(Server.MapPath(usable_filter_xml_path));
-                table_name = new StringBuilder();
-
-                DataColumn col = ds.Tables[0].Columns[0];
-                table_name.Append(col.ColumnName);
-                table_name.Length -= 2;
-                col = ds.Tables[1].Columns[0];
-                table_name.Append(col.ColumnName);
-                table_name.Length -= 2;
-                table_name.Append("_filter_table");
-
-                col = ds.Tables[2].Columns[0];
-                String feature_name = col.ColumnName;
-                usable_filters = new List<String>();
-                type_filters = new List<String>();
-                filters = new List<List<String>>();
-
-                foreach (DataRow row in ds.Tables[2].Rows)
-                {
-                    usable_filters.Add(row[feature_name].ToString().Trim());
-                    filters.Add(new List<String>());
-                    DataRow rr = feature_type_dataset.Tables[1].Rows[0];
-                    String str = row[feature_name].ToString();
-                    str = str.Trim();
-                    type_filters.Add(rr[str].ToString().Trim());
-                }
-
-                /*** filters ***/
-                ds = new DataSet();
-                ds.ReadXml(Server.MapPath(filter_xml_path));
-                List<String> tables = new List<String>();
-
-                for (int ii = 0; ii < ds.Tables.Count; ii++)
-                {
-                    tables.Add(ds.Tables[ii].TableName);
-                }
-
-                for (int ii = 0; ii < usable_filters.Count; ii++)
-                {
-                    if (type_filters[ii].Equals("Number"))
-                    {
-                        int index = -1;
-                        for (int jj = 0; jj < tables.Count; jj++)
-                        {
-                            if (tables[jj].Equals(usable_filters[ii]))
-                            {
-                                index = jj;
-                                break;
-                            }
-                        }
-                        if (index != -1)
-                        {
-                            StringBuilder qq = new StringBuilder();
-                            String high, low;
-                            qq.Append("high_");
-                            qq.Append(usable_filters[ii]);
-                            DataRow row = ds.Tables[index].Rows[0];
-                            high = row[qq.ToString()].ToString().Trim();
-                            qq = new StringBuilder();
-                            qq.Append("low_");
-                            qq.Append(usable_filters[ii]);
-                            low = row[qq.ToString()].ToString().Trim();
-                            double low_i, high_i, range, next;
-                            low_i = Convert.ToDouble(low);
-                            next = low_i;
-                            high_i = Convert.ToDouble(high);
-                            range = (high_i - low_i) / 5;
-                            next += range;
-                            if (low_i == high_i)
-                            {
-                                filters[ii].Add(low);
-                            }
-                            else
-                            {
-                                while (next < high_i)
-                                {
-                                    StringBuilder range_str = new StringBuilder();
-                                    range_str.Append(low_i.ToString());
-                                    range_str.Append(" - ");
-                                    range_str.Append(next.ToString());
-                                    filters[ii].Add(range_str.ToString());
-                                    low_i += range;
-                                    next += range;
-                                }
-                                StringBuilder final_range_str = new StringBuilder();
-                                final_range_str.Append(low_i.ToString());
-                                final_range_str.Append(" - ");
-                                final_range_str.Append(high_i.ToString());
-                                filters[ii].Add(final_range_str.ToString());
-                            }
-                        }
-                    }
-                    else
-                    {
-                        int index = -1;
-                        StringBuilder search_str = new StringBuilder();
-                        search_str.Append("item_");
-                        search_str.Append(usable_filters[ii]);
-                        for (int jj = 0; jj < tables.Count; jj++)
-                        {
-                            if (tables[jj].Equals(search_str.ToString()))
-                            {
-                                index = jj;
-                                search_str.Append("_Text");
-                                break;
-                            }
-                        }
-
-                        if (index == -1)
-                        {
-                            for (int jj = 0; jj < tables.Count; jj++)
-                            {
-                                if (tables[jj].Equals(usable_filters[ii]))
-                                {
-                                    index = jj;
-                                    break;
-                                }
-                            }
-                        }
-
-                        if (index != -1)
-                        {
-                            foreach (DataRow row in ds.Tables[index].Rows)
-                            {
-                                filters[ii].Add(row[search_str.ToString()].ToString().Trim());
-                            }
-                        }
-
-
-                    }
-                }
-                sql_defined = true;
-                List<List<bool>> filter_test = new List<List<bool>>();
-                for (int ii = 0; ii < filters.Count; ii++)
-                {
-                    filter_test.Add(new List<bool>());
-                    for (int jj = 0; jj < filters[ii].Count; jj++)
-                    {
-                        filter_test[ii].Add(false);
-                    }
-                }
-
-                //**************************** FUNCTION TO LOAD IN FILTER STATUS!!!!!!!!! *******************************//
-
-                //filter_test[0][0] = true;
-                //filter_test[0][1] = true;
-                searchQuery(search_bar.Text, filter_test, connectionString);
-                // debug.Text = search_results.Count.ToString();
-            }
-            catch (Exception ex)
-            {
-                //debug.Text = "Error in loading database";
-            }
+            results_label.Text = "No results found.";
         }
-
-        results_repeater.DataSource = search_results;
-        results_repeater.DataBind();
-
-        try
+        else
         {
 
             searchQuery(search_bar.Text, connectionString);
@@ -930,9 +738,9 @@ public partial class _Default : System.Web.UI.Page
 
     }
 
-    
+
     private List<String> getTableNames(String conn_string)
-        //SQL Query to get all current tables
+    //SQL Query to get all current tables
     {
         String query = "SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE' ";
         SqlConnection sqlConn = new SqlConnection(conn_string);
@@ -984,7 +792,7 @@ public partial class _Default : System.Web.UI.Page
     }
 
     private List<String> getNeededTables(List<String> tableNames, string[] file_list)
-        //Make a list of all the tables you don't currently have
+    //Make a list of all the tables you don't currently have
     {
         //first get all the tables obtainined - all the tables have names of department_component_table, we just need to delete the '_table'
         List<String> made_tables = new List<String>();
@@ -1023,7 +831,7 @@ public partial class _Default : System.Web.UI.Page
     }
 
     private String getTableCategory(String str)
-        //Gets the category of a table
+    //Gets the category of a table
     {
         StringBuilder word = new StringBuilder();
         for (int ii = 0; ii < str.Length; ii++)
@@ -1040,7 +848,7 @@ public partial class _Default : System.Web.UI.Page
     }
 
     private String getTableProduct(String str)
-        //Get the prodcut of a table
+    //Get the prodcut of a table
     {
         StringBuilder word = new StringBuilder();
         int index = 0;
@@ -1061,41 +869,7 @@ public partial class _Default : System.Web.UI.Page
     }
 
 
-    //int idcounter = 0;
-    //protected void results_repeater_ItemCommand(object source, RepeaterCommandEventArgs e)
-    //{
-    //       SqlDataSource1.SelectParameters["username"].DefaultValue = User.Identity.Name;
-    //        SqlDataSource1.SelectParameters["UserName"].DefaultValue = User.Identity.Name;
-    //        DataSourceSelectArguments args = new DataSourceSelectArguments();
-    //        DataView view = (DataView)SqlDS_results.Select(new DataSourceSelectArguments());
-    //        DataTable dt = view.ToTable();
-    //        int ii = 0;
-    //        cartPrice.Value = "12.34";
-    //        cartQuantity.Value = "1";
-    //        cartPName.Value = "KAL50FB1R50";
-    //        for (ii = 0; ii < dt.Rows.Count; ii++)
-    //        {
-    //            if (dt.Rows[ii][0].ToString() == "price")
-    //            {
-    //                cartPrice.Value = dt.Rows[ii][0].ToString();
-    //            }
-    //            if (dt.Rows[ii][0].ToString() == "quantity")
-    //            {
-    //                cartQuantity.Value = dt.Rows[ii][0].ToString();
-    //            }
-    //            if (dt.Rows[ii][0].ToString() == "ID")
-    //            {
-    //                cartPName.Value = dt.Rows[ii][0].ToString();
-    //            }
-    //        }
-    //        idcounter++;
-    //        SqlDS_Cart.InsertParameters["id"].DefaultValue = idcounter.ToString();
-    //        SqlDS_Cart.InsertParameters["price"].DefaultValue = cartPrice.Value;
-    //        SqlDS_Cart.InsertParameters["quantity"].DefaultValue = cartQuantity.Value;
-    //        SqlDS_Cart.InsertParameters["productname"].DefaultValue = cartPName.Value;
-    //        SqlDS_Cart.Insert();
-    //        Response.Redirect("MyCart.aspx");
-    //}
+
 
     private void table_Init()
     {
@@ -1199,7 +973,7 @@ public partial class _Default : System.Web.UI.Page
 
     private int findProduct(string prod, int cat)
     {
-        for(int ii = 0; ii < types[cat].Count; ii++)
+        for (int ii = 0; ii < types[cat].Count; ii++)
         {
             if (types[cat][ii].Equals(prod))
                 return ii;
@@ -1263,7 +1037,7 @@ public partial class _Default : System.Web.UI.Page
             List<String> t_feat = new List<String>();
             foreach (DataRow row in ds.Tables[0].Rows)
             {
-                for (int jj = 0; jj < u_feat.Count; jj++ )
+                for (int jj = 0; jj < u_feat.Count; jj++)
                     t_feat.Add(row[u_feat[jj]].ToString().Trim());
             }
             filter_types[cat_index][prod_index] = t_feat;
@@ -1277,7 +1051,8 @@ public partial class _Default : System.Web.UI.Page
 
             //get list of tables in dataset
             List<String> tab_list = new List<String>();
-            foreach(DataTable tab in ds.Tables){
+            foreach (DataTable tab in ds.Tables)
+            {
                 tab_list.Add(tab.TableName);
             }
 
