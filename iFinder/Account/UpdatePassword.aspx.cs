@@ -12,6 +12,7 @@ public partial class Account_UpdatePassword : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         SqlDataSource1.SelectParameters["UserName"].DefaultValue = User.Identity.Name;
+        SqlDataSource1.UpdateParameters["UserName"].DefaultValue = User.Identity.Name;
     }
     protected void Button1_Click(object sender, EventArgs e)
     {

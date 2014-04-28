@@ -16,7 +16,7 @@
     <asp:HyperLink ID="iForgotPass" runat="server" NavigateUrl="~/ForgotPassword.aspx">Forgot Password?</asp:HyperLink>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT * FROM [Users] WHERE ([UserName] = @UserName)">
         <SelectParameters>
-            <asp:ControlParameter ControlID="UserName" Name="UserName" PropertyName="Text" Type="String" />
+            <asp:Parameter DefaultValue="Anonymous" Name="UserName" Type="String" />
         </SelectParameters>
 
     </asp:SqlDataSource>
@@ -36,14 +36,18 @@
 
 
     <asp:Label ID="results_label" runat="server" Text=""></asp:Label><br /><br /><br />
-        <asp:SqlDataSource ID="SqlDS_Cart" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" InsertCommand="INSERT INTO MyCart(UserName, Price, ProductName, Quantity) VALUES (,,,)" SelectCommand="SELECT * FROM [MyCart]">
+        <asp:SqlDataSource ID="SqlDS_Cart" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" InsertCommand="INSERT INTO MyCart(UserName, Price, ProductName, Quantity) VALUES (, @price, @productname, @quantity)" SelectCommand="SELECT Id, UserName, ProductID, Quantity, Price, ProductName FROM MyCart WHERE (UserName = @username)">
             <InsertParameters>
                 <asp:Parameter Name="username" Type="String" DefaultValue="default" />
                 <asp:Parameter Name="price" Type="String" DefaultValue="default" />
                 <asp:Parameter Name="productname" Type="String" DefaultValue="default" />
                 <asp:Parameter Name="quantity" Type="String" DefaultValue="default" />
             </InsertParameters>
+            <SelectParameters>
+                <asp:Parameter DefaultValue="Anonymous" Name="usernme" Type="String" />
+            </SelectParameters>
     </asp:SqlDataSource>
+    <asp:SqlDataSource ID="SqlDS_results" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [quantity], [ID], [price] FROM [electronics_resistor_table]"></asp:SqlDataSource>
     <asp:Repeater ID="results_repeater" runat="server" OnItemCommand="results_repeater_ItemCommand">
         <ItemTemplate>
             <tr>
