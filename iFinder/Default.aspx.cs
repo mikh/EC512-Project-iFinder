@@ -745,6 +745,7 @@ public partial class _Default : System.Web.UI.Page
             results_label.Text = "ERROR displaying results";
         }
     }
+    int idcounter = 0;
     protected void results_repeater_ItemCommand(object source, RepeaterCommandEventArgs e)
     {
         if (e.CommandName == "add2cart")
@@ -755,20 +756,30 @@ public partial class _Default : System.Web.UI.Page
             DataView view = (DataView)SqlDS_results.Select(new DataSourceSelectArguments());
             DataTable dt = view.ToTable();
             int ii = 0;
-            
+            cartPrice.Value = "12.34";
+            cartQuantity.Value = "1";
+            cartPName.Value = "KAL50FB1R50";
             for (ii = 0; ii < dt.Rows.Count; ii++)
             {
-                if (dt.Rows[ii][0].ToString() == "Price")
+                if (dt.Rows[ii][0].ToString() == "price")
                 {
-              
+                    cartPrice.Value = dt.Rows[ii][0].ToString();
+                }
+                if (dt.Rows[ii][0].ToString() == "quantity")
+                {
+                    cartQuantity.Value = dt.Rows[ii][0].ToString();
+                }
+                if (dt.Rows[ii][0].ToString() == "ID")
+                {
+                    cartPName.Value = dt.Rows[ii][0].ToString();
                 }
             }
-            
-
+            idcounter++;
+            SqlDS_Cart.InsertParameters["id"].DefaultValue = idcounter.ToString();
             SqlDS_Cart.InsertParameters["price"].DefaultValue = cartPrice.Value;
             SqlDS_Cart.InsertParameters["quantity"].DefaultValue = cartQuantity.Value;
             SqlDS_Cart.InsertParameters["productname"].DefaultValue = cartPName.Value;
-
+            SqlDS_Cart.Insert();
             Response.Redirect("MyCart.aspx");
 
 

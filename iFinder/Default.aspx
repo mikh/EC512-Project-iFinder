@@ -36,12 +36,13 @@
 
 
     <asp:Label ID="results_label" runat="server" Text=""></asp:Label><br /><br /><br />
-        <asp:SqlDataSource ID="SqlDS_Cart" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" InsertCommand="INSERT INTO MyCart(UserName, Price, ProductName, Quantity) VALUES (, @price, @productname, @quantity)" SelectCommand="SELECT Id, UserName, ProductID, Quantity, Price, ProductName FROM MyCart WHERE (UserName = @username)">
+        <asp:SqlDataSource ID="SqlDS_Cart" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" InsertCommand="INSERT INTO MyCart(UserName, Price, ProductName, Quantity, Id) VALUES (@username, @price, @productname, @quantity,@id)" SelectCommand="SELECT Id, UserName, ProductID, Quantity, Price, ProductName FROM MyCart WHERE (UserName = @username)">
             <InsertParameters>
                 <asp:Parameter Name="username" Type="String" DefaultValue="default" />
                 <asp:Parameter Name="price" Type="String" DefaultValue="default" />
                 <asp:Parameter Name="productname" Type="String" DefaultValue="default" />
                 <asp:Parameter Name="quantity" Type="String" DefaultValue="default" />
+                <asp:Parameter DefaultValue="default" Name="id" Type="String" />
             </InsertParameters>
             <SelectParameters>
                 <asp:Parameter DefaultValue="Anonymous" Name="usernme" Type="String" />

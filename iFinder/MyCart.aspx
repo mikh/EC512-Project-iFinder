@@ -39,7 +39,7 @@
 
 <ItemStyle HorizontalAlign="Left"></ItemStyle>
                             </asp:BoundField>
-                            <asp:BoundField HeaderText="Total Price" ReadOnly="True" ItemStyle-HorizontalAlign="Right" HeaderStyle-HorizontalAlign="Right" DataField="Price*Quantity" >
+                            <asp:BoundField HeaderText="Total Price" ReadOnly="True" ItemStyle-HorizontalAlign="Right" HeaderStyle-HorizontalAlign="Right" DataField="Price" >
 <HeaderStyle HorizontalAlign="Right"></HeaderStyle>
 
 <ItemStyle HorizontalAlign="Right"></ItemStyle>
