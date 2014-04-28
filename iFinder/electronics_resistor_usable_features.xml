@@ -1,0 +1,26 @@
+<categories>
+	<usu_feature>
+		manufacturer
+	</usu_feature>
+	<usu_feature>
+		quantity
+	</usu_feature>
+	<usu_feature>
+		availability
+	</usu_feature>
+	<usu_feature>
+		price
+	</usu_feature>
+	<usu_feature>
+		packaging
+	</usu_feature>
+	<usu_feature>
+		resistance_ohms
+	</usu_feature>
+	<usu_feature>
+		tolerance
+	</usu_feature>
+	<usu_feature>
+		power_watts
+	</usu_feature>
+</categories>

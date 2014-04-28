@@ -13,30 +13,99 @@ public partial class _Default : System.Web.UI.Page
 {
 
     String connectionString = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=|DataDirectory|\\Database2.mdf;Integrated Security=True";
-    String connectionString_filters = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=|DataDirectory|\\Database.mdf;Integrated Security=True";
-    bool sql_defined;
-    bool rewrite_table = false;
-    String tableName;
-    String data_xml_path = "data.xml";
-    String usable_filter_xml_path = "usable_features.xml";
-    String filter_xml_path = "filters.xml";
-    String feature_type_dataset_xml_path = "feature_type.xml";
-    List<List<String>> filters;     //filters
-    List<String> usable_filters;    //filter categories
-    List<String> type_filters;      //filter types - Number or Text
-    List<String> categories;
-    List<List<String>> types;
-    List<String> notation;
 
+    string[] data_xml_paths = { "electronics_resistor.xml" };
+    string[] filter_xml_paths = { "electronics_resistor_filters.xml" };
+
+    List<List<List<List<String>>>> filters;     //filters
+    List<String> categories;    //name of all categories available
+    List<List<String>> types;       //product types in those categories
+    List<List<List<String>>> filter_names;  //usable features from notation
+    List<List<List<String>>> filter_types;  //types of usable features
+    List<List<List<String>>> notation;      //names of all fields of data
+    List<List<CheckBox>> list_of_boxes;
+    int active_cat, active_prod;
+    List<List<bool>> active_filters;
+
+
+      
     List<String> search_results_notation;
     List<List<String>> search_results;
     Table tbl_filters = new Table();
 
-    protected void Page_Load(object sender, EventArgs e)
+    protected void Page_PreInit(Object sender, EventArgs e)
     {
 
+
+        this.EnsureChildControls();
+
+        table_Init();
+        filter_Init();
+        notation_Init();
+        bool force_postback;
+        try
+        {
+            force_postback = (bool)Session["force_postback"];
+            if (force_postback)
+            {
+                dynamicFilters_Init();
+                search_results = (List<List<String>>)Session["search_results"];
+                search_results_notation = (List<String>)Session["search_results_notation"];
+                search_bar.Text = (string)Session["search_str"];
+                results_label.Text = (string)Session["results_label"];
+                //Session["force_postback"] = false;
+            }
+        }
+        catch (Exception ex)
+        {
+            Session["force_postback"] = false;
+        }
+        if (IsPostBack)
+        {
+            dynamicFilters_Init();
+            search_results = (List<List<String>>)Session["search_results"];
+            search_results_notation = (List<String>)Session["search_results_notation"];
+        }
+    }
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        ball_image.ImageUrl = "bouncy-ball.png";
+        ball_image.Visible = false;
+        bool force_postback = (bool)Session["force_postback"];
+
+        if (!IsPostBack && !force_postback)
+        {
+            Session.Timeout = 525600;       //five hundred twenty five thousand six hundred minutes 
+            active_cat = -1;
+            active_prod = -1;
+            Session["active_cat"] = active_cat;
+            Session["active_prod"] = active_prod;
+            
+            active_filters = null;
+            Session["active_filters"] = active_filters;
+            Session["search_results"] = search_results;
+            Session["search_results_notation"] = search_results_notation;
+            Session["force_postback"] = false;
+            Session["search_str"] = "";
+            Session["results_label"] = "";
+            dynamicFilters_Init();
+            ball_image.Visible = true;
+        }
+
+        search_results = (List<List<String>>)Session["search_results"];
+        if (search_results == null || search_results.Count == 0)
+            ball_image.Visible = true;
+
+        if (force_postback)
+            Session["force_postback"] = false;
+
+        results_repeater.DataSource = search_results;
+        results_repeater.DataBind();
+
+        //**********************USER AUTHENTICATION CODE**********************//
         if (User.Identity.IsAuthenticated)
-        {         
+        {
             logged_in.Text = User.Identity.Name;
             user_label.Visible = false;
             userName.Visible = false;
@@ -57,7 +126,7 @@ public partial class _Default : System.Web.UI.Page
             password_label.Visible = true;
             Login.Visible = true;
             Register.Visible = true;
-            message_label.Text = "This is hard to read =(.";
+            message_label.Text = "";//"This is hard to read =(.";
             logged_in.Visible = false;
             bLogout.Visible = false;
             iForgotPass.Visible = true;
@@ -91,9 +160,125 @@ public partial class _Default : System.Web.UI.Page
         {
             message_label.Text = "Error with cookies";
         }
+        //****************************************************END USER AUTHENTICATION CODE*************************************//
+    }
 
 
+    private void dynamicFilters_Init()
+    {
+        int cat_index = (int)Session["active_cat"];
+        int prod_index = (int)Session["active_prod"];
 
+        if (cat_index != -1 && prod_index != -1)
+        {
+            list_of_boxes = new List<List<CheckBox>>();
+            ContentPlaceHolder _cpl1 = Master.FindControl("items") as ContentPlaceHolder;
+            PlaceHolder _pl1 = _cpl1.FindControl("PlaceHolder1") as PlaceHolder;
+            PlaceHolder controlsParent = new PlaceHolder();
+            _pl1.Controls.Add(controlsParent);
+            active_filters = (List<List<bool>>)Session["active_filters"];
+
+            for (int ii = 0; ii < filters[cat_index][prod_index].Count; ii++)
+            {
+                Label filterHeader = new Label();
+                filterHeader.Attributes.CssStyle.Add("font-size", "100%");
+                filterHeader.Attributes.CssStyle.Add("font-weight", "bold");
+                filterHeader.Attributes.CssStyle.Add("color", "#266A2E");
+                filterHeader.Text = UppercaseFirst(CorrectString(filter_names[cat_index][prod_index][ii]));
+                filterHeader.ID = filter_names[cat_index][prod_index][ii];
+                controlsParent.Controls.Add(filterHeader);
+                controlsParent.Controls.Add(new LiteralControl("<br />"));
+                list_of_boxes.Add(new List<CheckBox>());
+                for (int jj = 0; jj < filters[cat_index][prod_index][ii].Count; jj++)
+                {
+                    CheckBox cb = new CheckBox();
+                    cb.Attributes.CssStyle.Add("margin", "0px 0px 6px 0px");
+                    cb.Attributes.CssStyle.Add("padding", "0px 0px 6px 0px");
+                    cb.Attributes.CssStyle.Add("list-style-type", "none");
+                    cb.Attributes.CssStyle.Add("list-style-position", "outside");
+                    cb.Attributes.CssStyle.Add("font-size", "100%");
+                    cb.Attributes.CssStyle.Add("text-align", "left");
+                    cb.ID = "CheckBox_" + ii.ToString() + "_" + jj.ToString() + "_";
+                    cb.Text = filters[cat_index][prod_index][ii][jj];
+                    if (active_filters[ii][jj] == true)
+                        cb.Checked = true;
+                    else
+                        cb.Checked = false;
+                    cb.CheckedChanged += new EventHandler(this.checkChanged);
+                    controlsParent.Controls.Add(cb);
+                    controlsParent.Controls.Add(new LiteralControl("<br />"));
+                    list_of_boxes[ii].Add(cb);
+                }
+                controlsParent.Controls.Add(new LiteralControl("<br />"));
+            }
+        }
+    }
+
+
+    private void checkChanged(object sender, EventArgs e)
+    {
+        CheckBox c_box = (CheckBox) sender;
+        string name = c_box.ID;
+        StringBuilder word = new StringBuilder();
+        int index = 0;
+        while (name[index] != '_')
+            index++;
+        index++;
+        while (name[index] != '_')
+        {
+            word.Append(name[index++]);
+        }
+
+        int index_ii = Convert.ToInt32(word.ToString());
+        word = new StringBuilder();
+        index++;
+        while (name[index] != '_')
+        {
+            word.Append(name[index++]);
+        }
+        int index_jj = Convert.ToInt32(word.ToString());
+        active_filters = (List<List<bool>>)Session["active_filters"];
+        active_filters[index_ii][index_jj] = c_box.Checked;
+        Session["active_filters"] = active_filters;
+       // results_label.Text = "BOXED CHECKED_" + index_ii.ToString() + "_" + index_jj.ToString();
+       // results_label.Text = "BOXED CHECKED";
+    }
+
+    private void updateActiveFilters()
+    {
+        active_filters = (List<List<bool>>)Session["active_filters"];
+        if (list_of_boxes != null && active_filters != null)
+        {
+            for (int ii = 0; ii < list_of_boxes.Count; ii++)
+            {
+                for (int jj = 0; jj < list_of_boxes[ii].Count; jj++)
+                {
+                    CheckBox c_box = list_of_boxes[ii][jj];
+                    string name = c_box.ID;
+                    StringBuilder word = new StringBuilder();
+                    int index = 0;
+                    while (name[index] != '_')
+                        index++;
+                    index++;
+                    while (name[index] != '_')
+                    {
+                        word.Append(name[index++]);
+                    }
+
+                    int index_ii = Convert.ToInt32(word.ToString());
+                    word = new StringBuilder();
+                    index++;
+                    while (name[index] != '_')
+                    {
+                        word.Append(name[index++]);
+                    }
+                    int index_jj = Convert.ToInt32(word.ToString());
+                    active_filters = (List<List<bool>>)Session["active_filters"];
+                    active_filters[index_ii][index_jj] = c_box.Checked;
+                    Session["active_filters"] = active_filters;
+                }
+            }
+        }
     }
 
     static string UppercaseFirst(string s)
@@ -152,7 +337,6 @@ public partial class _Default : System.Web.UI.Page
 
         foreach (DataColumn col in data.Tables[2].Columns)
         {
-            notation.Add(col.ColumnName);
             query.Append(col.ColumnName);
             cols.Add(col.ColumnName);
             query.Append(" nvarchar(max), ");
@@ -199,7 +383,9 @@ public partial class _Default : System.Web.UI.Page
         }
     }
 
-    private bool searchQuery(String search, List<List<bool>> filter_data, String conn_string){
+    private bool searchQuery(String search, String conn_string){
+        search_results = new List<List<String>>();
+        Session["search_results"] = search_results;
         //first see if you can classify the search
         //so break the search up
         List<String> search_words = new List<String>();
@@ -293,7 +479,19 @@ public partial class _Default : System.Web.UI.Page
 
         //check if any tables to search
         if (tables_to_search.Count == 0)
+        {
+            Session["active_cat"] = -1;
+            Session["active_prod"] = -1;
+            Session["active_filters"] = null;
+            Session["search_results"] = search_results;
+            Session["search_results_notation"] = search_results_notation;
+            Session["search_str"] = search_bar.Text;
+            Session["force_postback"] = true;
+            Session["results_label"] = results_label.Text;
+            updateActiveFilters();
+            Response.Redirect("Default.aspx");
             return false;
+        }
 
         //construct search query
         for (int ii = 0; ii < tables_to_search.Count; ii++)
@@ -305,7 +503,7 @@ public partial class _Default : System.Web.UI.Page
             sqlConn.Open();
             SqlCommand sqlQuery = new SqlCommand(query.ToString(), sqlConn);
             SqlDataReader reader = sqlQuery.ExecuteReader();
-            search_results = new List<List<String>>();
+            
             if (reader.HasRows)
             {
                 while (reader.Read())
@@ -319,13 +517,43 @@ public partial class _Default : System.Web.UI.Page
                     }
                     search_results.Add(results);
                 }
+                int cat_index = findCategory(getTableCategory(tables_to_search[ii]));
+                int prod_index = findProduct(getTableProduct(tables_to_search[ii]), cat_index);
+                if (cat_index == -1 || prod_index == -1)
+                    throw new Exception();
+                Session["active_cat"] = cat_index;
+                Session["active_prod"] = prod_index;
+
+                active_filters = (List<List<bool>>)Session["active_filters"];
+                if (active_filters == null)
+                {
+                    active_filters = new List<List<bool>>();
+                    for (int tt = 0; tt < filters[cat_index][prod_index].Count; tt++)
+                    {
+                        active_filters.Add(new List<bool>());
+                        for (int yy = 0; yy < filters[cat_index][prod_index][tt].Count; yy++)
+                            active_filters[tt].Add(false);
+                    }
+                    Session["active_filters"] = active_filters;
+
+                    dynamicFilters_Init();
+                }
                 
-                search_results_notation = notation;
-                filterSearchResults(filter_data);
+
+
+                search_results_notation = notation[cat_index][prod_index];
+                filterSearchResults(active_filters, cat_index, prod_index);
+                Session["search_results"] = search_results;
+                Session["search_results_notation"] = search_results_notation;
                 StringBuilder res = new StringBuilder();
                 res.Append(search_results.Count.ToString());
                 res.Append(" results found.");
-                results_label.Text = res.ToString();
+                results_label.Text = res.ToString();          //************************************************RESULTS LABEL**************************//
+                Session["search_str"] = search_bar.Text;
+                Session["force_postback"] = true;
+                Session["results_label"] = results_label.Text;
+                updateActiveFilters();
+                Response.Redirect("Default.aspx");
             }
             sqlConn.Close();
         }
@@ -333,7 +561,7 @@ public partial class _Default : System.Web.UI.Page
         return true;
     }
 
-    private void filterSearchResults(List<List<bool>> filter_data)
+    private void filterSearchResults(List<List<bool>> filter_data, int cat_index, int prod_index)
     {
         //do it 1 filter at a time
         for (int ii = 0; ii < filter_data.Count; ii++)
@@ -350,9 +578,9 @@ public partial class _Default : System.Web.UI.Page
             if(need_filter){
                 List<bool> to_filter = filter_data[ii];
                 List<List<String>> new_results = new List<List<string>>();
-                List<String> filter = filters[ii];
-                String type = type_filters[ii];
-                String filter_category = usable_filters[ii];
+                List<String> filter = filters[cat_index][prod_index][ii];// filters[ii];                  
+                String type = filter_types[cat_index][prod_index][ii];
+                String filter_category = filter_names[cat_index][prod_index][ii];
                 int index = -1;
                 for (int kk = 0; kk < search_results_notation.Count; kk++)
                 {
@@ -453,6 +681,7 @@ public partial class _Default : System.Web.UI.Page
                 //authenticated
                 FormsAuthentication.RedirectFromLoginPage(userName.Text, false);
                 message_label.Text = "Login OK.";
+                Session["force_postback"] = true;
                 return;
             }
 
@@ -471,6 +700,13 @@ public partial class _Default : System.Web.UI.Page
     protected void bLogout_Click(object sender, EventArgs e)
     {
         FormsAuthentication.SignOut();
+        Session["search_results"] = search_results;
+        Session["search_results_notation"] = search_results_notation;
+        Session["search_str"] = search_bar.Text;
+        Session["force_postback"] = true;
+        Session["results_label"] = results_label.Text;
+        updateActiveFilters();
+        Response.Redirect("Default.aspx");
     }
     protected void SearchBtn_Click(object sender, EventArgs e)
     {
@@ -676,81 +912,159 @@ public partial class _Default : System.Web.UI.Page
 
         try
         {
-            for (int i = 1; i < filters.Count; i++)
-            {
-                Label filterHeader = new Label();
-                filterHeader.Attributes.CssStyle.Add("font-size", "100%");
-                filterHeader.Attributes.CssStyle.Add("font-weight", "bold");
-                filterHeader.Attributes.CssStyle.Add("color", "#FF9900");
-                filterHeader.Text = UppercaseFirst(CorrectString(usable_filters[i]));
-                filterHeader.ID = usable_filters[i];
-                PlaceHolder1.Controls.Add(filterHeader);
-                //PlaceHolder1.Controls.Add(new LiteralControl("<br />"));
 
-                CheckBoxList checkList = new CheckBoxList();
-                checkList.Attributes.CssStyle.Add("margin", "0px 0px 6px 0px");
-                checkList.Attributes.CssStyle.Add("padding", "0px 0px 6px 0px");
-                checkList.Attributes.CssStyle.Add("list-style-type", "none");
-                checkList.Attributes.CssStyle.Add("list-style-position", "outside");
-                checkList.Attributes.CssStyle.Add("font-size", "100%");
-                checkList.ID = "Checklist" + i.ToString();
-                var tableRow = new TableRow();
-                var checkbox_cell = new TableCell();
-                tableRow.Cells.Add(checkbox_cell);
-                for (int j = 1; j < filters[i].Count; j++)
-                {
-                    checkList.Items.Add(filters[i][j]);
-                    PlaceHolder1.Controls.Add(checkList);
-                }
-                tbl_filters.Rows.Add(tableRow);
-                PlaceHolder1.Controls.Add(new LiteralControl("<br />"));
-            }
-        }
-        catch (Exception ex)
-        {
-            message_label.Text = "Error at the filter";
-        }
-
- 
-        try
-        {
-
-
-            if (search_bar.Text == "")
-            {
-                results_label.Text = "No results found.";
-            }
-            else
-            {
-                List<List<bool>> filter_status = new List<List<bool>>();
-                for (int ii = 0; ii < filters.Count; ii++)
-                {
-                    filter_status.Add(new List<bool>());
-                    for (int jj = 0; jj < filters[ii].Count; jj++)
-                        filter_status[ii].Add(false);
-                }
-
-                //**************************** FUNCTION TO LOAD IN FILTER STATUS!!!!!!!!! *******************************//
-                foreach (TableRow row in tbl_filters.Rows)
-                {
-
-                }
-
-
-                searchQuery(search_bar.Text, filter_status, connectionString);
-            }
-        }
-        catch (NullReferenceException)
-        {
-            results_label.Text = "ERROR displaying results";
+            searchQuery(search_bar.Text, connectionString);
         }
     }
-    int idcounter = 0;
     protected void results_repeater_ItemCommand(object source, RepeaterCommandEventArgs e)
     {
         if (e.CommandName == "add2cart")
         {
-            SqlDataSource1.SelectParameters["username"].DefaultValue = User.Identity.Name;
+
+
+        }
+    }
+
+    protected void AddItemToCart(object sender, EventArgs e)
+    {
+
+    }
+
+    
+    private List<String> getTableNames(String conn_string)
+        //SQL Query to get all current tables
+    {
+        String query = "SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE' ";
+        SqlConnection sqlConn = new SqlConnection(conn_string);
+        sqlConn.Open();
+        SqlCommand sqlQuery = new SqlCommand(query, sqlConn);
+        SqlDataReader reader = sqlQuery.ExecuteReader();
+        List<String> table_names = new List<String>();
+        if (reader.HasRows)
+        {
+            while (reader.Read())
+            {
+                Object[] values = new Object[reader.FieldCount];
+                int fieldCount = reader.GetValues(values);
+                if (fieldCount == 1)
+                {
+                    table_names.Add(values[0].ToString());
+                }
+            }
+        }
+        sqlConn.Close();
+        return table_names;
+    }
+
+    private List<String> getColumnNames(String conn_string, string table_name)
+    {
+        StringBuilder query = new StringBuilder();
+        query.Append("SELECT COLUMN_NAME,* FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '");
+        query.Append(table_name);
+        query.Append("' ORDER BY ORDINAL_POSITION ");
+        SqlConnection sqlConn = new SqlConnection(conn_string);
+        sqlConn.Open();
+        SqlCommand sqlQuery = new SqlCommand(query.ToString(), sqlConn);
+        SqlDataReader reader = sqlQuery.ExecuteReader();
+        List<String> column_names = new List<String>();
+        if (reader.HasRows)
+        {
+            while (reader.Read())
+            {
+                Object[] values = new Object[reader.FieldCount];
+                int fieldCount = reader.GetValues(values);
+                for (int ii = 0; ii < fieldCount; ii++)
+                {
+                    column_names.Add(values[ii].ToString());
+                }
+            }
+        }
+        sqlConn.Close();
+        return column_names;
+    }
+
+    private List<String> getNeededTables(List<String> tableNames, string[] file_list)
+        //Make a list of all the tables you don't currently have
+    {
+        //first get all the tables obtainined - all the tables have names of department_component_table, we just need to delete the '_table'
+        List<String> made_tables = new List<String>();
+        for (int ii = 0; ii < tableNames.Count; ii++)
+        {
+            StringBuilder t_name = new StringBuilder();
+            t_name.Append(tableNames[ii]);
+            t_name.Length -= ("_table".Length);
+            made_tables.Add(t_name.ToString());
+        }
+
+        //now get all the needed tables
+        List<String> need_tables = new List<String>();
+        for (int ii = 0; ii < file_list.Length; ii++)
+        {
+            StringBuilder t_name = new StringBuilder();
+            t_name.Append(file_list[ii]);
+            t_name.Length -= (".xml".Length);
+            need_tables.Add(t_name.ToString());
+        }
+
+        //now compare
+        List<String> necess_tables = new List<String>();
+        for (int ii = 0; ii < need_tables.Count; ii++)
+        {
+            if (!made_tables.Contains(need_tables[ii]))
+            {
+                StringBuilder t_name = new StringBuilder();
+                t_name.Append(need_tables[ii]);
+                t_name.Append(".xml");
+                necess_tables.Add(t_name.ToString());
+            }
+        }
+
+        return necess_tables;
+    }
+
+    private String getTableCategory(String str)
+        //Gets the category of a table
+    {
+        StringBuilder word = new StringBuilder();
+        for (int ii = 0; ii < str.Length; ii++)
+        {
+            if (str[ii] == '_')
+                break;
+            else
+            {
+                word.Append(str[ii]);
+            }
+        }
+
+        return word.ToString();
+    }
+
+    private String getTableProduct(String str)
+        //Get the prodcut of a table
+    {
+        StringBuilder word = new StringBuilder();
+        int index = 0;
+        while (str[index] != '_')
+            index++;
+        index++;
+        for (int ii = index; ii < str.Length; ii++)
+        {
+            if (str[ii] == '.' || str[ii] == '_')
+                break;
+            else
+            {
+                word.Append(str[ii]);
+            }
+        }
+
+        return word.ToString();
+    }
+
+
+    int idcounter = 0;
+    protected void results_repeater_ItemCommand(object source, RepeaterCommandEventArgs e)
+    {
+           SqlDataSource1.SelectParameters["username"].DefaultValue = User.Identity.Name;
             SqlDataSource1.SelectParameters["UserName"].DefaultValue = User.Identity.Name;
             DataSourceSelectArguments args = new DataSourceSelectArguments();
             DataView view = (DataView)SqlDS_results.Select(new DataSourceSelectArguments());
@@ -781,36 +1095,318 @@ public partial class _Default : System.Web.UI.Page
             SqlDS_Cart.InsertParameters["productname"].DefaultValue = cartPName.Value;
             SqlDS_Cart.Insert();
             Response.Redirect("MyCart.aspx");
+    }
 
+    private void table_Init()
+    {
+        //get all table names
+        categories = new List<String>();
+        types = new List<List<String>>();
+        filter_names = new List<List<List<String>>>();
+        filter_types = new List<List<List<String>>>();
+        List<String> tableNames = getTableNames(connectionString);
+        for (int ii = 0; ii < tableNames.Count; ii++)
+        {
+            int index = -1;
+            string cat = getTableCategory(tableNames[ii]);
+            for (int jj = 0; jj < categories.Count; jj++)
+            {
+                if (categories[jj].Equals(cat))
+                {
+                    index = jj;
+                    break;
+                }
+            }
+            if (index == -1)
+            {
+                categories.Add(cat);
+                types.Add(new List<String>());
+                index = categories.Count - 1;
+            }
 
+            types[index].Add(getTableProduct(tableNames[ii]));
+        }
+        tableNames = getNeededTables(tableNames, data_xml_paths);
+
+        //load in unused tables
+        if (tableNames.Count != 0)
+        {
+            try
+            {
+                for (int ii = 0; ii < tableNames.Count; ii++)
+                {
+                    DataSet ds = new DataSet();
+                    ds.ReadXml(Server.MapPath(tableNames[ii]));
+                    String category = "", product = "";
+                    category = getTableCategory(tableNames[ii]);
+                    product = getTableProduct(tableNames[ii]);
+                    int index = -1;
+                    string cat = getTableCategory(tableNames[ii]);
+                    for (int jj = 0; jj < categories.Count; jj++)
+                    {
+                        if (categories[jj].Equals(cat))
+                        {
+                            index = jj;
+                            break;
+                        }
+                    }
+                    if (index == -1)
+                    {
+                        categories.Add(cat);
+                        types.Add(new List<String>());
+                        notation.Add(new List<List<String>>());
+                        index = categories.Count - 1;
+                    }
+
+                    types[index].Add(getTableProduct(tableNames[ii]));
+                    StringBuilder table_name = new StringBuilder();
+                    table_name.Append(cat);
+                    table_name.Append("_");
+                    table_name.Append(getTableProduct(tableNames[ii]));
+                    table_name.Append("_table");
+
+                    List<String> cols = createTable(table_name.ToString(), ds, connectionString);
+                    insertDataIntoTable(table_name.ToString(), ds, cols, connectionString);
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+        for (int ii = 0; ii < categories.Count; ii++)
+        {
+            filter_names.Add(new List<List<String>>());
+            filter_types.Add(new List<List<String>>());
+            for (int jj = 0; jj < types[ii].Count; jj++)
+            {
+                filter_names[ii].Add(new List<String>());
+                filter_types[ii].Add(new List<String>());
+            }
         }
     }
 
-    protected void add2cart(object sender, EventArgs e)
+    private int findCategory(string cat)
     {
-        SqlDataSource1.SelectParameters["username"].DefaultValue = User.Identity.Name;
-        SqlDataSource1.SelectParameters["UserName"].DefaultValue = User.Identity.Name;
-        DataSourceSelectArguments args = new DataSourceSelectArguments();
-        DataView view = (DataView)SqlDataSource1.Select(new DataSourceSelectArguments());
-        DataTable dt = view.ToTable();
-        int ii = 0;
-        /*
-        for (ii = 0; ii < dt.Rows.Count; ii++)
+        for (int ii = 0; ii < categories.Count; ii++)
         {
-            if (dt.Rows[ii][0].ToString() == "Price")
-            {
-              
+            if (categories[ii].Equals(cat))
+                return ii;
+        }
+        return -1;
+    }
 
+    private int findProduct(string prod, int cat)
+    {
+        for(int ii = 0; ii < types[cat].Count; ii++)
+        {
+            if (types[cat][ii].Equals(prod))
+                return ii;
+        }
+        return -1;
+    }
+
+    private void filter_Init()
+    {
+        //initialize empty set of filters
+        filters = new List<List<List<List<String>>>>();
+        for (int ii = 0; ii < categories.Count; ii++)
+        {
+            filters.Add(new List<List<List<String>>>());
+            for (int jj = 0; jj < types[ii].Count; jj++)
+            {
+                filters[ii].Add(new List<List<String>>());
+            }
+        }
+
+
+        //load all the filters
+        for (int ii = 0; ii < filter_xml_paths.Length; ii++)
+        {
+            //get the filter table name
+            string cat = getTableCategory(filter_xml_paths[ii]);
+            string prod = getTableProduct(filter_xml_paths[ii]);
+            int cat_index = findCategory(cat);
+            if (cat_index == -1)
+            {
+                throw new Exception();
+            }
+            int prod_index = findProduct(prod, cat_index);
+            if (prod_index == -1)
+            {
+                throw new Exception();
             }
 
+            //get the usable features
+            DataSet ds = new DataSet();
+            StringBuilder temp_xml_name = new StringBuilder();
+            temp_xml_name.Append(cat);
+            temp_xml_name.Append("_");
+            temp_xml_name.Append(prod);
+            temp_xml_name.Append("_usable_features.xml");
+            ds.ReadXml(Server.MapPath(temp_xml_name.ToString()));
+            List<String> u_feat = new List<String>();
+            string xml_tag_name = ds.Tables[0].Columns[0].ColumnName;
+
+            foreach (DataRow row in ds.Tables[0].Rows)
+            {
+                u_feat.Add(row[xml_tag_name].ToString().Trim());
+            }
+            filter_names[cat_index][prod_index] = u_feat;
+
+            //get the feature types
+            ds = new DataSet();
+            temp_xml_name.Length -= ("_usable_features.xml".Length);
+            temp_xml_name.Append("_feature_type.xml");
+            ds.ReadXml(Server.MapPath(temp_xml_name.ToString()));
+            List<String> t_feat = new List<String>();
+            foreach (DataRow row in ds.Tables[0].Rows)
+            {
+                for (int jj = 0; jj < u_feat.Count; jj++ )
+                    t_feat.Add(row[u_feat[jj]].ToString().Trim());
+            }
+            filter_types[cat_index][prod_index] = t_feat;
+
+            //now get the filters themselves
+            List<List<String>> filt_temp = new List<List<String>>();
+            ds = new DataSet();
+            temp_xml_name.Length -= ("_feature_type.xml".Length);
+            temp_xml_name.Append("_filters.xml");
+            ds.ReadXml(Server.MapPath(temp_xml_name.ToString()));
+
+            //get list of tables in dataset
+            List<String> tab_list = new List<String>();
+            foreach(DataTable tab in ds.Tables){
+                tab_list.Add(tab.TableName);
+            }
+
+            for (int jj = 0; jj < u_feat.Count; jj++)
+            {
+                filt_temp.Add(new List<String>());
+
+                if (t_feat[jj].Equals("Text"))
+                {
+                    int index = -1;
+                    StringBuilder search_str = new StringBuilder();
+                    search_str.Append("item_");
+                    search_str.Append(u_feat[jj]);
+                    for (int kk = 0; kk < tab_list.Count; kk++)
+                    {
+                        if (tab_list[kk].Equals(search_str.ToString()))
+                        {
+                            index = kk;
+                            search_str.Append("_Text");
+                            break;
+                        }
+                    }
+
+                    if (index == -1)
+                    {
+                        for (int kk = 0; kk < tab_list.Count; kk++)
+                        {
+                            if (tab_list[kk].Equals(u_feat[jj]))
+                            {
+                                index = kk;
+                                break;
+                            }
+                        }
+                    }
+
+                    if (index != -1)
+                    {
+                        foreach (DataRow row in ds.Tables[index].Rows)
+                        {
+                            filt_temp[jj].Add(row[search_str.ToString()].ToString().Trim());
+                        }
+                    }
+                }
+                else            //number
+                {
+                    int index = -1;
+                    for (int kk = 0; kk < tab_list.Count; kk++)
+                    {
+                        if (tab_list[kk].Equals(u_feat[jj]))
+                        {
+                            index = kk;
+                            break;
+                        }
+                    }
+
+                    if (index == -1)
+                    {
+                        throw new Exception();
+                    }
+                    StringBuilder qq = new StringBuilder();
+                    String high, low;
+                    qq.Append("high_");
+                    qq.Append(u_feat[jj]);
+                    DataRow row = ds.Tables[index].Rows[0];
+                    high = row[qq.ToString()].ToString().Trim();
+                    qq = new StringBuilder();
+                    qq.Append("low_");
+                    qq.Append(u_feat[jj]);
+                    low = row[qq.ToString()].ToString().Trim();
+                    double low_i, high_i, range, next;
+                    low_i = Convert.ToDouble(low);
+                    next = low_i;
+                    high_i = Convert.ToDouble(high);
+                    range = (high_i - low_i) / 5;
+                    next += range;
+                    if (low_i == high_i)
+                    {
+                        filt_temp[jj].Add(low);
+                    }
+                    else
+                    {
+                        while (next < high_i)
+                        {
+                            StringBuilder range_str = new StringBuilder();
+                            range_str.Append(low_i.ToString());
+                            range_str.Append(" - ");
+                            range_str.Append(next.ToString());
+                            filt_temp[jj].Add(range_str.ToString());
+                            low_i += range;
+                            next += range;
+                        }
+                        StringBuilder final_range_str = new StringBuilder();
+                        final_range_str.Append(low_i.ToString());
+                        final_range_str.Append(" - ");
+                        final_range_str.Append(high_i.ToString());
+                        filt_temp[jj].Add(final_range_str.ToString());
+                    }
+                }
+            }
+
+            filters[cat_index][prod_index] = filt_temp;
         }
-        */
+    }
 
-        SqlDS_Cart.InsertParameters["price"].DefaultValue = cartPrice.Value;
-        SqlDS_Cart.InsertParameters["quantity"].DefaultValue = cartQuantity.Value;
-        SqlDS_Cart.InsertParameters["productname"].DefaultValue = cartPName.Value;
-        Response.Redirect("MyCart.aspx");
-
+    private void notation_Init()
+    {
+        notation = new List<List<List<String>>>();
+        for (int ii = 0; ii < categories.Count; ii++)
+        {
+            notation.Add(new List<List<String>>());
+            for (int jj = 0; jj < types[ii].Count; jj++)
+            {
+                notation[ii].Add(new List<String>());
+                StringBuilder table_name = new StringBuilder();
+                table_name.Append(categories[ii]);
+                table_name.Append("_");
+                table_name.Append(types[ii][jj]);
+                table_name.Append("_notation.xml");
+                DataSet ds = new DataSet();
+                ds.ReadXml(Server.MapPath(table_name.ToString()));
+                List<String> f_name = new List<String>();
+                string xml_tag_name = ds.Tables[0].Columns[0].ColumnName;
+                foreach (DataRow row in ds.Tables[0].Rows)
+                {
+                    f_name.Add(row[xml_tag_name].ToString().Trim());
+                }
+                notation[ii][jj] = f_name;
+            }
+        }
     }
 
 }
