@@ -5,8 +5,8 @@
         <br />
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <div style="height: 112px">
-            <div dir="ltr" style="float: left; width: 479px; right: 6px; height: 49px;">
+        <div style="height: 178px">
+            <div dir="ltr" style="float: left; width: 481px; right: 6px; height: 105px;">
                 Inside Div on the left.
                 <br />
             </div>
@@ -14,6 +14,12 @@
             <br />
             <br />
             Neeed to figure out content<br />
+            <br />
+            <br />
+            <br />
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Account/UpdateEmail.aspx">Update Email Address</asp:HyperLink>
+            <br />
+            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Account/UpdatePassword.aspx">Change Password</asp:HyperLink>
         </div>
         <br />
         <br />

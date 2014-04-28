@@ -34,6 +34,10 @@ public partial class _Default : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
+        SqlDataSource1.SelectParameters["username"].DefaultValue = User.Identity.Name;
+        SqlDataSource1.SelectParameters["price"].DefaultValue = User.Identity.Name;
+        SqlDataSource1.SelectParameters["quantity"].DefaultValue = User.Identity.Name;
+        SqlDataSource1.SelectParameters["productname"].DefaultValue = User.Identity.Name;
         if (!IsPostBack) //check if the webpage is loaded for the first time.
         {
             if (filters == null || rewrite_table)
