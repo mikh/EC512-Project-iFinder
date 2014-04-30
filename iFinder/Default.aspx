@@ -16,7 +16,7 @@
     <asp:HyperLink ID="iForgotPass" runat="server" NavigateUrl="~/ForgotPassword.aspx">Forgot Password?</asp:HyperLink>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT * FROM [Users] WHERE ([UserName] = @UserName)">
         <SelectParameters>
-            <asp:ControlParameter ControlID="UserName" Name="UserName" PropertyName="Text" Type="String" />
+            <asp:ControlParameter ControlID="userName" DefaultValue="Anonymous" Name="UserName" PropertyName="Text" Type="String" />
         </SelectParameters>
 
     </asp:SqlDataSource>
@@ -30,17 +30,31 @@
 </asp:Content>
 
 <asp:Content ID="Content_results" ContentPlaceHolderID="items" runat="server">
-    <div class="child_left" style="padding: 10px; margin: auto; float: left; width: 10%; background-color: #FFFFFF; font-size: 12px; text-align:left;">
-                <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
-            </div>
+   <div class="child_left" style="padding: 10px; margin: auto; float: left; width: 10%; background-color: #FFFFFF; font-size: 12px; text-align:left;">
+        <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+    </div>
+
+
     <asp:Label ID="results_label" runat="server" Text=""></asp:Label><br /><br /><br />
+        <asp:SqlDataSource ID="SqlDS_Cart" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" InsertCommand="INSERT INTO MyCart(UserName, Price, ProductName, Quantity, Id) VALUES (@username, @price, @productname, @quantity,@id)" SelectCommand="SELECT Id, UserName, ProductID, Quantity, Price, ProductName FROM MyCart WHERE (UserName = @username)">
+            <InsertParameters>
+                <asp:Parameter Name="username" Type="String" DefaultValue="default" />
+                <asp:Parameter Name="price" Type="String" DefaultValue="default" />
+                <asp:Parameter Name="productname" Type="String" DefaultValue="default" />
+                <asp:Parameter Name="quantity" Type="String" DefaultValue="default" />
+                <asp:Parameter DefaultValue="default" Name="id" Type="String" />
+            </InsertParameters>
+            <SelectParameters>
+                <asp:Parameter DefaultValue="Anonymous" Name="usernme" Type="String" />
+            </SelectParameters>
+    </asp:SqlDataSource>
+    <asp:SqlDataSource ID="SqlDS_results" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [quantity], [ID], [price] FROM [electronics_resistor_table]"></asp:SqlDataSource>
     <asp:Repeater ID="results_repeater" runat="server" OnItemCommand="results_repeater_ItemCommand">
         <HeaderTemplate>
             <table border="1">
         </HeaderTemplate>
         <ItemTemplate>
-            <div style="align-items:center; text-align:center; border-bottom-color:black; border:1px;">
-                
+            <div style="align-items:center; text-align:center; border-bottom-color:black; border:1px;">            
                 <tr>
                     <td>
                         <%# ((List<String>)Container.DataItem)[0] %>
@@ -57,14 +71,8 @@
                     <td>
                         <asp:Button ID="add2cart" runat="server" Width="80px" Text="Add to Cart" CommandName="add2cart"/>
                     </td>
-                </tr>
-                    
+                </tr>                 
             </div>
-            <br />
-            <br />
-            <!--<div style ="width:600px; height:2px; background-color:black; text-align:center; align-items:center;"></div>-->
-
-            <br />
         </ItemTemplate>
         <FooterTemplate>
             </table><br />
@@ -72,5 +80,20 @@
     </asp:Repeater>
     <asp:Image ID="ball_image" runat="server" />
 
+    <br />
+    <br />
+    <br />
+    <br />
+    <asp:HiddenField ID="cartPrice" runat="server" />
+    <asp:HiddenField ID="cartQuantity" runat="server" />
+    <asp:HiddenField ID="cartPName" runat="server" />
+    <asp:HiddenField ID="cartUser" runat="server" />
+    <br />
+    <br />
+    <br />
+    <br />
+
+
 </asp:Content>
+
 
