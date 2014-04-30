@@ -738,7 +738,22 @@ public partial class _Default : System.Web.UI.Page
             searchQuery(search_bar.Text, connectionString);
         }
     }
+
     int cartCount = 0;
+    protected void results_repeater_ItemDataBound(object sender, RepeaterItemEventArgs e)
+    {
+        if (cartCount > 0)
+        {
+            if (e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem)
+            {
+                cartPrice.Value = (DataBinder.Eval(e.Item.DataItem, "Price")).ToString();
+                cartQuantity.Value = (DataBinder.Eval(e.Item.DataItem, "Quantity")).ToString();
+                cartPName.Value = (DataBinder.Eval(e.Item.DataItem, "ID")).ToString();
+            }
+        }
+
+    }
+
     protected void results_repeater_ItemCommand(object source, RepeaterCommandEventArgs e)
     {
         int idcounter = 0;
@@ -751,29 +766,24 @@ public partial class _Default : System.Web.UI.Page
             DataView view = (DataView)SqlDS_results.Select(new DataSourceSelectArguments());
             DataTable dt = view.ToTable();
             int ii = 0;
-            cartPrice.Value = "12.34";
-            cartQuantity.Value = "1";
-            cartPName.Value = "KAL50FB1R50";
-            for (ii = 0; ii < dt.Rows.Count; ii++)
-            {
-                if (dt.Rows[ii][0].ToString() == "price")
-                {
-                    cartPrice.Value = dt.Rows[ii][0].ToString();
-                }
-                if (dt.Rows[ii][0].ToString() == "quantity")
-                {
-                    cartQuantity.Value = dt.Rows[ii][0].ToString();
-                }
-                if (dt.Rows[ii][0].ToString() == "ID")
-                {
-                    cartPName.Value = dt.Rows[ii][0].ToString();
-                }
-            }
-            idcounter++;
-            SqlDS_Cart.InsertParameters["id"].DefaultValue = idcounter.ToString();
-            SqlDS_Cart.InsertParameters["price"].DefaultValue = cartPrice.Value;
-            SqlDS_Cart.InsertParameters["quantity"].DefaultValue = cartQuantity.Value;
-            SqlDS_Cart.InsertParameters["productname"].DefaultValue = cartPName.Value;
+            //cartPrice.Value = "12.34";
+            //cartQuantity.Value = "1";
+            //cartPName.Value = "KAL50FB1R50";
+            /*
+
+             * */
+
+
+
+            //SqlDS_Cart.InsertParameters["price"].DefaultValue = results_repeater.DataSource[e.Item.ItemIndex][4];
+            //SqlDS_Cart.InsertParameters["quantity"].DefaultValue = results_repeater.DataSource[e.Item.ItemIndex][2];
+            //SqlDS_Cart.InsertParameters["productname"].DefaultValue = results_repeater.DataSource[e.Item.ItemIndex][0];
+            //idcounter++;
+            //SqlDS_Cart.InsertParameters["id"].DefaultValue = idcounter.ToString();
+            //SqlDS_Cart.InsertParameters["price"].DefaultValue = cartPrice.Value;
+            //SqlDS_Cart.InsertParameters["quantity"].DefaultValue = cartQuantity.Value;
+            //SqlDS_Cart.InsertParameters["productname"].DefaultValue = cartPName.Value;
+            AddItemToCart(e);
             SqlDS_Cart.Insert();
             CartLink.Text = "My Cart [" + cartCount + "]" + "...Need to query cart to get count"; 
             //Response.Redirect("MyCart.aspx");
@@ -781,9 +791,24 @@ public partial class _Default : System.Web.UI.Page
         }
     }
 
-    protected void AddItemToCart(object sender, EventArgs e)
+    protected void AddItemToCart(RepeaterCommandEventArgs e)
     {
+        HiddenField cartPrice = (HiddenField)e.Item.FindControl("cartPrice");
+        HiddenField cartQuantity = (HiddenField)e.Item.FindControl("cartQuantity");
+        HiddenField cartPName = (HiddenField)e.Item.FindControl("cartPName");
+        HiddenField cartUser = (HiddenField)e.Item.FindControl("cartUser");
+        Label Label3 = (Label)e.Item.FindControl("Label3");
+        Label Label2 = (Label)e.Item.FindControl("Label2");
+        Label Label1 = (Label)e.Item.FindControl("Label1");    
 
+
+        SqlDS_Cart.InsertParameters["id"].DefaultValue = cartCount.ToString();
+        //SqlDS_Cart.InsertParameters["price"].DefaultValue = cartPrice.Value;
+        //SqlDS_Cart.InsertParameters["quantity"].DefaultValue = cartQuantity.Value;
+        //SqlDS_Cart.InsertParameters["productname"].DefaultValue = cartPName.Value;
+        SqlDS_Cart.InsertParameters["price"].DefaultValue = Label3.Text;
+        SqlDS_Cart.InsertParameters["quantity"].DefaultValue = Label2.Text;
+        SqlDS_Cart.InsertParameters["productname"].DefaultValue = Label1.Text;
     }
 
 
