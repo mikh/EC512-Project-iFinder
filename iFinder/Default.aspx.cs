@@ -90,7 +90,11 @@ public partial class _Default : System.Web.UI.Page
             Session["results_label"] = "";
             dynamicFilters_Init();
             ball_image.Visible = true;
+
         }
+
+        results_repeater.DataSource = search_results;
+        results_repeater.DataBind();
 
         search_results = (List<List<String>>)Session["search_results"];
         if (search_results == null || search_results.Count == 0)
@@ -99,8 +103,7 @@ public partial class _Default : System.Web.UI.Page
         if (force_postback)
             Session["force_postback"] = false;
 
-        results_repeater.DataSource = search_results;
-        results_repeater.DataBind();
+
 
         //**********************USER AUTHENTICATION CODE**********************//
         if (User.Identity.IsAuthenticated)
@@ -724,7 +727,7 @@ public partial class _Default : System.Web.UI.Page
             searchQuery(search_bar.Text, connectionString);
         }
     }
-    
+
     protected void results_repeater_ItemCommand(object source, RepeaterCommandEventArgs e)
     {
         int idcounter = 0;
@@ -761,7 +764,6 @@ public partial class _Default : System.Web.UI.Page
             SqlDS_Cart.InsertParameters["productname"].DefaultValue = cartPName.Value;
             SqlDS_Cart.Insert();
             Response.Redirect("MyCart.aspx");
-
 
 
         }

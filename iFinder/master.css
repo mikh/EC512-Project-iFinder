@@ -20,7 +20,7 @@ div#headline {
     font-size: 60px;
     font-weight: bold;
     margin:auto;
-    width:1500px;
+    width:1100px;
     height:100px;
    /* background-color:aqua; */
    align-content:center;
@@ -33,7 +33,7 @@ div#blankspace {
     width: 100%;
     background-color: darkgreen;
     margin:auto;
-    width:1500px;
+    width:1100px;
 }
 
 div#login {
@@ -42,14 +42,14 @@ div#login {
     text-align:center;
     align-items:center;
     background-color:gainsboro;
-    width:1500px;
+    width:1100px;
     height:50px;
     margin:auto;
 }
 
 div#search_bar{
     background-color:white;
-    width:1500px;
+    width:1100px;
     height:50px;
     margin:auto;
     align-items:center;
@@ -58,7 +58,7 @@ div#search_bar{
 
 div#page {
     margin: auto;
-    width: 1500px; 
+    width: 1100px; 
     height: 100%; 
     background-color: #ffffff;
     text-align:center;
@@ -69,7 +69,7 @@ div#page {
 
 div#pageOther {
     margin: auto;
-    width: 1500px; 
+    width: 1100px; 
     height: 100%; 
     background-color: #ffffff;
     text-align:left;

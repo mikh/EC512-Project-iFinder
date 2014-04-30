@@ -13,7 +13,8 @@
     <asp:Button ID="Login" runat="server" Text="Login" OnClick="Login_Click" />&nbsp;&nbsp;&nbsp;
     <asp:Button ID="Register" runat="server" Text="Register" OnClick="Register_Click" />&nbsp;&nbsp;&nbsp;<asp:Button ID="bLogout" runat="server" OnClick="bLogout_Click" Text="Logout" />
     &nbsp;&nbsp;&nbsp;
-    <asp:HyperLink ID="iForgotPass" runat="server" NavigateUrl="~/ForgotPassword.aspx">Forgot Password?</asp:HyperLink>
+    <asp:HyperLink ID="iForgotPass" runat="server" NavigateUrl="~/ForgotPassword.aspx">Forgot Password?</asp:HyperLink>&nbsp;&nbsp;&nbsp;
+      <asp:HyperLink ID="account_settings" runat="server" NavigateUrl="~/Account/AccountSettings.aspx" >Account Settings</asp:HyperLink>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT * FROM [Users] WHERE ([UserName] = @UserName)">
         <SelectParameters>
             <asp:ControlParameter ControlID="userName" DefaultValue="Anonymous" Name="UserName" PropertyName="Text" Type="String" />
@@ -33,9 +34,6 @@
    <div class="child_left" style="padding: 10px; margin: auto; float: left; width: 10%; background-color: #FFFFFF; font-size: 12px; text-align:left;">
         <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
     </div>
-
-
-    <asp:Label ID="results_label" runat="server" Text=""></asp:Label><br /><br /><br />
         <asp:SqlDataSource ID="SqlDS_Cart" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" InsertCommand="INSERT INTO MyCart(UserName, Price, ProductName, Quantity, Id) VALUES (@username, @price, @productname, @quantity,@id)" SelectCommand="SELECT Id, UserName, ProductID, Quantity, Price, ProductName FROM MyCart WHERE (UserName = @username)">
             <InsertParameters>
                 <asp:Parameter Name="username" Type="String" DefaultValue="default" />
@@ -49,9 +47,23 @@
             </SelectParameters>
     </asp:SqlDataSource>
     <asp:SqlDataSource ID="SqlDS_results" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [quantity], [ID], [price] FROM [electronics_resistor_table]"></asp:SqlDataSource>
+    <asp:Label ID="results_label" runat="server" Text=""></asp:Label><br /><br /><br />
+    <div style="text-align:center; align-items:center;">
+
     <asp:Repeater ID="results_repeater" runat="server" OnItemCommand="results_repeater_ItemCommand">
         <HeaderTemplate>
-            <table border="1">
+            <table border="1" style="align-items:center; text-align:center; float:inherit;">
+                <tr>
+                    <td> <b>&nbsp;&nbsp;&nbsp;ID&nbsp;&nbsp;&nbsp; </b></td>
+                    <td> <b>&nbsp;&nbsp;&nbsp;Manufacturer&nbsp;&nbsp;&nbsp;</b> </td>
+                    <td> <b>&nbsp;&nbsp;&nbsp;Quantity &nbsp;&nbsp;&nbsp;</b></td>
+                    <td> <b>&nbsp;&nbsp;&nbsp;Availability&nbsp;&nbsp;&nbsp; </b></td>
+                    <td> <b>&nbsp;&nbsp;&nbsp;Price&nbsp;&nbsp;&nbsp; </b></td>
+                    <td> <b>&nbsp;&nbsp;&nbsp;Resistance in Ohms&nbsp;&nbsp;&nbsp; </b></td>
+                    <td> <b>&nbsp;&nbsp;&nbsp;Tolerance&nbsp;&nbsp;&nbsp; </b></td>
+                    <td> <b>&nbsp;&nbsp;&nbsp;Power Rating in Watts&nbsp;&nbsp;&nbsp; </b></td>
+                    <td> <b>&nbsp;&nbsp;&nbsp;Add To Cart&nbsp;&nbsp;&nbsp;</b></td>
+                </tr>
         </HeaderTemplate>
         <ItemTemplate>
             <div style="align-items:center; text-align:center; border-bottom-color:black; border:1px;">            
@@ -69,15 +81,28 @@
                         <%# ((List<String>)Container.DataItem)[3] %>
                     </td>
                     <td>
-                        <asp:Button ID="add2cart" runat="server" Width="80px" Text="Add to Cart" CommandName="add2cart"/>
+                        <%# ((List<String>)Container.DataItem)[4] %>
                     </td>
-                </tr>                 
+                    <td>
+                        <%# ((List<String>)Container.DataItem)[8] %>
+                    </td>
+                    <td>
+                        <%# ((List<String>)Container.DataItem)[9] %>
+                    </td>
+                    <td>
+                        <%# ((List<String>)Container.DataItem)[10] %>
+                    </td>
+                    <td>
+                        <asp:HyperLink ID="cart_hyper" runat="server" NavigateUrl="~/MyCart.aspx">Add To Cart<!--<asp:Button ID="add2cart" runat="server" Width="80px" Text="Add to Cart" CommandName="add2cart"/>--></asp:HyperLink>
+                    </td>
+                </tr>
             </div>
         </ItemTemplate>
         <FooterTemplate>
             </table><br />
         </FooterTemplate>
     </asp:Repeater>
+        </div>
     <asp:Image ID="ball_image" runat="server" />
 
     <br />
