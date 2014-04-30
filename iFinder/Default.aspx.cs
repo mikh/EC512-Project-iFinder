@@ -563,8 +563,6 @@ public partial class _Default : System.Web.UI.Page
                 search_bar.Text = (string)Session["search_str"];
                 results_label.Text = (string)Session["results_label"];
                 //Session["force_postback"] = false;
-                search_results = (List<List<String>>)Session["search_results"];
-                search_results_notation = (List<String>)Session["search_results_notation"];
                 //Response.Redirect("Default.aspx");
             }
             sqlConn.Close();
@@ -740,44 +738,25 @@ public partial class _Default : System.Web.UI.Page
     }
 
     int cartCount = 0;
-    protected void results_repeater_ItemDataBound(object sender, RepeaterItemEventArgs e)
-    {
-        if (cartCount > 0)
-        {
-            if (e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem)
-            {
-                cartPrice.Value = (DataBinder.Eval(e.Item.DataItem, "Price")).ToString();
-                cartQuantity.Value = (DataBinder.Eval(e.Item.DataItem, "Quantity")).ToString();
-                cartPName.Value = (DataBinder.Eval(e.Item.DataItem, "ID")).ToString();
-            }
-        }
-
-    }
-
     protected void results_repeater_ItemCommand(object source, RepeaterCommandEventArgs e)
     {
         int idcounter = 0;
         if (e.CommandName == "add2cart")
         {
             cartCount++;
-            SqlDataSource1.SelectParameters["username"].DefaultValue = User.Identity.Name;
-            SqlDataSource1.SelectParameters["UserName"].DefaultValue = User.Identity.Name;
-            DataSourceSelectArguments args = new DataSourceSelectArguments();
-            DataView view = (DataView)SqlDS_results.Select(new DataSourceSelectArguments());
-            DataTable dt = view.ToTable();
-            int ii = 0;
-            //cartPrice.Value = "12.34";
-            //cartQuantity.Value = "1";
-            //cartPName.Value = "KAL50FB1R50";
-            /*
+            //SqlDataSource1.SelectParameters["username"].DefaultValue = User.Identity.Name;
+            //SqlDataSource1.SelectParameters["UserName"].DefaultValue = User.Identity.Name;
+            if (User.Identity.IsAuthenticated)
+            {
+                SqlDS_Cart.InsertParameters["username"].DefaultValue = User.Identity.Name;
+            }
+            search_results = new List<List<String>>(); 
+            search_results = (List<List<String>>)Session["search_results"];   
+            SqlDS_Cart.InsertParameters["price"].DefaultValue = search_results[e.Item.ItemIndex][4];
+            SqlDS_Cart.InsertParameters["quantity"].DefaultValue = search_results[e.Item.ItemIndex][2];
+            SqlDS_Cart.InsertParameters["productname"].DefaultValue = search_results[e.Item.ItemIndex][0];
+            
 
-             * */
-
-
-
-            //SqlDS_Cart.InsertParameters["price"].DefaultValue = results_repeater.DataSource[e.Item.ItemIndex][4];
-            //SqlDS_Cart.InsertParameters["quantity"].DefaultValue = results_repeater.DataSource[e.Item.ItemIndex][2];
-            //SqlDS_Cart.InsertParameters["productname"].DefaultValue = results_repeater.DataSource[e.Item.ItemIndex][0];
             //idcounter++;
             //SqlDS_Cart.InsertParameters["id"].DefaultValue = idcounter.ToString();
             //SqlDS_Cart.InsertParameters["price"].DefaultValue = cartPrice.Value;
@@ -806,9 +785,9 @@ public partial class _Default : System.Web.UI.Page
         //SqlDS_Cart.InsertParameters["price"].DefaultValue = cartPrice.Value;
         //SqlDS_Cart.InsertParameters["quantity"].DefaultValue = cartQuantity.Value;
         //SqlDS_Cart.InsertParameters["productname"].DefaultValue = cartPName.Value;
-        SqlDS_Cart.InsertParameters["price"].DefaultValue = Label3.Text;
-        SqlDS_Cart.InsertParameters["quantity"].DefaultValue = Label2.Text;
-        SqlDS_Cart.InsertParameters["productname"].DefaultValue = Label1.Text;
+        //SqlDS_Cart.InsertParameters["price"].DefaultValue = Label3.Text;
+        //SqlDS_Cart.InsertParameters["quantity"].DefaultValue = Label2.Text;
+        //SqlDS_Cart.InsertParameters["productname"].DefaultValue = Label1.Text;
     }
 
 

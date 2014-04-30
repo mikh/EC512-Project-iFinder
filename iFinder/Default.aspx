@@ -38,7 +38,7 @@
     </div>       
     <div style="text-align:center; align-items:center;overflow: auto;">
     <asp:Label ID="results_label" runat="server" Text=""></asp:Label><br /><br /><br />
-    <asp:Repeater ID="results_repeater" runat="server" OnItemCommand="results_repeater_ItemCommand"  OnItemDataBound="results_repeater_ItemDataBound" DataSourceID="SqlDS_results"> 
+    <asp:Repeater ID="results_repeater" runat="server" OnItemCommand="results_repeater_ItemCommand" > 
         <HeaderTemplate>
             <table border="1" style="align-items:center; text-align:center; float:inherit;">
                 <tr>
@@ -57,36 +57,36 @@
             <div style="align-items:center; text-align:center; border-bottom-color:black; border:1px;">            
                 <tr>
                     <td>
-                        <%--<%# ((List<String>)Container.DataItem)[0] %>--%>   
-                        <asp:Label ID="Label1" runat="server" Text='<%# Eval("ID") %>'></asp:Label>
+                        <%# ((List<String>)Container.DataItem)[0] %>   
+                        <%--<asp:Label ID="Label1" runat="server" Text='<%# Eval("ID") %>'></asp:Label>--%>
                     </td>
                     <td>
-                        <%--<%# ((List<String>)Container.DataItem)[1] %>--%>
-                        <asp:Label ID="Labelman" runat="server" Text='<%# Eval("manufacturer") %>'></asp:Label>
+                        <%# ((List<String>)Container.DataItem)[1] %>
+                        <%--<asp:Label ID="Labelman" runat="server" Text='<%# Eval("manufacturer") %>'></asp:Label>--%>
                     </td>
                     <td>
-                        <%--<%# ((List<String>)Container.DataItem)[2] %>--%>
-                        <asp:Label ID="Label2" runat="server" Text='<%# Eval("quantity") %>'></asp:Label>
+                        <%# ((List<String>)Container.DataItem)[2] %>
+                        <%--<asp:Label ID="Label2" runat="server" Text='<%# Eval("quantity") %>'></asp:Label>--%>
                     </td>
                     <td>
-                        <%--<%# ((List<String>)Container.DataItem)[3] %>--%>
-                        <asp:Label ID="Labelav" runat="server" Text='<%# Eval("availability") %>'></asp:Label>
+                        <%# ((List<String>)Container.DataItem)[3] %>
+                        <%--<asp:Label ID="Labelav" runat="server" Text='<%# Eval("availability") %>'></asp:Label>--%>
                     </td>
                     <td>
-                        <%--<%# ((List<String>)Container.DataItem)[4] %>--%>
-                        <asp:Label ID="Label3" runat="server" Text='<%# Eval("price") %>'></asp:Label>
+                        <%# ((List<String>)Container.DataItem)[4] %>
+                        <%--<asp:Label ID="Label3" runat="server" Text='<%# Eval("price") %>'></asp:Label>--%>
                     </td>
                     <td>
-                        <%--<%# ((List<String>)Container.DataItem)[8] %>--%>
-                        <asp:Label ID="Labelres" runat="server" Text='<%# Eval("resistance_ohms") %>'></asp:Label>
+                        <%# ((List<String>)Container.DataItem)[8] %>
+                        <%--<asp:Label ID="Labelres" runat="server" Text='<%# Eval("resistance_ohms") %>'></asp:Label>--%>
                     </td>
                     <td>
-                        <%--<%# ((List<String>)Container.DataItem)[9] %>--%>
-                            <asp:Label ID="Labeltol" runat="server" Text='<%# Eval("tolerance") %>'></asp:Label>
+                        <%# ((List<String>)Container.DataItem)[9] %>
+                            <%--<asp:Label ID="Labeltol" runat="server" Text='<%# Eval("tolerance") %>'></asp:Label>--%>
                     </td>
                     <td>
-                        <%--<%# ((List<String>)Container.DataItem)[10] %>--%>
-                        <asp:Label ID="Labelpow" runat="server" Text='<%# Eval("power_watts") %>'></asp:Label>
+                        <%# ((List<String>)Container.DataItem)[10] %>
+                        <%--<asp:Label ID="Labelpow" runat="server" Text='<%# Eval("power_watts") %>'></asp:Label>--%>
                     </td>
                     <td>
 <%--                        <asp:HyperLink ID="cart_hyper" runat="server" NavigateUrl="~/MyCart.aspx">Add To Cart<!--<asp:Button ID="add2cart" runat="server" Width="80px" Text="Add to Cart" CommandName="add2cart"/>--></asp:HyperLink>--%>
@@ -118,9 +118,9 @@
             </SelectParameters>
     </asp:SqlDataSource>
     <asp:SqlDataSource ID="SqlDS_results" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [quantity], [ID], [price], [manufacturer], [availability], [resistance_ohms], [tolerance], [power_watts] FROM [electronics_resistor_table]"></asp:SqlDataSource>
-    <asp:HiddenField ID="cartPrice" runat="server" Value='<%# Eval("price") %>' />
+<%--    <asp:HiddenField ID="cartPrice" runat="server" Value='<%# Eval("price") %>' />
     <asp:HiddenField ID="cartQuantity" runat="server" Value='<%# Eval("quantity") %>' />
-    <asp:HiddenField ID="cartPName" runat="server"  Value='<%# Eval("ID") %>'/>
+    <asp:HiddenField ID="cartPName" runat="server"  Value='<%# Eval("ID") %>'/>--%>
 <%--    <asp:Label ID="Label1" runat="server" Text='<%# Eval("ID") %>'></asp:Label>
     <asp:Label ID="Label2" runat="server" Text='<%# Eval("quantity") %>'></asp:Label>
     <asp:Label ID="Label3" runat="server" Text='<%# Eval("price") %>'></asp:Label>
