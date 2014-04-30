@@ -47,12 +47,12 @@ public partial class _Default : System.Web.UI.Page
             force_postback = (bool)Session["force_postback"];
             if (force_postback)
             {
-                dynamicFilters_Init();
-                search_results = (List<List<String>>)Session["search_results"];
-                search_results_notation = (List<String>)Session["search_results_notation"];
-                search_bar.Text = (string)Session["search_str"];
-                results_label.Text = (string)Session["results_label"];
-                //Session["force_postback"] = false;
+                //dynamicFilters_Init();
+                //search_results = (List<List<String>>)Session["search_results"];
+                //search_results_notation = (List<String>)Session["search_results_notation"];
+                //search_bar.Text = (string)Session["search_str"];
+                //results_label.Text = (string)Session["results_label"];
+                ////Session["force_postback"] = false;
             }
         }
         catch (Exception ex)
@@ -62,8 +62,8 @@ public partial class _Default : System.Web.UI.Page
         if (IsPostBack)
         {
             dynamicFilters_Init();
-            search_results = (List<List<String>>)Session["search_results"];
-            search_results_notation = (List<String>)Session["search_results_notation"];
+            //search_results = (List<List<String>>)Session["search_results"];
+            //search_results_notation = (List<String>)Session["search_results_notation"];
         }
     }
 
@@ -93,8 +93,8 @@ public partial class _Default : System.Web.UI.Page
 
         }
 
-        results_repeater.DataSource = search_results;
-        results_repeater.DataBind();
+       // results_repeater.DataSource = search_results;
+       // results_repeater.DataBind();
 
         search_results = (List<List<String>>)Session["search_results"];
         if (search_results == null || search_results.Count == 0)
@@ -554,7 +554,17 @@ public partial class _Default : System.Web.UI.Page
                 Session["force_postback"] = true;
                 Session["results_label"] = results_label.Text;
                 updateActiveFilters();
-                Response.Redirect("Default.aspx");
+                results_repeater.DataSource = search_results;
+                results_repeater.DataBind();
+                dynamicFilters_Init();
+                search_results = (List<List<String>>)Session["search_results"];
+                search_results_notation = (List<String>)Session["search_results_notation"];
+                search_bar.Text = (string)Session["search_str"];
+                results_label.Text = (string)Session["results_label"];
+                //Session["force_postback"] = false;
+                search_results = (List<List<String>>)Session["search_results"];
+                search_results_notation = (List<String>)Session["search_results_notation"];
+                //Response.Redirect("Default.aspx");
             }
             sqlConn.Close();
         }
