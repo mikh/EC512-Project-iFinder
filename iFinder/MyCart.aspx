@@ -8,7 +8,9 @@
 
                 <div class="container">
                     <h1>Shopping Cart</h1>
-                    <a href="Default.aspx">< Back to Products</a>
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="javascript:history.go(-1);">Back to Products   </asp:HyperLink>
+                     or 
+                    <a href="Default.aspx"> Search for a new item</a>
  
                     <br /><br />
                     <asp:GridView runat="server" ID="gvMyCart" AutoGenerateColumns="False" EmptyDataText="There is nothing in your shopping cart." GridLines="None" Width="100%" CellPadding="5" ShowFooter="True"  Height="340px" OnSelectedIndexChanged="gvMyCart_SelectedIndexChanged" DataSourceID="SqlDataSource1">
@@ -47,10 +49,10 @@
                         </Columns>
                     </asp:GridView>
  
-                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT [ProductID], [Quantity], [Price], [ProductName] FROM [MyCart]"></asp:SqlDataSource>
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT [ProductID], [Quantity], [Price], [ProductName] FROM [MyCart]" DeleteCommand="DELETE FROM MyCart"></asp:SqlDataSource>
  
                     <br />
-                    <asp:Button runat="server" ID="bUpdateCart" Text="Update Cart" OnClick="bUpdateCart_Click" />
+                    <asp:Button runat="server" ID="bUpdateCart" Text="Update Cart[Debug CLEAR]" OnClick="bUpdateCart_Click" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Button ID="bBuyItems" runat="server" Text="Buy" OnClick="bBuyItems_Click" />
                 </div>

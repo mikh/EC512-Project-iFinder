@@ -26,6 +26,6 @@ public partial class MyCart : System.Web.UI.Page
     }
     protected void bUpdateCart_Click(object sender, EventArgs e)
     {
-
+        SqlDataSource1.Delete();
     }
 }

@@ -69,6 +69,7 @@ public partial class _Default : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
+        CartLink.Text = "My Cart [" + cartCount + "]"; 
         ball_image.ImageUrl = "bouncy-ball.png";
         ball_image.Visible = false;
         bool force_postback = (bool)Session["force_postback"];
@@ -737,12 +738,13 @@ public partial class _Default : System.Web.UI.Page
             searchQuery(search_bar.Text, connectionString);
         }
     }
-
+    int cartCount = 0;
     protected void results_repeater_ItemCommand(object source, RepeaterCommandEventArgs e)
     {
         int idcounter = 0;
         if (e.CommandName == "add2cart")
         {
+            cartCount++;
             SqlDataSource1.SelectParameters["username"].DefaultValue = User.Identity.Name;
             SqlDataSource1.SelectParameters["UserName"].DefaultValue = User.Identity.Name;
             DataSourceSelectArguments args = new DataSourceSelectArguments();
@@ -773,8 +775,8 @@ public partial class _Default : System.Web.UI.Page
             SqlDS_Cart.InsertParameters["quantity"].DefaultValue = cartQuantity.Value;
             SqlDS_Cart.InsertParameters["productname"].DefaultValue = cartPName.Value;
             SqlDS_Cart.Insert();
-            Response.Redirect("MyCart.aspx");
-
+            CartLink.Text = "My Cart [" + cartCount + "]" + "...Need to query cart to get count"; 
+            //Response.Redirect("MyCart.aspx");
 
         }
     }
