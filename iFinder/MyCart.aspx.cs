@@ -20,12 +20,12 @@ public partial class MyCart : System.Web.UI.Page
     {
 
     }
-    protected void gvMyCart_SelectedIndexChanged(object sender, EventArgs e)
-    {
-
-    }
     protected void bUpdateCart_Click(object sender, EventArgs e)
     {
         SqlDataSource1.Delete();
+    }
+    protected void gvMyCart_RowDeleting(object sender, GridViewDeleteEventArgs e)
+    {
+        
     }
 }
