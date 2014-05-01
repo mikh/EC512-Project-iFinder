@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/SuperMaster.Master" AutoEventWireup="true" CodeFile="Register.aspx.cs" Inherits="Register" %>
 
 <asp:Content ID="Content1" runat="server" contentplaceholderid="ContentPlaceHolder1">
-    <div id ="pageOther" style="align-items:center; text-align:center;">
+    <div id ="pageOther" style="align-items:center; text-align:left;">
     
         <h1>Register</h1>
     

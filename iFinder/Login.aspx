@@ -25,7 +25,6 @@
         <br />
         <div>
             <br />
-            <br />
             
         </div>
 
@@ -37,7 +36,10 @@
     
     <br />
     <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Register" />
+        <br />
+        <br />
     <br />
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Default.aspx">&lt;Return to homepage</asp:HyperLink>
     <br />
     </div>   
 </asp:Content>

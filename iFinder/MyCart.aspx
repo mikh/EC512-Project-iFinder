@@ -10,7 +10,7 @@
                     <h1>
                         <asp:Label ID="Label1" runat="server" Text="Shopping Cart"></asp:Label>
                     </h1>
-                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="javascript:history.go(-1);">Back to Products   </asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="javascript:history.go(-1);">&lt;Go back   </asp:HyperLink>
                      or 
                     <a href="Default.aspx"> Search for a new item</a>
  
@@ -46,7 +46,7 @@
                                  <HeaderStyle HorizontalAlign="Left" />
                                  <ItemStyle HorizontalAlign="Left" />
                              </asp:TemplateField>
-                            <asp:BoundField DataField="Price" HeaderText="Price" SortExpression="Price" >
+                            <asp:BoundField DataField="Price" HeaderText="Price per Unit" SortExpression="Price" >
                             <HeaderStyle HorizontalAlign="Left" />
                             <ItemStyle HorizontalAlign="Left" />
                             </asp:BoundField>

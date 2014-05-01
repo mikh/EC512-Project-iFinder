@@ -31,7 +31,7 @@
                 <br />
                 <asp:Button ID="bUpdate" runat="server" OnClick="bUpdate_Click" Text="Update Address" />
                 <br />
-                <asp:Label ID="status" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="status" runat="server"></asp:Label>
                 <br />
                 <br />
                 <br />
