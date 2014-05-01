@@ -34,21 +34,28 @@
                             <asp:BoundField DataField="ProductName" HeaderText="ProductName" SortExpression="ProductName" >
                             <ItemStyle HorizontalAlign="Left" />
                             </asp:BoundField>
-                            <asp:BoundField DataField="Quantity" HeaderText="Quantity" SortExpression="Quantity" >
+<%--                            <asp:BoundField DataField="Quantity" HeaderText="Quantity" SortExpression="Quantity" >
                             <ItemStyle HorizontalAlign="Left" />
-                            </asp:BoundField>
+                            </asp:BoundField>--%>
+                             <asp:TemplateField ShowHeader="False" HeaderText="Quantity">
+                                 <ItemTemplate>
+                                     <asp:TextBox ID="qbox" runat="server" Text='<%# Eval("Quantity") %>' ></asp:TextBox>                                
+                                 </ItemTemplate>
+                                 <HeaderStyle HorizontalAlign="Left" />
+                                 <ItemStyle HorizontalAlign="Left" />
+                             </asp:TemplateField>
                             <asp:BoundField DataField="Price" HeaderText="Price" SortExpression="Price" >
                             <ItemStyle HorizontalAlign="Left" />
                             </asp:BoundField>
-                            <asp:BoundField DataField="Price" HeaderText="Total" ReadOnly="True" SortExpression="Price" >
+                            <asp:BoundField DataField="Total" HeaderText="Total" ReadOnly="True" SortExpression="Price" >
                             <ItemStyle HorizontalAlign="Right" />
                             </asp:BoundField>
-                            <asp:CommandField runat="server" ShowDeleteButton="True" DeleteText="Remove" />
-
+                            <asp:CommandField runat="server" ShowDeleteButton="True" DeleteText="Remove" EditText="Update Quantity    " />
+ 
                         </Columns>
                     </asp:GridView>
  
-                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT DISTINCT * FROM [MyCart]" DeleteCommand="DELETE FROM MyCart WHERE (Id = @id)" OldValuesParameterFormatString="original_{0}">
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT DISTINCT Id, UserName, ProductID, Quantity, Price, ProductName, Price * Quantity AS Total FROM MyCart" DeleteCommand="DELETE FROM MyCart WHERE (Id = @id)" OldValuesParameterFormatString="original_{0}">
                         <DeleteParameters>
                             <asp:Parameter Name="id" />
                         </DeleteParameters>
