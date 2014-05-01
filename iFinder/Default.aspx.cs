@@ -753,9 +753,10 @@ public partial class _Default : System.Web.UI.Page
             search_results = new List<List<String>>(); 
             search_results = (List<List<String>>)Session["search_results"];   
             SqlDS_Cart.InsertParameters["price"].DefaultValue = search_results[e.Item.ItemIndex][4];
-            SqlDS_Cart.InsertParameters["quantity"].DefaultValue = search_results[e.Item.ItemIndex][2];
+            //SqlDS_Cart.InsertParameters["quantity"].DefaultValue = search_results[e.Item.ItemIndex][2];
             SqlDS_Cart.InsertParameters["productname"].DefaultValue = search_results[e.Item.ItemIndex][0];
-            
+            SqlDS_Cart.InsertParameters["quantity"].DefaultValue ="1";
+
 
             //idcounter++;
             SqlDS_Cart.InsertParameters["id"].DefaultValue = cartCount.ToString();

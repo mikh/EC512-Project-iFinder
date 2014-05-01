@@ -45,9 +45,11 @@
                                  <ItemStyle HorizontalAlign="Left" />
                              </asp:TemplateField>
                             <asp:BoundField DataField="Price" HeaderText="Price" SortExpression="Price" >
+                            <HeaderStyle HorizontalAlign="Left" />
                             <ItemStyle HorizontalAlign="Left" />
                             </asp:BoundField>
                             <asp:BoundField DataField="Total" HeaderText="Total" ReadOnly="True" SortExpression="Price" >
+                            <HeaderStyle HorizontalAlign="Right" />
                             <ItemStyle HorizontalAlign="Right" />
                             </asp:BoundField>
                             <asp:CommandField runat="server" ShowDeleteButton="True" DeleteText="Remove" EditText="Update Quantity    " />
@@ -62,7 +64,7 @@
                     </asp:SqlDataSource>
  
                     <br />
-                    <asp:Button runat="server" ID="bUpdateCart" Text="Update Cart[Debug CLEAR]" OnClick="bUpdateCart_Click" />
+                    <asp:Button runat="server" ID="bUpdateCart" Text="Update Cart" OnClick="bUpdateCart_Click" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Button ID="bBuyItems" runat="server" Text="Buy" OnClick="bBuyItems_Click" />
                 </div>
