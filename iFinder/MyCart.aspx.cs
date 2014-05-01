@@ -26,6 +26,22 @@ public partial class MyCart : System.Web.UI.Page
     }
     protected void gvMyCart_RowDeleting(object sender, GridViewDeleteEventArgs e)
     {
-        
+
+        //SqlDS_Cart.DeleteParameters["id"].DefaultValue = cartCount.ToString();
+        SqlDataSource1.Delete();
+    }
+    protected void gvMyCart_SelectedIndexChanged(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void gvMyCart_RowDeleted(object sender, GridViewDeletedEventArgs e)
+    {
+
+    }
+    protected void gvMyCart_RowDeleting1(object sender, GridViewDeleteEventArgs e)
+    {
+        SqlDataSource1.DeleteParameters["id"].DefaultValue = gvMyCart.DataKeys[e.RowIndex].Value.ToString();     
+        SqlDataSource1.Delete();
     }
 }

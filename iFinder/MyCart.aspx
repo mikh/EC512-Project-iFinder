@@ -13,66 +13,45 @@
                     <a href="Default.aspx"> Search for a new item</a>
  
                     <br /><br />
-                    <asp:GridView runat="server" ID="gvMyCart" AutoGenerateColumns="False" EmptyDataText="There is nothing in your shopping cart." GridLines="None" Width="100%" CellPadding="5" ShowFooter="True"  Height="340px" DataSourceID="SqlDataSource1">
+                    <asp:GridView runat="server" ID="gvMyCart" AutoGenerateColumns="False" EmptyDataText="There is nothing in your shopping cart." GridLines="None" Width="100%" CellPadding="5" ShowFooter="True"  Height="340px" DataSourceID="SqlDataSource1" DataKeyNames="Id" OnRowDeleted="gvMyCart_RowDeleted" OnRowDeleting="gvMyCart_RowDeleting1">
                         <HeaderStyle HorizontalAlign="Left" BackColor="#3D7169" ForeColor="#FFFFFF" />
                         <FooterStyle HorizontalAlign="Right" BackColor="#6C6B66" ForeColor="#FFFFFF" />
                         <AlternatingRowStyle BackColor="#F8F8F8" />
                         <Columns>
  
-                            <asp:BoundField DataField="ProductID" HeaderText="ProductID" HeaderStyle-HorizontalAlign="Left" SortExpression="ProductID" ItemStyle-HorizontalAlign="Left" >
+                            <asp:BoundField DataField="Id" HeaderText="Id" HeaderStyle-HorizontalAlign="Left" SortExpression="Id" ItemStyle-HorizontalAlign="Left" InsertVisible="False" ReadOnly="True" Visible="False" >
                             <HeaderStyle HorizontalAlign="Left" />
                             <ItemStyle HorizontalAlign="Left" />
                             </asp:BoundField>
-                            <asp:BoundField DataField="Quantity" HeaderText="Quantity" ItemStyle-HorizontalAlign="Left" HeaderStyle-HorizontalAlign="Left" SortExpression="Quantity" >
+                            <asp:BoundField DataField="UserName" HeaderText="UserName" ItemStyle-HorizontalAlign="Left" HeaderStyle-HorizontalAlign="Left" SortExpression="UserName" Visible="False" >
                             <HeaderStyle HorizontalAlign="Left" />
                             <ItemStyle HorizontalAlign="Left" />
                             
                             </asp:BoundField>
-                            <asp:TemplateField HeaderText="Quantity">
-                                <ItemTemplate>
-                                <asp:TextBox ID="TxtFirstName" runat="server" Text='<%# Bind("FirstName") %>'></asp:TextBox>
-                            </ItemTemplate>
-                            </asp:TemplateField>
-                            <asp:BoundField DataField="Price" HeaderText="Price" SortExpression="Price" />
-                            <asp:BoundField DataField="ProductName" HeaderText="ProductName" SortExpression="ProductName" />
-                            <asp:TemplateField ShowHeader="False">
-                                <ItemTemplate>
-                                    <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False" CommandName="Delete" Text="Remove"></asp:LinkButton>
-                                </ItemTemplate>
-                            </asp:TemplateField>
+                            <asp:BoundField DataField="ProductID" HeaderText="ProductID" SortExpression="ProductID" >
+                            <ItemStyle HorizontalAlign="Left" />
+                            </asp:BoundField>
+                            <asp:BoundField DataField="ProductName" HeaderText="ProductName" SortExpression="ProductName" >
+                            <ItemStyle HorizontalAlign="Left" />
+                            </asp:BoundField>
+                            <asp:BoundField DataField="Quantity" HeaderText="Quantity" SortExpression="Quantity" >
+                            <ItemStyle HorizontalAlign="Left" />
+                            </asp:BoundField>
+                            <asp:BoundField DataField="Price" HeaderText="Price" SortExpression="Price" >
+                            <ItemStyle HorizontalAlign="Left" />
+                            </asp:BoundField>
+                            <asp:BoundField DataField="Price" HeaderText="Total" ReadOnly="True" SortExpression="Price" >
+                            <ItemStyle HorizontalAlign="Right" />
+                            </asp:BoundField>
+                            <asp:CommandField runat="server" ShowDeleteButton="True" DeleteText="Remove" />
+
                         </Columns>
                     </asp:GridView>
  
-                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT * FROM [MyCart]" DeleteCommand="DELETE FROM [MyCart] WHERE [ProductID] = @original_ProductID AND (([Id] = @original_Id) OR ([Id] IS NULL AND @original_Id IS NULL)) AND (([UserName] = @original_UserName) OR ([UserName] IS NULL AND @original_UserName IS NULL)) AND (([Quantity] = @original_Quantity) OR ([Quantity] IS NULL AND @original_Quantity IS NULL)) AND (([Price] = @original_Price) OR ([Price] IS NULL AND @original_Price IS NULL)) AND (([ProductName] = @original_ProductName) OR ([ProductName] IS NULL AND @original_ProductName IS NULL))" ConflictDetection="CompareAllValues" InsertCommand="INSERT INTO [MyCart] ([Id], [UserName], [ProductID], [Quantity], [Price], [ProductName]) VALUES (@Id, @UserName, @ProductID, @Quantity, @Price, @ProductName)" OldValuesParameterFormatString="original_{0}" UpdateCommand="UPDATE [MyCart] SET [Id] = @Id, [UserName] = @UserName, [Quantity] = @Quantity, [Price] = @Price, [ProductName] = @ProductName WHERE [ProductID] = @original_ProductID AND (([Id] = @original_Id) OR ([Id] IS NULL AND @original_Id IS NULL)) AND (([UserName] = @original_UserName) OR ([UserName] IS NULL AND @original_UserName IS NULL)) AND (([Quantity] = @original_Quantity) OR ([Quantity] IS NULL AND @original_Quantity IS NULL)) AND (([Price] = @original_Price) OR ([Price] IS NULL AND @original_Price IS NULL)) AND (([ProductName] = @original_ProductName) OR ([ProductName] IS NULL AND @original_ProductName IS NULL))">
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT DISTINCT * FROM [MyCart]" DeleteCommand="DELETE FROM MyCart WHERE (Id = @id)" OldValuesParameterFormatString="original_{0}">
                         <DeleteParameters>
-                            <asp:Parameter Name="original_ProductID" Type="Int32" />
-                            <asp:Parameter Name="original_Id" Type="Int32" />
-                            <asp:Parameter Name="original_UserName" Type="String" />
-                            <asp:Parameter Name="original_Quantity" Type="Int32" />
-                            <asp:Parameter Name="original_Price" Type="Decimal" />
-                            <asp:Parameter Name="original_ProductName" Type="String" />
+                            <asp:Parameter Name="id" />
                         </DeleteParameters>
-                        <InsertParameters>
-                            <asp:Parameter Name="Id" Type="Int32" />
-                            <asp:Parameter Name="UserName" Type="String" />
-                            <asp:Parameter Name="ProductID" Type="Int32" />
-                            <asp:Parameter Name="Quantity" Type="Int32" />
-                            <asp:Parameter Name="Price" Type="Decimal" />
-                            <asp:Parameter Name="ProductName" Type="String" />
-                        </InsertParameters>
-                        <UpdateParameters>
-                            <asp:Parameter Name="Id" Type="Int32" />
-                            <asp:Parameter Name="UserName" Type="String" />
-                            <asp:Parameter Name="Quantity" Type="Int32" />
-                            <asp:Parameter Name="Price" Type="Decimal" />
-                            <asp:Parameter Name="ProductName" Type="String" />
-                            <asp:Parameter Name="original_ProductID" Type="Int32" />
-                            <asp:Parameter Name="original_Id" Type="Int32" />
-                            <asp:Parameter Name="original_UserName" Type="String" />
-                            <asp:Parameter Name="original_Quantity" Type="Int32" />
-                            <asp:Parameter Name="original_Price" Type="Decimal" />
-                            <asp:Parameter Name="original_ProductName" Type="String" />
-                        </UpdateParameters>
                     </asp:SqlDataSource>
  
                     <br />

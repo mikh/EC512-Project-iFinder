@@ -758,12 +758,19 @@ public partial class _Default : System.Web.UI.Page
             
 
             //idcounter++;
-            //SqlDS_Cart.InsertParameters["id"].DefaultValue = idcounter.ToString();
+            SqlDS_Cart.InsertParameters["id"].DefaultValue = cartCount.ToString();
             //SqlDS_Cart.InsertParameters["price"].DefaultValue = cartPrice.Value;
             //SqlDS_Cart.InsertParameters["quantity"].DefaultValue = cartQuantity.Value;
             //SqlDS_Cart.InsertParameters["productname"].DefaultValue = cartPName.Value;
             AddItemToCart(e);
-            SqlDS_Cart.Insert();
+            try
+            {
+                SqlDS_Cart.Insert();
+            }
+            catch (SqlException)
+            {
+                cartCount++;
+            }
             CartLink.Text = "My Cart [" + cartCount + "]" + "...Need to query cart to get count"; 
             //Response.Redirect("MyCart.aspx");
 

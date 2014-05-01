@@ -33,7 +33,7 @@
 </asp:Content>
 
 <asp:Content ID="Content_results" ContentPlaceHolderID="items" runat="server">
-   <div class="child_left" style="padding: 10px; margin: auto; float: left; width: 10%; background-color: #FFFFFF; font-size: 12px; text-align:left; height: 132px;">
+    <div class="child_left" style="padding: 10px; margin: auto; float: left; width: 10%; background-color: #FFFFFF; font-size: 12px; text-align:left; height: 132px;">
         <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
     </div>       
     <div style="text-align:center; align-items:center;overflow: auto;">
@@ -105,7 +105,7 @@
     <br />
     <br />
     <br />
-    <asp:SqlDataSource ID="SqlDS_Cart" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" InsertCommand="INSERT INTO MyCart(UserName, Price, ProductName, Quantity, Id) VALUES (@username, @price, @productname, @quantity,@id)" SelectCommand="SELECT Id, UserName, ProductID, Quantity, Price, ProductName FROM MyCart WHERE (UserName = @username)">
+    <asp:SqlDataSource ID="SqlDS_Cart" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" InsertCommand="INSERT INTO MyCart(UserName, Price, ProductName, Quantity, ProductID) VALUES (@username, @price, @productname, @quantity, @id)" SelectCommand="SELECT Id, UserName, ProductID, Quantity, Price, ProductName FROM MyCart WHERE (UserName = @username)">
             <InsertParameters>
                 <asp:Parameter Name="username" Type="String" DefaultValue="default" />
                 <asp:Parameter Name="price" Type="String" DefaultValue="default" />
