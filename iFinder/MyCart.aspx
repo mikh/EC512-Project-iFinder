@@ -7,7 +7,9 @@
         <body>
 
                 <div class="container">
-                    <h1>Shopping Cart</h1>
+                    <h1>
+                        <asp:Label ID="Label1" runat="server" Text="Shopping Cart"></asp:Label>
+                    </h1>
                     <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="javascript:history.go(-1);">Back to Products   </asp:HyperLink>
                      or 
                     <a href="Default.aspx"> Search for a new item</a>
@@ -57,10 +59,13 @@
                         </Columns>
                     </asp:GridView>
  
-                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT DISTINCT Id, UserName, ProductID, Quantity, Price, ProductName, Price * Quantity AS Total FROM MyCart" DeleteCommand="DELETE FROM MyCart WHERE (Id = @id)" OldValuesParameterFormatString="original_{0}">
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT DISTINCT Id, UserName, ProductID, Quantity, Price, ProductName, Price * Quantity AS Total FROM MyCart WHERE (UserName = @userName)" DeleteCommand="DELETE FROM MyCart WHERE (Id = @id)" OldValuesParameterFormatString="original_{0}">
                         <DeleteParameters>
                             <asp:Parameter Name="id" />
                         </DeleteParameters>
+                        <SelectParameters>
+                            <asp:Parameter Name="userName" />
+                        </SelectParameters>
                     </asp:SqlDataSource>
  
                     <br />

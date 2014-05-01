@@ -129,7 +129,7 @@ public partial class _Default : System.Web.UI.Page
             password_label.Visible = true;
             Login.Visible = true;
             Register.Visible = true;
-            message_label.Text = "";//"This is hard to read =(.";
+            message_label.Text = "";
             logged_in.Visible = false;
             bLogout.Visible = false;
             iForgotPass.Visible = true;

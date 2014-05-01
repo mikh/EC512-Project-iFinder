@@ -32,7 +32,9 @@ public partial class Account_UpdatePassword : System.Web.UI.Page
             if (temppass == hashpass)
             {
                 //authenticated
+                FormsAuthentication.SignOut();
                 SqlDataSource1.Update();
+                Response.Redirect("UpdatePassword.aspx");
                 status.Text = "Password Updated."; //not done yet, inc
 
             }
