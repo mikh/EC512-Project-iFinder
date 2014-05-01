@@ -15,7 +15,7 @@
                     <a href="Default.aspx"> Search for a new item</a>
  
                     <br /><br />
-                    <asp:GridView runat="server" ID="gvMyCart" AutoGenerateColumns="False" EmptyDataText="There is nothing in your shopping cart." GridLines="None" Width="100%" CellPadding="5" ShowFooter="True"  Height="340px" DataSourceID="SqlDataSource1" DataKeyNames="Id"  OnRowDeleting="gvMyCart_RowDeleting1">
+                    <asp:GridView runat="server" ID="gvMyCart" AutoGenerateColumns="False" EmptyDataText="There is nothing in your shopping cart." GridLines="None" Width="100%" CellPadding="5" ShowFooter="True"  Height="340px" DataSourceID="SqlDataSource1" DataKeyNames="Id"  OnRowDeleting="gvMyCart_RowDeleting1" OnSelectedIndexChanged="gvMyCart_SelectedIndexChanged">
                         <HeaderStyle HorizontalAlign="Left" BackColor="#3D7169" ForeColor="#FFFFFF" />
                         <FooterStyle HorizontalAlign="Right" BackColor="#6C6B66" ForeColor="#FFFFFF" />
                         <AlternatingRowStyle BackColor="#F8F8F8" />
@@ -41,7 +41,7 @@
                             </asp:BoundField>--%>
                              <asp:TemplateField ShowHeader="False" HeaderText="Quantity">
                                  <ItemTemplate>
-                                     <asp:TextBox ID="qbox" runat="server" Text='<%# Eval("Quantity") %>' ></asp:TextBox>                                
+                                     <asp:TextBox ID="qbox" OnTextChanged="Qchanged" runat="server" Text='<%# Eval("Quantity") %>' ></asp:TextBox>                                
                                  </ItemTemplate>
                                  <HeaderStyle HorizontalAlign="Left" />
                                  <ItemStyle HorizontalAlign="Left" />

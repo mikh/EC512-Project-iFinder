@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
 using System.Web.Security;
-
+using System.Data.SqlClient;
 
 public partial class MyCart : System.Web.UI.Page
 {
@@ -51,6 +51,7 @@ public partial class MyCart : System.Web.UI.Page
     protected void bUpdateCart_Click(object sender, EventArgs e)
     {
 
+         
     }
     protected void gvMyCart_RowDeleting(object sender, GridViewDeleteEventArgs e)
     {
@@ -102,5 +103,43 @@ public partial class MyCart : System.Web.UI.Page
     {
         FormsAuthentication.SignOut();
         Response.Redirect("MyCart.aspx");
+    }
+    protected void gvMyCart_SelectedIndexChanged(object sender, EventArgs e)
+    {
+
+    }
+    protected void Qchanged(object sender, EventArgs e)
+    {
+        int newQ = 1;
+        foreach (GridViewRow row in gvMyCart.Rows)
+        {
+            if (row.RowType == DataControlRowType.DataRow)
+            {
+                TextBox qbox = row.FindControl("qbox") as TextBox;
+            }
+        }
+        //GridViewRow row = gvMyCart.Rows[e.RowIndex];
+        //TextBox qbox = (TextBox)row.FindControl("qbox");  
+        string connString = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=|DataDirectory|\\UserTemp.mdf;Integrated Security=True";
+        SqlConnection conn = new SqlConnection(connString);
+        conn.Open();
+
+        string updateString = "UPDATE [MyCart] SET [Quantity] = @newQ WHERE [UserName] = @user";
+       
+        //newQ = Convert.ToInt32(qbox.Text);
+
+        SqlCommand cmd = new SqlCommand(updateString, conn);
+        cmd.Parameters.AddWithValue("@newQ", newQ);
+        if (User.Identity.IsAuthenticated)
+        {
+            cmd.Parameters.AddWithValue("@user", User.Identity.Name);
+        }
+        else
+        {
+            cmd.Parameters.AddWithValue("@user", "default");
+        }
+
+        cmd.ExecuteNonQuery();
+        conn.Close();
     }
 }
