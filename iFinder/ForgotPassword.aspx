@@ -42,6 +42,7 @@
             <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
         </asp:Panel>
         <br />
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Default.aspx">&lt;Go back to homepage</asp:HyperLink>
         <br />
         &nbsp;&nbsp;&nbsp;
         <br />

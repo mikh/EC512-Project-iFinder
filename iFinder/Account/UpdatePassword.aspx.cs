@@ -13,6 +13,10 @@ public partial class Account_UpdatePassword : System.Web.UI.Page
     {
         SqlDataSource1.SelectParameters["UserName"].DefaultValue = User.Identity.Name;
         SqlDataSource1.UpdateParameters["UserName"].DefaultValue = User.Identity.Name;
+        logged_in.Text = User.Identity.Name;
+        message_label.Text = "Welcome";
+        bLogout.Visible = true;
+        SqlDataSource1.SelectParameters["UserName"].DefaultValue = User.Identity.Name;
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
@@ -47,5 +51,10 @@ public partial class Account_UpdatePassword : System.Web.UI.Page
             status.Text = "Error with authentication.";
         }
      //   status.Text = "Unable to update password.";
+    }
+    protected void bLogout_Click(object sender, EventArgs e)
+    {
+        FormsAuthentication.SignOut();
+        Response.Redirect("Default.aspx");
     }
 }

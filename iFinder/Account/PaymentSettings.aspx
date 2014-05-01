@@ -13,3 +13,15 @@
 </asp:Content>
 
 
+<asp:Content ID="Content2" runat="server" contentplaceholderid="login_asp">
+    <asp:Label ID="message_label" runat="server" Text=""></asp:Label>&nbsp;&nbsp;&nbsp;
+    <asp:Label ID="logged_in" runat="server" Text=""></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="bLogout" runat="server" OnClick="bLogout_Click" Text="Logout" />
+    &nbsp;&nbsp;&nbsp;
+      <asp:HyperLink ID="CartLink" runat="server" NavigateUrl="~/MyCart.aspx">My Cart</asp:HyperLink>
+      &nbsp;&nbsp;&nbsp;
+      <asp:HyperLink ID="account_settings" runat="server" NavigateUrl="~/Account/AccountSettings.aspx" >Account Settings</asp:HyperLink>
+&nbsp;
+</asp:Content>
+
+
+
