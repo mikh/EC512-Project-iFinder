@@ -15,7 +15,7 @@
                     <a href="Default.aspx"> Search for a new item</a>
  
                     <br /><br />
-                    <asp:GridView runat="server" ID="gvMyCart" AutoGenerateColumns="False" EmptyDataText="There is nothing in your shopping cart." GridLines="None" Width="100%" CellPadding="5" ShowFooter="True"  Height="340px" DataSourceID="SqlDataSource1" DataKeyNames="Id" OnRowDeleted="gvMyCart_RowDeleted" OnRowDeleting="gvMyCart_RowDeleting1">
+                    <asp:GridView runat="server" ID="gvMyCart" AutoGenerateColumns="False" EmptyDataText="There is nothing in your shopping cart." GridLines="None" Width="100%" CellPadding="5" ShowFooter="True"  Height="340px" DataSourceID="SqlDataSource1" DataKeyNames="Id"  OnRowDeleting="gvMyCart_RowDeleting1">
                         <HeaderStyle HorizontalAlign="Left" BackColor="#3D7169" ForeColor="#FFFFFF" />
                         <FooterStyle HorizontalAlign="Right" BackColor="#6C6B66" ForeColor="#FFFFFF" />
                         <AlternatingRowStyle BackColor="#F8F8F8" />
@@ -30,7 +30,7 @@
                             <ItemStyle HorizontalAlign="Left" />
                             
                             </asp:BoundField>
-                            <asp:BoundField DataField="ID" HeaderText="ProductID" SortExpression="ID" >
+                            <asp:BoundField DataField="Id" HeaderText="ProductID" SortExpression="Id" >
                             <ItemStyle HorizontalAlign="Left" />
                             </asp:BoundField>
                             <asp:BoundField DataField="ProductName" HeaderText="ProductName" SortExpression="ProductName" >
@@ -59,7 +59,7 @@
                         </Columns>
                     </asp:GridView>
  
-                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT DISTINCT Id, UserName, ProductID, Quantity, Price, ProductName, Price * Quantity AS Total FROM MyCart WHERE (UserName = @userName)" DeleteCommand="DELETE FROM MyCart WHERE (Id = @id)" OldValuesParameterFormatString="original_{0}">
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT  Id, UserName, ProductID, Quantity, Price, ProductName, Price * Quantity AS Total FROM MyCart WHERE (UserName = @userName)" DeleteCommand="DELETE FROM MyCart WHERE Id = @id" OldValuesParameterFormatString="original_{0}">
                         <DeleteParameters>
                             <asp:Parameter Name="id" />
                         </DeleteParameters>

@@ -41,44 +41,26 @@ public partial class MyCart : System.Web.UI.Page
             //iForgotPass.Visible = true;
         }
     }
-    protected void results_repeater_ItemCommand(object source, RepeaterCommandEventArgs e)
-    {
 
-    }
     protected void bBuyItems_Click(object sender, EventArgs e)
     {
 
     }
     protected void bUpdateCart_Click(object sender, EventArgs e)
     {
-        SqlDataSource1.Delete();
+
     }
     protected void gvMyCart_RowDeleting(object sender, GridViewDeleteEventArgs e)
     {
 
-        //SqlDS_Cart.DeleteParameters["id"].DefaultValue = cartCount.ToString();
+        SqlDataSource1.DeleteParameters["id"].DefaultValue = gvMyCart.DataKeys[e.RowIndex].Value.ToString();
         SqlDataSource1.Delete();
     }
-    protected void gvMyCart_SelectedIndexChanged(object sender, EventArgs e)
-    {
 
-    }
-
-    protected void gvMyCart_RowDeleted(object sender, GridViewDeletedEventArgs e)
-    {
-
-    }
     protected void gvMyCart_RowDeleting1(object sender, GridViewDeleteEventArgs e)
     {
         SqlDataSource1.DeleteParameters["id"].DefaultValue = gvMyCart.DataKeys[e.RowIndex].Value.ToString();     
         SqlDataSource1.Delete();
     }
     
-     //protected void gvMyCart_RowDataBound(object sender, GridViewRowEventArgs e)
-     //{
-     //    //for (int i = 0; i < gvMyCart.Rows.Count; i++)
-     //    //{
-     //    //    gvMyCart.CurrentRow.Cells[6].Text = Convert.ToString(Convert.ToDecimal(gvMyCart.CurrentRow.Cells[5].Text) * Convert.ToDecimal(gvMyCart.CurrentRow.Cells[4].Text)); 
-     //    //}
-     //}
 }
