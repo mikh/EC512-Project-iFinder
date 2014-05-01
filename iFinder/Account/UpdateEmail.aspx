@@ -18,6 +18,8 @@
     <br />
     <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Update Email" />
         <br />
+         <br />
+         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Account/AccountSettings.aspx">&lt;Return to Account  Settings</asp:HyperLink>
         <br />
     <br />
         <asp:Label ID="status" runat="server"></asp:Label>

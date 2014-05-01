@@ -33,6 +33,7 @@ public partial class Account_UpdatePassword : System.Web.UI.Page
             {
                 //authenticated
                 FormsAuthentication.SignOut();
+                string hashpass0 = FormsAuthentication.HashPasswordForStoringInConfigFile(NewPassword.Text, "SHA1");
                 SqlDataSource1.Update();
                 Response.Redirect("UpdatePassword.aspx");
                 status.Text = "Password Updated."; //not done yet, inc

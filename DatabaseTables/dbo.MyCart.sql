@@ -1,10 +1,10 @@
 ﻿CREATE TABLE [dbo].[MyCart] (
-    [Id]          INT            NOT NULL DEFAULT AUTO_INCREMENT,
+    [Id]          INT            IDENTITY(1,1) NOT NULL,
     [UserName]    NVARCHAR (50)  NULL,
-    [ProductID]   INT            NOT NULL,
-    [Quantity]    INT            DEFAULT ((1)) NOT NULL,
-    [Price]       DECIMAL (18)   DEFAULT ((-1)) NOT NULL,
-    [ProductName] NVARCHAR (MAX) NOT NULL,
-    PRIMARY KEY CLUSTERED ([Id] ASC)
+    [ProductID]   INT             NULL,
+    [Quantity]    INT            DEFAULT ((1)) NULL,
+    [Price]       DECIMAL (18)   DEFAULT ((-1)) NULL,
+    [ProductName] NVARCHAR (MAX) NULL, 
+    CONSTRAINT [PK_MyCart] PRIMARY KEY ([Id])
 );
 

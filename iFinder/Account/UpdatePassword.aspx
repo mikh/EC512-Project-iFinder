@@ -25,12 +25,16 @@
     <br />
     <br />
     <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Update Password" />
+         <br />
+         <br />
+         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Account/AccountSettings.aspx">&lt;Return to Account  Settings</asp:HyperLink>
         <br />
         <br />
         <asp:Label ID="status" runat="server"></asp:Label>
         <br />
         <p>
             <asp:HiddenField ID="hashpass" runat="server" />
+            <asp:HiddenField ID="hashpass0" runat="server" />
         </p>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionStringUser %>" SelectCommand="SELECT * FROM [Users] WHERE ([UserName] = @UserName)" InsertCommand="INSERT INTO Users(UserName, Password, UserEmail) VALUES ( @user , @pass, @email)" UpdateCommand="UPDATE Users SET Password = @newPass WHERE (UserName = @UserName)">
             <SelectParameters>
@@ -42,7 +46,7 @@
                 <asp:ControlParameter ControlID="UserEmail" Name="email" PropertyName="Text" />
             </InsertParameters>
             <UpdateParameters>
-                <asp:ControlParameter ControlID="NewPassword2" DefaultValue="password" Name="newPass" PropertyName="Text" Type="String" />
+                <asp:ControlParameter ControlID="hashpass0" DefaultValue="password" Name="newPass" PropertyName="Value" Type="String" />
                 <asp:Parameter DefaultValue="Anonymous" Type="String" Name="UserName" />
             </UpdateParameters>
         </asp:SqlDataSource>

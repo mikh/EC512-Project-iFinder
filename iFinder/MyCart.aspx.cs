@@ -73,4 +73,12 @@ public partial class MyCart : System.Web.UI.Page
         SqlDataSource1.DeleteParameters["id"].DefaultValue = gvMyCart.DataKeys[e.RowIndex].Value.ToString();     
         SqlDataSource1.Delete();
     }
+    
+     //protected void gvMyCart_RowDataBound(object sender, GridViewRowEventArgs e)
+     //{
+     //    //for (int i = 0; i < gvMyCart.Rows.Count; i++)
+     //    //{
+     //    //    gvMyCart.CurrentRow.Cells[6].Text = Convert.ToString(Convert.ToDecimal(gvMyCart.CurrentRow.Cells[5].Text) * Convert.ToDecimal(gvMyCart.CurrentRow.Cells[4].Text)); 
+     //    //}
+     //}
 }
