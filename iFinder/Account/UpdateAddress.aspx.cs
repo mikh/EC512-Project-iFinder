@@ -5,11 +5,11 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class Account_AccountSettings : System.Web.UI.Page
+public partial class Account_UpdateAddress : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-       if (User.Identity.IsAuthenticated)
+        if (User.Identity.IsAuthenticated)
         {
             //logged_in.Text = User.Identity.Name;
             //user_label.Visible = false;
@@ -39,13 +39,10 @@ public partial class Account_AccountSettings : System.Web.UI.Page
             //iForgotPass.Visible = true;
         }       
     }
-    protected void DetailsView1_PageIndexChanging(object sender, DetailsViewPageEventArgs e)
-    {
-
-    }
     protected void bUpdate_Click(object sender, EventArgs e)
     {
         LabelAddr.Text = tbAddress.Text + tbCity.Text + tbState.Text + tbZip.Text;
         SqlDataSource1.Update();
+        status.Text = "Done?";
     }
 }
