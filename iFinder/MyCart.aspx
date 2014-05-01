@@ -30,7 +30,7 @@
                             <ItemStyle HorizontalAlign="Left" />
                             
                             </asp:BoundField>
-                            <asp:BoundField DataField="ProductID" HeaderText="ProductID" SortExpression="ProductID" >
+                            <asp:BoundField DataField="ID" HeaderText="ProductID" SortExpression="ID" >
                             <ItemStyle HorizontalAlign="Left" />
                             </asp:BoundField>
                             <asp:BoundField DataField="ProductName" HeaderText="ProductName" SortExpression="ProductName" >
