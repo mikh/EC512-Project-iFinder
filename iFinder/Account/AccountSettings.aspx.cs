@@ -43,9 +43,5 @@ public partial class Account_AccountSettings : System.Web.UI.Page
     {
 
     }
-    protected void bUpdate_Click(object sender, EventArgs e)
-    {
-        LabelAddr.Text = tbAddress.Text + tbCity.Text + tbState.Text + tbZip.Text;
-        SqlDataSource1.Update();
-    }
+
 }

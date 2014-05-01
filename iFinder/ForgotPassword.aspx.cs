@@ -12,7 +12,45 @@ public partial class ForgotPassword : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        if (RadioButton1.Checked)
+        {
+            Panel1.Visible = true;
+            Panel2.Visible = false;
+        }
+        else if(RadioButton2.Checked)
+        {
+            Panel1.Visible = false;
+            Panel2.Visible = true;
+        }
+        if (User.Identity.IsAuthenticated)
+        {
+            //logged_in.Text = User.Identity.Name;
+            //user_label.Visible = false;
+            //userName.Visible = false;
+            //passWord.Visible = false;
+            //password_label.Visible = false;
+            //Login.Visible = false;
+            //Register.Visible = false;
+            //message_label.Text = "Welcome";
+            //logged_in.Visible = true;
+            //bLogout.Visible = true;
+            //iForgotPass.Visible = false;
+            //Labelcemail.Text = User.Identity.Name;
+            SqlDataSource1.SelectParameters["UserName"].DefaultValue = User.Identity.Name;
+        }
+        else
+        {
+            //user_label.Visible = true;
+            //userName.Visible = true;
+            //passWord.Visible = true;
+            //password_label.Visible = true;
+            //Login.Visible = true;
+            //Register.Visible = true;
+            //message_label.Text = "";
+            //logged_in.Visible = false;
+            //bLogout.Visible = false;
+            //iForgotPass.Visible = true;
+        } 
     }
     /*
     public void SendEmail(string uEmail)
@@ -76,4 +114,19 @@ public partial class ForgotPassword : System.Web.UI.Page
         }
         status.Text = "an email will be sent to the above email should it match with an existing account.";
     }
+    protected void RadioButton1_CheckedChanged(object sender, EventArgs e)
+    {
+        //Panel1.Visible = true;
+        //Panel2.Visible = false;
+    }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Label1.Text = "Sorry, this is fake. Choose the other option";
+    }
+    protected void RadioButton2_CheckedChanged(object sender, EventArgs e)
+    {
+        //Panel2.Visible = true;
+        //Panel1.Visible = false;
+    }
+
 }

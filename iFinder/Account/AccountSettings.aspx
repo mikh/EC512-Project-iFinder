@@ -12,13 +12,12 @@
             </div>
             <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Account/PaymentSettings.aspx">Payment Settings</asp:HyperLink>
             <br />
-                <asp:HyperLink ID="HyperLink4" runat="server">Update Address Information</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Account/UpdateAddress.aspx">Update Address Information</asp:HyperLink>
             <br />
             <br />
             <br />
             <br />
             <br />
-                More stuff here:<br />
                 <br />
                 <asp:Label ID="Labelcemail" runat="server"></asp:Label>
                 <br />
@@ -39,37 +38,6 @@
         <br />
         <br />
         <br />
-            <br />
-            <br />
-            <br />
-            <asp:Panel ID="Panel1" runat="server" Height="343px">
-                <br />
-                <br />
-                Street Address:
-                <asp:TextBox ID="tbAddress" runat="server" Width="421px"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="tbAddress" ErrorMessage="Please enter a street address"></asp:RequiredFieldValidator>
-                <br />
-                City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="tbCity" runat="server" Width="139px"></asp:TextBox>
-                &nbsp;&nbsp;
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="tbCity" ErrorMessage="Please enter a City"></asp:RequiredFieldValidator>
-                <br />
-                State:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="tbState" runat="server" Width="114px"></asp:TextBox>
-                &nbsp;
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="tbState" ErrorMessage="please enter a state"></asp:RequiredFieldValidator>
-                <br />
-                ZipCode:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="tbZip" runat="server" Width="119px"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="tbZip" ErrorMessage="please enter zipcode"></asp:RequiredFieldValidator>
-                <br />
-                <br />
-                <asp:Label ID="LabelAddr" runat="server"></asp:Label>
-                <br />
-                <asp:Button ID="bUpdate" runat="server" OnClick="bUpdate_Click" Text="Update Address" />
-                <br />
-                <br />
-            </asp:Panel>
             <br />
             <br />
             <br />

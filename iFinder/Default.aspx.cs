@@ -802,7 +802,7 @@ public partial class _Default : System.Web.UI.Page
             {
                 cartCount++;  
             }
-            CartLink.Text = "My Cart [" + cartCount + "]" + "...Need to query cart to get count"; 
+           // CartLink.Text = "My Cart [" + cartCount + "]" ; 
             //Response.Redirect("MyCart.aspx");
 
         }
