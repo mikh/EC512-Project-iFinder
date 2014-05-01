@@ -38,6 +38,7 @@ public partial class _Default : System.Web.UI.Page
 
         this.EnsureChildControls();
 
+        session_Init();
         table_Init();
         filter_Init();
         notation_Init();
@@ -65,6 +66,20 @@ public partial class _Default : System.Web.UI.Page
             //search_results = (List<List<String>>)Session["search_results"];
             //search_results_notation = (List<String>)Session["search_results_notation"];
         }
+    }
+
+    private void session_Init()
+    {
+        Session.Timeout = 525600;       //five hundred twenty five thousand six hundred minutes 
+        Object obj;
+
+        obj = Session["active_cat"];
+        if (obj == null) Session["active_cat"] = -1;
+        obj = Session["active_prod"]; if (obj == null) Session["active_prod"] = -1;
+        obj = Session["force_postback"]; if (obj == null) Session["force_postback"] = false;
+        obj = Session["search_str"]; if (obj == null) Session["search_str"] = "";
+        obj = Session["results_label"]; if (obj == null) Session["results_label"] = "";
+
     }
 
     protected void Page_Load(object sender, EventArgs e)
@@ -753,18 +768,31 @@ public partial class _Default : System.Web.UI.Page
                 search_results = new List<List<String>>();
                 search_results = (List<List<String>>)Session["search_results"];
 
-                SqlDS_Cart.InsertParameters["price"].DefaultValue = search_results[e.Item.ItemIndex][4];
-                SqlDS_Cart.InsertParameters["productname"].DefaultValue = search_results[e.Item.ItemIndex][0];
-                SqlDS_Cart.InsertParameters["quantity"].DefaultValue = "1";
-                //SqlDS_Cart.InsertParameters["quantity"].DefaultValue = search_results[e.Item.ItemIndex][2];
+                int count;
+                if (User.Identity.Name.Equals(""))
+                   count = item_exists(SqlDS_Cart.ConnectionString, "MyCart", "quantity", "productname", search_results[e.Item.ItemIndex][0], "username", "default");
+                else
+                    count = item_exists(SqlDS_Cart.ConnectionString, "MyCart", "Quantity", "ProductName", search_results[e.Item.ItemIndex][0], "UserName", User.Identity.Name);
 
-                SqlDS_Cart.InsertParameters["id"].DefaultValue = cartCount.ToString();
-                //SqlDS_Cart.InsertParameters["price"].DefaultValue = cartPrice.Value;
-                //SqlDS_Cart.InsertParameters["quantity"].DefaultValue = cartQuantity.Value;
-                //SqlDS_Cart.InsertParameters["productname"].DefaultValue = cartPName.Value;
-                //AddItemToCart(e);
+                if (count == -1)
+                {
+                    SqlDS_Cart.InsertParameters["price"].DefaultValue = search_results[e.Item.ItemIndex][4];
+                    SqlDS_Cart.InsertParameters["productname"].DefaultValue = search_results[e.Item.ItemIndex][0];
+                    SqlDS_Cart.InsertParameters["quantity"].DefaultValue = "1";
+                    //SqlDS_Cart.InsertParameters["quantity"].DefaultValue = search_results[e.Item.ItemIndex][2];
 
-                SqlDS_Cart.Insert();
+                    SqlDS_Cart.InsertParameters["id"].DefaultValue = cartCount.ToString();
+                    //SqlDS_Cart.InsertParameters["price"].DefaultValue = cartPrice.Value;
+                    //SqlDS_Cart.InsertParameters["quantity"].DefaultValue = cartQuantity.Value;
+                    //SqlDS_Cart.InsertParameters["productname"].DefaultValue = cartPName.Value;
+                    //AddItemToCart(e);
+
+                    SqlDS_Cart.Insert();
+                }
+                else
+                {
+                    update_item(SqlDS_Cart.ConnectionString, "MyCart", "quantity", (count + 1).ToString() , "productname", search_results[e.Item.ItemIndex][0], "username", User.Identity.Name);
+                }
             }
             catch (SqlException)
             {
@@ -779,6 +807,7 @@ public partial class _Default : System.Web.UI.Page
 
         }
     }
+
 
     protected void AddItemToCart(RepeaterCommandEventArgs e)
     {
@@ -825,6 +854,66 @@ public partial class _Default : System.Web.UI.Page
         sqlConn.Close();
         return table_names;
     }
+
+    private void update_item(String conn_string, String table_name, String up_parameter, String up_value, String find_parameter, String find_value, String find_parameter2, String find_value2)
+    {
+        StringBuilder query = new StringBuilder();
+        SqlConnection sqlConn = new SqlConnection(conn_string);
+        sqlConn.Open();
+        query.Append("UPDATE ");
+        query.Append(table_name);
+        query.Append(" SET ");
+        query.Append(up_parameter);
+        query.Append("=");
+        query.Append(up_value);
+        query.Append(" WHERE ");
+        query.Append(find_parameter);
+        query.Append("='");
+        query.Append(find_value);
+        query.Append("' AND ");
+        query.Append(find_parameter2);
+        query.Append("='");
+        query.Append(find_value2);
+        query.Append("'");
+        SqlCommand sqlQuery = new SqlCommand(query.ToString(), sqlConn);
+        sqlQuery.ExecuteNonQuery();
+        sqlConn.Close();
+    }
+
+    private int item_exists(String conn_string, String table_name, String q_parameter, String parameter, String value, String parameter2, String value2)
+    {
+        StringBuilder query = new StringBuilder();
+        SqlConnection sqlConn = new SqlConnection(conn_string);
+        sqlConn.Open();
+        query.Append("SELECT ");
+        query.Append(q_parameter);
+        query.Append(" FROM ");
+        query.Append(table_name);
+        query.Append(" WHERE ");
+        query.Append(parameter);
+        query.Append("='");
+        query.Append(value);
+        query.Append("'");
+        query.Append(" AND ");
+        query.Append(parameter);
+        query.Append("='");
+        query.Append(value2);
+        query.Append("'");
+        SqlCommand sqlQuery = new SqlCommand(query.ToString(), sqlConn);
+        SqlDataReader reader = sqlQuery.ExecuteReader();
+        if (reader.HasRows)
+        {
+            reader.Read();
+            Object[] obj = new Object[reader.FieldCount];
+            reader.GetValues(obj);
+            sqlConn.Close();
+            return Convert.ToInt32(obj.ToString());
+        }
+        sqlConn.Close();
+        return -1;
+    }
+
+
 
     private List<String> getColumnNames(String conn_string, string table_name)
     {
